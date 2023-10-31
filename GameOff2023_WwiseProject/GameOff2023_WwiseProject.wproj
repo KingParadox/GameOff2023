@@ -26,11 +26,11 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
 					</ValueList>
 				</Property>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\Content\Developers\Will\Collections\GaneratedSoundbanks"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="SoundBanks\GeneratedSoundbanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Mac">..\GameOff2023\Content\Developers\Will\Collections\GaneratedSoundbanks\</Value>
-						<Value Platform="Windows">..\GameOff2023\Content\Developers\Will\Collections\GaneratedSoundbanks\</Value>
+						<Value Platform="Mac">SoundBanks\GeneratedSoundbanks\</Value>
+						<Value Platform="Windows">SoundBanks\GeneratedSoundbanks\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">

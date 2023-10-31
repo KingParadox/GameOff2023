@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{B8A66325-E35C-466B-B241-03B313C285E7}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{FA09F309-14AE-4C38-8CDC-00CA06252993}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{B46C01CA-39C5-C0B3-45A5-ADE7567EE201}">
+			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
+			<ShortName>TestBank</ShortName>
+			<Path>TestBank.bnk</Path>
+			<Media>
+				<File Id="800235824" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Confirm.wav</ShortName>
+					<CachePath>SFX/Confirm_8CDF6314.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4136017490" Name="Play_Confirm" ObjectPath="\Events\Default Work Unit\Play_Confirm" GUID="{53923D77-FDD4-40A8-927C-8A0B6E553595}" DurationType="OneShot" DurationMin="0.49945533" DurationMax="0.66669285">
+					<MediaRefs>
+						<MediaRef Id="800235824"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D89AD97B-4101-5557-D1DD-446F4436ED28}</FileHash>
+</SoundBanksInfo>

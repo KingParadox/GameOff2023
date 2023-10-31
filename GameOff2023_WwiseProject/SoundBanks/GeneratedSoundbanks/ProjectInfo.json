@@ -5,7 +5,7 @@
    "GUID": "{962C6AE8-B737-4EA4-A837-9D5284DC28B5}",
    "Generator": "2022.1.8.8316"
   },
-  "CacheRoot": "../../../../../../GameOff2023_WwiseProject/.cache",
+  "CacheRoot": "../../.cache",
   "Platforms": [
    {
     "Name": "Mac",
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{EBA54945-F710-75AA-F0AB-928AF4D415EB}"
+  "FileHash": "{2CC63DC0-476E-27B8-84E0-45F5147CDDAD}"
  }
 }
