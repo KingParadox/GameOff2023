@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Confirm" ID="{104C4FDF-F67C-4ABF-AE74-1744A28318C3}" ShortID="833725210">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C2644C9F-81F0-465F-87F4-0FE41C380662}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-500"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Confirm" ID="{9F10380D-6545-48CF-A880-35890876108A}">
+							<PropertyList>
+								<Property Name="FadeOutShape" Type="int16" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.499455337690632"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Confirm.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="800235824"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Confirm" ID="{9F10380D-6545-48CF-A880-35890876108A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
