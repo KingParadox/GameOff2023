@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3291379323",
+    "Type": "User",
+    "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
+    "Language": "SFX",
+    "Hash": "{B46C01CA-39C5-C0B3-45A5-ADE7567EE201}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
+    "ShortName": "TestBank",
+    "Path": "TestBank.bnk",
+    "Media": [
+     {
+      "Id": "800235824",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Confirm.wav",
+      "CachePath": "SFX/Confirm_8CDF6314.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4136017490",
+      "Name": "Play_Confirm",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Confirm",
+      "GUID": "{53923D77-FDD4-40A8-927C-8A0B6E553595}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.49945533",
+      "DurationMax": "0.66669285",
+      "MediaRefs": [
+       {
+        "Id": "800235824"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{24960783-4346-5EB0-59D0-5DB319493D17}"
+ }
+}
