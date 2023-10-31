@@ -11995,6 +11995,24 @@
 				<PhysicalFolder Path="SoundBanks">
 					<WorkUnit Name="SoundBanks" ID="{C98E673F-A24C-48A8-960F-10565FFE70A0}" PersistMode="Standalone"/>
 				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks">
+					<WorkUnit Name="GeneratedSoundbanks" ID="{0A1EF9D1-F948-4A6A-9BAA-74D7BB69FFEB}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\Bus">
+					<WorkUnit Name="Bus" ID="{45DC8422-2FB0-4272-AB35-89908F9BD339}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\Bus\English(US)">
+					<WorkUnit Name="English(US)" ID="{9A946A1A-3F15-4E85-BEE3-8E05446FC642}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\English(US)">
+					<WorkUnit Name="English(US)" ID="{007543B6-BC81-44DD-A0A2-2F318C6A0779}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\Event">
+					<WorkUnit Name="Event" ID="{47ED71A5-4911-44A7-A0C5-81336D418F7F}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\Event\English(US)">
+					<WorkUnit Name="English(US)" ID="{152EC4DD-283B-48AB-BA8B-241FF2A425CC}" PersistMode="Standalone"/>
+				</PhysicalFolder>
 				<PhysicalFolder Path="Soundcaster Sessions">
 					<WorkUnit Name="Soundcaster Sessions" ID="{4C96B38B-3DB4-40C7-91C9-665510E38993}" PersistMode="Standalone"/>
 				</PhysicalFolder>
