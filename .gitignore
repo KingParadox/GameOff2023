@@ -83,7 +83,8 @@ DerivedDataCache/*
 AkWwiseProjectData.asset
 IncrementalSoundBankData.xml
 
-# Don't ignore Wwise .dll and .lib files as these are needed for compiling
+# Don't ignore Wwise plugin files
 !Plugins/Wwise/*.dll
 !Plugins/Wwise/*.lib
 !Plugins/Wwise/Binaries/*
+!Plugins/Wwise/Source/*
