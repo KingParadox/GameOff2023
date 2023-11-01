@@ -74,17 +74,19 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 # Wwise
-.backup*
-.cache*
-*.akd
-*.prof
-*.validationcache
-*.wsettings
-AkWwiseProjectData.asset
-IncrementalSoundBankData.xml
+GameOff2023_WwiseProject/.cache/
+GameOff2023_WwiseProject/*.validationcache
+GameOff2023_WwiseProject/*.wsettings
+GameOff2023_WwiseProject/*.prof
+GameOff2023_WwiseProject/**/*.akd
+
+# Wwise Originals (If Only Contributor)
+GameOff2023_WwiseProject/Originals/*
+
+# Wwise Plugin PDB Files
+Plugins/Wwise/**/*.pdb
 
 # Don't ignore Wwise plugin files
-!Plugins/Wwise/*.dll
-!Plugins/Wwise/*.lib
+!Plugins/Wwise/**/*.dll
+!Plugins/Wwise/**/*.lib
 !Plugins/Wwise/Binaries/*
-!Plugins/Wwise/Source/*
