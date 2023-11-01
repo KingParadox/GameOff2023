@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="GameOff2023_WwiseProject" GUID="{962C6AE8-B737-4EA4-A837-9D5284DC28B5}" Generator="2022.1.8.8316"/>
+	<CacheRoot>../../../../../GameOff2023_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{11C83B18-6391-4C44-8B55-0DA41368D8E4}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../../GameOff2023/Content/Developers/Will/Collections/GaneratedSoundbanks"/>
+		<Platform Name="Windows" GUID="{59CE85BC-51C3-4F5B-A7B4-E27B1A0710A3}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../../GameOff2023/Content/Developers/Will/Collections/GaneratedSoundbanks"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{312ADEF0-6B86-4BB0-A9C2-24FEBBD21F2C}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{0BE9643F-99C4-635F-FF68-36926D0C4553}</FileHash>
+</ProjectInfo>
