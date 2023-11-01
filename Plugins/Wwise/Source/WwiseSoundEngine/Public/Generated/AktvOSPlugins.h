@@ -16,5 +16,6 @@ Copyright (c) 2023 Audiokinetic Inc.
 *******************************************************************************/
 
 #if PLATFORM_TVOS
-
+/// <INSERT_TVOS_PLUGINS>
+/// </INSERT_TVOS_PLUGINS>
 #endif
