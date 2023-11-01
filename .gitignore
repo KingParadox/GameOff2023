@@ -83,8 +83,13 @@ DerivedDataCache/*
 AkWwiseProjectData.asset
 IncrementalSoundBankData.xml
 
+# Wwise Originals (If Only Contributor)
+GameOff2023_WwiseProject/Originals/*
+
+# Wwise Plugin PDB Files
+Plugins/Wwise/**/*.pdb
+
 # Don't ignore Wwise plugin files
-!Plugins/Wwise/*.dll
-!Plugins/Wwise/*.lib
+!Plugins/Wwise/**/*.dll
+!Plugins/Wwise/**/*.lib
 !Plugins/Wwise/Binaries/*
-!Plugins/Wwise/Source/*
