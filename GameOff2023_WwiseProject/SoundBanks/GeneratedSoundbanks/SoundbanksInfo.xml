@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="637217188" Type="User" GUID="{3B1F39BC-1D03-40C4-B4F1-FA464DF0C545}" Language="SFX" Hash="{85B39FA0-24DB-AC4A-5EA0-DD09D98D1613}">
+		<SoundBank Id="637217188" Type="User" GUID="{3B1F39BC-1D03-40C4-B4F1-FA464DF0C545}" Language="SFX" Hash="{0478850E-0EAF-8172-AC8B-D3BFF4F52EB9}">
 			<ObjectPath>\SoundBanks\Default Work Unit\PlayerSoundsBank</ObjectPath>
 			<ShortName>PlayerSoundsBank</ShortName>
 			<Path>PlayerSoundsBank.bnk</Path>
@@ -783,5 +783,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B5683500-79C4-DA4C-E235-E452E310FB2E}</FileHash>
+	<FileHash>{EA12DDA2-1E05-F3AD-73BA-5EF4198306FA}</FileHash>
 </SoundBanksInfo>

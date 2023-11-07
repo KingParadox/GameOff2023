@@ -13,7 +13,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Puddle" ID="{97B65959-523F-42F9-ABB8-08CDA1EA0CBE}"/>
+						<CurrentSwitchRef Name="Concrete" ID="{C78DEEC3-8E8E-4C33-97B5-48EA5C0533F1}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
