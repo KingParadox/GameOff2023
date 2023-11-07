@@ -10,11 +10,595 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{B46C01CA-39C5-C0B3-45A5-ADE7567EE201}",
+    "Hash": "{75D49C54-E1AD-DE81-8845-3AD714F3C9D9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
     "Media": [
+     {
+      "Id": "8322717",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_05.wav",
+      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_05_10C4C929.wem"
+     },
+     {
+      "Id": "11945840",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_05.wav",
+      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_05_10C4C929.wem"
+     },
+     {
+      "Id": "24570841",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Attack\\Quick\\Player_Attack_Quick_Clinks_03.wav",
+      "CachePath": "SFX/Movement/Attack/Quick/Player_Attack_Quick_Clinks_03_10C4C929.wem"
+     },
+     {
+      "Id": "59261838",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_07.wav",
+      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_07_10C4C929.wem"
+     },
+     {
+      "Id": "60137753",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_04.wav",
+      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_04_10C4C929.wem"
+     },
+     {
+      "Id": "65126692",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Sand\\Foley_Player_FSSand_07.wav",
+      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_07_10C4C929.wem"
+     },
+     {
+      "Id": "71179315",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_02.wav",
+      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_02_10C4C929.wem"
+     },
+     {
+      "Id": "71370987",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_06.wav",
+      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_06_10C4C929.wem"
+     },
+     {
+      "Id": "121170771",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_08.wav",
+      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_08_10C4C929.wem"
+     },
+     {
+      "Id": "161690530",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Attack\\Heavy\\Player_Attack_Heavy_01.wav",
+      "CachePath": "SFX/Attack/Heavy/Player_Attack_Heavy_01_10C4C929.wem"
+     },
+     {
+      "Id": "209418646",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_06.wav",
+      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_06_10C4C929.wem"
+     },
+     {
+      "Id": "211456994",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Clinks\\Player_Clink_04.wav",
+      "CachePath": "SFX/Movement/Clinks/Player_Clink_04_10C4C929.wem"
+     },
+     {
+      "Id": "212462202",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_04.wav",
+      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_04_10C4C929.wem"
+     },
+     {
+      "Id": "215853117",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Attack\\Heavy\\Player_Attack_Heavy_03.wav",
+      "CachePath": "SFX/Attack/Heavy/Player_Attack_Heavy_03_10C4C929.wem"
+     },
+     {
+      "Id": "221869063",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_07.wav",
+      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_07_10C4C929.wem"
+     },
+     {
+      "Id": "228510349",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_07.wav",
+      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_07_10C4C929.wem"
+     },
+     {
+      "Id": "242457361",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_08.wav",
+      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_08_10C4C929.wem"
+     },
+     {
+      "Id": "260302158",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Attack\\Quick\\Player_Attack_Quick_Clinks_02.wav",
+      "CachePath": "SFX/Movement/Attack/Quick/Player_Attack_Quick_Clinks_02_10C4C929.wem"
+     },
+     {
+      "Id": "260417398",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Sand\\Foley_Player_FSSand_04.wav",
+      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_04_10C4C929.wem"
+     },
+     {
+      "Id": "264922687",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_07.wav",
+      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_07_10C4C929.wem"
+     },
+     {
+      "Id": "273323821",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Clinks\\Player_Clink_05.wav",
+      "CachePath": "SFX/Movement/Clinks/Player_Clink_05_10C4C929.wem"
+     },
+     {
+      "Id": "273986127",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_03.wav",
+      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_03_10C4C929.wem"
+     },
+     {
+      "Id": "283202258",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_08.wav",
+      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_08_10C4C929.wem"
+     },
+     {
+      "Id": "284083750",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_01.wav",
+      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_01_10C4C929.wem"
+     },
+     {
+      "Id": "289035679",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Jump\\Player_Jump_Start_03.wav",
+      "CachePath": "SFX/Movement/Jump/Player_Jump_Start_03_10C4C929.wem"
+     },
+     {
+      "Id": "289329586",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Clinks\\Player_Clink_03.wav",
+      "CachePath": "SFX/Movement/Clinks/Player_Clink_03_10C4C929.wem"
+     },
+     {
+      "Id": "292169088",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_01.wav",
+      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_01_10C4C929.wem"
+     },
+     {
+      "Id": "306367092",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Attack\\Quick\\Player_Attack_Quick_Clinks_01.wav",
+      "CachePath": "SFX/Movement/Attack/Quick/Player_Attack_Quick_Clinks_01_10C4C929.wem"
+     },
+     {
+      "Id": "326193206",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Roll\\Player_Roll_Start_03_V2.wav",
+      "CachePath": "SFX/Movement/Roll/Player_Roll_Start_03_V2_10C4C929.wem"
+     },
+     {
+      "Id": "327700979",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Sand\\Foley_Player_FSSand_06.wav",
+      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_06_10C4C929.wem"
+     },
+     {
+      "Id": "333938787",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_06.wav",
+      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_06_10C4C929.wem"
+     },
+     {
+      "Id": "354601549",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_02.wav",
+      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_02_10C4C929.wem"
+     },
+     {
+      "Id": "366863183",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_05.wav",
+      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_05_10C4C929.wem"
+     },
+     {
+      "Id": "372935282",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Roll\\Player_Roll_Start_01_V2.wav",
+      "CachePath": "SFX/Movement/Roll/Player_Roll_Start_01_V2_10C4C929.wem"
+     },
+     {
+      "Id": "388218447",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_06.wav",
+      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_06_10C4C929.wem"
+     },
+     {
+      "Id": "391974349",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_01.wav",
+      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_01_10C4C929.wem"
+     },
+     {
+      "Id": "402547597",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Sand\\Foley_Player_FSSand_08.wav",
+      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_08_10C4C929.wem"
+     },
+     {
+      "Id": "415661004",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_08.wav",
+      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_08_10C4C929.wem"
+     },
+     {
+      "Id": "419447020",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_02.wav",
+      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_02_10C4C929.wem"
+     },
+     {
+      "Id": "419765360",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_01.wav",
+      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_01_10C4C929.wem"
+     },
+     {
+      "Id": "430803259",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_03.wav",
+      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_03_10C4C929.wem"
+     },
+     {
+      "Id": "431921519",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_07.wav",
+      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_07_10C4C929.wem"
+     },
+     {
+      "Id": "453986490",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_07.wav",
+      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_07_10C4C929.wem"
+     },
+     {
+      "Id": "465951665",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_03.wav",
+      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_03_10C4C929.wem"
+     },
+     {
+      "Id": "496610374",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_03.wav",
+      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_03_10C4C929.wem"
+     },
+     {
+      "Id": "514662885",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_05.wav",
+      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_05_10C4C929.wem"
+     },
+     {
+      "Id": "519085038",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Roll\\Player_Roll_Contact_03_V2.wav",
+      "CachePath": "SFX/Movement/Roll/Player_Roll_Contact_03_V2_10C4C929.wem"
+     },
+     {
+      "Id": "523545991",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Roll\\Player_Roll_Contact_01_V2.wav",
+      "CachePath": "SFX/Movement/Roll/Player_Roll_Contact_01_V2_10C4C929.wem"
+     },
+     {
+      "Id": "544303138",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Parry\\SFX_Player_Parry_02.wav",
+      "CachePath": "SFX/Parry/SFX_Player_Parry_02_10C4C929.wem"
+     },
+     {
+      "Id": "545824517",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Block\\SFX_Player_Block_03.wav",
+      "CachePath": "SFX/Block/SFX_Player_Block_03_10C4C929.wem"
+     },
+     {
+      "Id": "549521244",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Attack\\Heavy\\Player_Attack_Heavy_02.wav",
+      "CachePath": "SFX/Attack/Heavy/Player_Attack_Heavy_02_10C4C929.wem"
+     },
+     {
+      "Id": "572753260",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Roll\\Player_Roll_Contact_02_V2.wav",
+      "CachePath": "SFX/Movement/Roll/Player_Roll_Contact_02_V2_10C4C929.wem"
+     },
+     {
+      "Id": "574259035",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_01.wav",
+      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_01_10C4C929.wem"
+     },
+     {
+      "Id": "574274005",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Clinks\\Player_Clink_08.wav",
+      "CachePath": "SFX/Movement/Clinks/Player_Clink_08_10C4C929.wem"
+     },
+     {
+      "Id": "579440886",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_08.wav",
+      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_08_10C4C929.wem"
+     },
+     {
+      "Id": "595959087",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_04.wav",
+      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_04_10C4C929.wem"
+     },
+     {
+      "Id": "615243289",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_04.wav",
+      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_04_10C4C929.wem"
+     },
+     {
+      "Id": "637757490",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Clinks\\Player_Clink_02.wav",
+      "CachePath": "SFX/Movement/Clinks/Player_Clink_02_10C4C929.wem"
+     },
+     {
+      "Id": "637789105",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_02.wav",
+      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_02_10C4C929.wem"
+     },
+     {
+      "Id": "678691469",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_02.wav",
+      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_02_10C4C929.wem"
+     },
+     {
+      "Id": "678775115",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_08.wav",
+      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_08_10C4C929.wem"
+     },
+     {
+      "Id": "683611462",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Sand\\Foley_Player_FSSand_01.wav",
+      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_01_10C4C929.wem"
+     },
+     {
+      "Id": "713425900",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_02.wav",
+      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_02_10C4C929.wem"
+     },
+     {
+      "Id": "721287801",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_03.wav",
+      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_03_10C4C929.wem"
+     },
+     {
+      "Id": "725356836",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Attack\\Quick\\Player_Attack_Quick_01.wav",
+      "CachePath": "SFX/Attack/Quick/Player_Attack_Quick_01_10C4C929.wem"
+     },
+     {
+      "Id": "728018726",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Attack\\Quick\\Player_Attack_Quick_02.wav",
+      "CachePath": "SFX/Attack/Quick/Player_Attack_Quick_02_10C4C929.wem"
+     },
+     {
+      "Id": "755805061",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_08.wav",
+      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_08_10C4C929.wem"
+     },
+     {
+      "Id": "760257846",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Parry\\SFX_Player_Parry_03.wav",
+      "CachePath": "SFX/Parry/SFX_Player_Parry_03_10C4C929.wem"
+     },
+     {
+      "Id": "764411101",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_06.wav",
+      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_06_10C4C929.wem"
+     },
+     {
+      "Id": "772393635",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Attack\\Heavy\\Player_Attack_Heavy_Clinks_01.wav",
+      "CachePath": "SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_01_10C4C929.wem"
+     },
+     {
+      "Id": "773543934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_01.wav",
+      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_01_10C4C929.wem"
+     },
+     {
+      "Id": "779682905",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Attack\\Heavy\\Player_Attack_Heavy_Clinks_03.wav",
+      "CachePath": "SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_03_10C4C929.wem"
+     },
+     {
+      "Id": "791384098",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_04.wav",
+      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_04_10C4C929.wem"
+     },
      {
       "Id": "800235824",
       "Language": "SFX",
@@ -22,9 +606,237 @@
       "Location": "Memory",
       "ShortName": "Confirm.wav",
       "CachePath": "SFX/Confirm_8CDF6314.wem"
+     },
+     {
+      "Id": "805047270",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Clinks\\Player_Clink_01.wav",
+      "CachePath": "SFX/Movement/Clinks/Player_Clink_01_10C4C929.wem"
+     },
+     {
+      "Id": "839409548",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Jump\\Player_Jump_Start_02.wav",
+      "CachePath": "SFX/Movement/Jump/Player_Jump_Start_02_10C4C929.wem"
+     },
+     {
+      "Id": "847011496",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Clinks\\Player_Clink_07.wav",
+      "CachePath": "SFX/Movement/Clinks/Player_Clink_07_10C4C929.wem"
+     },
+     {
+      "Id": "868558447",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_02.wav",
+      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_02_10C4C929.wem"
+     },
+     {
+      "Id": "874739032",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Roll\\Player_Roll_Start_02_V2.wav",
+      "CachePath": "SFX/Movement/Roll/Player_Roll_Start_02_V2_10C4C929.wem"
+     },
+     {
+      "Id": "876104179",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_04.wav",
+      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_04_10C4C929.wem"
+     },
+     {
+      "Id": "879545171",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Sand\\Foley_Player_FSSand_03.wav",
+      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_03_10C4C929.wem"
+     },
+     {
+      "Id": "885022101",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Attack\\Heavy\\Player_Attack_Heavy_Clinks_02.wav",
+      "CachePath": "SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_02_10C4C929.wem"
+     },
+     {
+      "Id": "905074597",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Block\\SFX_Player_Block_02.wav",
+      "CachePath": "SFX/Block/SFX_Player_Block_02_10C4C929.wem"
+     },
+     {
+      "Id": "917394165",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Sand\\Foley_Player_FSSand_05.wav",
+      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_05_10C4C929.wem"
+     },
+     {
+      "Id": "928410976",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_03.wav",
+      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_03_10C4C929.wem"
+     },
+     {
+      "Id": "934624959",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_03.wav",
+      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_03_10C4C929.wem"
+     },
+     {
+      "Id": "948149131",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_01.wav",
+      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_01_10C4C929.wem"
+     },
+     {
+      "Id": "956535886",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_06.wav",
+      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_06_10C4C929.wem"
+     },
+     {
+      "Id": "960984511",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_05.wav",
+      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_05_10C4C929.wem"
+     },
+     {
+      "Id": "961595985",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_06.wav",
+      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_06_10C4C929.wem"
+     },
+     {
+      "Id": "1016855423",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Parry\\SFX_Player_Parry_01.wav",
+      "CachePath": "SFX/Parry/SFX_Player_Parry_01_10C4C929.wem"
+     },
+     {
+      "Id": "1017635794",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Block\\SFX_Player_Block_01.wav",
+      "CachePath": "SFX/Block/SFX_Player_Block_01_10C4C929.wem"
+     },
+     {
+      "Id": "1027756161",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Sand\\Foley_Player_FSSand_02.wav",
+      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_02_10C4C929.wem"
+     },
+     {
+      "Id": "1032074407",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_07.wav",
+      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_07_10C4C929.wem"
+     },
+     {
+      "Id": "1032397369",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_04.wav",
+      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_04_10C4C929.wem"
+     },
+     {
+      "Id": "1034915998",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Jump\\Player_Jump_Start_01.wav",
+      "CachePath": "SFX/Movement/Jump/Player_Jump_Start_01_10C4C929.wem"
+     },
+     {
+      "Id": "1045296774",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movement\\Clinks\\Player_Clink_06.wav",
+      "CachePath": "SFX/Movement/Clinks/Player_Clink_06_10C4C929.wem"
+     },
+     {
+      "Id": "1052527691",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_05.wav",
+      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_05_10C4C929.wem"
+     },
+     {
+      "Id": "1063378268",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_05.wav",
+      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_05_10C4C929.wem"
+     },
+     {
+      "Id": "1071825627",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Attack\\Quick\\Player_Attack_Quick_03.wav",
+      "CachePath": "SFX/Attack/Quick/Player_Attack_Quick_03_10C4C929.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "2755574209",
+      "Name": "Play_Block",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Block",
+      "GUID": "{AB6DF19B-224F-42EA-9DB4-554A1ABEDCAB}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1.4986666",
+      "MediaRefs": [
+       {
+        "Id": "545824517"
+       },
+       {
+        "Id": "905074597"
+       },
+       {
+        "Id": "1017635794"
+       }
+      ]
+     },
      {
       "Id": "4136017490",
       "Name": "Play_Confirm",
@@ -38,10 +850,540 @@
         "Id": "800235824"
        }
       ]
+     },
+     {
+      "Id": "3854155799",
+      "Name": "Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
+      "GUID": "{40F045F2-6A4F-4FA4-9E0F-C089CC444D88}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.45833334",
+      "DurationMax": "0.944",
+      "MediaRefs": [
+       {
+        "Id": "211456994"
+       },
+       {
+        "Id": "273323821"
+       },
+       {
+        "Id": "289329586"
+       },
+       {
+        "Id": "574274005"
+       },
+       {
+        "Id": "637757490"
+       },
+       {
+        "Id": "805047270"
+       },
+       {
+        "Id": "847011496"
+       },
+       {
+        "Id": "1045296774"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3140091853",
+         "Id": "2058049674",
+         "GUID": "{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "8322717"
+         },
+         {
+          "Id": "59261838"
+         },
+         {
+          "Id": "121170771"
+         },
+         {
+          "Id": "333938787"
+         },
+         {
+          "Id": "391974349"
+         },
+         {
+          "Id": "713425900"
+         },
+         {
+          "Id": "791384098"
+         },
+         {
+          "Id": "934624959"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3140091853",
+         "Id": "841620460",
+         "GUID": "{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "514662885"
+         },
+         {
+          "Id": "721287801"
+         },
+         {
+          "Id": "755805061"
+         },
+         {
+          "Id": "764411101"
+         },
+         {
+          "Id": "773543934"
+         },
+         {
+          "Id": "868558447"
+         },
+         {
+          "Id": "1032074407"
+         },
+         {
+          "Id": "1032397369"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3140091853",
+         "Id": "2003927601",
+         "GUID": "{11FCF32B-43EE-4FD4-8D82-EF0883089520}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "60137753"
+         },
+         {
+          "Id": "71370987"
+         },
+         {
+          "Id": "284083750"
+         },
+         {
+          "Id": "366863183"
+         },
+         {
+          "Id": "415661004"
+         },
+         {
+          "Id": "419447020"
+         },
+         {
+          "Id": "453986490"
+         },
+         {
+          "Id": "496610374"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3140091853",
+         "Id": "712897245",
+         "GUID": "{380C3A4E-DE0F-4935-A5E2-5A5A6F3F9F6A}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "11945840"
+         },
+         {
+          "Id": "71179315"
+         },
+         {
+          "Id": "264922687"
+         },
+         {
+          "Id": "273986127"
+         },
+         {
+          "Id": "579440886"
+         },
+         {
+          "Id": "595959087"
+         },
+         {
+          "Id": "948149131"
+         },
+         {
+          "Id": "956535886"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3140091853",
+         "Id": "4248645337",
+         "GUID": "{8DC566AD-CAEE-4DE5-811F-EB8B24F72BBD}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "209418646"
+         },
+         {
+          "Id": "221869063"
+         },
+         {
+          "Id": "465951665"
+         },
+         {
+          "Id": "574259035"
+         },
+         {
+          "Id": "637789105"
+         },
+         {
+          "Id": "678775115"
+         },
+         {
+          "Id": "876104179"
+         },
+         {
+          "Id": "1052527691"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3140091853",
+         "Id": "803837735",
+         "GUID": "{AABD3CCF-15A0-41D0-BC62-AF749DAF7A77}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "65126692"
+         },
+         {
+          "Id": "260417398"
+         },
+         {
+          "Id": "327700979"
+         },
+         {
+          "Id": "402547597"
+         },
+         {
+          "Id": "683611462"
+         },
+         {
+          "Id": "879545171"
+         },
+         {
+          "Id": "917394165"
+         },
+         {
+          "Id": "1027756161"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3140091853",
+         "Id": "2637588553",
+         "GUID": "{405E98F7-2B14-4073-99EF-5C30DAB80826}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "212462202"
+         },
+         {
+          "Id": "242457361"
+         },
+         {
+          "Id": "419765360"
+         },
+         {
+          "Id": "430803259"
+         },
+         {
+          "Id": "431921519"
+         },
+         {
+          "Id": "678691469"
+         },
+         {
+          "Id": "961595985"
+         },
+         {
+          "Id": "1063378268"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3140091853",
+         "Id": "2185786256",
+         "GUID": "{006D92F8-FBD7-4D15-8C57-939E0D9B892C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "228510349"
+         },
+         {
+          "Id": "283202258"
+         },
+         {
+          "Id": "292169088"
+         },
+         {
+          "Id": "354601549"
+         },
+         {
+          "Id": "388218447"
+         },
+         {
+          "Id": "615243289"
+         },
+         {
+          "Id": "928410976"
+         },
+         {
+          "Id": "960984511"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "3689126666",
+      "Name": "Play_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Jump",
+      "GUID": "{DBB395B7-AC49-47AC-AAA9-A0686BF8CB44}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6666667",
+      "DurationMax": "0.7083333",
+      "MediaRefs": [
+       {
+        "Id": "211456994"
+       },
+       {
+        "Id": "273323821"
+       },
+       {
+        "Id": "289035679"
+       },
+       {
+        "Id": "289329586"
+       },
+       {
+        "Id": "574274005"
+       },
+       {
+        "Id": "637757490"
+       },
+       {
+        "Id": "805047270"
+       },
+       {
+        "Id": "839409548"
+       },
+       {
+        "Id": "847011496"
+       },
+       {
+        "Id": "1034915998"
+       },
+       {
+        "Id": "1045296774"
+       }
+      ]
+     },
+     {
+      "Id": "4115969904",
+      "Name": "Play_Parry",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Parry",
+      "GUID": "{BBF31B62-35C8-4FA1-97A9-CE8BD2215273}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.5946667",
+      "DurationMax": "4.4533334",
+      "MediaRefs": [
+       {
+        "Id": "544303138"
+       },
+       {
+        "Id": "760257846"
+       },
+       {
+        "Id": "1016855423"
+       }
+      ]
+     },
+     {
+      "Id": "3305509726",
+      "Name": "Play_Roll_Contact",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Roll_Contact",
+      "GUID": "{20B31C1B-99F6-4AD5-852B-85A1E0E566DC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.65",
+      "DurationMax": "0.8",
+      "MediaRefs": [
+       {
+        "Id": "519085038"
+       },
+       {
+        "Id": "523545991"
+       },
+       {
+        "Id": "572753260"
+       }
+      ]
+     },
+     {
+      "Id": "3341034318",
+      "Name": "Play_Roll_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Roll_Start",
+      "GUID": "{B27B2C86-6714-42A2-80B9-C8FE6DF4FE6A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.41666666",
+      "DurationMax": "0.6166667",
+      "MediaRefs": [
+       {
+        "Id": "326193206"
+       },
+       {
+        "Id": "372935282"
+       },
+       {
+        "Id": "874739032"
+       }
+      ]
+     },
+     {
+      "Id": "160282985",
+      "Name": "Play_SwordHeavy_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SwordHeavy_Attack",
+      "GUID": "{C1306E9D-C354-498E-AF8F-8F0B3E3D11B4}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1666666",
+      "DurationMax": "1.1666666",
+      "MediaRefs": [
+       {
+        "Id": "161690530"
+       },
+       {
+        "Id": "215853117"
+       },
+       {
+        "Id": "549521244"
+       },
+       {
+        "Id": "772393635"
+       },
+       {
+        "Id": "779682905"
+       },
+       {
+        "Id": "885022101"
+       }
+      ]
+     },
+     {
+      "Id": "4172974113",
+      "Name": "Play_SwordQuick_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SwordQuick_Attack",
+      "GUID": "{D21572B4-C612-4FC6-8F91-2C4E476E664C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.45",
+      "DurationMax": "0.51666665",
+      "MediaRefs": [
+       {
+        "Id": "24570841"
+       },
+       {
+        "Id": "260302158"
+       },
+       {
+        "Id": "306367092"
+       },
+       {
+        "Id": "725356836"
+       },
+       {
+        "Id": "728018726"
+       },
+       {
+        "Id": "1071825627"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3140091853",
+      "Name": "Footsteps_Switch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch",
+      "GUID": "{2838582B-AC7D-41AE-85B6-001820A4B0F9}",
+      "Switches": [
+       {
+        "Id": "712897245",
+        "Name": "Mud",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Mud",
+        "GUID": "{380C3A4E-DE0F-4935-A5E2-5A5A6F3F9F6A}"
+       },
+       {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Sand",
+        "GUID": "{AABD3CCF-15A0-41D0-BC62-AF749DAF7A77}"
+       },
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Concrete",
+        "GUID": "{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}"
+       },
+       {
+        "Id": "2003927601",
+        "Name": "Puddle",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Puddle",
+        "GUID": "{11FCF32B-43EE-4FD4-8D82-EF0883089520}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Wood",
+        "GUID": "{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"
+       },
+       {
+        "Id": "2185786256",
+        "Name": "Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Gravel",
+        "GUID": "{006D92F8-FBD7-4D15-8C57-939E0D9B892C}"
+       },
+       {
+        "Id": "2637588553",
+        "Name": "Tile",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Tile",
+        "GUID": "{405E98F7-2B14-4073-99EF-5C30DAB80826}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Grass",
+        "GUID": "{8DC566AD-CAEE-4DE5-811F-EB8B24F72BBD}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{24960783-4346-5EB0-59D0-5DB319493D17}"
+  "FileHash": "{9FF8BAF9-1F4E-1750-B8D8-3DC6D9B6D53E}"
  }
 }
