@@ -3,12 +3,132 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Confirm" ID="{53923D77-FDD4-40A8-927C-8A0B6E553595}">
+				<Event Name="Play_SFX_Test" ID="{53923D77-FDD4-40A8-927C-8A0B6E553595}">
 					<ChildrenList>
 						<Action Name="" ID="{CABAE500-6483-4BE8-9A37-0D2714BB98AF}" ShortID="667309626">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Confirm" ID="{104C4FDF-F67C-4ABF-AE74-1744A28318C3}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+									<ObjectRef Name="SFX_Test" ID="{104C4FDF-F67C-4ABF-AE74-1744A28318C3}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Footsteps" ID="{98D3A3D4-E8FB-40AC-A01A-24A43107C78A}">
+					<ChildrenList>
+						<Action Name="" ID="{6028B2CB-E466-4EE2-8C48-96F0F8EF3839}" ShortID="809783049">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{94AF7834-7E79-4E2E-ACE8-460667BDBD44}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{ED7B7CB7-4AB5-4EE4-8EDB-9EAE08BAB760}" ShortID="757637049">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clinks" ID="{DB382C73-C6D0-47E8-81B8-23E2B1E23BA0}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Jump" ID="{52415179-3FE9-446C-9E1B-DDA8EACA44DE}">
+					<ChildrenList>
+						<Action Name="" ID="{A900A3FE-B64E-49FE-A492-C261AE49D577}" ShortID="612685169">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{C0595D6D-8F47-4700-B632-95D28D10F947}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0144802E-FFEB-4F3E-A834-52363AEDED01}" ShortID="329782006">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clinks" ID="{DB382C73-C6D0-47E8-81B8-23E2B1E23BA0}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Roll_Contat" ID="{9BF5EC1A-D62A-46AA-81A4-D2AC74227BB7}">
+					<ChildrenList>
+						<Action Name="" ID="{9783899C-3E63-49E7-9586-3D2F8FD05435}" ShortID="422437153">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roll_Contat" ID="{88D6329E-FD91-4ABA-8968-8972C6F29846}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D439B11B-2D73-4F15-A075-0E4B2E09C15B}" ShortID="476320237">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clinks" ID="{DB382C73-C6D0-47E8-81B8-23E2B1E23BA0}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Roll_Start" ID="{95B191F8-D929-487C-9E8D-3ABFA1C84E50}">
+					<ChildrenList>
+						<Action Name="" ID="{ADBE7475-0BA4-4E67-B27E-13E5C5222AFB}" ShortID="215220899">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roll_Start" ID="{7BCF754C-9677-43F7-B89D-11FF95DC74EE}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vox_Player_Death" ID="{34149D33-2985-4250-AF87-B6C872B4A6BD}">
+					<ChildrenList>
+						<Action Name="" ID="{A822DF35-432C-4CC3-940D-10FD727804BC}" ShortID="983730356">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vox_Player_Death" ID="{DF574E00-4163-415E-B7C9-F0DEACB9F0B9}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Attack_Heavy" ID="{6CA2FF9B-973C-4AB0-9FC3-D93F1DEBB204}">
+					<ChildrenList>
+						<Action Name="" ID="{F36E2D7F-88F1-4E90-AF40-9C9070591034}" ShortID="651030753">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vox_Player_Grunt_Attack_Heavy" ID="{8DC34623-F60B-45D4-BC98-BE62625559AB}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Attack_Light" ID="{477FED2B-EA31-4C9D-A84D-935AF76F78D9}">
+					<ChildrenList>
+						<Action Name="" ID="{8BF39B0F-1440-4117-A938-AE7E526833E4}" ShortID="418740820">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vox_Player_Grunt_Attack_Light" ID="{55292505-63C5-4717-83B0-C039F899E171}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vox_Player_Grunt_General" ID="{891BAD5C-F31C-46E2-9771-98A80368F8A2}">
+					<ChildrenList>
+						<Action Name="" ID="{EFC33487-0825-4AD1-93E1-8D662DF020E7}" ShortID="858827096">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vox_Player_Grunt_General" ID="{B776F857-A5BD-49F9-AD05-6675D2598236}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vox_Player_Hurt" ID="{FDD1C888-A1A0-4361-AC03-D3BF82EA89BE}">
+					<ChildrenList>
+						<Action Name="" ID="{15E60E7D-6A93-41A4-8018-46F3B91BADCF}" ShortID="807872072">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vox_Player_Hurt" ID="{3AF03663-0812-4078-997F-E800214CD5A9}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

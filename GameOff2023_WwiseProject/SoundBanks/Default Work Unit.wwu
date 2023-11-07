@@ -5,7 +5,22 @@
 			<ChildrenList>
 				<SoundBank Name="TestBank" ID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Confirm" ID="{53923D77-FDD4-40A8-927C-8A0B6E553595}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_Test" ID="{53923D77-FDD4-40A8-927C-8A0B6E553595}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="PlayerSoundsBank" ID="{3B1F39BC-1D03-40C4-B4F1-FA464DF0C545}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Footsteps" ID="{98D3A3D4-E8FB-40AC-A01A-24A43107C78A}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Vox_Player_Death" ID="{34149D33-2985-4250-AF87-B6C872B4A6BD}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Vox_Player_Hurt" ID="{FDD1C888-A1A0-4361-AC03-D3BF82EA89BE}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Jump" ID="{52415179-3FE9-446C-9E1B-DDA8EACA44DE}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Roll_Contat" ID="{9BF5EC1A-D62A-46AA-81A4-D2AC74227BB7}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Vox_Player_Grunt_General" ID="{891BAD5C-F31C-46E2-9771-98A80368F8A2}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Roll_Start" ID="{95B191F8-D929-487C-9E8D-3ABFA1C84E50}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Attack_Heavy" ID="{6CA2FF9B-973C-4AB0-9FC3-D93F1DEBB204}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Attack_Light" ID="{477FED2B-EA31-4C9D-A84D-935AF76F78D9}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

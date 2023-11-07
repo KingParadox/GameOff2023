@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{B46C01CA-39C5-C0B3-45A5-ADE7567EE201}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{C995BA6E-C7E7-BBF1-FC1A-2B551D8106E6}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
@@ -12,7 +12,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4136017490" Name="Play_Confirm" ObjectPath="\Events\Default Work Unit\Play_Confirm" GUID="{53923D77-FDD4-40A8-927C-8A0B6E553595}" DurationType="OneShot" DurationMin="0.49945533" DurationMax="0.66669285">
+				<Event Id="1072569702" Name="Play_SFX_Test" ObjectPath="\Events\Default Work Unit\Play_SFX_Test" GUID="{53923D77-FDD4-40A8-927C-8A0B6E553595}" DurationType="OneShot" DurationMin="0.49945533" DurationMax="0.66669285">
 					<MediaRefs>
 						<MediaRef Id="800235824"/>
 					</MediaRefs>
@@ -20,5 +20,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CEF77981-E17A-78BB-E6E1-F29562D387E0}</FileHash>
+	<FileHash>{14CB58B9-AE56-1EE9-7246-58020E0049C6}</FileHash>
 </SoundBanksInfo>

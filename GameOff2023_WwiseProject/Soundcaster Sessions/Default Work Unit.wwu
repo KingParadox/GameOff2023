@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B1040844-40F0-4E96-AC3C-814FBC79AA46}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{B1040844-40F0-4E96-AC3C-814FBC79AA46}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B1040844-40F0-4E96-AC3C-814FBC79AA46}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="SFXAudition" ID="{68667C59-6C97-441A-84DE-A1031EA88925}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Footsteps" ID="{98D3A3D4-E8FB-40AC-A01A-24A43107C78A}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Puddle" ID="{97B65959-523F-42F9-ABB8-08CDA1EA0CBE}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="637217188" Type="User" GUID="{3B1F39BC-1D03-40C4-B4F1-FA464DF0C545}" Language="SFX" Hash="{85B39FA0-24DB-AC4A-5EA0-DD09D98D1613}">
+			<ObjectPath>\SoundBanks\Default Work Unit\PlayerSoundsBank</ObjectPath>
+			<ShortName>PlayerSoundsBank</ShortName>
+			<Path>PlayerSoundsBank.bnk</Path>
+			<Media>
+				<File Id="3195468" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mud\Foley_Player_FSMud_02.wav</ShortName>
+					<CachePath>SFX/Mud/Foley_Player_FSMud_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="14026303" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Puddle\Foley_Player_FSPuddle_07.wav</ShortName>
+					<CachePath>SFX/Puddle/Foley_Player_FSPuddle_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="24209432" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mud\Foley_Player_FSMud_06.wav</ShortName>
+					<CachePath>SFX/Mud/Foley_Player_FSMud_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="26011190" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Death\Vox_Player_Death_04.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Death/Vox_Player_Death_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="31410392" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_03.wav</ShortName>
+					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="39738514" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_05.wav</ShortName>
+					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="48969105" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Light\Vox_Player_Grunt_Light_06.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Light/Vox_Player_Grunt_Light_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="76539548" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gravel\Foley_Player_FSGravel_05.wav</ShortName>
+					<CachePath>SFX/Gravel/Foley_Player_FSGravel_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="89712960" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand\Foley_Player_FSSand_08.wav</ShortName>
+					<CachePath>SFX/Sand/Foley_Player_FSSand_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="102673241" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood\Foley_Player_FSWood_08.wav</ShortName>
+					<CachePath>SFX/Wood/Foley_Player_FSWood_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="116389693" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Heavy\Vox_Player_Grunt_Heavy_05.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Heavy/Vox_Player_Grunt_Heavy_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="121238675" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Roll_Contat\Player_Roll_Contact_01.wav</ShortName>
+					<CachePath>SFX/Roll_Contat/Player_Roll_Contact_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="125390402" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Heavy\Vox_Player_Grunt_Heavy_03.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Heavy/Vox_Player_Grunt_Heavy_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="150361803" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tile\Foley_Player_FSTile_06.wav</ShortName>
+					<CachePath>SFX/Tile/Foley_Player_FSTile_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="154521666" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mud\Foley_Player_FSMud_04.wav</ShortName>
+					<CachePath>SFX/Mud/Foley_Player_FSMud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="182542187" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mud\Foley_Player_FSMud_07.wav</ShortName>
+					<CachePath>SFX/Mud/Foley_Player_FSMud_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="189130974" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mud\Foley_Player_FSMud_08.wav</ShortName>
+					<CachePath>SFX/Mud/Foley_Player_FSMud_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="199807612" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grass\Foley_Player_FSGrass_05.wav</ShortName>
+					<CachePath>SFX/Grass/Foley_Player_FSGrass_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="213082388" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_General\Vox_Player_Grunt_General_09.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_General/Vox_Player_Grunt_General_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="213215615" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clinks\Player_Clink_07.wav</ShortName>
+					<CachePath>SFX/Clinks/Player_Clink_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="217247289" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_01.wav</ShortName>
+					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="227279186" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_06.wav</ShortName>
+					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="249037059" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Roll_Contat\Player_Roll_Contact_02.wav</ShortName>
+					<CachePath>SFX/Roll_Contat/Player_Roll_Contact_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="254414923" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Hurt\Vox_Player_Hurt_03.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Hurt/Vox_Player_Hurt_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="264039160" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Light\Vox_Player_Grunt_Light_04.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Light/Vox_Player_Grunt_Light_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="267564861" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand\Foley_Player_FSSand_02.wav</ShortName>
+					<CachePath>SFX/Sand/Foley_Player_FSSand_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="300236554" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tile\Foley_Player_FSTile_07.wav</ShortName>
+					<CachePath>SFX/Tile/Foley_Player_FSTile_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="306125581" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gravel\Foley_Player_FSGravel_03.wav</ShortName>
+					<CachePath>SFX/Gravel/Foley_Player_FSGravel_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="316522036" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Jump\Player_Jump_Start_01.wav</ShortName>
+					<CachePath>SFX/Jump/Player_Jump_Start_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="320987309" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clinks\Player_Clink_03.wav</ShortName>
+					<CachePath>SFX/Clinks/Player_Clink_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="321119981" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tile\Foley_Player_FSTile_05.wav</ShortName>
+					<CachePath>SFX/Tile/Foley_Player_FSTile_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="357406281" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_07.wav</ShortName>
+					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="362420137" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Death\Vox_Player_Death_05.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Death/Vox_Player_Death_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="363106842" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Hurt\Vox_Player_Hurt_04.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Hurt/Vox_Player_Hurt_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="370000431" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Puddle\Foley_Player_FSPuddle_02.wav</ShortName>
+					<CachePath>SFX/Puddle/Foley_Player_FSPuddle_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="371961656" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood\Foley_Player_FSWood_03.wav</ShortName>
+					<CachePath>SFX/Wood/Foley_Player_FSWood_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="373280123" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood\Foley_Player_FSWood_02.wav</ShortName>
+					<CachePath>SFX/Wood/Foley_Player_FSWood_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="375415974" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Heavy\Vox_Player_Grunt_Heavy_09.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Heavy/Vox_Player_Grunt_Heavy_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="377602787" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clinks\Player_Clink_06.wav</ShortName>
+					<CachePath>SFX/Clinks/Player_Clink_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="378315110" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tile\Foley_Player_FSTile_02.wav</ShortName>
+					<CachePath>SFX/Tile/Foley_Player_FSTile_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="387825775" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_General\Vox_Player_Grunt_General_07.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_General/Vox_Player_Grunt_General_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="392909563" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood\Foley_Player_FSWood_05.wav</ShortName>
+					<CachePath>SFX/Wood/Foley_Player_FSWood_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="408952840" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand\Foley_Player_FSSand_05.wav</ShortName>
+					<CachePath>SFX/Sand/Foley_Player_FSSand_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="420882493" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grass\Foley_Player_FSGrass_06.wav</ShortName>
+					<CachePath>SFX/Grass/Foley_Player_FSGrass_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="424909584" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Death\Vox_Player_Death_02.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Death/Vox_Player_Death_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="425269894" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Light\Vox_Player_Grunt_Light_08.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Light/Vox_Player_Grunt_Light_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="435548594" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Death\Vox_Player_Death_03.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Death/Vox_Player_Death_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="441622722" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Hurt\Vox_Player_Hurt_02.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Hurt/Vox_Player_Hurt_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="441915930" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tile\Foley_Player_FSTile_01.wav</ShortName>
+					<CachePath>SFX/Tile/Foley_Player_FSTile_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="459672192" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mud\Foley_Player_FSMud_05.wav</ShortName>
+					<CachePath>SFX/Mud/Foley_Player_FSMud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="472235541" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Heavy\Vox_Player_Grunt_Heavy_08.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Heavy/Vox_Player_Grunt_Heavy_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="481210996" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood\Foley_Player_FSWood_01.wav</ShortName>
+					<CachePath>SFX/Wood/Foley_Player_FSWood_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="494255418" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Heavy\Vox_Player_Grunt_Heavy_01.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Heavy/Vox_Player_Grunt_Heavy_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="500658926" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand\Foley_Player_FSSand_03.wav</ShortName>
+					<CachePath>SFX/Sand/Foley_Player_FSSand_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="503037142" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grass\Foley_Player_FSGrass_01.wav</ShortName>
+					<CachePath>SFX/Grass/Foley_Player_FSGrass_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="504154324" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_General\Vox_Player_Grunt_General_02.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_General/Vox_Player_Grunt_General_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="506298520" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand\Foley_Player_FSSand_04.wav</ShortName>
+					<CachePath>SFX/Sand/Foley_Player_FSSand_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="508694064" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand\Foley_Player_FSSand_01.wav</ShortName>
+					<CachePath>SFX/Sand/Foley_Player_FSSand_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="511786689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Roll_Contat\Player_Roll_Contact_03.wav</ShortName>
+					<CachePath>SFX/Roll_Contat/Player_Roll_Contact_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="532822761" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Light\Vox_Player_Grunt_Light_09.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Light/Vox_Player_Grunt_Light_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="542998731" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_General\Vox_Player_Grunt_General_01.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_General/Vox_Player_Grunt_General_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="547506651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Light\Vox_Player_Grunt_Light_05.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Light/Vox_Player_Grunt_Light_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="561030268" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_02.wav</ShortName>
+					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="574684886" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Puddle\Foley_Player_FSPuddle_03.wav</ShortName>
+					<CachePath>SFX/Puddle/Foley_Player_FSPuddle_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="584388504" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mud\Foley_Player_FSMud_01.wav</ShortName>
+					<CachePath>SFX/Mud/Foley_Player_FSMud_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="589663796" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Heavy\Vox_Player_Grunt_Heavy_10.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Heavy/Vox_Player_Grunt_Heavy_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="592317136" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mud\Foley_Player_FSMud_03.wav</ShortName>
+					<CachePath>SFX/Mud/Foley_Player_FSMud_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="600196985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_General\Vox_Player_Grunt_General_05.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_General/Vox_Player_Grunt_General_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="628131259" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Heavy\Vox_Player_Grunt_Heavy_04.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Heavy/Vox_Player_Grunt_Heavy_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="629577973" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood\Foley_Player_FSWood_07.wav</ShortName>
+					<CachePath>SFX/Wood/Foley_Player_FSWood_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="644047590" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gravel\Foley_Player_FSGravel_07.wav</ShortName>
+					<CachePath>SFX/Gravel/Foley_Player_FSGravel_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="650130675" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_General\Vox_Player_Grunt_General_04.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_General/Vox_Player_Grunt_General_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="686316706" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_General\Vox_Player_Grunt_General_06.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_General/Vox_Player_Grunt_General_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="690419614" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand\Foley_Player_FSSand_06.wav</ShortName>
+					<CachePath>SFX/Sand/Foley_Player_FSSand_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="697746325" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Light\Vox_Player_Grunt_Light_07.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Light/Vox_Player_Grunt_Light_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="698662918" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grass\Foley_Player_FSGrass_03.wav</ShortName>
+					<CachePath>SFX/Grass/Foley_Player_FSGrass_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="699822368" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tile\Foley_Player_FSTile_04.wav</ShortName>
+					<CachePath>SFX/Tile/Foley_Player_FSTile_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="714576570" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_General\Vox_Player_Grunt_General_08.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_General/Vox_Player_Grunt_General_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="717848040" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clinks\Player_Clink_02.wav</ShortName>
+					<CachePath>SFX/Clinks/Player_Clink_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="718725626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Jump\Player_Jump_Start_02.wav</ShortName>
+					<CachePath>SFX/Jump/Player_Jump_Start_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="719198981" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Roll_Start\Player_Roll_Start_01.wav</ShortName>
+					<CachePath>SFX/Roll_Start/Player_Roll_Start_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="725086893" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Puddle\Foley_Player_FSPuddle_08.wav</ShortName>
+					<CachePath>SFX/Puddle/Foley_Player_FSPuddle_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="727231334" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Light\Vox_Player_Grunt_Light_10.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Light/Vox_Player_Grunt_Light_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="740346151" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gravel\Foley_Player_FSGravel_04.wav</ShortName>
+					<CachePath>SFX/Gravel/Foley_Player_FSGravel_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="756744293" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Hurt\Vox_Player_Hurt_05.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Hurt/Vox_Player_Hurt_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="761868477" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Heavy\Vox_Player_Grunt_Heavy_06.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Heavy/Vox_Player_Grunt_Heavy_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="777516541" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Light\Vox_Player_Grunt_Light_01.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Light/Vox_Player_Grunt_Light_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="784403671" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Puddle\Foley_Player_FSPuddle_04.wav</ShortName>
+					<CachePath>SFX/Puddle/Foley_Player_FSPuddle_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="790057297" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand\Foley_Player_FSSand_07.wav</ShortName>
+					<CachePath>SFX/Sand/Foley_Player_FSSand_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="792249982" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_General\Vox_Player_Grunt_General_10.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_General/Vox_Player_Grunt_General_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="795431406" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_04.wav</ShortName>
+					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="796617882" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gravel\Foley_Player_FSGravel_02.wav</ShortName>
+					<CachePath>SFX/Gravel/Foley_Player_FSGravel_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="827418939" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Puddle\Foley_Player_FSPuddle_06.wav</ShortName>
+					<CachePath>SFX/Puddle/Foley_Player_FSPuddle_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="833996796" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Hurt\Vox_Player_Hurt_01.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Hurt/Vox_Player_Hurt_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="844827070" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Heavy\Vox_Player_Grunt_Heavy_07.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Heavy/Vox_Player_Grunt_Heavy_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="848328474" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood\Foley_Player_FSWood_06.wav</ShortName>
+					<CachePath>SFX/Wood/Foley_Player_FSWood_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="857094380" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Hurt\Vox_Player_Hurt_06.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Hurt/Vox_Player_Hurt_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="860723285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Heavy\Vox_Player_Grunt_Heavy_02.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Heavy/Vox_Player_Grunt_Heavy_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="862517934" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Death\Vox_Player_Death_01.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Death/Vox_Player_Death_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="873135667" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Roll_Start\Player_Roll_Start_02.wav</ShortName>
+					<CachePath>SFX/Roll_Start/Player_Roll_Start_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="878229437" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood\Foley_Player_FSWood_04.wav</ShortName>
+					<CachePath>SFX/Wood/Foley_Player_FSWood_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="888706336" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grass\Foley_Player_FSGrass_07.wav</ShortName>
+					<CachePath>SFX/Grass/Foley_Player_FSGrass_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="893903537" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tile\Foley_Player_FSTile_08.wav</ShortName>
+					<CachePath>SFX/Tile/Foley_Player_FSTile_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="902203890" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gravel\Foley_Player_FSGravel_06.wav</ShortName>
+					<CachePath>SFX/Gravel/Foley_Player_FSGravel_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="903424001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Puddle\Foley_Player_FSPuddle_05.wav</ShortName>
+					<CachePath>SFX/Puddle/Foley_Player_FSPuddle_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="915948395" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gravel\Foley_Player_FSGravel_08.wav</ShortName>
+					<CachePath>SFX/Gravel/Foley_Player_FSGravel_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="923270406" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tile\Foley_Player_FSTile_03.wav</ShortName>
+					<CachePath>SFX/Tile/Foley_Player_FSTile_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="934169192" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clinks\Player_Clink_01.wav</ShortName>
+					<CachePath>SFX/Clinks/Player_Clink_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="948838699" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_08.wav</ShortName>
+					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="949569050" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Light\Vox_Player_Grunt_Light_02.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Light/Vox_Player_Grunt_Light_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="950100482" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_General\Vox_Player_Grunt_General_03.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_General/Vox_Player_Grunt_General_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="966336468" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clinks\Player_Clink_08.wav</ShortName>
+					<CachePath>SFX/Clinks/Player_Clink_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="967441070" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Jump\Player_Jump_Start_03.wav</ShortName>
+					<CachePath>SFX/Jump/Player_Jump_Start_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="974362082" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clinks\Player_Clink_05.wav</ShortName>
+					<CachePath>SFX/Clinks/Player_Clink_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="992459150" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Roll_Start\Player_Roll_Start_03.wav</ShortName>
+					<CachePath>SFX/Roll_Start/Player_Roll_Start_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1006879668" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clinks\Player_Clink_04.wav</ShortName>
+					<CachePath>SFX/Clinks/Player_Clink_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1014158066" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox_Player_Grunt_Attack_Light\Vox_Player_Grunt_Light_03.wav</ShortName>
+					<CachePath>SFX/Vox_Player_Grunt_Attack_Light/Vox_Player_Grunt_Light_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1031918872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gravel\Foley_Player_FSGravel_01.wav</ShortName>
+					<CachePath>SFX/Gravel/Foley_Player_FSGravel_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1035551170" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grass\Foley_Player_FSGrass_02.wav</ShortName>
+					<CachePath>SFX/Grass/Foley_Player_FSGrass_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1055012275" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grass\Foley_Player_FSGrass_08.wav</ShortName>
+					<CachePath>SFX/Grass/Foley_Player_FSGrass_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1067737584" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grass\Foley_Player_FSGrass_04.wav</ShortName>
+					<CachePath>SFX/Grass/Foley_Player_FSGrass_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1067868811" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Puddle\Foley_Player_FSPuddle_01.wav</ShortName>
+					<CachePath>SFX/Puddle/Foley_Player_FSPuddle_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" GUID="{98D3A3D4-E8FB-40AC-A01A-24A43107C78A}" DurationType="OneShot" DurationMin="0.4083286" DurationMax="1.090653">
+					<MediaRefs>
+						<MediaRef Id="213215615"/>
+						<MediaRef Id="320987309"/>
+						<MediaRef Id="377602787"/>
+						<MediaRef Id="717848040"/>
+						<MediaRef Id="934169192"/>
+						<MediaRef Id="966336468"/>
+						<MediaRef Id="974362082"/>
+						<MediaRef Id="1006879668"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2003927601" GUID="{97B65959-523F-42F9-ABB8-08CDA1EA0CBE}"/>
+							<MediaRefs>
+								<MediaRef Id="14026303"/>
+								<MediaRef Id="370000431"/>
+								<MediaRef Id="574684886"/>
+								<MediaRef Id="725086893"/>
+								<MediaRef Id="784403671"/>
+								<MediaRef Id="827418939"/>
+								<MediaRef Id="903424001"/>
+								<MediaRef Id="1067868811"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2185786256" GUID="{E0FC7A67-FAE1-49CC-A70C-F8323A84AEA3}"/>
+							<MediaRefs>
+								<MediaRef Id="76539548"/>
+								<MediaRef Id="306125581"/>
+								<MediaRef Id="644047590"/>
+								<MediaRef Id="740346151"/>
+								<MediaRef Id="796617882"/>
+								<MediaRef Id="902203890"/>
+								<MediaRef Id="915948395"/>
+								<MediaRef Id="1031918872"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2058049674" GUID="{E3958685-016A-445C-B86C-B880031DACD4}"/>
+							<MediaRefs>
+								<MediaRef Id="102673241"/>
+								<MediaRef Id="371961656"/>
+								<MediaRef Id="373280123"/>
+								<MediaRef Id="392909563"/>
+								<MediaRef Id="481210996"/>
+								<MediaRef Id="629577973"/>
+								<MediaRef Id="848328474"/>
+								<MediaRef Id="878229437"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="803837735" GUID="{A870878E-0CFC-4A9E-A743-543F3EF6CCBB}"/>
+							<MediaRefs>
+								<MediaRef Id="89712960"/>
+								<MediaRef Id="267564861"/>
+								<MediaRef Id="408952840"/>
+								<MediaRef Id="500658926"/>
+								<MediaRef Id="506298520"/>
+								<MediaRef Id="508694064"/>
+								<MediaRef Id="690419614"/>
+								<MediaRef Id="790057297"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2637588553" GUID="{0B7DCEB0-DA72-4D37-97BE-298258790F4F}"/>
+							<MediaRefs>
+								<MediaRef Id="150361803"/>
+								<MediaRef Id="300236554"/>
+								<MediaRef Id="321119981"/>
+								<MediaRef Id="378315110"/>
+								<MediaRef Id="441915930"/>
+								<MediaRef Id="699822368"/>
+								<MediaRef Id="893903537"/>
+								<MediaRef Id="923270406"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="4248645337" GUID="{0C1CADBD-B282-4ACB-B2D4-78638BB8C2E2}"/>
+							<MediaRefs>
+								<MediaRef Id="199807612"/>
+								<MediaRef Id="420882493"/>
+								<MediaRef Id="503037142"/>
+								<MediaRef Id="698662918"/>
+								<MediaRef Id="888706336"/>
+								<MediaRef Id="1035551170"/>
+								<MediaRef Id="1055012275"/>
+								<MediaRef Id="1067737584"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="841620460" GUID="{C78DEEC3-8E8E-4C33-97B5-48EA5C0533F1}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="31410392"/>
+								<MediaRef Id="39738514"/>
+								<MediaRef Id="217247289"/>
+								<MediaRef Id="227279186"/>
+								<MediaRef Id="357406281"/>
+								<MediaRef Id="561030268"/>
+								<MediaRef Id="795431406"/>
+								<MediaRef Id="948838699"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="712897245" GUID="{4B77BAD5-050C-43C1-8AD9-980D8A85E415}"/>
+							<MediaRefs>
+								<MediaRef Id="3195468"/>
+								<MediaRef Id="24209432"/>
+								<MediaRef Id="154521666"/>
+								<MediaRef Id="182542187"/>
+								<MediaRef Id="189130974"/>
+								<MediaRef Id="459672192"/>
+								<MediaRef Id="584388504"/>
+								<MediaRef Id="592317136"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3689126666" Name="Play_Jump" ObjectPath="\Events\Default Work Unit\Play_Jump" GUID="{52415179-3FE9-446C-9E1B-DDA8EACA44DE}" DurationType="OneShot" DurationMin="0.5770244" DurationMax="0.79507726">
+					<MediaRefs>
+						<MediaRef Id="213215615"/>
+						<MediaRef Id="316522036"/>
+						<MediaRef Id="320987309"/>
+						<MediaRef Id="377602787"/>
+						<MediaRef Id="717848040"/>
+						<MediaRef Id="718725626"/>
+						<MediaRef Id="934169192"/>
+						<MediaRef Id="966336468"/>
+						<MediaRef Id="967441070"/>
+						<MediaRef Id="974362082"/>
+						<MediaRef Id="1006879668"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1682324564" Name="Play_Player_Attack_Heavy" ObjectPath="\Events\Default Work Unit\Play_Player_Attack_Heavy" GUID="{6CA2FF9B-973C-4AB0-9FC3-D93F1DEBB204}" DurationType="OneShot" DurationMin="0.82533336" DurationMax="1.136">
+					<MediaRefs>
+						<MediaRef Id="116389693"/>
+						<MediaRef Id="125390402"/>
+						<MediaRef Id="375415974"/>
+						<MediaRef Id="472235541"/>
+						<MediaRef Id="494255418"/>
+						<MediaRef Id="589663796"/>
+						<MediaRef Id="628131259"/>
+						<MediaRef Id="761868477"/>
+						<MediaRef Id="844827070"/>
+						<MediaRef Id="860723285"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2495796529" Name="Play_Player_Attack_Light" ObjectPath="\Events\Default Work Unit\Play_Player_Attack_Light" GUID="{477FED2B-EA31-4C9D-A84D-935AF76F78D9}" DurationType="OneShot" DurationMin="0.11733333" DurationMax="0.24533333">
+					<MediaRefs>
+						<MediaRef Id="48969105"/>
+						<MediaRef Id="264039160"/>
+						<MediaRef Id="425269894"/>
+						<MediaRef Id="532822761"/>
+						<MediaRef Id="547506651"/>
+						<MediaRef Id="697746325"/>
+						<MediaRef Id="727231334"/>
+						<MediaRef Id="777516541"/>
+						<MediaRef Id="949569050"/>
+						<MediaRef Id="1014158066"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1197261433" Name="Play_Roll_Contat" ObjectPath="\Events\Default Work Unit\Play_Roll_Contat" GUID="{9BF5EC1A-D62A-46AA-81A4-D2AC74227BB7}" DurationType="OneShot" DurationMin="0.56259876" DurationMax="0.95136565">
+					<MediaRefs>
+						<MediaRef Id="121238675"/>
+						<MediaRef Id="213215615"/>
+						<MediaRef Id="249037059"/>
+						<MediaRef Id="320987309"/>
+						<MediaRef Id="377602787"/>
+						<MediaRef Id="511786689"/>
+						<MediaRef Id="717848040"/>
+						<MediaRef Id="934169192"/>
+						<MediaRef Id="966336468"/>
+						<MediaRef Id="974362082"/>
+						<MediaRef Id="1006879668"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3341034318" Name="Play_Roll_Start" ObjectPath="\Events\Default Work Unit\Play_Roll_Start" GUID="{95B191F8-D929-487C-9E8D-3ABFA1C84E50}" DurationType="OneShot" DurationMin="0.37120777" DurationMax="0.6921849">
+					<MediaRefs>
+						<MediaRef Id="719198981"/>
+						<MediaRef Id="873135667"/>
+						<MediaRef Id="992459150"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4010374244" Name="Play_Vox_Player_Death" ObjectPath="\Events\Default Work Unit\Play_Vox_Player_Death" GUID="{34149D33-2985-4250-AF87-B6C872B4A6BD}" DurationType="OneShot" DurationMin="1.451" DurationMax="2.568">
+					<MediaRefs>
+						<MediaRef Id="26011190"/>
+						<MediaRef Id="362420137"/>
+						<MediaRef Id="424909584"/>
+						<MediaRef Id="435548594"/>
+						<MediaRef Id="862517934"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1430510281" Name="Play_Vox_Player_Grunt_General" ObjectPath="\Events\Default Work Unit\Play_Vox_Player_Grunt_General" GUID="{891BAD5C-F31C-46E2-9771-98A80368F8A2}" DurationType="OneShot" DurationMin="0.12233333" DurationMax="0.24666667">
+					<MediaRefs>
+						<MediaRef Id="213082388"/>
+						<MediaRef Id="387825775"/>
+						<MediaRef Id="504154324"/>
+						<MediaRef Id="542998731"/>
+						<MediaRef Id="600196985"/>
+						<MediaRef Id="650130675"/>
+						<MediaRef Id="686316706"/>
+						<MediaRef Id="714576570"/>
+						<MediaRef Id="792249982"/>
+						<MediaRef Id="950100482"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3074491729" Name="Play_Vox_Player_Hurt" ObjectPath="\Events\Default Work Unit\Play_Vox_Player_Hurt" GUID="{FDD1C888-A1A0-4361-AC03-D3BF82EA89BE}" DurationType="OneShot" DurationMin="0.27066666" DurationMax="0.552">
+					<MediaRefs>
+						<MediaRef Id="254414923"/>
+						<MediaRef Id="363106842"/>
+						<MediaRef Id="441622722"/>
+						<MediaRef Id="756744293"/>
+						<MediaRef Id="833996796"/>
+						<MediaRef Id="857094380"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps" ObjectPath="\Switches\Default Work Unit\Footsteps" GUID="{B78DAE32-6451-4F8D-A55C-0608B945BBE6}">
+					<Switches>
+						<Switch Id="712897245" Name="Mud" ObjectPath="\Switches\Default Work Unit\Footsteps\Mud" GUID="{4B77BAD5-050C-43C1-8AD9-980D8A85E415}"/>
+						<Switch Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\Footsteps\Sand" GUID="{A870878E-0CFC-4A9E-A743-543F3EF6CCBB}"/>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Footsteps\Concrete" GUID="{C78DEEC3-8E8E-4C33-97B5-48EA5C0533F1}"/>
+						<Switch Id="2003927601" Name="Puddle" ObjectPath="\Switches\Default Work Unit\Footsteps\Puddle" GUID="{97B65959-523F-42F9-ABB8-08CDA1EA0CBE}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Footsteps\Wood" GUID="{E3958685-016A-445C-B86C-B880031DACD4}"/>
+						<Switch Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\Footsteps\Gravel" GUID="{E0FC7A67-FAE1-49CC-A70C-F8323A84AEA3}"/>
+						<Switch Id="2637588553" Name="Tile" ObjectPath="\Switches\Default Work Unit\Footsteps\Tile" GUID="{0B7DCEB0-DA72-4D37-97BE-298258790F4F}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Footsteps\Grass" GUID="{0C1CADBD-B282-4ACB-B2D4-78638BB8C2E2}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{0C4E5F61-961D-B3E3-E9FD-085F555BF029}</FileHash>
+</SoundBanksInfo>

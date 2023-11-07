@@ -1,6 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
-	4136017490	Play_Confirm			\Default Work Unit\Play_Confirm	
+	1072569702	Play_SFX_Test			\Default Work Unit\Play_SFX_Test	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	800235824	Confirm	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Confirm_8CDF6314.wem		\Actor-Mixer Hierarchy\Default Work Unit\Confirm		88264
+	800235824	SFX_Test	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Confirm_8CDF6314.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Test		88264
 

@@ -41,9 +41,67 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
+      "GUID": "{B78DAE32-6451-4F8D-A55C-0608B945BBE6}",
+      "Switches": [
+       {
+        "Id": "712897245",
+        "Name": "Mud",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Mud",
+        "GUID": "{4B77BAD5-050C-43C1-8AD9-980D8A85E415}"
+       },
+       {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Sand",
+        "GUID": "{A870878E-0CFC-4A9E-A743-543F3EF6CCBB}"
+       },
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Concrete",
+        "GUID": "{C78DEEC3-8E8E-4C33-97B5-48EA5C0533F1}"
+       },
+       {
+        "Id": "2003927601",
+        "Name": "Puddle",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Puddle",
+        "GUID": "{97B65959-523F-42F9-ABB8-08CDA1EA0CBE}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Wood",
+        "GUID": "{E3958685-016A-445C-B86C-B880031DACD4}"
+       },
+       {
+        "Id": "2185786256",
+        "Name": "Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Gravel",
+        "GUID": "{E0FC7A67-FAE1-49CC-A70C-F8323A84AEA3}"
+       },
+       {
+        "Id": "2637588553",
+        "Name": "Tile",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Tile",
+        "GUID": "{0B7DCEB0-DA72-4D37-97BE-298258790F4F}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Grass",
+        "GUID": "{0C1CADBD-B282-4ACB-B2D4-78638BB8C2E2}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{CE51C3E8-55B7-9BAB-8AD4-AA764E22A65D}"
+  "FileHash": "{C3FA8341-A5D3-E827-78C5-6E05FA5B250E}"
  }
 }

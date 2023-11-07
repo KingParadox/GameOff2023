@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{B46C01CA-39C5-C0B3-45A5-ADE7567EE201}",
+    "Hash": "{C995BA6E-C7E7-BBF1-FC1A-2B551D8106E6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -26,9 +26,9 @@
     ],
     "Events": [
      {
-      "Id": "4136017490",
-      "Name": "Play_Confirm",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Confirm",
+      "Id": "1072569702",
+      "Name": "Play_SFX_Test",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Test",
       "GUID": "{53923D77-FDD4-40A8-927C-8A0B6E553595}",
       "DurationType": "OneShot",
       "DurationMin": "0.49945533",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{24960783-4346-5EB0-59D0-5DB319493D17}"
+  "FileHash": "{30B6ECD8-A5E0-01CE-8CE2-E5CA0E88E4DA}"
  }
 }
