@@ -1,2 +1,5 @@
-Skyboxes - HDRI Sky 014 - 2gacademy.net/resources
 M5 VFX Vol2. Fire and Flames(Niagara) - JeongukChoi, Unreal Marketplace
+HDRI Night Sky - https://hdri-haven.com/hdri/starry-night-sky-dome
+Noise textures - Screaming Brain Studios, https://opengameart.org/content/700-noise-textures
+Water texture - https://textures.pixel-furnace.com/
+Water texture - https://www.cadhatch.com/seamless-water-textures?pgid=kw6kx4oi-58030ecc-312b-46aa-8a3b-a264c1d5207d
