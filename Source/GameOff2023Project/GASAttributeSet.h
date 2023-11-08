@@ -32,11 +32,15 @@ public:
 	virtual void OnRep_Health(const FGameplayAttributeData& OldHealth);
 
 	UPROPERTY(BlueprintReadOnly, Category = "Attributes")
-		FGameplayAttributeData Stamina;
+	FGameplayAttributeData Stamina;
 	ATTRIBUTE_ACCESSORS(UGASAttributeSet, Stamina);
 
+	UPROPERTY(BlueprintReadOnly, Category = "Attributes")
+	FGameplayAttributeData MoveSpeed;
+	ATTRIBUTE_ACCESSORS(UGASAttributeSet, MoveSpeed);
+	
 	UFUNCTION()
-		virtual void OnRep_Stamina(const FGameplayAttributeData& OldStamina);
+	virtual void OnRep_Stamina(const FGameplayAttributeData& OldStamina);
 
 public:
 	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Abilities")
