@@ -22,6 +22,7 @@ UAbilitySystemComponent* AMyAGRCharacter::GetAbilitySystemComponent() const
 }
 
 void AMyAGRCharacter::PossessedBy(AController* NewController)
+
 {
     Super::PossessedBy(NewController);
 
