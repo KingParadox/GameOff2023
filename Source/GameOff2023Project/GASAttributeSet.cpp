@@ -23,3 +23,8 @@ void UGASAttributeSet::OnRep_Health(const FGameplayAttributeData& OldHealth)
 {
 	GAMEPLAYATTRIBUTE_REPNOTIFY(UGASAttributeSet, Health, OldHealth);
 }
+
+void UGASAttributeSet::OnRep_Armor(const FGameplayAttributeData& OldHealth)
+{
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGASAttributeSet, Armor, OldHealth);
+}
