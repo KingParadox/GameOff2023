@@ -1,8 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+#include "GE_Calculations.h"
 #include "GASAttributeSet.h"
 #include "GASAbilitySystemComponent.h"
-#include "GE_Calculations.h"
 
 struct FDamageStatistics
 {
