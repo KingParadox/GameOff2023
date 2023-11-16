@@ -18,11 +18,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{986487A9-2683-E47A-8688-3D0FE6FDB954}",
+    "Hash": "{D3EBB97F-3767-C4FC-A386-3D048F745A8E}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1953891406",
+       "Name": "DefaultRoomVerb",
+       "ObjectPath": "\\Effects\\Default Work Unit\\DefaultRoomVerb",
+       "GUID": "{361C3C14-038F-4F35-83D8-6A14535A7FDB}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -48,6 +58,21 @@
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "2687056600",
+      "Name": "FX_Rev_Inside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\FX_Rev_Inside",
+      "GUID": "{99E1E7B6-617C-4D4C-AC33-18A1418B7D98}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1953891406"
+        }
+       ]
+      }
      }
     ],
     "SwitchGroups": [
@@ -110,11 +135,48 @@
     ]
    },
    {
+    "Id": "2687056600",
+    "Type": "Bus",
+    "GUID": "{99E1E7B6-617C-4D4C-AC33-18A1418B7D98}",
+    "Language": "SFX",
+    "Hash": "{6E40BE29-ED17-3137-F997-ED41CDA8D314}",
+    "ObjectPath": "FX_Rev_Inside",
+    "ShortName": "FX_Rev_Inside",
+    "Path": "Bus/FX_Rev_Inside.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1953891406",
+       "Name": "DefaultRoomVerb",
+       "ObjectPath": "\\Effects\\Default Work Unit\\DefaultRoomVerb",
+       "GUID": "{361C3C14-038F-4F35-83D8-6A14535A7FDB}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "2687056600",
+      "Name": "FX_Rev_Inside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\FX_Rev_Inside",
+      "GUID": "{99E1E7B6-617C-4D4C-AC33-18A1418B7D98}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1953891406"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
     "Id": "3291379323",
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{42B0A9E6-D883-F5CB-C577-EBF8F5E361F3}",
+    "Hash": "{A8BC3446-810B-29E7-CD71-DB9967786603}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -1642,6 +1704,6 @@
     ]
    }
   ],
-  "FileHash": "{27E9F023-C13F-3F64-94FD-A362DFC62876}"
+  "FileHash": "{5C3E0DB8-B219-D180-A992-1FC5F0EDC871}"
  }
 }

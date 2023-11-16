@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2687056600",
+    "Type": "Bus",
+    "GUID": "{99E1E7B6-617C-4D4C-AC33-18A1418B7D98}",
+    "Language": "SFX",
+    "Hash": "{6E40BE29-ED17-3137-F997-ED41CDA8D314}",
+    "ObjectPath": "FX_Rev_Inside",
+    "ShortName": "FX_Rev_Inside",
+    "Path": "Bus/FX_Rev_Inside.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1953891406",
+       "Name": "DefaultRoomVerb",
+       "ObjectPath": "\\Effects\\Default Work Unit\\DefaultRoomVerb",
+       "GUID": "{361C3C14-038F-4F35-83D8-6A14535A7FDB}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "2687056600",
+      "Name": "FX_Rev_Inside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\FX_Rev_Inside",
+      "GUID": "{99E1E7B6-617C-4D4C-AC33-18A1418B7D98}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1953891406"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{96FF41F7-D5CF-02C0-4613-96F3092474CA}"
+ }
+}

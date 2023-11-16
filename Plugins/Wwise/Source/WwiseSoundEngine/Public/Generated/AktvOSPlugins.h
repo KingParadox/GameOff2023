@@ -16,5 +16,5 @@ Copyright (c) 2023 Audiokinetic Inc.
 *******************************************************************************/
 
 #if PLATFORM_TVOS
-
+#include <AK/Plugin/AkRoomVerbFXFactory.h>
 #endif
