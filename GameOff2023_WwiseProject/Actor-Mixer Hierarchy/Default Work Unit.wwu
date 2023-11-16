@@ -962,7 +962,7 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
 						</Reference>
 						<Reference Name="SwitchGroupOrStateGroup">
-							<ObjectRef Name="Footsteps_Switch" ID="{2838582B-AC7D-41AE-85B6-001820A4B0F9}" WorkUnitID="{6A38DE0F-1DD9-4E1A-B615-8DA88A2309D7}"/>
+							<ObjectRef Name="SurfaceMaterial_Switch" ID="{2838582B-AC7D-41AE-85B6-001820A4B0F9}" WorkUnitID="{6A38DE0F-1DD9-4E1A-B615-8DA88A2309D7}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2550,6 +2550,504 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<RandomSequenceContainer Name="Block" ID="{3F7330C4-65CC-4EB2-BADD-6E4673711281}" ShortID="777476767">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Player_Block_01" ID="{596B1E82-6B90-4AFD-9744-8B85113975FF}" ShortID="886874577">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Player_Block_01" ID="{ED8B8DA2-D30D-4310-8FD2-2D2099133E3E}">
+									<Language>SFX</Language>
+									<AudioFile>Block\SFX_Player_Block_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1017635794"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Player_Block_01" ID="{ED8B8DA2-D30D-4310-8FD2-2D2099133E3E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Player_Block_02" ID="{33461C01-648F-464C-945F-51F8EF1BC711}" ShortID="709168262">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Player_Block_02" ID="{D7E97AAC-7F41-4ED9-9D83-758DF8630540}">
+									<Language>SFX</Language>
+									<AudioFile>Block\SFX_Player_Block_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="905074597"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Player_Block_02" ID="{D7E97AAC-7F41-4ED9-9D83-758DF8630540}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Player_Block_03" ID="{FFAC6B7A-B92D-4BA8-9F30-2EFF9E4217FB}" ShortID="554570130">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Player_Block_03" ID="{4437D7F9-806E-4D26-8D4B-57633577C5D2}">
+									<Language>SFX</Language>
+									<AudioFile>Block\SFX_Player_Block_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="545824517"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Player_Block_03" ID="{4437D7F9-806E-4D26-8D4B-57633577C5D2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Parry" ID="{14D89EF9-27EF-493D-A3C2-0F3DDB09DF8A}" ShortID="640722202">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Player_Parry_V2_01" ID="{4DE1B905-6303-4079-B086-28C89683997D}" ShortID="855410083">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Player_Parry_V2_01" ID="{2DE07DC0-A337-47BC-8508-62FCD8779684}">
+									<Language>SFX</Language>
+									<AudioFile>Parry\SFX_Player_Parry_V2_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1051326266"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Player_Parry_V2_01" ID="{2DE07DC0-A337-47BC-8508-62FCD8779684}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Player_Parry_V2_02" ID="{340DA9C1-34F7-4DA9-8CF5-FC7E425101C4}" ShortID="987008585">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Player_Parry_V2_02" ID="{B64324E6-2CE7-427A-8B2A-42E5805682A8}">
+									<Language>SFX</Language>
+									<AudioFile>Parry\SFX_Player_Parry_V2_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="273198874"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Player_Parry_V2_02" ID="{B64324E6-2CE7-427A-8B2A-42E5805682A8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Player_Parry_V2_03" ID="{435B00D2-27D6-4E53-ABE5-19CAF4CEB3F5}" ShortID="704707825">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Player_Parry_V2_03" ID="{2AC59542-9FB8-4FE5-B4F4-FB27B7C3B030}">
+									<Language>SFX</Language>
+									<AudioFile>Parry\SFX_Player_Parry_V2_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="237674721"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Player_Parry_V2_03" ID="{2AC59542-9FB8-4FE5-B4F4-FB27B7C3B030}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Folder Name="Sword Collision" ID="{30F06BDD-93FB-4F85-904F-5EA657B5A6B7}" ShortID="60130544">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Collide Hit" ID="{FEDDEBED-C420-46B1-884C-D717CE4EAE2C}" ShortID="514033431">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Player_Weapon_Collide_Hit_01" ID="{FE419966-8366-44D0-B08C-4404D1D701B8}" ShortID="799469120">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Player_Weapon_Collide_Hit_01" ID="{546B8134-E8DB-477C-ACA1-3942F1FAFDE0}">
+											<Language>SFX</Language>
+											<AudioFile>Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="685573023"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Player_Weapon_Collide_Hit_01" ID="{546B8134-E8DB-477C-ACA1-3942F1FAFDE0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Player_Weapon_Collide_Hit_02" ID="{861A9ABD-3623-4EC1-8636-2E7DBFD96499}" ShortID="403238941">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Player_Weapon_Collide_Hit_02" ID="{06B718B1-C53A-47AC-93C1-969A35798995}">
+											<Language>SFX</Language>
+											<AudioFile>Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="62411906"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Player_Weapon_Collide_Hit_02" ID="{06B718B1-C53A-47AC-93C1-969A35798995}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Player_Weapon_Collide_Hit_03" ID="{B32AB565-BA7F-4382-ABBB-381B710A9B86}" ShortID="664115569">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Player_Weapon_Collide_Hit_03" ID="{07D87280-5A62-4C96-9AB0-99F4E52DE07A}">
+											<Language>SFX</Language>
+											<AudioFile>Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="235412066"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Player_Weapon_Collide_Hit_03" ID="{07D87280-5A62-4C96-9AB0-99F4E52DE07A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Player_Weapon_Collide_Hit_04" ID="{A07F6CC0-4650-43C8-B7E3-DBA4597B2810}" ShortID="460918459">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Player_Weapon_Collide_Hit_04" ID="{C6F35242-77A8-4349-A4BB-07758CF78C29}">
+											<Language>SFX</Language>
+											<AudioFile>Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="342719623"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Player_Weapon_Collide_Hit_04" ID="{C6F35242-77A8-4349-A4BB-07758CF78C29}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<SwitchContainer Name="SwordCollideTails" ID="{5E9D94B1-4DCD-42A5-8E8C-11233B9FABD5}" ShortID="793896973">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="SurfaceMaterial_Switch" ID="{2838582B-AC7D-41AE-85B6-001820A4B0F9}" WorkUnitID="{6A38DE0F-1DD9-4E1A-B615-8DA88A2309D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Wood" ID="{0F5C3D1F-A11F-435E-AF64-F862239B8322}" ShortID="315932582">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Player_Weapon_Collide_Tail_Wood_V2_01" ID="{F327F149-E13B-4758-B40C-B1456B01515A}" ShortID="132789565">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Player_Weapon_Collide_Tail_Wood_V2_01" ID="{89480CB3-5939-49B1-BC08-676ED5A7EA80}">
+													<Language>SFX</Language>
+													<AudioFile>Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="767858523"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Player_Weapon_Collide_Tail_Wood_V2_01" ID="{89480CB3-5939-49B1-BC08-676ED5A7EA80}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Player_Weapon_Collide_Tail_Wood_V2_02" ID="{5695C053-DCAA-4DEC-B56B-48A795AC53F3}" ShortID="506420204">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Player_Weapon_Collide_Tail_Wood_V2_02" ID="{49BCFBB8-FF42-4153-86CB-2626DB498813}">
+													<Language>SFX</Language>
+													<AudioFile>Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="911930623"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Player_Weapon_Collide_Tail_Wood_V2_02" ID="{49BCFBB8-FF42-4153-86CB-2626DB498813}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Player_Weapon_Collide_Tail_Wood_V2_03" ID="{02008A2A-301A-4401-A4FD-F6C9848B7A24}" ShortID="381071704">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Player_Weapon_Collide_Tail_Wood_V2_03" ID="{38928B8A-3D4B-46E6-AC69-9391516BF8C7}">
+													<Language>SFX</Language>
+													<AudioFile>Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="850853619"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Player_Weapon_Collide_Tail_Wood_V2_03" ID="{38928B8A-3D4B-46E6-AC69-9391516BF8C7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Player_Weapon_Collide_Tail_Wood_V2_04" ID="{82CDD15F-FE2D-413E-A04D-F03141E97C36}" ShortID="161245774">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Player_Weapon_Collide_Tail_Wood_V2_04" ID="{E39CD254-23B8-4B3B-A658-4773FC57AC20}">
+													<Language>SFX</Language>
+													<AudioFile>Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="367213697"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Player_Weapon_Collide_Tail_Wood_V2_04" ID="{E39CD254-23B8-4B3B-A658-4773FC57AC20}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Concrete" ID="{623CAB02-F253-41E5-BFD9-28F5AEF4A19A}" ShortID="476509197">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Player_Weapon_Collide_Tail_Concrete_01" ID="{3997B3CF-D792-4C6F-B10C-61F3ED0AAB93}" ShortID="307033098">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Player_Weapon_Collide_Tail_Concrete_01" ID="{A172865F-53C0-4081-B7F3-EB079F40C1FB}">
+													<Language>SFX</Language>
+													<AudioFile>Weapon Collide\Collide Tail\Concrete\SFX_Player_Weapon_Collide_Tail_Concrete_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="258718558"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Player_Weapon_Collide_Tail_Concrete_01" ID="{A172865F-53C0-4081-B7F3-EB079F40C1FB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Player_Weapon_Collide_Tail_Concrete_02" ID="{45E0FBFD-A172-418E-9103-EFE42117E60C}" ShortID="901934280">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Player_Weapon_Collide_Tail_Concrete_02" ID="{47093B9A-605E-4CB1-9EA2-E57A8A5FD2DF}">
+													<Language>SFX</Language>
+													<AudioFile>Weapon Collide\Collide Tail\Concrete\SFX_Player_Weapon_Collide_Tail_Concrete_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="869843051"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Player_Weapon_Collide_Tail_Concrete_02" ID="{47093B9A-605E-4CB1-9EA2-E57A8A5FD2DF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Player_Weapon_Collide_Tail_Concrete_03" ID="{D18D42A7-E545-48D3-8EA9-3D12A517788E}" ShortID="701245565">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Player_Weapon_Collide_Tail_Concrete_03" ID="{699294C9-F513-4A22-AFB4-489345B38DF3}">
+													<Language>SFX</Language>
+													<AudioFile>Weapon Collide\Collide Tail\Concrete\SFX_Player_Weapon_Collide_Tail_Concrete_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="94506757"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Player_Weapon_Collide_Tail_Concrete_03" ID="{699294C9-F513-4A22-AFB4-489345B38DF3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Concrete" ID="{623CAB02-F253-41E5-BFD9-28F5AEF4A19A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Wood" ID="{0F5C3D1F-A11F-435E-AF64-F862239B8322}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Wood" ID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
+										<ItemList>
+											<ItemRef Name="Wood" ID="{0F5C3D1F-A11F-435E-AF64-F862239B8322}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Concrete" ID="{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}"/>
+										<ItemList>
+											<ItemRef Name="Concrete" ID="{623CAB02-F253-41E5-BFD9-28F5AEF4A19A}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

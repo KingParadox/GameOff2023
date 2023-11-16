@@ -3,7 +3,7 @@
 	<Switches>
 		<WorkUnit Name="Default Work Unit" ID="{6A38DE0F-1DD9-4E1A-B615-8DA88A2309D7}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="Footsteps_Switch" ID="{2838582B-AC7D-41AE-85B6-001820A4B0F9}">
+				<SwitchGroup Name="SurfaceMaterial_Switch" ID="{2838582B-AC7D-41AE-85B6-001820A4B0F9}">
 					<ChildrenList>
 						<Switch Name="Concrete" ID="{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}"/>
 						<Switch Name="Grass" ID="{8DC566AD-CAEE-4DE5-811F-EB8B24F72BBD}"/>

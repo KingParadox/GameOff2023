@@ -130,6 +130,27 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SwordCollision" ID="{60E47DA0-6A74-437D-8AE3-6CA25247B280}">
+					<ChildrenList>
+						<Action Name="" ID="{09D6C2EF-F080-46C1-8C94-F0A5FEDCB4A7}" ShortID="705925437">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Collide Hit" ID="{FEDDEBED-C420-46B1-884C-D717CE4EAE2C}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A0B64EC9-55EA-4F41-AC71-10D3509E6D0A}" ShortID="711305823">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SwordCollideTails" ID="{5E9D94B1-4DCD-42A5-8E8C-11233B9FABD5}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
