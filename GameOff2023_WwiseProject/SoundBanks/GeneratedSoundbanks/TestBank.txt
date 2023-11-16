@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	160282985	Play_SwordHeavy_Attack			\Default Work Unit\Play_SwordHeavy_Attack	
 	2755574209	Play_Block			\Default Work Unit\Play_Block	
+	2802509975	Play_SwordCollision			\Default Work Unit\Play_SwordCollision	
 	3305509726	Play_Roll_Contact			\Default Work Unit\Play_Roll_Contact	
 	3341034318	Play_Roll_Start			\Default Work Unit\Play_Roll_Start	
 	3689126666	Play_Jump			\Default Work Unit\Play_Jump	
@@ -10,17 +11,17 @@ Event	ID	Name			Wwise Object Path	Notes
 	4172974113	Play_SwordQuick_Attack			\Default Work Unit\Play_SwordQuick_Attack	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
-	3140091853	Footsteps_Switch			\Default Work Unit\Footsteps_Switch	
+	2033627364	SurfaceMaterial_Switch			\Default Work Unit\SurfaceMaterial_Switch	
 
 Switch	ID	Name	Switch Group			Notes
-	712897245	Mud	Footsteps_Switch			
-	803837735	Sand	Footsteps_Switch			
-	841620460	Concrete	Footsteps_Switch			
-	2003927601	Puddle	Footsteps_Switch			
-	2058049674	Wood	Footsteps_Switch			
-	2185786256	Gravel	Footsteps_Switch			
-	2637588553	Tile	Footsteps_Switch			
-	4248645337	Grass	Footsteps_Switch			
+	712897245	Mud	SurfaceMaterial_Switch			
+	803837735	Sand	SurfaceMaterial_Switch			
+	841620460	Concrete	SurfaceMaterial_Switch			
+	2003927601	Puddle	SurfaceMaterial_Switch			
+	2058049674	Wood	SurfaceMaterial_Switch			
+	2185786256	Gravel	SurfaceMaterial_Switch			
+	2637588553	Tile	SurfaceMaterial_Switch			
+	4248645337	Grass	SurfaceMaterial_Switch			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	8322717	Foley_Player_FSWood_05	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Wood\Foley_Player_FSWood_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\Foley_Player_FSWood_05		10728
@@ -28,9 +29,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	24570841	Player_Attack_Quick_Clinks_03	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Movement\Attack\Quick\Player_Attack_Quick_Clinks_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Attack\Foley\FoleyQuick_Attack\Player_Attack_Quick_Clinks_03		30496
 	59261838	Foley_Player_FSWood_07	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Wood\Foley_Player_FSWood_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\Foley_Player_FSWood_07		13512
 	60137753	Foley_Player_FSPuddle_04	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Puddle\Foley_Player_FSPuddle_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Puddle\Foley_Player_FSPuddle_04		28512
+	62411906	SFX_Player_Weapon_Collide_Hit_02	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sword Collision\Collide Hit\SFX_Player_Weapon_Collide_Hit_02		28528
 	65126692	Foley_Player_FSSand_07	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Sand\Foley_Player_FSSand_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\Foley_Player_FSSand_07		45920
 	71179315	Foley_Player_FSMud_02	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Mud\Foley_Player_FSMud_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Mud\Foley_Player_FSMud_02		42976
 	71370987	Foley_Player_FSPuddle_06	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Puddle\Foley_Player_FSPuddle_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Puddle\Foley_Player_FSPuddle_06		28848
+	94506757	SFX_Player_Weapon_Collide_Tail_Concrete_03	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Weapon Collide\Collide Tail\Concrete\SFX_Player_Weapon_Collide_Tail_Concrete_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sword Collision\SwordCollideTails\Concrete\SFX_Player_Weapon_Collide_Tail_Concrete_03		154720
 	121170771	Foley_Player_FSWood_08	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Wood\Foley_Player_FSWood_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\Foley_Player_FSWood_08		8632
 	161690530	Player_Attack_Heavy_01	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Attack\Heavy\Player_Attack_Heavy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Attack\Sword\SwordHeavy_Attack\Player_Attack_Heavy_01		112096
 	209418646	Foley_Player_FSGrass_06	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Grass\Foley_Player_FSGrass_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\Foley_Player_FSGrass_06		88928
@@ -39,7 +42,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	215853117	Player_Attack_Heavy_03	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Attack\Heavy\Player_Attack_Heavy_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Attack\Sword\SwordHeavy_Attack\Player_Attack_Heavy_03		112096
 	221869063	Foley_Player_FSGrass_07	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Grass\Foley_Player_FSGrass_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\Foley_Player_FSGrass_07		69696
 	228510349	Foley_Player_FSGravel_07	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Gravel\Foley_Player_FSGravel_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\Foley_Player_FSGravel_07		36096
+	235412066	SFX_Player_Weapon_Collide_Hit_03	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sword Collision\Collide Hit\SFX_Player_Weapon_Collide_Hit_03		28338
 	242457361	Foley_Player_FSTile_08	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Tile\Foley_Player_FSTile_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tile\Foley_Player_FSTile_08		12812
+	258718558	SFX_Player_Weapon_Collide_Tail_Concrete_01	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Weapon Collide\Collide Tail\Concrete\SFX_Player_Weapon_Collide_Tail_Concrete_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sword Collision\SwordCollideTails\Concrete\SFX_Player_Weapon_Collide_Tail_Concrete_01		113760
 	260302158	Player_Attack_Quick_Clinks_02	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Movement\Attack\Quick\Player_Attack_Quick_Clinks_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Attack\Foley\FoleyQuick_Attack\Player_Attack_Quick_Clinks_02		24096
 	260417398	Foley_Player_FSSand_04	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Sand\Foley_Player_FSSand_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\Foley_Player_FSSand_04		46816
 	264922687	Foley_Player_FSMud_07	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Mud\Foley_Player_FSMud_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Mud\Foley_Player_FSMud_07		32482
@@ -54,8 +59,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	326193206	Player_Roll_Start_03_V2	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Movement\Roll\Player_Roll_Start_03_V2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Roll_Start\Player_Roll_Start_03_V2		51296
 	327700979	Foley_Player_FSSand_06	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Sand\Foley_Player_FSSand_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\Foley_Player_FSSand_06		35424
 	333938787	Foley_Player_FSWood_06	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Wood\Foley_Player_FSWood_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\Foley_Player_FSWood_06		13964
+	342719623	SFX_Player_Weapon_Collide_Hit_04	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sword Collision\Collide Hit\SFX_Player_Weapon_Collide_Hit_04		28852
 	354601549	Foley_Player_FSGravel_02	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Gravel\Foley_Player_FSGravel_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\Foley_Player_FSGravel_02		32096
 	366863183	Foley_Player_FSPuddle_05	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Puddle\Foley_Player_FSPuddle_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Puddle\Foley_Player_FSPuddle_05		36240
+	367213697	SFX_Player_Weapon_Collide_Tail_Wood_V2_04	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sword Collision\SwordCollideTails\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_04		80864
 	372935282	Player_Roll_Start_01_V2	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Movement\Roll\Player_Roll_Start_01_V2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Roll_Start\Player_Roll_Start_01_V2		40096
 	388218447	Foley_Player_FSGravel_06	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Gravel\Foley_Player_FSGravel_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\Foley_Player_FSGravel_06		36096
 	391974349	Foley_Player_FSWood_01	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Wood\Foley_Player_FSWood_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\Foley_Player_FSWood_01		16736
@@ -85,6 +92,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	678691469	Foley_Player_FSTile_02	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Tile\Foley_Player_FSTile_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tile\Foley_Player_FSTile_02		13888
 	678775115	Foley_Player_FSGrass_08	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Grass\Foley_Player_FSGrass_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\Foley_Player_FSGrass_08		61664
 	683611462	Foley_Player_FSSand_01	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Sand\Foley_Player_FSSand_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\Foley_Player_FSSand_01		30816
+	685573023	SFX_Player_Weapon_Collide_Hit_01	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sword Collision\Collide Hit\SFX_Player_Weapon_Collide_Hit_01		21858
 	713425900	Foley_Player_FSWood_02	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Wood\Foley_Player_FSWood_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\Foley_Player_FSWood_02		17348
 	721287801	Foley_Player_FSConcrete_03	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Concrete\Foley_Player_FSConcrete_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\Foley_Player_FSConcrete_03		9732
 	725356836	Player_Attack_Quick_01	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Attack\Quick\Player_Attack_Quick_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Attack\Sword\SwordQuick_Attack\Player_Attack_Quick_01		49696
@@ -92,6 +100,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	755805061	Foley_Player_FSConcrete_08	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Concrete\Foley_Player_FSConcrete_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\Foley_Player_FSConcrete_08		7736
 	760257846	SFX_Player_Parry_03	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Parry\SFX_Player_Parry_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Parry\SFX_Player_Parry_03		427616
 	764411101	Foley_Player_FSConcrete_06	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Concrete\Foley_Player_FSConcrete_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\Foley_Player_FSConcrete_06		7712
+	767858523	SFX_Player_Weapon_Collide_Tail_Wood_V2_01	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sword Collision\SwordCollideTails\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_01		76896
 	772393635	Player_Attack_Heavy_Clinks_01	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Movement\Attack\Heavy\Player_Attack_Heavy_Clinks_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Attack\Foley\FoleyHeavy_Attack\Player_Attack_Heavy_Clinks_01		59296
 	773543934	Foley_Player_FSConcrete_01	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Concrete\Foley_Player_FSConcrete_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\Foley_Player_FSConcrete_01		11472
 	779682905	Player_Attack_Heavy_Clinks_03	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Movement\Attack\Heavy\Player_Attack_Heavy_Clinks_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Attack\Foley\FoleyHeavy_Attack\Player_Attack_Heavy_Clinks_03		58050
@@ -100,12 +109,15 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	805047270	Player_Clink_01	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Movement\Clinks\Player_Clink_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Clinks\Player_Clink_01		56096
 	839409548	Player_Jump_Start_02	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Movement\Jump\Player_Jump_Start_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Jump\Player_Jump_Start_02		64096
 	847011496	Player_Clink_07	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Movement\Clinks\Player_Clink_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Clinks\Player_Clink_07		56096
+	850853619	SFX_Player_Weapon_Collide_Tail_Wood_V2_03	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sword Collision\SwordCollideTails\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_03		85344
 	868558447	Foley_Player_FSConcrete_02	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Concrete\Foley_Player_FSConcrete_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\Foley_Player_FSConcrete_02		11792
+	869843051	SFX_Player_Weapon_Collide_Tail_Concrete_02	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Weapon Collide\Collide Tail\Concrete\SFX_Player_Weapon_Collide_Tail_Concrete_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sword Collision\SwordCollideTails\Concrete\SFX_Player_Weapon_Collide_Tail_Concrete_02		93024
 	874739032	Player_Roll_Start_02_V2	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Movement\Roll\Player_Roll_Start_02_V2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Roll_Start\Player_Roll_Start_02_V2		59296
 	876104179	Foley_Player_FSGrass_04	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Grass\Foley_Player_FSGrass_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\Foley_Player_FSGrass_04		90720
 	879545171	Foley_Player_FSSand_03	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Sand\Foley_Player_FSSand_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\Foley_Player_FSSand_03		41440
 	885022101	Player_Attack_Heavy_Clinks_02	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Movement\Attack\Heavy\Player_Attack_Heavy_Clinks_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Attack\Foley\FoleyHeavy_Attack\Player_Attack_Heavy_Clinks_02		49790
 	905074597	SFX_Player_Block_02	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Block\SFX_Player_Block_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Block\SFX_Player_Block_02		111712
+	911930623	SFX_Player_Weapon_Collide_Tail_Wood_V2_02	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sword Collision\SwordCollideTails\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_02		73696
 	917394165	Foley_Player_FSSand_05	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Sand\Foley_Player_FSSand_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\Foley_Player_FSSand_05		43104
 	928410976	Foley_Player_FSGravel_03	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Gravel\Foley_Player_FSGravel_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\Foley_Player_FSGravel_03		32096
 	934624959	Foley_Player_FSWood_03	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\Footstep\Wood\Foley_Player_FSWood_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\Foley_Player_FSWood_03		11040

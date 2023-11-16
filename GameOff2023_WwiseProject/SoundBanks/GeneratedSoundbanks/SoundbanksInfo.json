@@ -52,57 +52,57 @@
     ],
     "SwitchGroups": [
      {
-      "Id": "3140091853",
-      "Name": "Footsteps_Switch",
-      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch",
+      "Id": "2033627364",
+      "Name": "SurfaceMaterial_Switch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch",
       "GUID": "{2838582B-AC7D-41AE-85B6-001820A4B0F9}",
       "Switches": [
        {
         "Id": "712897245",
         "Name": "Mud",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Mud",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch\\Mud",
         "GUID": "{380C3A4E-DE0F-4935-A5E2-5A5A6F3F9F6A}"
        },
        {
         "Id": "803837735",
         "Name": "Sand",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch\\Sand",
         "GUID": "{AABD3CCF-15A0-41D0-BC62-AF749DAF7A77}"
        },
        {
         "Id": "841620460",
         "Name": "Concrete",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch\\Concrete",
         "GUID": "{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}"
        },
        {
         "Id": "2003927601",
         "Name": "Puddle",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Puddle",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch\\Puddle",
         "GUID": "{11FCF32B-43EE-4FD4-8D82-EF0883089520}"
        },
        {
         "Id": "2058049674",
         "Name": "Wood",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch\\Wood",
         "GUID": "{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"
        },
        {
         "Id": "2185786256",
         "Name": "Gravel",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch\\Gravel",
         "GUID": "{006D92F8-FBD7-4D15-8C57-939E0D9B892C}"
        },
        {
         "Id": "2637588553",
         "Name": "Tile",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Tile",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch\\Tile",
         "GUID": "{405E98F7-2B14-4073-99EF-5C30DAB80826}"
        },
        {
         "Id": "4248645337",
         "Name": "Grass",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch\\Grass",
         "GUID": "{8DC566AD-CAEE-4DE5-811F-EB8B24F72BBD}"
        }
       ]
@@ -114,7 +114,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{75D49C54-E1AD-DE81-8845-3AD714F3C9D9}",
+    "Hash": "{42B0A9E6-D883-F5CB-C577-EBF8F5E361F3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -160,6 +160,14 @@
       "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_04_10C4C929.wem"
      },
      {
+      "Id": "62411906",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon Collide\\Collide Hit\\SFX_Player_Weapon_Collide_Hit_02.wav",
+      "CachePath": "SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_02_10C4C929.wem"
+     },
+     {
       "Id": "65126692",
       "Language": "SFX",
       "Streaming": "false",
@@ -182,6 +190,14 @@
       "Location": "Memory",
       "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_06.wav",
       "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_06_10C4C929.wem"
+     },
+     {
+      "Id": "94506757",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon Collide\\Collide Tail\\Concrete\\SFX_Player_Weapon_Collide_Tail_Concrete_03.wav",
+      "CachePath": "SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_03_10C4C929.wem"
      },
      {
       "Id": "121170771",
@@ -248,12 +264,28 @@
       "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_07_10C4C929.wem"
      },
      {
+      "Id": "235412066",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon Collide\\Collide Hit\\SFX_Player_Weapon_Collide_Hit_03.wav",
+      "CachePath": "SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_03_10C4C929.wem"
+     },
+     {
       "Id": "242457361",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_08.wav",
       "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_08_10C4C929.wem"
+     },
+     {
+      "Id": "258718558",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon Collide\\Collide Tail\\Concrete\\SFX_Player_Weapon_Collide_Tail_Concrete_01.wav",
+      "CachePath": "SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_01_10C4C929.wem"
      },
      {
       "Id": "260302158",
@@ -368,6 +400,14 @@
       "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_06_10C4C929.wem"
      },
      {
+      "Id": "342719623",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon Collide\\Collide Hit\\SFX_Player_Weapon_Collide_Hit_04.wav",
+      "CachePath": "SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_04_10C4C929.wem"
+     },
+     {
       "Id": "354601549",
       "Language": "SFX",
       "Streaming": "false",
@@ -382,6 +422,14 @@
       "Location": "Memory",
       "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_05.wav",
       "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_05_10C4C929.wem"
+     },
+     {
+      "Id": "367213697",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon Collide\\Collide Tail\\Wood\\SFX_Player_Weapon_Collide_Tail_Wood_V2_04.wav",
+      "CachePath": "SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_04_10C4C929.wem"
      },
      {
       "Id": "372935282",
@@ -616,6 +664,14 @@
       "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_01_10C4C929.wem"
      },
      {
+      "Id": "685573023",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon Collide\\Collide Hit\\SFX_Player_Weapon_Collide_Hit_01.wav",
+      "CachePath": "SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_01_10C4C929.wem"
+     },
+     {
       "Id": "713425900",
       "Language": "SFX",
       "Streaming": "false",
@@ -670,6 +726,14 @@
       "Location": "Memory",
       "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_06.wav",
       "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_06_10C4C929.wem"
+     },
+     {
+      "Id": "767858523",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon Collide\\Collide Tail\\Wood\\SFX_Player_Weapon_Collide_Tail_Wood_V2_01.wav",
+      "CachePath": "SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_01_10C4C929.wem"
      },
      {
       "Id": "772393635",
@@ -736,12 +800,28 @@
       "CachePath": "SFX/Movement/Clinks/Player_Clink_07_10C4C929.wem"
      },
      {
+      "Id": "850853619",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon Collide\\Collide Tail\\Wood\\SFX_Player_Weapon_Collide_Tail_Wood_V2_03.wav",
+      "CachePath": "SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_03_10C4C929.wem"
+     },
+     {
       "Id": "868558447",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_02.wav",
       "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_02_10C4C929.wem"
+     },
+     {
+      "Id": "869843051",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon Collide\\Collide Tail\\Concrete\\SFX_Player_Weapon_Collide_Tail_Concrete_02.wav",
+      "CachePath": "SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_02_10C4C929.wem"
      },
      {
       "Id": "874739032",
@@ -782,6 +862,14 @@
       "Location": "Memory",
       "ShortName": "Block\\SFX_Player_Block_02.wav",
       "CachePath": "SFX/Block/SFX_Player_Block_02_10C4C929.wem"
+     },
+     {
+      "Id": "911930623",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon Collide\\Collide Tail\\Wood\\SFX_Player_Weapon_Collide_Tail_Wood_V2_02.wav",
+      "CachePath": "SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_02_10C4C929.wem"
      },
      {
       "Id": "917394165",
@@ -993,7 +1081,7 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "3140091853",
+         "GroupId": "2033627364",
          "Id": "2058049674",
          "GUID": "{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"
         },
@@ -1027,7 +1115,7 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "3140091853",
+         "GroupId": "2033627364",
          "Id": "841620460",
          "GUID": "{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}",
          "Default": "true"
@@ -1062,7 +1150,7 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "3140091853",
+         "GroupId": "2033627364",
          "Id": "2003927601",
          "GUID": "{11FCF32B-43EE-4FD4-8D82-EF0883089520}"
         },
@@ -1096,7 +1184,7 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "3140091853",
+         "GroupId": "2033627364",
          "Id": "712897245",
          "GUID": "{380C3A4E-DE0F-4935-A5E2-5A5A6F3F9F6A}"
         },
@@ -1130,7 +1218,7 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "3140091853",
+         "GroupId": "2033627364",
          "Id": "4248645337",
          "GUID": "{8DC566AD-CAEE-4DE5-811F-EB8B24F72BBD}"
         },
@@ -1164,7 +1252,7 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "3140091853",
+         "GroupId": "2033627364",
          "Id": "803837735",
          "GUID": "{AABD3CCF-15A0-41D0-BC62-AF749DAF7A77}"
         },
@@ -1198,7 +1286,7 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "3140091853",
+         "GroupId": "2033627364",
          "Id": "2637588553",
          "GUID": "{405E98F7-2B14-4073-99EF-5C30DAB80826}"
         },
@@ -1232,7 +1320,7 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "3140091853",
+         "GroupId": "2033627364",
          "Id": "2185786256",
          "GUID": "{006D92F8-FBD7-4D15-8C57-939E0D9B892C}"
         },
@@ -1370,6 +1458,72 @@
       ]
      },
      {
+      "Id": "2802509975",
+      "Name": "Play_SwordCollision",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SwordCollision",
+      "GUID": "{60E47DA0-6A74-437D-8AE3-6CA25247B280}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8666667",
+      "DurationMax": "1.7106667",
+      "MediaRefs": [
+       {
+        "Id": "62411906"
+       },
+       {
+        "Id": "235412066"
+       },
+       {
+        "Id": "342719623"
+       },
+       {
+        "Id": "685573023"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2033627364",
+         "Id": "2058049674",
+         "GUID": "{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "367213697"
+         },
+         {
+          "Id": "767858523"
+         },
+         {
+          "Id": "850853619"
+         },
+         {
+          "Id": "911930623"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2033627364",
+         "Id": "841620460",
+         "GUID": "{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "94506757"
+         },
+         {
+          "Id": "258718558"
+         },
+         {
+          "Id": "869843051"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "160282985",
       "Name": "Play_SwordHeavy_Attack",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_SwordHeavy_Attack",
@@ -1430,57 +1584,57 @@
     ],
     "SwitchGroups": [
      {
-      "Id": "3140091853",
-      "Name": "Footsteps_Switch",
-      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch",
+      "Id": "2033627364",
+      "Name": "SurfaceMaterial_Switch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch",
       "GUID": "{2838582B-AC7D-41AE-85B6-001820A4B0F9}",
       "Switches": [
        {
         "Id": "712897245",
         "Name": "Mud",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Mud",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch\\Mud",
         "GUID": "{380C3A4E-DE0F-4935-A5E2-5A5A6F3F9F6A}"
        },
        {
         "Id": "803837735",
         "Name": "Sand",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch\\Sand",
         "GUID": "{AABD3CCF-15A0-41D0-BC62-AF749DAF7A77}"
        },
        {
         "Id": "841620460",
         "Name": "Concrete",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch\\Concrete",
         "GUID": "{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}"
        },
        {
         "Id": "2003927601",
         "Name": "Puddle",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Puddle",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch\\Puddle",
         "GUID": "{11FCF32B-43EE-4FD4-8D82-EF0883089520}"
        },
        {
         "Id": "2058049674",
         "Name": "Wood",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch\\Wood",
         "GUID": "{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"
        },
        {
         "Id": "2185786256",
         "Name": "Gravel",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch\\Gravel",
         "GUID": "{006D92F8-FBD7-4D15-8C57-939E0D9B892C}"
        },
        {
         "Id": "2637588553",
         "Name": "Tile",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Tile",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch\\Tile",
         "GUID": "{405E98F7-2B14-4073-99EF-5C30DAB80826}"
        },
        {
         "Id": "4248645337",
         "Name": "Grass",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Switch\\Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial_Switch\\Grass",
         "GUID": "{8DC566AD-CAEE-4DE5-811F-EB8B24F72BBD}"
        }
       ]
@@ -1488,6 +1642,6 @@
     ]
    }
   ],
-  "FileHash": "{8C41594F-FDBE-86CA-8E00-16A3181ADD61}"
+  "FileHash": "{27E9F023-C13F-3F64-94FD-A362DFC62876}"
  }
 }

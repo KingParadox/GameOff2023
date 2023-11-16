@@ -23,21 +23,21 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 			<SwitchGroups>
-				<SwitchGroup Id="3140091853" Name="Footsteps_Switch" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch" GUID="{2838582B-AC7D-41AE-85B6-001820A4B0F9}">
+				<SwitchGroup Id="2033627364" Name="SurfaceMaterial_Switch" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch" GUID="{2838582B-AC7D-41AE-85B6-001820A4B0F9}">
 					<Switches>
-						<Switch Id="712897245" Name="Mud" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch\Mud" GUID="{380C3A4E-DE0F-4935-A5E2-5A5A6F3F9F6A}"/>
-						<Switch Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch\Sand" GUID="{AABD3CCF-15A0-41D0-BC62-AF749DAF7A77}"/>
-						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch\Concrete" GUID="{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}"/>
-						<Switch Id="2003927601" Name="Puddle" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch\Puddle" GUID="{11FCF32B-43EE-4FD4-8D82-EF0883089520}"/>
-						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch\Wood" GUID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
-						<Switch Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch\Gravel" GUID="{006D92F8-FBD7-4D15-8C57-939E0D9B892C}"/>
-						<Switch Id="2637588553" Name="Tile" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch\Tile" GUID="{405E98F7-2B14-4073-99EF-5C30DAB80826}"/>
-						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch\Grass" GUID="{8DC566AD-CAEE-4DE5-811F-EB8B24F72BBD}"/>
+						<Switch Id="712897245" Name="Mud" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch\Mud" GUID="{380C3A4E-DE0F-4935-A5E2-5A5A6F3F9F6A}"/>
+						<Switch Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch\Sand" GUID="{AABD3CCF-15A0-41D0-BC62-AF749DAF7A77}"/>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch\Concrete" GUID="{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}"/>
+						<Switch Id="2003927601" Name="Puddle" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch\Puddle" GUID="{11FCF32B-43EE-4FD4-8D82-EF0883089520}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch\Wood" GUID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
+						<Switch Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch\Gravel" GUID="{006D92F8-FBD7-4D15-8C57-939E0D9B892C}"/>
+						<Switch Id="2637588553" Name="Tile" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch\Tile" GUID="{405E98F7-2B14-4073-99EF-5C30DAB80826}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch\Grass" GUID="{8DC566AD-CAEE-4DE5-811F-EB8B24F72BBD}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{75D49C54-E1AD-DE81-8845-3AD714F3C9D9}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{42B0A9E6-D883-F5CB-C577-EBF8F5E361F3}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
@@ -62,6 +62,10 @@
 					<ShortName>Footstep\Puddle\Foley_Player_FSPuddle_04.wav</ShortName>
 					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="62411906" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_02.wav</ShortName>
+					<CachePath>SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="65126692" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Sand\Foley_Player_FSSand_07.wav</ShortName>
 					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_07_10C4C929.wem</CachePath>
@@ -73,6 +77,10 @@
 				<File Id="71370987" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Puddle\Foley_Player_FSPuddle_06.wav</ShortName>
 					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="94506757" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon Collide\Collide Tail\Concrete\SFX_Player_Weapon_Collide_Tail_Concrete_03.wav</ShortName>
+					<CachePath>SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="121170771" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_08.wav</ShortName>
@@ -106,9 +114,17 @@
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_07.wav</ShortName>
 					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_07_10C4C929.wem</CachePath>
 				</File>
+				<File Id="235412066" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_03.wav</ShortName>
+					<CachePath>SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="242457361" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_08.wav</ShortName>
 					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="258718558" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon Collide\Collide Tail\Concrete\SFX_Player_Weapon_Collide_Tail_Concrete_01.wav</ShortName>
+					<CachePath>SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="260302158" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Attack\Quick\Player_Attack_Quick_Clinks_02.wav</ShortName>
@@ -166,6 +182,10 @@
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_06.wav</ShortName>
 					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="342719623" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_04.wav</ShortName>
+					<CachePath>SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="354601549" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_02.wav</ShortName>
 					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_02_10C4C929.wem</CachePath>
@@ -173,6 +193,10 @@
 				<File Id="366863183" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Puddle\Foley_Player_FSPuddle_05.wav</ShortName>
 					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="367213697" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_04.wav</ShortName>
+					<CachePath>SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="372935282" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Roll\Player_Roll_Start_01_V2.wav</ShortName>
@@ -290,6 +314,10 @@
 					<ShortName>Footstep\Sand\Foley_Player_FSSand_01.wav</ShortName>
 					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="685573023" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_01.wav</ShortName>
+					<CachePath>SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="713425900" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_02.wav</ShortName>
 					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_02_10C4C929.wem</CachePath>
@@ -317,6 +345,10 @@
 				<File Id="764411101" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_06.wav</ShortName>
 					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="767858523" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_01.wav</ShortName>
+					<CachePath>SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="772393635" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Attack\Heavy\Player_Attack_Heavy_Clinks_01.wav</ShortName>
@@ -350,9 +382,17 @@
 					<ShortName>Movement\Clinks\Player_Clink_07.wav</ShortName>
 					<CachePath>SFX/Movement/Clinks/Player_Clink_07_10C4C929.wem</CachePath>
 				</File>
+				<File Id="850853619" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_03.wav</ShortName>
+					<CachePath>SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="868558447" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_02.wav</ShortName>
 					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="869843051" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon Collide\Collide Tail\Concrete\SFX_Player_Weapon_Collide_Tail_Concrete_02.wav</ShortName>
+					<CachePath>SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="874739032" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Roll\Player_Roll_Start_02_V2.wav</ShortName>
@@ -373,6 +413,10 @@
 				<File Id="905074597" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Block\SFX_Player_Block_02.wav</ShortName>
 					<CachePath>SFX/Block/SFX_Player_Block_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="911930623" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_02.wav</ShortName>
+					<CachePath>SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="917394165" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Sand\Foley_Player_FSSand_05.wav</ShortName>
@@ -469,7 +513,7 @@
 					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3140091853" Id="2058049674" GUID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
+							<SwitchValue GroupType="Switch" GroupId="2033627364" Id="2058049674" GUID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
 							<MediaRefs>
 								<MediaRef Id="8322717"/>
 								<MediaRef Id="59261838"/>
@@ -482,7 +526,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3140091853" Id="841620460" GUID="{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="2033627364" Id="841620460" GUID="{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="514662885"/>
 								<MediaRef Id="721287801"/>
@@ -495,7 +539,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3140091853" Id="2003927601" GUID="{11FCF32B-43EE-4FD4-8D82-EF0883089520}"/>
+							<SwitchValue GroupType="Switch" GroupId="2033627364" Id="2003927601" GUID="{11FCF32B-43EE-4FD4-8D82-EF0883089520}"/>
 							<MediaRefs>
 								<MediaRef Id="60137753"/>
 								<MediaRef Id="71370987"/>
@@ -508,7 +552,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3140091853" Id="712897245" GUID="{380C3A4E-DE0F-4935-A5E2-5A5A6F3F9F6A}"/>
+							<SwitchValue GroupType="Switch" GroupId="2033627364" Id="712897245" GUID="{380C3A4E-DE0F-4935-A5E2-5A5A6F3F9F6A}"/>
 							<MediaRefs>
 								<MediaRef Id="11945840"/>
 								<MediaRef Id="71179315"/>
@@ -521,7 +565,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3140091853" Id="4248645337" GUID="{8DC566AD-CAEE-4DE5-811F-EB8B24F72BBD}"/>
+							<SwitchValue GroupType="Switch" GroupId="2033627364" Id="4248645337" GUID="{8DC566AD-CAEE-4DE5-811F-EB8B24F72BBD}"/>
 							<MediaRefs>
 								<MediaRef Id="209418646"/>
 								<MediaRef Id="221869063"/>
@@ -534,7 +578,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3140091853" Id="803837735" GUID="{AABD3CCF-15A0-41D0-BC62-AF749DAF7A77}"/>
+							<SwitchValue GroupType="Switch" GroupId="2033627364" Id="803837735" GUID="{AABD3CCF-15A0-41D0-BC62-AF749DAF7A77}"/>
 							<MediaRefs>
 								<MediaRef Id="65126692"/>
 								<MediaRef Id="260417398"/>
@@ -547,7 +591,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3140091853" Id="2637588553" GUID="{405E98F7-2B14-4073-99EF-5C30DAB80826}"/>
+							<SwitchValue GroupType="Switch" GroupId="2033627364" Id="2637588553" GUID="{405E98F7-2B14-4073-99EF-5C30DAB80826}"/>
 							<MediaRefs>
 								<MediaRef Id="212462202"/>
 								<MediaRef Id="242457361"/>
@@ -560,7 +604,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3140091853" Id="2185786256" GUID="{006D92F8-FBD7-4D15-8C57-939E0D9B892C}"/>
+							<SwitchValue GroupType="Switch" GroupId="2033627364" Id="2185786256" GUID="{006D92F8-FBD7-4D15-8C57-939E0D9B892C}"/>
 							<MediaRefs>
 								<MediaRef Id="228510349"/>
 								<MediaRef Id="283202258"/>
@@ -610,6 +654,33 @@
 						<MediaRef Id="874739032"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2802509975" Name="Play_SwordCollision" ObjectPath="\Events\Default Work Unit\Play_SwordCollision" GUID="{60E47DA0-6A74-437D-8AE3-6CA25247B280}" DurationType="OneShot" DurationMin="0.8666667" DurationMax="1.7106667">
+					<MediaRefs>
+						<MediaRef Id="62411906"/>
+						<MediaRef Id="235412066"/>
+						<MediaRef Id="342719623"/>
+						<MediaRef Id="685573023"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2033627364" Id="2058049674" GUID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
+							<MediaRefs>
+								<MediaRef Id="367213697"/>
+								<MediaRef Id="767858523"/>
+								<MediaRef Id="850853619"/>
+								<MediaRef Id="911930623"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2033627364" Id="841620460" GUID="{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}"/>
+							<MediaRefs>
+								<MediaRef Id="94506757"/>
+								<MediaRef Id="258718558"/>
+								<MediaRef Id="869843051"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="160282985" Name="Play_SwordHeavy_Attack" ObjectPath="\Events\Default Work Unit\Play_SwordHeavy_Attack" GUID="{C1306E9D-C354-498E-AF8F-8F0B3E3D11B4}" DurationType="OneShot" DurationMin="1.1666666" DurationMax="1.1666666">
 					<MediaRefs>
 						<MediaRef Id="161690530"/>
@@ -632,20 +703,20 @@
 				</Event>
 			</Events>
 			<SwitchGroups>
-				<SwitchGroup Id="3140091853" Name="Footsteps_Switch" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch" GUID="{2838582B-AC7D-41AE-85B6-001820A4B0F9}">
+				<SwitchGroup Id="2033627364" Name="SurfaceMaterial_Switch" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch" GUID="{2838582B-AC7D-41AE-85B6-001820A4B0F9}">
 					<Switches>
-						<Switch Id="712897245" Name="Mud" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch\Mud" GUID="{380C3A4E-DE0F-4935-A5E2-5A5A6F3F9F6A}"/>
-						<Switch Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch\Sand" GUID="{AABD3CCF-15A0-41D0-BC62-AF749DAF7A77}"/>
-						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch\Concrete" GUID="{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}"/>
-						<Switch Id="2003927601" Name="Puddle" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch\Puddle" GUID="{11FCF32B-43EE-4FD4-8D82-EF0883089520}"/>
-						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch\Wood" GUID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
-						<Switch Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch\Gravel" GUID="{006D92F8-FBD7-4D15-8C57-939E0D9B892C}"/>
-						<Switch Id="2637588553" Name="Tile" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch\Tile" GUID="{405E98F7-2B14-4073-99EF-5C30DAB80826}"/>
-						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Footsteps_Switch\Grass" GUID="{8DC566AD-CAEE-4DE5-811F-EB8B24F72BBD}"/>
+						<Switch Id="712897245" Name="Mud" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch\Mud" GUID="{380C3A4E-DE0F-4935-A5E2-5A5A6F3F9F6A}"/>
+						<Switch Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch\Sand" GUID="{AABD3CCF-15A0-41D0-BC62-AF749DAF7A77}"/>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch\Concrete" GUID="{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}"/>
+						<Switch Id="2003927601" Name="Puddle" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch\Puddle" GUID="{11FCF32B-43EE-4FD4-8D82-EF0883089520}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch\Wood" GUID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
+						<Switch Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch\Gravel" GUID="{006D92F8-FBD7-4D15-8C57-939E0D9B892C}"/>
+						<Switch Id="2637588553" Name="Tile" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch\Tile" GUID="{405E98F7-2B14-4073-99EF-5C30DAB80826}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch\Grass" GUID="{8DC566AD-CAEE-4DE5-811F-EB8B24F72BBD}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{44577C58-5807-092A-4AF9-5F7401F1D5BD}</FileHash>
+	<FileHash>{6E02274C-D90E-F0C4-3F06-CFD7CEE6E5D2}</FileHash>
 </SoundBanksInfo>
