@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1171332045	FX_Rev_InsideLarge			\Default Work Unit\Master Audio Bus\FX_Rev_InsideLarge	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1953891406	DefaultRoomVerb	Wwise RoomVerb			
+

@@ -17,6 +17,7 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -46,331 +47,10 @@
 				</Sound>
 				<Folder Name="Movement" ID="{0EFFDA8C-F3C1-4E3D-9A67-E84ADD3AE390}" ShortID="69291502">
 					<ChildrenList>
-						<Folder Name="Attack" ID="{1E92A0E8-CB79-4922-90F0-3835A9CD94FE}" ShortID="374660351">
-							<ChildrenList>
-								<Folder Name="Sword" ID="{0B845702-2054-4F31-8953-535F5277E785}" ShortID="639398507">
-									<ChildrenList>
-										<RandomSequenceContainer Name="SwordQuick_Attack" ID="{013AA68F-CE16-4A5B-97FA-4A226CBC7E29}" ShortID="612482724">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Player_Attack_Quick_01" ID="{F34A54C2-A488-4284-AFCB-3126D91338B9}" ShortID="927025300">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_Attack_Quick_01" ID="{4E0A7D97-F123-446C-8F44-8C5231C825ED}">
-															<Language>SFX</Language>
-															<AudioFile>Attack\Quick\Player_Attack_Quick_01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="725356836"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Attack_Quick_01" ID="{4E0A7D97-F123-446C-8F44-8C5231C825ED}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_Attack_Quick_02" ID="{439685D7-3EAD-4C9B-A5C4-2810F26828E0}" ShortID="779313085">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_Attack_Quick_02" ID="{E54397E1-B620-4861-B489-37702D2F0399}">
-															<Language>SFX</Language>
-															<AudioFile>Attack\Quick\Player_Attack_Quick_02.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="728018726"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Attack_Quick_02" ID="{E54397E1-B620-4861-B489-37702D2F0399}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_Attack_Quick_03" ID="{5D24C47F-AEEE-4E23-9C6E-FD7EF7B48FB2}" ShortID="240623469">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_Attack_Quick_03" ID="{96D5E9BF-0313-4615-B7D0-777E5AC2BDC5}">
-															<Language>SFX</Language>
-															<AudioFile>Attack\Quick\Player_Attack_Quick_03.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1071825627"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Attack_Quick_03" ID="{96D5E9BF-0313-4615-B7D0-777E5AC2BDC5}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="SwordHeavy_Attack" ID="{65F33C44-CE07-4004-BF43-E9E968642A84}" ShortID="239081409">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Player_Attack_Heavy_01" ID="{8581EE8C-D55D-4E56-AE18-E701C386A901}" ShortID="894273244">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_Attack_Heavy_01" ID="{C6BE4EE2-4D2C-49D7-8B7A-2E8E2A0069A8}">
-															<Language>SFX</Language>
-															<AudioFile>Attack\Heavy\Player_Attack_Heavy_01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="161690530"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Attack_Heavy_01" ID="{C6BE4EE2-4D2C-49D7-8B7A-2E8E2A0069A8}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_Attack_Heavy_02" ID="{03D34DC9-FD52-4493-9A66-AE5ECFD5AB1C}" ShortID="548033031">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_Attack_Heavy_02" ID="{AB667407-5D9B-479E-A708-156B907112CE}">
-															<Language>SFX</Language>
-															<AudioFile>Attack\Heavy\Player_Attack_Heavy_02.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="549521244"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Attack_Heavy_02" ID="{AB667407-5D9B-479E-A708-156B907112CE}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_Attack_Heavy_03" ID="{49A42611-46FE-4BCA-9404-F667FC0DB6E9}" ShortID="38728550">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_Attack_Heavy_03" ID="{774F315F-DC02-442F-B97F-A58CC704D813}">
-															<Language>SFX</Language>
-															<AudioFile>Attack\Heavy\Player_Attack_Heavy_03.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="215853117"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Attack_Heavy_03" ID="{774F315F-DC02-442F-B97F-A58CC704D813}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-									</ChildrenList>
-								</Folder>
-								<Folder Name="Foley" ID="{703120DD-5A91-4DE3-8805-5EE7F4CFD506}" ShortID="914749948">
-									<ChildrenList>
-										<RandomSequenceContainer Name="FoleyHeavy_Attack" ID="{AD2C0012-BA89-4D88-BF2A-2B0D6A2E22B1}" ShortID="700184383">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Player_Attack_Heavy_Clinks_01" ID="{EBFC159E-8F26-4CBB-90E6-41EF5BBD92C0}" ShortID="585207638">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_Attack_Heavy_Clinks_01" ID="{2A652971-F60E-407C-9523-D8282C681C8C}">
-															<Language>SFX</Language>
-															<AudioFile>Movement\Attack\Heavy\Player_Attack_Heavy_Clinks_01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="772393635"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Attack_Heavy_Clinks_01" ID="{2A652971-F60E-407C-9523-D8282C681C8C}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_Attack_Heavy_Clinks_02" ID="{B03245A8-FF0B-48EA-B15D-D3D011A5B561}" ShortID="684659997">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_Attack_Heavy_Clinks_02" ID="{A66B290B-8934-47FA-B713-93358E912DBF}">
-															<Language>SFX</Language>
-															<AudioFile>Movement\Attack\Heavy\Player_Attack_Heavy_Clinks_02.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="885022101"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Attack_Heavy_Clinks_02" ID="{A66B290B-8934-47FA-B713-93358E912DBF}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_Attack_Heavy_Clinks_03" ID="{8FF5CB73-1674-4B18-9F31-C39B00EA4E16}" ShortID="936548743">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_Attack_Heavy_Clinks_03" ID="{25BAF75D-7021-4602-884E-CC5ADDAE28C1}">
-															<Language>SFX</Language>
-															<AudioFile>Movement\Attack\Heavy\Player_Attack_Heavy_Clinks_03.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="779682905"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Attack_Heavy_Clinks_03" ID="{25BAF75D-7021-4602-884E-CC5ADDAE28C1}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="FoleyQuick_Attack" ID="{0ABCF399-2734-4107-B146-CF51836730EA}" ShortID="232229397">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Player_Attack_Quick_Clinks_01" ID="{51E92949-5C6D-4507-A2DD-885D0E3E1DD2}" ShortID="848478580">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_Attack_Quick_Clinks_01" ID="{49E830E0-6C9B-445D-BECB-247E95805104}">
-															<Language>SFX</Language>
-															<AudioFile>Movement\Attack\Quick\Player_Attack_Quick_Clinks_01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="306367092"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Attack_Quick_Clinks_01" ID="{49E830E0-6C9B-445D-BECB-247E95805104}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_Attack_Quick_Clinks_02" ID="{1B721507-5668-48D5-A4D1-CA13C63CEF5A}" ShortID="857496288">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_Attack_Quick_Clinks_02" ID="{4F4C37F2-045E-4FCB-8C96-00E3AC2E2BC2}">
-															<Language>SFX</Language>
-															<AudioFile>Movement\Attack\Quick\Player_Attack_Quick_Clinks_02.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="260302158"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Attack_Quick_Clinks_02" ID="{4F4C37F2-045E-4FCB-8C96-00E3AC2E2BC2}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_Attack_Quick_Clinks_03" ID="{37F62CF6-0B58-4DFA-A004-D58E8D38A9DC}" ShortID="1030912928">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_Attack_Quick_Clinks_03" ID="{24B1758D-E021-42D0-ACD8-8A42F29D84EA}">
-															<Language>SFX</Language>
-															<AudioFile>Movement\Attack\Quick\Player_Attack_Quick_Clinks_03.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="24570841"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Attack_Quick_Clinks_03" ID="{24B1758D-E021-42D0-ACD8-8A42F29D84EA}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-									</ChildrenList>
-								</Folder>
-							</ChildrenList>
-						</Folder>
 						<RandomSequenceContainer Name="Clinks" ID="{4B7A4931-8C48-48AA-997E-F1511E6CC73E}" ShortID="109653393">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
@@ -559,6 +239,9 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Jump" ID="{00EBC37C-24AD-4065-ADF7-FF2ABB7BA400}" ShortID="12226389">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
@@ -637,6 +320,9 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Roll_Contact" ID="{D0E042A7-A1C2-4EAC-B8D4-05643F37EA4F}" ShortID="52087536">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
@@ -715,6 +401,9 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Roll_Start" ID="{3671E0B0-750D-4B71-8CAD-7620E3C5A452}" ShortID="671546749">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
@@ -788,162 +477,6 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Player_Roll_Start_03_V2" ID="{98A86989-B532-4E76-B0DA-F43EA0001457}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Block" ID="{95078936-E244-420A-A210-C87ED522913A}" ShortID="722995847">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="SFX_Player_Block_01" ID="{59079695-B876-4C9F-A903-C60662818FF8}" ShortID="472257383">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Player_Block_01" ID="{8EDB6C02-13C0-4ED3-8DAA-CF5CFAC848C0}">
-											<Language>SFX</Language>
-											<AudioFile>Block\SFX_Player_Block_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1017635794"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Player_Block_01" ID="{8EDB6C02-13C0-4ED3-8DAA-CF5CFAC848C0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="SFX_Player_Block_02" ID="{00ABD504-28AC-44C5-9C7C-EF9955E5B462}" ShortID="687454454">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Player_Block_02" ID="{4FC324D2-0C24-4784-AF20-EE7D6D0C46FB}">
-											<Language>SFX</Language>
-											<AudioFile>Block\SFX_Player_Block_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="905074597"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Player_Block_02" ID="{4FC324D2-0C24-4784-AF20-EE7D6D0C46FB}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="SFX_Player_Block_03" ID="{CA8ECE12-5756-41C3-A05B-27112C2BB34A}" ShortID="58661259">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Player_Block_03" ID="{31177C45-720B-43D0-9511-2B2169E2811D}">
-											<Language>SFX</Language>
-											<AudioFile>Block\SFX_Player_Block_03.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="545824517"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Player_Block_03" ID="{31177C45-720B-43D0-9511-2B2169E2811D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Parry" ID="{B2266C52-D635-46E8-BC07-1D3548D22A13}" ShortID="315601769">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="SFX_Player_Parry_01" ID="{AEDAFDBC-FDB2-4AF3-BE6E-394A23CD80B0}" ShortID="440389747">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Player_Parry_01" ID="{2B55E2C7-141C-445E-AE2A-FB9C043E5117}">
-											<Language>SFX</Language>
-											<AudioFile>Parry\SFX_Player_Parry_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1016855423"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Player_Parry_01" ID="{2B55E2C7-141C-445E-AE2A-FB9C043E5117}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="SFX_Player_Parry_02" ID="{F84DC8E3-786A-4A18-95BC-E440ADE9925B}" ShortID="552858774">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Player_Parry_02" ID="{381E2FA8-A47C-4867-B96B-D6D09A74B0D1}">
-											<Language>SFX</Language>
-											<AudioFile>Parry\SFX_Player_Parry_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="544303138"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Player_Parry_02" ID="{381E2FA8-A47C-4867-B96B-D6D09A74B0D1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="SFX_Player_Parry_03" ID="{F5394B5E-8D73-46EA-8868-2D9A9AAB5A1B}" ShortID="491189426">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Player_Parry_03" ID="{B66ED95F-54B6-41BA-8FFB-A1EA7E159DA9}">
-											<Language>SFX</Language>
-											<AudioFile>Parry\SFX_Player_Parry_03.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="760257846"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Player_Parry_03" ID="{B66ED95F-54B6-41BA-8FFB-A1EA7E159DA9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -2554,6 +2087,9 @@
 					</GroupingInfo>
 				</SwitchContainer>
 				<RandomSequenceContainer Name="Block" ID="{3F7330C4-65CC-4EB2-BADD-6E4673711281}" ShortID="777476767">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
@@ -2632,6 +2168,9 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Parry" ID="{14D89EF9-27EF-493D-A3C2-0F3DDB09DF8A}" ShortID="640722202">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
@@ -2713,6 +2252,7 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Collide Hit" ID="{FEDDEBED-C420-46B1-884C-D717CE4EAE2C}" ShortID="514033431">
 							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-16</Value>
@@ -2820,6 +2360,7 @@
 						</RandomSequenceContainer>
 						<SwitchContainer Name="SwordCollideTails" ID="{5E9D94B1-4DCD-42A5-8E8C-11233B9FABD5}" ShortID="793896973">
 							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-8</Value>
@@ -3049,6 +2590,344 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Attack" ID="{1E92A0E8-CB79-4922-90F0-3835A9CD94FE}" ShortID="374660351">
+					<ChildrenList>
+						<Folder Name="Sword" ID="{0B845702-2054-4F31-8953-535F5277E785}" ShortID="639398507">
+							<ChildrenList>
+								<RandomSequenceContainer Name="SwordQuick_Attack" ID="{013AA68F-CE16-4A5B-97FA-4A226CBC7E29}" ShortID="612482724">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Player_Attack_Quick_01" ID="{F34A54C2-A488-4284-AFCB-3126D91338B9}" ShortID="927025300">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_Attack_Quick_01" ID="{4E0A7D97-F123-446C-8F44-8C5231C825ED}">
+													<Language>SFX</Language>
+													<AudioFile>Attack\Quick\Player_Attack_Quick_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="725356836"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_Attack_Quick_01" ID="{4E0A7D97-F123-446C-8F44-8C5231C825ED}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player_Attack_Quick_02" ID="{439685D7-3EAD-4C9B-A5C4-2810F26828E0}" ShortID="779313085">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_Attack_Quick_02" ID="{E54397E1-B620-4861-B489-37702D2F0399}">
+													<Language>SFX</Language>
+													<AudioFile>Attack\Quick\Player_Attack_Quick_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="728018726"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_Attack_Quick_02" ID="{E54397E1-B620-4861-B489-37702D2F0399}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player_Attack_Quick_03" ID="{5D24C47F-AEEE-4E23-9C6E-FD7EF7B48FB2}" ShortID="240623469">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_Attack_Quick_03" ID="{96D5E9BF-0313-4615-B7D0-777E5AC2BDC5}">
+													<Language>SFX</Language>
+													<AudioFile>Attack\Quick\Player_Attack_Quick_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1071825627"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_Attack_Quick_03" ID="{96D5E9BF-0313-4615-B7D0-777E5AC2BDC5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SwordHeavy_Attack" ID="{65F33C44-CE07-4004-BF43-E9E968642A84}" ShortID="239081409">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Player_Attack_Heavy_01" ID="{8581EE8C-D55D-4E56-AE18-E701C386A901}" ShortID="894273244">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_Attack_Heavy_01" ID="{C6BE4EE2-4D2C-49D7-8B7A-2E8E2A0069A8}">
+													<Language>SFX</Language>
+													<AudioFile>Attack\Heavy\Player_Attack_Heavy_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="161690530"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_Attack_Heavy_01" ID="{C6BE4EE2-4D2C-49D7-8B7A-2E8E2A0069A8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player_Attack_Heavy_02" ID="{03D34DC9-FD52-4493-9A66-AE5ECFD5AB1C}" ShortID="548033031">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_Attack_Heavy_02" ID="{AB667407-5D9B-479E-A708-156B907112CE}">
+													<Language>SFX</Language>
+													<AudioFile>Attack\Heavy\Player_Attack_Heavy_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="549521244"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_Attack_Heavy_02" ID="{AB667407-5D9B-479E-A708-156B907112CE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player_Attack_Heavy_03" ID="{49A42611-46FE-4BCA-9404-F667FC0DB6E9}" ShortID="38728550">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_Attack_Heavy_03" ID="{774F315F-DC02-442F-B97F-A58CC704D813}">
+													<Language>SFX</Language>
+													<AudioFile>Attack\Heavy\Player_Attack_Heavy_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="215853117"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_Attack_Heavy_03" ID="{774F315F-DC02-442F-B97F-A58CC704D813}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Foley" ID="{703120DD-5A91-4DE3-8805-5EE7F4CFD506}" ShortID="914749948">
+							<ChildrenList>
+								<RandomSequenceContainer Name="FoleyHeavy_Attack" ID="{AD2C0012-BA89-4D88-BF2A-2B0D6A2E22B1}" ShortID="700184383">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Player_Attack_Heavy_Clinks_01" ID="{EBFC159E-8F26-4CBB-90E6-41EF5BBD92C0}" ShortID="585207638">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_Attack_Heavy_Clinks_01" ID="{2A652971-F60E-407C-9523-D8282C681C8C}">
+													<Language>SFX</Language>
+													<AudioFile>Movement\Attack\Heavy\Player_Attack_Heavy_Clinks_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="772393635"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_Attack_Heavy_Clinks_01" ID="{2A652971-F60E-407C-9523-D8282C681C8C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player_Attack_Heavy_Clinks_02" ID="{B03245A8-FF0B-48EA-B15D-D3D011A5B561}" ShortID="684659997">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_Attack_Heavy_Clinks_02" ID="{A66B290B-8934-47FA-B713-93358E912DBF}">
+													<Language>SFX</Language>
+													<AudioFile>Movement\Attack\Heavy\Player_Attack_Heavy_Clinks_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="885022101"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_Attack_Heavy_Clinks_02" ID="{A66B290B-8934-47FA-B713-93358E912DBF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player_Attack_Heavy_Clinks_03" ID="{8FF5CB73-1674-4B18-9F31-C39B00EA4E16}" ShortID="936548743">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_Attack_Heavy_Clinks_03" ID="{25BAF75D-7021-4602-884E-CC5ADDAE28C1}">
+													<Language>SFX</Language>
+													<AudioFile>Movement\Attack\Heavy\Player_Attack_Heavy_Clinks_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="779682905"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_Attack_Heavy_Clinks_03" ID="{25BAF75D-7021-4602-884E-CC5ADDAE28C1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FoleyQuick_Attack" ID="{0ABCF399-2734-4107-B146-CF51836730EA}" ShortID="232229397">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Player_Attack_Quick_Clinks_01" ID="{51E92949-5C6D-4507-A2DD-885D0E3E1DD2}" ShortID="848478580">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_Attack_Quick_Clinks_01" ID="{49E830E0-6C9B-445D-BECB-247E95805104}">
+													<Language>SFX</Language>
+													<AudioFile>Movement\Attack\Quick\Player_Attack_Quick_Clinks_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="306367092"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_Attack_Quick_Clinks_01" ID="{49E830E0-6C9B-445D-BECB-247E95805104}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player_Attack_Quick_Clinks_02" ID="{1B721507-5668-48D5-A4D1-CA13C63CEF5A}" ShortID="857496288">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_Attack_Quick_Clinks_02" ID="{4F4C37F2-045E-4FCB-8C96-00E3AC2E2BC2}">
+													<Language>SFX</Language>
+													<AudioFile>Movement\Attack\Quick\Player_Attack_Quick_Clinks_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="260302158"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_Attack_Quick_Clinks_02" ID="{4F4C37F2-045E-4FCB-8C96-00E3AC2E2BC2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player_Attack_Quick_Clinks_03" ID="{37F62CF6-0B58-4DFA-A004-D58E8D38A9DC}" ShortID="1030912928">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_Attack_Quick_Clinks_03" ID="{24B1758D-E021-42D0-ACD8-8A42F29D84EA}">
+													<Language>SFX</Language>
+													<AudioFile>Movement\Attack\Quick\Player_Attack_Quick_Clinks_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="24570841"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_Attack_Quick_Clinks_03" ID="{24B1758D-E021-42D0-ACD8-8A42F29D84EA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

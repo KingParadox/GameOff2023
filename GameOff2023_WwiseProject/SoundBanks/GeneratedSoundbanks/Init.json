@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D3EBB97F-3767-C4FC-A386-3D048F745A8E}",
+    "Hash": "{C354AA59-013B-3972-3A66-5F1ACFB1BA08}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -54,9 +54,22 @@
     ],
     "AuxBusses": [
      {
-      "Id": "2687056600",
-      "Name": "FX_Rev_Inside",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\FX_Rev_Inside",
+      "Id": "1171332045",
+      "Name": "FX_Rev_InsideLarge",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\FX_Rev_InsideLarge",
+      "GUID": "{C996FEE0-15D7-488A-B915-B29FF2FE1317}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1953891406"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2962520293",
+      "Name": "FX_Rev_InsideSmall",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\FX_Rev_InsideSmall",
       "GUID": "{99E1E7B6-617C-4D4C-AC33-18A1418B7D98}",
       "PluginRefs": {
        "ShareSets": [
@@ -127,6 +140,6 @@
     ]
    }
   ],
-  "FileHash": "{605DF83C-9217-1656-46E6-77B77E6FD568}"
+  "FileHash": "{85D838E9-2E03-8769-8E30-0EF82F105248}"
  }
 }

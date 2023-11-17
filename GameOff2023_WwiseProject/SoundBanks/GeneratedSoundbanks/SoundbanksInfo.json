@@ -14,11 +14,48 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
+    "Id": "1171332045",
+    "Type": "Bus",
+    "GUID": "{C996FEE0-15D7-488A-B915-B29FF2FE1317}",
+    "Language": "SFX",
+    "Hash": "{E0D9C1B5-7D69-1362-8CC2-E272386F76EE}",
+    "ObjectPath": "FX_Rev_InsideLarge",
+    "ShortName": "FX_Rev_InsideLarge",
+    "Path": "Bus/FX_Rev_InsideLarge.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1953891406",
+       "Name": "DefaultRoomVerb",
+       "ObjectPath": "\\Effects\\Default Work Unit\\DefaultRoomVerb",
+       "GUID": "{361C3C14-038F-4F35-83D8-6A14535A7FDB}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "1171332045",
+      "Name": "FX_Rev_InsideLarge",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\FX_Rev_InsideLarge",
+      "GUID": "{C996FEE0-15D7-488A-B915-B29FF2FE1317}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1953891406"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
     "Id": "1355168291",
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D3EBB97F-3767-C4FC-A386-3D048F745A8E}",
+    "Hash": "{C354AA59-013B-3972-3A66-5F1ACFB1BA08}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -62,9 +99,22 @@
     ],
     "AuxBusses": [
      {
-      "Id": "2687056600",
-      "Name": "FX_Rev_Inside",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\FX_Rev_Inside",
+      "Id": "1171332045",
+      "Name": "FX_Rev_InsideLarge",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\FX_Rev_InsideLarge",
+      "GUID": "{C996FEE0-15D7-488A-B915-B29FF2FE1317}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1953891406"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2962520293",
+      "Name": "FX_Rev_InsideSmall",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\FX_Rev_InsideSmall",
       "GUID": "{99E1E7B6-617C-4D4C-AC33-18A1418B7D98}",
       "PluginRefs": {
        "ShareSets": [
@@ -135,14 +185,14 @@
     ]
    },
    {
-    "Id": "2687056600",
+    "Id": "2962520293",
     "Type": "Bus",
     "GUID": "{99E1E7B6-617C-4D4C-AC33-18A1418B7D98}",
     "Language": "SFX",
-    "Hash": "{6E40BE29-ED17-3137-F997-ED41CDA8D314}",
-    "ObjectPath": "FX_Rev_Inside",
-    "ShortName": "FX_Rev_Inside",
-    "Path": "Bus/FX_Rev_Inside.bnk",
+    "Hash": "{497A29AF-84C9-DDFC-079B-472E8D0D8533}",
+    "ObjectPath": "FX_Rev_InsideSmall",
+    "ShortName": "FX_Rev_InsideSmall",
+    "Path": "Bus/FX_Rev_InsideSmall.bnk",
     "Plugins": {
      "ShareSets": [
       {
@@ -157,9 +207,9 @@
     },
     "AuxBusses": [
      {
-      "Id": "2687056600",
-      "Name": "FX_Rev_Inside",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\FX_Rev_Inside",
+      "Id": "2962520293",
+      "Name": "FX_Rev_InsideSmall",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\FX_Rev_InsideSmall",
       "GUID": "{99E1E7B6-617C-4D4C-AC33-18A1418B7D98}",
       "PluginRefs": {
        "ShareSets": [
@@ -176,7 +226,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{A8BC3446-810B-29E7-CD71-DB9967786603}",
+    "Hash": "{7E61A921-4D8F-B0AB-15E4-FD9AAF87FBAD}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -334,6 +384,14 @@
       "CachePath": "SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_03_10C4C929.wem"
      },
      {
+      "Id": "237674721",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Parry\\SFX_Player_Parry_V2_03.wav",
+      "CachePath": "SFX/Parry/SFX_Player_Parry_V2_03_10C4C929.wem"
+     },
+     {
       "Id": "242457361",
       "Language": "SFX",
       "Streaming": "false",
@@ -372,6 +430,14 @@
       "Location": "Memory",
       "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_07.wav",
       "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_07_10C4C929.wem"
+     },
+     {
+      "Id": "273198874",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Parry\\SFX_Player_Parry_V2_02.wav",
+      "CachePath": "SFX/Parry/SFX_Player_Parry_V2_02_10C4C929.wem"
      },
      {
       "Id": "273323821",
@@ -614,14 +680,6 @@
       "CachePath": "SFX/Movement/Roll/Player_Roll_Contact_01_V2_10C4C929.wem"
      },
      {
-      "Id": "544303138",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Parry\\SFX_Player_Parry_02.wav",
-      "CachePath": "SFX/Parry/SFX_Player_Parry_02_10C4C929.wem"
-     },
-     {
       "Id": "545824517",
       "Language": "SFX",
       "Streaming": "false",
@@ -772,14 +830,6 @@
       "Location": "Memory",
       "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_08.wav",
       "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_08_10C4C929.wem"
-     },
-     {
-      "Id": "760257846",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Parry\\SFX_Player_Parry_03.wav",
-      "CachePath": "SFX/Parry/SFX_Player_Parry_03_10C4C929.wem"
      },
      {
       "Id": "764411101",
@@ -990,14 +1040,6 @@
       "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_06_10C4C929.wem"
      },
      {
-      "Id": "1016855423",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Parry\\SFX_Player_Parry_01.wav",
-      "CachePath": "SFX/Parry/SFX_Player_Parry_01_10C4C929.wem"
-     },
-     {
       "Id": "1017635794",
       "Language": "SFX",
       "Streaming": "false",
@@ -1044,6 +1086,14 @@
       "Location": "Memory",
       "ShortName": "Movement\\Clinks\\Player_Clink_06.wav",
       "CachePath": "SFX/Movement/Clinks/Player_Clink_06_10C4C929.wem"
+     },
+     {
+      "Id": "1051326266",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Parry\\SFX_Player_Parry_V2_01.wav",
+      "CachePath": "SFX/Parry/SFX_Player_Parry_V2_01_10C4C929.wem"
      },
      {
       "Id": "1052527691",
@@ -1465,17 +1515,17 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Parry",
       "GUID": "{BBF31B62-35C8-4FA1-97A9-CE8BD2215273}",
       "DurationType": "OneShot",
-      "DurationMin": "3.5946667",
-      "DurationMax": "4.4533334",
+      "DurationMin": "3.5626667",
+      "DurationMax": "4.602667",
       "MediaRefs": [
        {
-        "Id": "544303138"
+        "Id": "237674721"
        },
        {
-        "Id": "760257846"
+        "Id": "273198874"
        },
        {
-        "Id": "1016855423"
+        "Id": "1051326266"
        }
       ]
      },
@@ -1704,6 +1754,6 @@
     ]
    }
   ],
-  "FileHash": "{5C3E0DB8-B219-D180-A992-1FC5F0EDC871}"
+  "FileHash": "{D5B8EF01-8245-81D2-9A36-2F60CB8E71CA}"
  }
 }

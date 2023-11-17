@@ -13,11 +13,19 @@
 							<ObjectRef Name="Play_SwordCollision" ID="{60E47DA0-6A74-437D-8AE3-6CA25247B280}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps" ID="{C59D2EB3-D663-4E61-B78C-A50CE32617F5}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SwordQuick_Attack" ID="{013AA68F-CE16-4A5B-97FA-4A226CBC7E29}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Wood" ID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
+						<CurrentSwitchRef Name="Concrete" ID="{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

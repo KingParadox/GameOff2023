@@ -10,7 +10,28 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AuxBus Name="FX_Rev_Inside" ID="{99E1E7B6-617C-4D4C-AC33-18A1418B7D98}">
+						<AuxBus Name="FX_Rev_InsideSmall" ID="{99E1E7B6-617C-4D4C-AC33-18A1418B7D98}">
+							<PropertyList>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="DefaultRoomVerb" ID="{361C3C14-038F-4F35-83D8-6A14535A7FDB}" WorkUnitID="{31FD2EA9-0283-4028-AAA9-4AF70D6366B3}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="FX_Rev_InsideLarge" ID="{C996FEE0-15D7-488A-B915-B29FF2FE1317}">
+							<PropertyList>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<ObjectRef Name="DefaultRoomVerb" ID="{361C3C14-038F-4F35-83D8-6A14535A7FDB}" WorkUnitID="{31FD2EA9-0283-4028-AAA9-4AF70D6366B3}"/>

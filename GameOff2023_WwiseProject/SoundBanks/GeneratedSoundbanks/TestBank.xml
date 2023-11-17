@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{A8BC3446-810B-29E7-CD71-DB9967786603}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{7E61A921-4D8F-B0AB-15E4-FD9AAF87FBAD}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
@@ -82,6 +82,10 @@
 					<ShortName>Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_03.wav</ShortName>
 					<CachePath>SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="237674721" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Parry\SFX_Player_Parry_V2_03.wav</ShortName>
+					<CachePath>SFX/Parry/SFX_Player_Parry_V2_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="242457361" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_08.wav</ShortName>
 					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_08_10C4C929.wem</CachePath>
@@ -101,6 +105,10 @@
 				<File Id="264922687" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Mud\Foley_Player_FSMud_07.wav</ShortName>
 					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="273198874" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Parry\SFX_Player_Parry_V2_02.wav</ShortName>
+					<CachePath>SFX/Parry/SFX_Player_Parry_V2_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="273323821" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Clinks\Player_Clink_05.wav</ShortName>
@@ -222,10 +230,6 @@
 					<ShortName>Movement\Roll\Player_Roll_Contact_01_V2.wav</ShortName>
 					<CachePath>SFX/Movement/Roll/Player_Roll_Contact_01_V2_10C4C929.wem</CachePath>
 				</File>
-				<File Id="544303138" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Parry\SFX_Player_Parry_02.wav</ShortName>
-					<CachePath>SFX/Parry/SFX_Player_Parry_02_10C4C929.wem</CachePath>
-				</File>
 				<File Id="545824517" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Block\SFX_Player_Block_03.wav</ShortName>
 					<CachePath>SFX/Block/SFX_Player_Block_03_10C4C929.wem</CachePath>
@@ -301,10 +305,6 @@
 				<File Id="755805061" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_08.wav</ShortName>
 					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_08_10C4C929.wem</CachePath>
-				</File>
-				<File Id="760257846" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Parry\SFX_Player_Parry_03.wav</ShortName>
-					<CachePath>SFX/Parry/SFX_Player_Parry_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="764411101" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_06.wav</ShortName>
@@ -410,10 +410,6 @@
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_06.wav</ShortName>
 					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_06_10C4C929.wem</CachePath>
 				</File>
-				<File Id="1016855423" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Parry\SFX_Player_Parry_01.wav</ShortName>
-					<CachePath>SFX/Parry/SFX_Player_Parry_01_10C4C929.wem</CachePath>
-				</File>
 				<File Id="1017635794" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Block\SFX_Player_Block_01.wav</ShortName>
 					<CachePath>SFX/Block/SFX_Player_Block_01_10C4C929.wem</CachePath>
@@ -437,6 +433,10 @@
 				<File Id="1045296774" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Clinks\Player_Clink_06.wav</ShortName>
 					<CachePath>SFX/Movement/Clinks/Player_Clink_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1051326266" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Parry\SFX_Player_Parry_V2_01.wav</ShortName>
+					<CachePath>SFX/Parry/SFX_Player_Parry_V2_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1052527691" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Grass\Foley_Player_FSGrass_05.wav</ShortName>
@@ -597,11 +597,11 @@
 						<MediaRef Id="1045296774"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4115969904" Name="Play_Parry" ObjectPath="\Events\Default Work Unit\Play_Parry" GUID="{BBF31B62-35C8-4FA1-97A9-CE8BD2215273}" DurationType="OneShot" DurationMin="3.5946667" DurationMax="4.4533334">
+				<Event Id="4115969904" Name="Play_Parry" ObjectPath="\Events\Default Work Unit\Play_Parry" GUID="{BBF31B62-35C8-4FA1-97A9-CE8BD2215273}" DurationType="OneShot" DurationMin="3.5626667" DurationMax="4.602667">
 					<MediaRefs>
-						<MediaRef Id="544303138"/>
-						<MediaRef Id="760257846"/>
-						<MediaRef Id="1016855423"/>
+						<MediaRef Id="237674721"/>
+						<MediaRef Id="273198874"/>
+						<MediaRef Id="1051326266"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3305509726" Name="Play_Roll_Contact" ObjectPath="\Events\Default Work Unit\Play_Roll_Contact" GUID="{20B31C1B-99F6-4AD5-852B-85A1E0E566DC}" DurationType="OneShot" DurationMin="0.65" DurationMax="0.8">
@@ -682,5 +682,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{362F70BE-29A9-50B3-F484-DEABC0844926}</FileHash>
+	<FileHash>{4BB6FD5C-4C82-DD74-ED20-9FBACE3C9C7D}</FileHash>
 </SoundBanksInfo>

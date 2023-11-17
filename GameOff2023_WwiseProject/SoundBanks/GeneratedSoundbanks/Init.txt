@@ -2,7 +2,8 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	2687056600	FX_Rev_Inside			\Default Work Unit\Master Audio Bus\FX_Rev_Inside	
+	1171332045	FX_Rev_InsideLarge			\Default Work Unit\Master Audio Bus\FX_Rev_InsideLarge	
+	2962520293	FX_Rev_InsideSmall			\Default Work Unit\Master Audio Bus\FX_Rev_InsideSmall	
 
 Effect plug-ins	ID	Name	Type				Notes
 	1953891406	DefaultRoomVerb	Wwise RoomVerb			

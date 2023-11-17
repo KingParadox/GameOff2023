@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{A8BC3446-810B-29E7-CD71-DB9967786603}",
+    "Hash": "{7E61A921-4D8F-B0AB-15E4-FD9AAF87FBAD}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -168,6 +168,14 @@
       "CachePath": "SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_03_10C4C929.wem"
      },
      {
+      "Id": "237674721",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Parry\\SFX_Player_Parry_V2_03.wav",
+      "CachePath": "SFX/Parry/SFX_Player_Parry_V2_03_10C4C929.wem"
+     },
+     {
       "Id": "242457361",
       "Language": "SFX",
       "Streaming": "false",
@@ -206,6 +214,14 @@
       "Location": "Memory",
       "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_07.wav",
       "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_07_10C4C929.wem"
+     },
+     {
+      "Id": "273198874",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Parry\\SFX_Player_Parry_V2_02.wav",
+      "CachePath": "SFX/Parry/SFX_Player_Parry_V2_02_10C4C929.wem"
      },
      {
       "Id": "273323821",
@@ -448,14 +464,6 @@
       "CachePath": "SFX/Movement/Roll/Player_Roll_Contact_01_V2_10C4C929.wem"
      },
      {
-      "Id": "544303138",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Parry\\SFX_Player_Parry_02.wav",
-      "CachePath": "SFX/Parry/SFX_Player_Parry_02_10C4C929.wem"
-     },
-     {
       "Id": "545824517",
       "Language": "SFX",
       "Streaming": "false",
@@ -606,14 +614,6 @@
       "Location": "Memory",
       "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_08.wav",
       "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_08_10C4C929.wem"
-     },
-     {
-      "Id": "760257846",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Parry\\SFX_Player_Parry_03.wav",
-      "CachePath": "SFX/Parry/SFX_Player_Parry_03_10C4C929.wem"
      },
      {
       "Id": "764411101",
@@ -824,14 +824,6 @@
       "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_06_10C4C929.wem"
      },
      {
-      "Id": "1016855423",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Parry\\SFX_Player_Parry_01.wav",
-      "CachePath": "SFX/Parry/SFX_Player_Parry_01_10C4C929.wem"
-     },
-     {
       "Id": "1017635794",
       "Language": "SFX",
       "Streaming": "false",
@@ -878,6 +870,14 @@
       "Location": "Memory",
       "ShortName": "Movement\\Clinks\\Player_Clink_06.wav",
       "CachePath": "SFX/Movement/Clinks/Player_Clink_06_10C4C929.wem"
+     },
+     {
+      "Id": "1051326266",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Parry\\SFX_Player_Parry_V2_01.wav",
+      "CachePath": "SFX/Parry/SFX_Player_Parry_V2_01_10C4C929.wem"
      },
      {
       "Id": "1052527691",
@@ -1299,17 +1299,17 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Parry",
       "GUID": "{BBF31B62-35C8-4FA1-97A9-CE8BD2215273}",
       "DurationType": "OneShot",
-      "DurationMin": "3.5946667",
-      "DurationMax": "4.4533334",
+      "DurationMin": "3.5626667",
+      "DurationMax": "4.602667",
       "MediaRefs": [
        {
-        "Id": "544303138"
+        "Id": "237674721"
        },
        {
-        "Id": "760257846"
+        "Id": "273198874"
        },
        {
-        "Id": "1016855423"
+        "Id": "1051326266"
        }
       ]
      },
@@ -1538,6 +1538,6 @@
     ]
    }
   ],
-  "FileHash": "{7EA15FA8-8EC2-8E8C-D3FF-D9EBD66FF015}"
+  "FileHash": "{42216313-B92D-7D6E-BEA3-DED69BF1180C}"
  }
 }

@@ -5,7 +5,10 @@
 			<ChildrenList>
 				<Effect Name="DefaultRoomVerb" ID="{361C3C14-038F-4F35-83D8-6A14535A7FDB}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 					<PropertyList>
-						<Property Name="RoomSize" Type="Real32" Value="50"/>
+						<Property Name="DryLevel" Type="Real32" Value="-10"/>
+						<Property Name="ERPattern" Type="int32" Value="0"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-25"/>
+						<Property Name="RoomSize" Type="Real32" Value="20"/>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>
