@@ -23,6 +23,8 @@ public:
 	UGASAttributeSet();
 
 	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+	virtual void PostGameplayEffectExecute(const FGameplayEffectModCallbackData& Data) override;
+	//virtual void PreAttributeChange(const FGameplayAttribute& Attribute, float& NewValue) override;
 
 	UPROPERTY(BlueprintReadOnly, Category = "Attributes")
 	FGameplayAttributeData Health;
@@ -32,13 +34,29 @@ public:
 	virtual void OnRep_Health(const FGameplayAttributeData& OldHealth);
 
 	UPROPERTY(BlueprintReadOnly, Category = "Attributes")
+	FGameplayAttributeData MaxHealth;
+	ATTRIBUTE_ACCESSORS(UGASAttributeSet, MaxHealth);
+
+	UFUNCTION()
+	virtual void OnRep_MaxHealth(const FGameplayAttributeData& OldMaxHealth);
+
+
+	//----------------------------
+	UPROPERTY(BlueprintReadOnly, Category = "Attributes")
 	FGameplayAttributeData Stamina;
 	ATTRIBUTE_ACCESSORS(UGASAttributeSet, Stamina);
 
 	UFUNCTION()
 	virtual void OnRep_Stamina(const FGameplayAttributeData& OldStamina);
 
+	UPROPERTY(BlueprintReadOnly, Category = "Attributes")
+	FGameplayAttributeData MaxStamina;
+	ATTRIBUTE_ACCESSORS(UGASAttributeSet, MaxStamina);
 
+	UFUNCTION()
+	virtual void OnRep_MaxStamina(const FGameplayAttributeData& OldMaxStamina);
+
+	//----------------------------
 	UPROPERTY(BlueprintReadOnly, Category = "Attributes")
 	FGameplayAttributeData Armor;
 	ATTRIBUTE_ACCESSORS(UGASAttributeSet, Armor);
