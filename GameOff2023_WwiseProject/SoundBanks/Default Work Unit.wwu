@@ -8,6 +8,7 @@
 						<ObjectRef Name="Play_Confirm" ID="{53923D77-FDD4-40A8-927C-8A0B6E553595}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Roll_Start" ID="{B27B2C86-6714-42A2-80B9-C8FE6DF4FE6A}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Block" ID="{AB6DF19B-224F-42EA-9DB4-554A1ABEDCAB}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SwordCollision" ID="{60E47DA0-6A74-437D-8AE3-6CA25247B280}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Jump" ID="{DBB395B7-AC49-47AC-AAA9-A0686BF8CB44}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwordHeavy_Attack" ID="{C1306E9D-C354-498E-AF8F-8F0B3E3D11B4}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Roll_Contact" ID="{20B31C1B-99F6-4AD5-852B-85A1E0E566DC}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
