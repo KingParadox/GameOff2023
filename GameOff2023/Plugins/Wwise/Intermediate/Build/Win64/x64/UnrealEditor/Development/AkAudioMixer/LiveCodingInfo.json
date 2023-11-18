@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AkAudioMixer.cpp.obj": [
+			"AkAudioMixer.cpp.obj",
+			"AkMixerPlatform.cpp.obj",
+			"AudioMixerInputComponent.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WwiseResourceCooker.cpp.obj": [
+			"WwiseResourceCooker.init.gen.cpp.obj",
+			"WwiseResourceCookerModule.gen.cpp.obj",
+			"ResourceCooker.cpp.obj",
+			"WwiseResourceCooker.cpp.obj",
+			"WwiseResourceCookerImpl.cpp.obj",
+			"WwiseResourceCookerModule.cpp.obj",
+			"WwiseResourceCookerModuleImpl.cpp.obj"
+		]
+	}
+}
