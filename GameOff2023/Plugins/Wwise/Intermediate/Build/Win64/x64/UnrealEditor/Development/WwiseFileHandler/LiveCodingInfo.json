@@ -1,0 +1,35 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WwiseFileHandler.cpp.obj": [
+			"WwiseExternalSourceCookedData.gen.cpp.obj",
+			"WwiseExternalSourceStatics.gen.cpp.obj",
+			"WwiseFileHandler.init.gen.cpp.obj",
+			"WwiseLanguageCookedData.gen.cpp.obj",
+			"WwiseMediaCookedData.gen.cpp.obj",
+			"WwiseSoundBankCookedData.gen.cpp.obj",
+			"WwiseExternalSourceCookedData.cpp.obj",
+			"WwiseLanguageCookedData.cpp.obj",
+			"WwiseMediaCookedData.cpp.obj",
+			"WwiseSoundBankCookedData.cpp.obj",
+			"FileHandler.cpp.obj",
+			"FileHandlerMemory.cpp.obj",
+			"WwiseExternalSourceFileState.cpp.obj",
+			"WwiseExternalSourceManagerImpl.cpp.obj",
+			"WwiseExternalSourceStatics.cpp.obj",
+			"WwiseFileCache.cpp.obj",
+			"WwiseFileHandlerBase.cpp.obj",
+			"WwiseFileHandlerModuleImpl.cpp.obj",
+			"WwiseFileState.cpp.obj",
+			"WwiseFileStateTools.cpp.obj",
+			"WwiseIOHook.cpp.obj",
+			"WwiseIOHookImpl.cpp.obj",
+			"WwiseMediaFileState.cpp.obj",
+			"WwiseMediaManagerImpl.cpp.obj",
+			"WwiseSoundBankFileState.cpp.obj",
+			"WwiseSoundBankManagerImpl.cpp.obj",
+			"WwiseWriteFileState.cpp.obj",
+			"FileStateTests.cpp.obj"
+		]
+	}
+}

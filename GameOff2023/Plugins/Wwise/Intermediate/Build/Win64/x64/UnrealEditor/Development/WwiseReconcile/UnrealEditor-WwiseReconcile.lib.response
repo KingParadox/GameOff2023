@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-WwiseReconcile.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\GameOff2023\GameOff2023\Intermediate\Build\Win64\x64\GameOff2023ProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"C:\GameOff2023\GameOff2023\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseReconcile\Module.WwiseReconcile.cpp.obj"
+"C:\GameOff2023\GameOff2023\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseReconcile\Default.rc2.res"
+/OUT:"C:\GameOff2023\GameOff2023\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseReconcile\UnrealEditor-WwiseReconcile.lib"

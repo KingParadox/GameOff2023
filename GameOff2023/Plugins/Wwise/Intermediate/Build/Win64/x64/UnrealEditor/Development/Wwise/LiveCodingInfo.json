@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Wwise.cpp.obj": [
+			"Wwise.init.gen.cpp.obj",
+			"WwiseAudioLinkComponent.gen.cpp.obj",
+			"WwiseAudioLinkSettings.gen.cpp.obj",
+			"WwiseAudioLinkSettingsFactory.gen.cpp.obj",
+			"WwiseAudioLinkSettingsFactory.cpp.obj",
+			"WwiseAudioLinkComponent.cpp.obj",
+			"WwiseAudioLinkFactory.cpp.obj",
+			"WwiseAudioLinkInputClient.cpp.obj",
+			"WwiseAudioLinkSettings.cpp.obj",
+			"WwiseAudioLinkSourcePushed.cpp.obj",
+			"WwiseAudioLinkSynchronizer.cpp.obj",
+			"AudioLink.cpp.obj",
+			"Wwise.cpp.obj",
+			"WwiseModule.cpp.obj"
+		]
+	}
+}
