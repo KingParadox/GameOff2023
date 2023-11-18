@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WwiseReconcile.cpp.obj": [
+			"WwiseReconcile.init.gen.cpp.obj",
+			"WwiseReconcileCommandlet.gen.cpp.obj",
+			"ProjectedResultColumn.cpp.obj",
+			"ReconcileOperationColumn.cpp.obj",
+			"ReconcileUEAssetStatusColumn.cpp.obj",
+			"SWwiseReconcile.cpp.obj",
+			"SWwiseReconcileItemView.cpp.obj",
+			"WwiseReconcileObjectColumn.cpp.obj",
+			"AkUnrealAssetDataHelper.cpp.obj",
+			"Reconcile.cpp.obj",
+			"WwiseReconcile.cpp.obj",
+			"WwiseReconcileCommandlet.cpp.obj",
+			"WwiseReconcileModule.cpp.obj"
+		]
+	}
+}

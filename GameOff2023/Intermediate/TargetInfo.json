@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GameOff2023Project",
+			"Path": "C:\\GameOff2023\\GameOff2023\\Source\\GameOff2023Project.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GameOff2023ProjectEditor",
+			"Path": "C:\\GameOff2023\\GameOff2023\\Source\\GameOff2023ProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

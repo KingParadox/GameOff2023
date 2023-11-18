@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\gameoff2023\\gameoff2023\\intermediate\\build\\win64\\unrealeditor\\inc\\gameoff2023project\\uht\\gameoff2023project.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\gameoff2023\\gameoff2023\\intermediate\\build\\win64\\x64\\gameoff2023projecteditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "c:\\gameoff2023\\gameoff2023\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gameoff2023project\\definitions.gameoff2023project.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

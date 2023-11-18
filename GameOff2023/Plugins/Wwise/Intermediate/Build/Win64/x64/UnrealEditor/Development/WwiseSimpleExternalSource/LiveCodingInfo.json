@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WwiseSimpleExternalSource.cpp.obj": [
+			"WwiseExternalSourceCookieDefaultMedia.gen.cpp.obj",
+			"WwiseExternalSourceMediaInfo.gen.cpp.obj",
+			"WwiseExternalSourceSettings.gen.cpp.obj",
+			"WwiseSimpleExternalSource.init.gen.cpp.obj",
+			"WwiseSimpleExtScrManager.cpp.obj",
+			"SimpleExtSrc.cpp.obj",
+			"WwiseSimpleExtSrcModule.cpp.obj"
+		]
+	}
+}

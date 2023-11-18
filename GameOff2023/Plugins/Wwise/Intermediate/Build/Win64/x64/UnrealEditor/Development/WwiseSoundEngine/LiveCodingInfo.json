@@ -1,0 +1,40 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WwiseSoundEngine.cpp.obj": [
+			"AkUnrealHelper.gen.cpp.obj",
+			"WwiseSoundEngine.init.gen.cpp.obj",
+			"AkUnrealHelper.cpp.obj",
+			"Global.cpp.obj",
+			"NamedEvents.cpp.obj",
+			"SoundEngine.cpp.obj",
+			"WwiseAssertHook.cpp.obj",
+			"WwiseSoundEngineModule.cpp.obj",
+			"HoloLensAPI_2022_1.cpp.obj",
+			"WindowsAPI_2022_1.cpp.obj",
+			"WAAPI_2022_1.cpp.obj",
+			"WwiseCommAPI_2022_1.cpp.obj",
+			"WwiseMemoryMgrAPI_2022_1.cpp.obj",
+			"WwiseMonitorAPI_2022_1.cpp.obj",
+			"WwiseMusicEngineAPI_2022_1.cpp.obj",
+			"WwiseSoundEngineAPI_2022_1.cpp.obj",
+			"WwiseSpatialAudioAPI_2022_1.cpp.obj",
+			"WwiseStreamMgrAPI_2022_1.cpp.obj",
+			"SoundEngine_2022_1.cpp.obj",
+			"WwiseFileLocationResolver_2022_1.cpp.obj",
+			"WwiseLowLevelIOHook_2022_1.cpp.obj",
+			"WwiseSoundEngine_2022_1.cpp.obj",
+			"WAAPI_Null.cpp.obj",
+			"WwiseCommAPI_Null.cpp.obj",
+			"WwiseMemoryMgrAPI_Null.cpp.obj",
+			"WwiseMonitorAPI_Null.cpp.obj",
+			"WwiseMusicEngineAPI_Null.cpp.obj",
+			"WwiseSoundEngineAPI_Null.cpp.obj",
+			"WwiseSpatialAudioAPI_Null.cpp.obj",
+			"WwiseStreamMgrAPI_Null.cpp.obj",
+			"DefineNullBridges.cpp.obj",
+			"SoundEngine_Null.cpp.obj",
+			"WwiseSoundEngine_Null.cpp.obj"
+		]
+	}
+}
