@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{42B0A9E6-D883-F5CB-C577-EBF8F5E361F3}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{C93978CD-E7DC-4D41-4601-7B21C50DFE9F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
@@ -50,9 +50,17 @@
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_08.wav</ShortName>
 					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_08_10C4C929.wem</CachePath>
 				</File>
+				<File Id="128767792" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\SFX_UI_PickUp.wav</ShortName>
+					<CachePath>SFX/UI/SFX_UI_PickUp_5AF97A8C.wem</CachePath>
+				</File>
 				<File Id="161690530" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Attack\Heavy\Player_Attack_Heavy_01.wav</ShortName>
 					<CachePath>SFX/Attack/Heavy/Player_Attack_Heavy_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="179324131" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\SFX_UI_Confirm.wav</ShortName>
+					<CachePath>SFX/UI/SFX_UI_Confirm_7605B206.wem</CachePath>
 				</File>
 				<File Id="209418646" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Grass\Foley_Player_FSGrass_06.wav</ShortName>
@@ -126,6 +134,10 @@
 					<ShortName>Movement\Clinks\Player_Clink_03.wav</ShortName>
 					<CachePath>SFX/Movement/Clinks/Player_Clink_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="290726333" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\SFX_UI_Back.wav</ShortName>
+					<CachePath>SFX/UI/SFX_UI_Back_6E5E8602.wem</CachePath>
+				</File>
 				<File Id="292169088" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_01.wav</ShortName>
 					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_01_10C4C929.wem</CachePath>
@@ -162,6 +174,10 @@
 					<ShortName>Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_04.wav</ShortName>
 					<CachePath>SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="369468741" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\SFX_UI_Slider_Start.wav</ShortName>
+					<CachePath>SFX/UI/SFX_UI_Slider_Start_212F2EAB.wem</CachePath>
+				</File>
 				<File Id="372935282" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Roll\Player_Roll_Start_01_V2.wav</ShortName>
 					<CachePath>SFX/Movement/Roll/Player_Roll_Start_01_V2_10C4C929.wem</CachePath>
@@ -189,6 +205,10 @@
 				<File Id="419765360" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_01.wav</ShortName>
 					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="424878104" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\SFX_UI_Slider_End.wav</ShortName>
+					<CachePath>SFX/UI/SFX_UI_Slider_End_2978543E.wem</CachePath>
 				</File>
 				<File Id="430803259" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_03.wav</ShortName>
@@ -221,6 +241,10 @@
 				<File Id="523545991" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Roll\Player_Roll_Contact_01_V2.wav</ShortName>
 					<CachePath>SFX/Movement/Roll/Player_Roll_Contact_01_V2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="526537071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\SFX_UI_Hover.wav</ShortName>
+					<CachePath>SFX/UI/SFX_UI_Hover_3B2A1FE1.wem</CachePath>
 				</File>
 				<File Id="544303138" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Parry\SFX_Player_Parry_02.wav</ShortName>
@@ -330,10 +354,6 @@
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_04.wav</ShortName>
 					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_04_10C4C929.wem</CachePath>
 				</File>
-				<File Id="800235824" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Confirm.wav</ShortName>
-					<CachePath>SFX/Confirm_8CDF6314.wem</CachePath>
-				</File>
 				<File Id="805047270" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Clinks\Player_Clink_01.wav</ShortName>
 					<CachePath>SFX/Movement/Clinks/Player_Clink_01_10C4C929.wem</CachePath>
@@ -410,6 +430,10 @@
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_06.wav</ShortName>
 					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="988408211" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\SFX_UI_Start.wav</ShortName>
+					<CachePath>SFX/UI/SFX_UI_Start_865A12A6.wem</CachePath>
+				</File>
 				<File Id="1016855423" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Parry\SFX_Player_Parry_01.wav</ShortName>
 					<CachePath>SFX/Parry/SFX_Player_Parry_01_10C4C929.wem</CachePath>
@@ -452,6 +476,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="1292086503" Name="Play_Back" ObjectPath="\Events\Default Work Unit\Play_Back" GUID="{AB5B9927-1311-4C9B-84C2-336B208F836E}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="290726333"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2755574209" Name="Play_Block" ObjectPath="\Events\Default Work Unit\Play_Block" GUID="{AB6DF19B-224F-42EA-9DB4-554A1ABEDCAB}" DurationType="OneShot" DurationMin="1" DurationMax="1.4986666">
 					<MediaRefs>
 						<MediaRef Id="545824517"/>
@@ -459,9 +488,9 @@
 						<MediaRef Id="1017635794"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4136017490" Name="Play_Confirm" ObjectPath="\Events\Default Work Unit\Play_Confirm" GUID="{53923D77-FDD4-40A8-927C-8A0B6E553595}" DurationType="OneShot" DurationMin="0.49945533" DurationMax="0.66669285">
+				<Event Id="4136017490" Name="Play_Confirm" ObjectPath="\Events\Default Work Unit\Play_Confirm" GUID="{53923D77-FDD4-40A8-927C-8A0B6E553595}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
-						<MediaRef Id="800235824"/>
+						<MediaRef Id="179324131"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" GUID="{40F045F2-6A4F-4FA4-9E0F-C089CC444D88}" DurationType="OneShot" DurationMin="0.45833334" DurationMax="0.944">
@@ -582,6 +611,11 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="1962302600" Name="Play_Hover" ObjectPath="\Events\Default Work Unit\Play_Hover" GUID="{55527275-422D-4B95-9BA7-40C1016F6260}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="526537071"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3689126666" Name="Play_Jump" ObjectPath="\Events\Default Work Unit\Play_Jump" GUID="{DBB395B7-AC49-47AC-AAA9-A0686BF8CB44}" DurationType="OneShot" DurationMin="0.6666667" DurationMax="0.7083333">
 					<MediaRefs>
 						<MediaRef Id="211456994"/>
@@ -604,6 +638,11 @@
 						<MediaRef Id="1016855423"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3860455926" Name="Play_PickUp" ObjectPath="\Events\Default Work Unit\Play_PickUp" GUID="{C9A6BD8C-8C59-4FDF-83A6-64EA9872E282}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<MediaRefs>
+						<MediaRef Id="128767792"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3305509726" Name="Play_Roll_Contact" ObjectPath="\Events\Default Work Unit\Play_Roll_Contact" GUID="{20B31C1B-99F6-4AD5-852B-85A1E0E566DC}" DurationType="OneShot" DurationMin="0.65" DurationMax="0.8">
 					<MediaRefs>
 						<MediaRef Id="519085038"/>
@@ -616,6 +655,21 @@
 						<MediaRef Id="326193206"/>
 						<MediaRef Id="372935282"/>
 						<MediaRef Id="874739032"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2306120635" Name="Play_Slider_End" ObjectPath="\Events\Default Work Unit\Play_Slider_End" GUID="{E00E2000-431F-4196-A986-5EF2A261803D}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="424878104"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="150327520" Name="Play_Slider_Start" ObjectPath="\Events\Default Work Unit\Play_Slider_Start" GUID="{14E6AF10-B41F-486A-B6A9-66C086B2877E}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="369468741"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2230670290" Name="Play_Start" ObjectPath="\Events\Default Work Unit\Play_Start" GUID="{6629B4E0-2EDA-41DD-AAF7-AC9CF081A5DE}" DurationType="OneShot" DurationMin="3.3601863" DurationMax="3.3601863">
+					<MediaRefs>
+						<MediaRef Id="988408211"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2802509975" Name="Play_SwordCollision" ObjectPath="\Events\Default Work Unit\Play_SwordCollision" GUID="{60E47DA0-6A74-437D-8AE3-6CA25247B280}" DurationType="OneShot" DurationMin="0.8666667" DurationMax="1.7106667">
@@ -682,5 +736,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0CD5100E-A98B-DEBB-CD80-521AE8019D6E}</FileHash>
+	<FileHash>{E2A06813-46C8-CBAB-4A7D-FEB55130F6BC}</FileHash>
 </SoundBanksInfo>

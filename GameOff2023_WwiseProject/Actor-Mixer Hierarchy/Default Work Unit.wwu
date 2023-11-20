@@ -3,47 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="SFX_TestTone" ID="{104C4FDF-F67C-4ABF-AE74-1744A28318C3}" ShortID="833725210">
-					<PropertyList>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{C2644C9F-81F0-465F-87F4-0FE41C380662}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Min" Type="Real64" Value="-500"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Confirm" ID="{9F10380D-6545-48CF-A880-35890876108A}">
-							<PropertyList>
-								<Property Name="FadeOutShape" Type="int16" Value="0"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimEnd" Type="Real64" Value="0.499455337690632"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>Confirm.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="800235824"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Confirm" ID="{9F10380D-6545-48CF-A880-35890876108A}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Folder Name="Movement" ID="{0EFFDA8C-F3C1-4E3D-9A67-E84ADD3AE390}" ShortID="69291502">
 					<ChildrenList>
 						<Folder Name="Attack" ID="{1E92A0E8-CB79-4922-90F0-3835A9CD94FE}" ShortID="374660351">
@@ -3048,6 +3007,241 @@
 						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="UI" ID="{61ADFC69-5610-4C2A-8CFB-7516F3B32ED9}" ShortID="294169633">
+					<ChildrenList>
+						<Sound Name="SFX_UI_Back" ID="{5C4AFB79-2F2E-4411-AD35-B168CFCD7103}" ShortID="60015673">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_UI_Back" ID="{5F351B2D-58BB-45BC-8940-5E36067E0868}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00233022636484687"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.00299600532623168"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI\SFX_UI_Back.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="290726333"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_UI_Back" ID="{5F351B2D-58BB-45BC-8940-5E36067E0868}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_UI_Confirm" ID="{6A5E351E-E31F-400D-8A6A-E748F0B782ED}" ShortID="284396401">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_UI_Confirm" ID="{7784EDE6-9394-4881-AF8B-1B93BE8541C8}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00266311584553928"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.00332889480692411"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI\SFX_UI_Confirm.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="179324131"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_UI_Confirm" ID="{7784EDE6-9394-4881-AF8B-1B93BE8541C8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_UI_Hover" ID="{1DC99446-CA06-4260-9712-4D061806B06E}" ShortID="555273101">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_UI_Hover" ID="{E6AACAF6-7643-4E58-8E35-6E56EE4EA81C}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00233022636484687"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.00432756324900135"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI\SFX_UI_Hover.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="526537071"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_UI_Hover" ID="{E6AACAF6-7643-4E58-8E35-6E56EE4EA81C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_UI_PickUp" ID="{96D3D89D-FB2F-4AE5-A104-21EC358EB86F}" ShortID="923820629">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_UI_PickUp" ID="{E19DA614-CFBB-4B55-AD5A-1B53604E1D3D}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00699067909454061"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.00699067909454043"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI\SFX_UI_PickUp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="128767792"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_UI_PickUp" ID="{E19DA614-CFBB-4B55-AD5A-1B53604E1D3D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_UI_Slider_End" ID="{5DC1BC3F-07AD-4647-8761-2C68D880A415}" ShortID="908548915">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_UI_Slider_End" ID="{57333940-7EAF-454C-99DC-427EE3E4564C}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00266311584553928"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.00266311584553924"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI\SFX_UI_Slider_End.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="424878104"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_UI_Slider_End" ID="{57333940-7EAF-454C-99DC-427EE3E4564C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_UI_Slider_Start" ID="{DB10CE98-9D77-407D-916B-1BD236E690E8}" ShortID="1008632071">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_UI_Slider_Start" ID="{76A9C55E-F67A-444A-932E-79395AB6CEBB}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00266311584553928"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0026631158455393"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI\SFX_UI_Slider_Start.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="369468741"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_UI_Slider_Start" ID="{76A9C55E-F67A-444A-932E-79395AB6CEBB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_UI_Start" ID="{B98A8DF7-85BE-4B49-9D4B-BCAD788EDD8B}" ShortID="1038017490">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_UI_Start" ID="{B9094050-ECE4-4B20-9C63-BC19ABB63589}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0396138482023968"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0326231691078562"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.139813581890812"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI\SFX_UI_Start.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="988408211"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_UI_Start" ID="{B9094050-ECE4-4B20-9C63-BC19ABB63589}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Sound Name="SFX_TestTone" ID="{104C4FDF-F67C-4ABF-AE74-1744A28318C3}" ShortID="833725210">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C2644C9F-81F0-465F-87F4-0FE41C380662}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-500"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Confirm" ID="{9F10380D-6545-48CF-A880-35890876108A}">
+							<PropertyList>
+								<Property Name="FadeOutShape" Type="int16" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.499455337690632"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Confirm.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="800235824"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Confirm" ID="{9F10380D-6545-48CF-A880-35890876108A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
