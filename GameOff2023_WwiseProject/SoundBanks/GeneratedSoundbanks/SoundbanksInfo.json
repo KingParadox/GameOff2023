@@ -114,7 +114,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{42B0A9E6-D883-F5CB-C577-EBF8F5E361F3}",
+    "Hash": "{C93978CD-E7DC-4D41-4601-7B21C50DFE9F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -208,12 +208,28 @@
       "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_08_10C4C929.wem"
      },
      {
+      "Id": "128767792",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\SFX_UI_PickUp.wav",
+      "CachePath": "SFX/UI/SFX_UI_PickUp_5AF97A8C.wem"
+     },
+     {
       "Id": "161690530",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Attack\\Heavy\\Player_Attack_Heavy_01.wav",
       "CachePath": "SFX/Attack/Heavy/Player_Attack_Heavy_01_10C4C929.wem"
+     },
+     {
+      "Id": "179324131",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\SFX_UI_Confirm.wav",
+      "CachePath": "SFX/UI/SFX_UI_Confirm_7605B206.wem"
      },
      {
       "Id": "209418646",
@@ -360,6 +376,14 @@
       "CachePath": "SFX/Movement/Clinks/Player_Clink_03_10C4C929.wem"
      },
      {
+      "Id": "290726333",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\SFX_UI_Back.wav",
+      "CachePath": "SFX/UI/SFX_UI_Back_6E5E8602.wem"
+     },
+     {
       "Id": "292169088",
       "Language": "SFX",
       "Streaming": "false",
@@ -432,6 +456,14 @@
       "CachePath": "SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_04_10C4C929.wem"
      },
      {
+      "Id": "369468741",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\SFX_UI_Slider_Start.wav",
+      "CachePath": "SFX/UI/SFX_UI_Slider_Start_212F2EAB.wem"
+     },
+     {
       "Id": "372935282",
       "Language": "SFX",
       "Streaming": "false",
@@ -486,6 +518,14 @@
       "Location": "Memory",
       "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_01.wav",
       "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_01_10C4C929.wem"
+     },
+     {
+      "Id": "424878104",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\SFX_UI_Slider_End.wav",
+      "CachePath": "SFX/UI/SFX_UI_Slider_End_2978543E.wem"
      },
      {
       "Id": "430803259",
@@ -550,6 +590,14 @@
       "Location": "Memory",
       "ShortName": "Movement\\Roll\\Player_Roll_Contact_01_V2.wav",
       "CachePath": "SFX/Movement/Roll/Player_Roll_Contact_01_V2_10C4C929.wem"
+     },
+     {
+      "Id": "526537071",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\SFX_UI_Hover.wav",
+      "CachePath": "SFX/UI/SFX_UI_Hover_3B2A1FE1.wem"
      },
      {
       "Id": "544303138",
@@ -768,14 +816,6 @@
       "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_04_10C4C929.wem"
      },
      {
-      "Id": "800235824",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Confirm.wav",
-      "CachePath": "SFX/Confirm_8CDF6314.wem"
-     },
-     {
       "Id": "805047270",
       "Language": "SFX",
       "Streaming": "false",
@@ -928,6 +968,14 @@
       "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_06_10C4C929.wem"
      },
      {
+      "Id": "988408211",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\SFX_UI_Start.wav",
+      "CachePath": "SFX/UI/SFX_UI_Start_865A12A6.wem"
+     },
+     {
       "Id": "1016855423",
       "Language": "SFX",
       "Streaming": "false",
@@ -1010,6 +1058,20 @@
     ],
     "Events": [
      {
+      "Id": "1292086503",
+      "Name": "Play_Back",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Back",
+      "GUID": "{AB5B9927-1311-4C9B-84C2-336B208F836E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
+      "MediaRefs": [
+       {
+        "Id": "290726333"
+       }
+      ]
+     },
+     {
       "Id": "2755574209",
       "Name": "Play_Block",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Block",
@@ -1035,11 +1097,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Confirm",
       "GUID": "{53923D77-FDD4-40A8-927C-8A0B6E553595}",
       "DurationType": "OneShot",
-      "DurationMin": "0.49945533",
-      "DurationMax": "0.66669285",
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
       "MediaRefs": [
        {
-        "Id": "800235824"
+        "Id": "179324131"
        }
       ]
      },
@@ -1354,6 +1416,20 @@
       ]
      },
      {
+      "Id": "1962302600",
+      "Name": "Play_Hover",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Hover",
+      "GUID": "{55527275-422D-4B95-9BA7-40C1016F6260}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
+      "MediaRefs": [
+       {
+        "Id": "526537071"
+       }
+      ]
+     },
+     {
       "Id": "3689126666",
       "Name": "Play_Jump",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Jump",
@@ -1418,6 +1494,20 @@
       ]
      },
      {
+      "Id": "3860455926",
+      "Name": "Play_PickUp",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_PickUp",
+      "GUID": "{C9A6BD8C-8C59-4FDF-83A6-64EA9872E282}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5",
+      "DurationMax": "1.5",
+      "MediaRefs": [
+       {
+        "Id": "128767792"
+       }
+      ]
+     },
+     {
       "Id": "3305509726",
       "Name": "Play_Roll_Contact",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Roll_Contact",
@@ -1454,6 +1544,48 @@
        },
        {
         "Id": "874739032"
+       }
+      ]
+     },
+     {
+      "Id": "2306120635",
+      "Name": "Play_Slider_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Slider_End",
+      "GUID": "{E00E2000-431F-4196-A986-5EF2A261803D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
+      "MediaRefs": [
+       {
+        "Id": "424878104"
+       }
+      ]
+     },
+     {
+      "Id": "150327520",
+      "Name": "Play_Slider_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Slider_Start",
+      "GUID": "{14E6AF10-B41F-486A-B6A9-66C086B2877E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
+      "MediaRefs": [
+       {
+        "Id": "369468741"
+       }
+      ]
+     },
+     {
+      "Id": "2230670290",
+      "Name": "Play_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Start",
+      "GUID": "{6629B4E0-2EDA-41DD-AAF7-AC9CF081A5DE}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.3601863",
+      "DurationMax": "3.3601863",
+      "MediaRefs": [
+       {
+        "Id": "988408211"
        }
       ]
      },
@@ -1642,6 +1774,6 @@
     ]
    }
   ],
-  "FileHash": "{27E9F023-C13F-3F64-94FD-A362DFC62876}"
+  "FileHash": "{F43B176D-1B7F-FA0F-89C6-F44BA1D18F2C}"
  }
 }
