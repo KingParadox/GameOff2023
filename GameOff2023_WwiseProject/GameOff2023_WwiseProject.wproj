@@ -146,6 +146,11 @@
 								<Value>False</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Soundly:FileIDForAudioSource" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
 						<Property Name="TrimBegin" Type="Real64">
 							<ValueList>
 								<Value>-0.001</Value>
@@ -559,6 +564,76 @@
 						<Property Name="RenderEffect3" Type="bool">
 							<ValueList>
 								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:ActiveChannels" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:FileID" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:FileName" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:HandleStartTime" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:HandleStopTime" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:LibraryID" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:LibraryLocation" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:PlaybackSpeed" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:ProcessList" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:RenderedFilePath" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:SelectionStartTime" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:SelectionStopTime" Type="string">
+							<ValueList>
+								<Value></Value>
 							</ValueList>
 						</Property>
 						<Property Name="SpeakerPanning" Type="int16">
@@ -9161,7 +9236,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="119">
+				<SharedPropertyList ClassName="SoundSeed Air Wind" PluginType="2" CompanyID="0" PluginID="119">
 					<PropertyList>
 						<Property Name="AttenuationRollOff" Type="Real32">
 							<ValueList>
@@ -9320,7 +9395,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="120">
+				<SharedPropertyList ClassName="SoundSeed Air Woosh" PluginType="2" CompanyID="0" PluginID="120">
 					<PropertyList>
 						<Property Name="AttenuationRollOff" Type="Real32">
 							<ValueList>
@@ -9454,7 +9529,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="0" CompanyID="0" PluginID="121">
+				<SharedPropertyList ClassName="Deflector" PluginType="0" CompanyID="0" PluginID="121">
 					<PropertyList>
 						<Property Name="Frequency" Type="Real32">
 							<ValueList>
@@ -9483,7 +9558,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="0" CompanyID="0" PluginID="122">
+				<SharedPropertyList ClassName="Deflector" PluginType="0" CompanyID="0" PluginID="122">
 					<PropertyList>
 						<Property Name="Anchor" Type="bool">
 							<ValueList>
@@ -10521,7 +10596,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="171">
+				<SharedPropertyList ClassName="Wwise Reflect" PluginType="3" CompanyID="0" PluginID="171">
 					<PropertyList>
 						<Property Name="BaseTextureFrequency" Type="Real32">
 							<ValueList>
@@ -10963,7 +11038,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="186">
+				<SharedPropertyList ClassName="Mastering Suite" PluginType="3" CompanyID="0" PluginID="186">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -11922,6 +11997,21 @@
 				</PhysicalFolder>
 				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks">
 					<WorkUnit Name="GeneratedSoundbanks" ID="{0A1EF9D1-F948-4A6A-9BAA-74D7BB69FFEB}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\Bus">
+					<WorkUnit Name="Bus" ID="{3C9353DB-35A2-431B-9BC4-6F1C51635298}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\Bus\English(US)">
+					<WorkUnit Name="English(US)" ID="{C5BD38D1-DB39-45EA-8A89-017B8EACF6DD}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\English(US)">
+					<WorkUnit Name="English(US)" ID="{2D3C43AB-CB4B-4B16-AD70-498A7B326DA4}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\Event">
+					<WorkUnit Name="Event" ID="{95F28A27-F670-4A30-8CDC-B949C83E3F71}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\Event\English(US)">
+					<WorkUnit Name="English(US)" ID="{A475FE86-33BC-4675-83C8-C74D1D2BCBE1}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Soundcaster Sessions">
 					<WorkUnit Name="Soundcaster Sessions" ID="{4C96B38B-3DB4-40C7-91C9-665510E38993}" PersistMode="Standalone"/>

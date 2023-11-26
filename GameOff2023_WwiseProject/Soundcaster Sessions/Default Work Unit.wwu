@@ -13,9 +13,15 @@
 							<ObjectRef Name="Play_SwordCollision" ID="{60E47DA0-6A74-437D-8AE3-6CA25247B280}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_GameplayMusicSwitch" ID="{00ED8287-CD9E-458A-94FA-27FDF5D1C3A6}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="2" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Combat" ID="{D7DBAB25-D3B6-4BC9-BC8B-583DD72A4237}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Wood" ID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
 					</CurrentSwitchList>
