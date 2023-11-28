@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="2171745078" Type="Event" GUID="{F53F1E07-1CAD-474F-B86D-BDE0E0E89B7F}" Language="SFX" Hash="{243E0F78-D15B-33B7-386E-63AD656CFC2A}">
+			<ObjectPath>Play_Wings</ObjectPath>
+			<ShortName>Play_Wings</ShortName>
+			<Path>Event/Play_Wings.bnk</Path>
+			<Media>
+				<File Id="158713601" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Dracolich\Wings\DRAGON_WINGS_06.wav</ShortName>
+					<Path>Media/158713601.wem</Path>
+					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_06_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="303067073" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Dracolich\Wings\DRAGON_WINGS_04.wav</ShortName>
+					<Path>Media/303067073.wem</Path>
+					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_04_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="404792084" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Dracolich\Wings\DRAGON_WINGS_03.wav</ShortName>
+					<Path>Media/404792084.wem</Path>
+					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="499825948" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Dracolich\Wings\DRAGON_WINGS_01.wav</ShortName>
+					<Path>Media/499825948.wem</Path>
+					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="536238855" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Dracolich\Wings\DRAGON_WINGS_05.wav</ShortName>
+					<Path>Media/536238855.wem</Path>
+					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_05_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="855358173" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Dracolich\Wings\DRAGON_WINGS_07.wav</ShortName>
+					<Path>Media/855358173.wem</Path>
+					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_07_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="881806549" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Dracolich\Wings\DRAGON_WINGS_08.wav</ShortName>
+					<Path>Media/881806549.wem</Path>
+					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_08_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="1058024805" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Dracolich\Wings\DRAGON_WINGS_02.wav</ShortName>
+					<Path>Media/1058024805.wem</Path>
+					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_02_D8C07C79.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2171745078" Name="Play_Wings" ObjectPath="\Events\Default Work Unit\Play_Wings" GUID="{F53F1E07-1CAD-474F-B86D-BDE0E0E89B7F}" DurationType="OneShot" DurationMin="2.6666667" DurationMax="3.1554167">
+					<MediaRefs>
+						<MediaRef Id="158713601"/>
+						<MediaRef Id="303067073"/>
+						<MediaRef Id="404792084"/>
+						<MediaRef Id="499825948"/>
+						<MediaRef Id="536238855"/>
+						<MediaRef Id="855358173"/>
+						<MediaRef Id="881806549"/>
+						<MediaRef Id="1058024805"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{6F6BBE91-C6C7-BFF2-6360-F289F5607ED0}</FileHash>
+</SoundBanksInfo>

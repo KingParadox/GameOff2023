@@ -1,0 +1,84 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2961648011",
+    "Type": "Event",
+    "GUID": "{0D6F2A96-6CD6-4266-BD86-0CD134328443}",
+    "Language": "SFX",
+    "Hash": "{82082C82-FF47-8687-1B5E-8578FA761380}",
+    "ObjectPath": "Play_Bellow",
+    "ShortName": "Play_Bellow",
+    "Path": "Event/Play_Bellow.bnk",
+    "Media": [
+     {
+      "Id": "26672347",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Dracolich\\Bellow\\DRAGON_BELLOW_03.wav",
+      "Path": "Media/26672347.wem",
+      "CachePath": "SFX/Dracolich/Bellow/DRAGON_BELLOW_03_D8C07C79.wem"
+     },
+     {
+      "Id": "504996585",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Dracolich\\Bellow\\DRAGON_BELLOW_04.wav",
+      "Path": "Media/504996585.wem",
+      "CachePath": "SFX/Dracolich/Bellow/DRAGON_BELLOW_04_D8C07C79.wem"
+     },
+     {
+      "Id": "511325285",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Dracolich\\Bellow\\DRAGON_BELLOW_02.wav",
+      "Path": "Media/511325285.wem",
+      "CachePath": "SFX/Dracolich/Bellow/DRAGON_BELLOW_02_D8C07C79.wem"
+     },
+     {
+      "Id": "1017512601",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Dracolich\\Bellow\\DRAGON_BELLOW_01.wav",
+      "Path": "Media/1017512601.wem",
+      "CachePath": "SFX/Dracolich/Bellow/DRAGON_BELLOW_01_D8C07C79.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2961648011",
+      "Name": "Play_Bellow",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Bellow",
+      "GUID": "{0D6F2A96-6CD6-4266-BD86-0CD134328443}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.25",
+      "DurationMax": "5.814",
+      "MediaRefs": [
+       {
+        "Id": "26672347"
+       },
+       {
+        "Id": "504996585"
+       },
+       {
+        "Id": "511325285"
+       },
+       {
+        "Id": "1017512601"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C9A8E8F1-7272-F77B-CA87-33D958AAB06E}"
+ }
+}

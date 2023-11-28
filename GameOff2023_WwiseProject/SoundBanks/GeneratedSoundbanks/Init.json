@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{986487A9-2683-E47A-8688-3D0FE6FDB954}",
+    "Hash": "{BE54FAF1-AA90-A0F9-BC69-A523AA79FE93}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -40,6 +40,34 @@
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "762757699",
+      "Name": "GAMEPLAY_STATE",
+      "ObjectPath": "\\States\\Default Work Unit\\GAMEPLAY_STATE",
+      "GUID": "{4FD28419-13F8-48BF-8F7B-94FC7E84D867}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\GAMEPLAY_STATE\\None",
+        "GUID": "{CE7CE926-4897-4DEE-ACFE-D2BA3D849E60}"
+       },
+       {
+        "Id": "2582085496",
+        "Name": "Exploration",
+        "ObjectPath": "\\States\\Default Work Unit\\GAMEPLAY_STATE\\Exploration",
+        "GUID": "{5DD37529-C7B7-4601-9AF3-B85A1071893C}"
+       },
+       {
+        "Id": "2764240573",
+        "Name": "Combat",
+        "ObjectPath": "\\States\\Default Work Unit\\GAMEPLAY_STATE\\Combat",
+        "GUID": "{D7DBAB25-D3B6-4BC9-BC8B-583DD72A4237}"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -102,6 +130,6 @@
     ]
    }
   ],
-  "FileHash": "{9DC6257D-C550-32A9-FA36-2D94CD63CEAE}"
+  "FileHash": "{9E680B20-14A1-92DB-791F-45B7149DD033}"
  }
 }

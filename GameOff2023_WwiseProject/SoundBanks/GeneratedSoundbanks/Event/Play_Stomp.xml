@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="2753042117" Type="Event" GUID="{6302B084-499C-4B6F-8BE5-8F01879D3BC1}" Language="SFX" Hash="{6ACC4E8A-95FD-C80D-8DE2-082D7BB1A5DE}">
+			<ObjectPath>Play_Stomp</ObjectPath>
+			<ShortName>Play_Stomp</ShortName>
+			<Path>Event/Play_Stomp.bnk</Path>
+			<Media>
+				<File Id="195108500" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Dracolich\Stomp\DRAGON_STOMP_03.wav</ShortName>
+					<Path>Media/195108500.wem</Path>
+					<CachePath>SFX/Dracolich/Stomp/DRAGON_STOMP_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="256293707" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Dracolich\Stomp\DRAGON_STOMP_01.wav</ShortName>
+					<Path>Media/256293707.wem</Path>
+					<CachePath>SFX/Dracolich/Stomp/DRAGON_STOMP_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="258975257" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Dracolich\Stomp\DRAGON_STOMP_02.wav</ShortName>
+					<Path>Media/258975257.wem</Path>
+					<CachePath>SFX/Dracolich/Stomp/DRAGON_STOMP_02_D8C07C79.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2753042117" Name="Play_Stomp" ObjectPath="\Events\Default Work Unit\Play_Stomp" GUID="{6302B084-499C-4B6F-8BE5-8F01879D3BC1}" DurationType="OneShot" DurationMin="2.6666667" DurationMax="3.1666667">
+					<MediaRefs>
+						<MediaRef Id="195108500"/>
+						<MediaRef Id="256293707"/>
+						<MediaRef Id="258975257"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E57A58C8-C9EB-2D4D-D468-178F1801A796}</FileHash>
+</SoundBanksInfo>

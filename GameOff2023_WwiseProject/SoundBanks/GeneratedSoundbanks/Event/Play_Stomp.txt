@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2753042117	Play_Stomp			\Default Work Unit\Play_Stomp	
+

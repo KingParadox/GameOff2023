@@ -1,0 +1,346 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "206299382",
+    "Type": "Event",
+    "GUID": "{4BF34D11-04D8-4772-B792-57D91B93C085}",
+    "Language": "SFX",
+    "Hash": "{3F057D28-00C0-65FA-7376-F3CCD1A6408D}",
+    "ObjectPath": "bridgeAmbient",
+    "ShortName": "bridgeAmbient",
+    "Path": "Event/bridgeAmbient.bnk",
+    "Media": [
+     {
+      "Id": "3731836",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "crumbles-002.wav",
+      "Path": "Media/3731836.wem",
+      "CachePath": "SFX/crumbles-002_D8C07C79.wem"
+     },
+     {
+      "Id": "53808189",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "windGusts-005.wav",
+      "Path": "Media/53808189.wem",
+      "CachePath": "SFX/windGusts-005_D8C07C79.wem"
+     },
+     {
+      "Id": "85468853",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "windGusts-007.wav",
+      "Path": "Media/85468853.wem",
+      "CachePath": "SFX/windGusts-007_D8C07C79.wem"
+     },
+     {
+      "Id": "222420576",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "lowRumble.wav",
+      "Path": "Media/222420576.wem",
+      "CachePath": "SFX/lowRumble_547CCF2A.wem"
+     },
+     {
+      "Id": "261952539",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "creaks-005.wav",
+      "Path": "Media/261952539.wem",
+      "CachePath": "SFX/creaks-005_D8C07C79.wem"
+     },
+     {
+      "Id": "270391479",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "creaks-009.wav",
+      "Path": "Media/270391479.wem",
+      "CachePath": "SFX/creaks-009_D8C07C79.wem"
+     },
+     {
+      "Id": "343670367",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "windGusts-006.wav",
+      "Path": "Media/343670367.wem",
+      "CachePath": "SFX/windGusts-006_D8C07C79.wem"
+     },
+     {
+      "Id": "350808807",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "windGusts-004.wav",
+      "Path": "Media/350808807.wem",
+      "CachePath": "SFX/windGusts-004_D8C07C79.wem"
+     },
+     {
+      "Id": "366185646",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "windGusts-002.wav",
+      "Path": "Media/366185646.wem",
+      "CachePath": "SFX/windGusts-002_D8C07C79.wem"
+     },
+     {
+      "Id": "419399914",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "windGusts-001.wav",
+      "Path": "Media/419399914.wem",
+      "CachePath": "SFX/windGusts-001_D8C07C79.wem"
+     },
+     {
+      "Id": "441206784",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "crumbles-001.wav",
+      "Path": "Media/441206784.wem",
+      "CachePath": "SFX/crumbles-001_D8C07C79.wem"
+     },
+     {
+      "Id": "448664350",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "thunders-001.wav",
+      "Path": "Media/448664350.wem",
+      "CachePath": "SFX/thunders-001_45A7FECA.wem"
+     },
+     {
+      "Id": "476739655",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "creaks-010.wav",
+      "Path": "Media/476739655.wem",
+      "CachePath": "SFX/creaks-010_D8C07C79.wem"
+     },
+     {
+      "Id": "492113711",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "thunders-003.wav",
+      "Path": "Media/492113711.wem",
+      "CachePath": "SFX/thunders-003_00468127.wem"
+     },
+     {
+      "Id": "561174997",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "creaks-003.wav",
+      "Path": "Media/561174997.wem",
+      "CachePath": "SFX/creaks-003_D8C07C79.wem"
+     },
+     {
+      "Id": "568924458",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "creaks-006.wav",
+      "Path": "Media/568924458.wem",
+      "CachePath": "SFX/creaks-006_D8C07C79.wem"
+     },
+     {
+      "Id": "658922866",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "creaks-008.wav",
+      "Path": "Media/658922866.wem",
+      "CachePath": "SFX/creaks-008_D8C07C79.wem"
+     },
+     {
+      "Id": "665288197",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "thunders-002.wav",
+      "Path": "Media/665288197.wem",
+      "CachePath": "SFX/thunders-002_6B800CBC.wem"
+     },
+     {
+      "Id": "672350718",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "creaks-007.wav",
+      "Path": "Media/672350718.wem",
+      "CachePath": "SFX/creaks-007_D8C07C79.wem"
+     },
+     {
+      "Id": "728625596",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "crumbles-003.wav",
+      "Path": "Media/728625596.wem",
+      "CachePath": "SFX/crumbles-003_D8C07C79.wem"
+     },
+     {
+      "Id": "776941347",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "creaks-002.wav",
+      "Path": "Media/776941347.wem",
+      "CachePath": "SFX/creaks-002_D8C07C79.wem"
+     },
+     {
+      "Id": "790589316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "creaks-001.wav",
+      "Path": "Media/790589316.wem",
+      "CachePath": "SFX/creaks-001_D8C07C79.wem"
+     },
+     {
+      "Id": "937089009",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "windGusts-003.wav",
+      "Path": "Media/937089009.wem",
+      "CachePath": "SFX/windGusts-003_D8C07C79.wem"
+     },
+     {
+      "Id": "956128316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "thunders-004.wav",
+      "Path": "Media/956128316.wem",
+      "CachePath": "SFX/thunders-004_7AA5106E.wem"
+     },
+     {
+      "Id": "966510030",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "creaks-004.wav",
+      "Path": "Media/966510030.wem",
+      "CachePath": "SFX/creaks-004_D8C07C79.wem"
+     },
+     {
+      "Id": "1073153476",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "lowWind.wav",
+      "Path": "Media/1073153476.wem",
+      "CachePath": "SFX/lowWind_E53849C7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "206299382",
+      "Name": "bridgeAmbient",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\bridgeAmbient",
+      "GUID": "{4BF34D11-04D8-4772-B792-57D91B93C085}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "3731836"
+       },
+       {
+        "Id": "53808189"
+       },
+       {
+        "Id": "85468853"
+       },
+       {
+        "Id": "222420576"
+       },
+       {
+        "Id": "261952539"
+       },
+       {
+        "Id": "270391479"
+       },
+       {
+        "Id": "343670367"
+       },
+       {
+        "Id": "350808807"
+       },
+       {
+        "Id": "366185646"
+       },
+       {
+        "Id": "419399914"
+       },
+       {
+        "Id": "441206784"
+       },
+       {
+        "Id": "448664350"
+       },
+       {
+        "Id": "476739655"
+       },
+       {
+        "Id": "492113711"
+       },
+       {
+        "Id": "561174997"
+       },
+       {
+        "Id": "568924458"
+       },
+       {
+        "Id": "658922866"
+       },
+       {
+        "Id": "665288197"
+       },
+       {
+        "Id": "672350718"
+       },
+       {
+        "Id": "728625596"
+       },
+       {
+        "Id": "776941347"
+       },
+       {
+        "Id": "790589316"
+       },
+       {
+        "Id": "937089009"
+       },
+       {
+        "Id": "956128316"
+       },
+       {
+        "Id": "966510030"
+       },
+       {
+        "Id": "1073153476"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{149719F1-683B-9A2B-1568-D4606AB2B225}"
+ }
+}

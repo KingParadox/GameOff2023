@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1131214665	hallsAmbient			\Default Work Unit\Ambient\hallsAmbient	
+

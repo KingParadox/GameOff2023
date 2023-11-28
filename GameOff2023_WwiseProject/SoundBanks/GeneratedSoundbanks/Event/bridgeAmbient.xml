@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="206299382" Type="Event" GUID="{4BF34D11-04D8-4772-B792-57D91B93C085}" Language="SFX" Hash="{3F057D28-00C0-65FA-7376-F3CCD1A6408D}">
+			<ObjectPath>bridgeAmbient</ObjectPath>
+			<ShortName>bridgeAmbient</ShortName>
+			<Path>Event/bridgeAmbient.bnk</Path>
+			<Media>
+				<File Id="3731836" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>crumbles-002.wav</ShortName>
+					<Path>Media/3731836.wem</Path>
+					<CachePath>SFX/crumbles-002_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="53808189" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>windGusts-005.wav</ShortName>
+					<Path>Media/53808189.wem</Path>
+					<CachePath>SFX/windGusts-005_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="85468853" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>windGusts-007.wav</ShortName>
+					<Path>Media/85468853.wem</Path>
+					<CachePath>SFX/windGusts-007_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="222420576" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lowRumble.wav</ShortName>
+					<Path>Media/222420576.wem</Path>
+					<CachePath>SFX/lowRumble_547CCF2A.wem</CachePath>
+				</File>
+				<File Id="261952539" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>creaks-005.wav</ShortName>
+					<Path>Media/261952539.wem</Path>
+					<CachePath>SFX/creaks-005_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="270391479" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>creaks-009.wav</ShortName>
+					<Path>Media/270391479.wem</Path>
+					<CachePath>SFX/creaks-009_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="343670367" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>windGusts-006.wav</ShortName>
+					<Path>Media/343670367.wem</Path>
+					<CachePath>SFX/windGusts-006_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="350808807" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>windGusts-004.wav</ShortName>
+					<Path>Media/350808807.wem</Path>
+					<CachePath>SFX/windGusts-004_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="366185646" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>windGusts-002.wav</ShortName>
+					<Path>Media/366185646.wem</Path>
+					<CachePath>SFX/windGusts-002_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="419399914" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>windGusts-001.wav</ShortName>
+					<Path>Media/419399914.wem</Path>
+					<CachePath>SFX/windGusts-001_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="441206784" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>crumbles-001.wav</ShortName>
+					<Path>Media/441206784.wem</Path>
+					<CachePath>SFX/crumbles-001_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="448664350" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>thunders-001.wav</ShortName>
+					<Path>Media/448664350.wem</Path>
+					<CachePath>SFX/thunders-001_45A7FECA.wem</CachePath>
+				</File>
+				<File Id="476739655" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>creaks-010.wav</ShortName>
+					<Path>Media/476739655.wem</Path>
+					<CachePath>SFX/creaks-010_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="492113711" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>thunders-003.wav</ShortName>
+					<Path>Media/492113711.wem</Path>
+					<CachePath>SFX/thunders-003_00468127.wem</CachePath>
+				</File>
+				<File Id="561174997" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>creaks-003.wav</ShortName>
+					<Path>Media/561174997.wem</Path>
+					<CachePath>SFX/creaks-003_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="568924458" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>creaks-006.wav</ShortName>
+					<Path>Media/568924458.wem</Path>
+					<CachePath>SFX/creaks-006_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="658922866" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>creaks-008.wav</ShortName>
+					<Path>Media/658922866.wem</Path>
+					<CachePath>SFX/creaks-008_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="665288197" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>thunders-002.wav</ShortName>
+					<Path>Media/665288197.wem</Path>
+					<CachePath>SFX/thunders-002_6B800CBC.wem</CachePath>
+				</File>
+				<File Id="672350718" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>creaks-007.wav</ShortName>
+					<Path>Media/672350718.wem</Path>
+					<CachePath>SFX/creaks-007_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="728625596" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>crumbles-003.wav</ShortName>
+					<Path>Media/728625596.wem</Path>
+					<CachePath>SFX/crumbles-003_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="776941347" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>creaks-002.wav</ShortName>
+					<Path>Media/776941347.wem</Path>
+					<CachePath>SFX/creaks-002_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="790589316" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>creaks-001.wav</ShortName>
+					<Path>Media/790589316.wem</Path>
+					<CachePath>SFX/creaks-001_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="937089009" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>windGusts-003.wav</ShortName>
+					<Path>Media/937089009.wem</Path>
+					<CachePath>SFX/windGusts-003_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="956128316" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>thunders-004.wav</ShortName>
+					<Path>Media/956128316.wem</Path>
+					<CachePath>SFX/thunders-004_7AA5106E.wem</CachePath>
+				</File>
+				<File Id="966510030" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>creaks-004.wav</ShortName>
+					<Path>Media/966510030.wem</Path>
+					<CachePath>SFX/creaks-004_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="1073153476" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>lowWind.wav</ShortName>
+					<Path>Media/1073153476.wem</Path>
+					<CachePath>SFX/lowWind_E53849C7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="206299382" Name="bridgeAmbient" ObjectPath="\Events\Default Work Unit\Ambient\bridgeAmbient" GUID="{4BF34D11-04D8-4772-B792-57D91B93C085}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="3731836"/>
+						<MediaRef Id="53808189"/>
+						<MediaRef Id="85468853"/>
+						<MediaRef Id="222420576"/>
+						<MediaRef Id="261952539"/>
+						<MediaRef Id="270391479"/>
+						<MediaRef Id="343670367"/>
+						<MediaRef Id="350808807"/>
+						<MediaRef Id="366185646"/>
+						<MediaRef Id="419399914"/>
+						<MediaRef Id="441206784"/>
+						<MediaRef Id="448664350"/>
+						<MediaRef Id="476739655"/>
+						<MediaRef Id="492113711"/>
+						<MediaRef Id="561174997"/>
+						<MediaRef Id="568924458"/>
+						<MediaRef Id="658922866"/>
+						<MediaRef Id="665288197"/>
+						<MediaRef Id="672350718"/>
+						<MediaRef Id="728625596"/>
+						<MediaRef Id="776941347"/>
+						<MediaRef Id="790589316"/>
+						<MediaRef Id="937089009"/>
+						<MediaRef Id="956128316"/>
+						<MediaRef Id="966510030"/>
+						<MediaRef Id="1073153476"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{823831F3-063C-2AFB-A7AC-AFA5D1D63B21}</FileHash>
+</SoundBanksInfo>

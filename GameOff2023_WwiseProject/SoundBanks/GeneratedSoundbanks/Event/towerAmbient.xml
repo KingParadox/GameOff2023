@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="1903256924" Type="Event" GUID="{03D147F4-241F-45AA-867E-96801EB882C4}" Language="SFX" Hash="{4693E505-D9D5-C730-BE68-E61DD92715EF}">
+			<ObjectPath>towerAmbient</ObjectPath>
+			<ShortName>towerAmbient</ShortName>
+			<Path>Event/towerAmbient.bnk</Path>
+			<Media>
+				<File Id="3731836" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>crumbles-002.wav</ShortName>
+					<Path>Media/3731836.wem</Path>
+					<CachePath>SFX/crumbles-002_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="53808189" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>windGusts-005.wav</ShortName>
+					<Path>Media/53808189.wem</Path>
+					<CachePath>SFX/windGusts-005_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="85468853" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>windGusts-007.wav</ShortName>
+					<Path>Media/85468853.wem</Path>
+					<CachePath>SFX/windGusts-007_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="343670367" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>windGusts-006.wav</ShortName>
+					<Path>Media/343670367.wem</Path>
+					<CachePath>SFX/windGusts-006_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="350808807" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>windGusts-004.wav</ShortName>
+					<Path>Media/350808807.wem</Path>
+					<CachePath>SFX/windGusts-004_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="366185646" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>windGusts-002.wav</ShortName>
+					<Path>Media/366185646.wem</Path>
+					<CachePath>SFX/windGusts-002_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="419399914" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>windGusts-001.wav</ShortName>
+					<Path>Media/419399914.wem</Path>
+					<CachePath>SFX/windGusts-001_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="441206784" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>crumbles-001.wav</ShortName>
+					<Path>Media/441206784.wem</Path>
+					<CachePath>SFX/crumbles-001_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="728625596" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>crumbles-003.wav</ShortName>
+					<Path>Media/728625596.wem</Path>
+					<CachePath>SFX/crumbles-003_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="937089009" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>windGusts-003.wav</ShortName>
+					<Path>Media/937089009.wem</Path>
+					<CachePath>SFX/windGusts-003_D8C07C79.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1903256924" Name="towerAmbient" ObjectPath="\Events\Default Work Unit\Ambient\towerAmbient" GUID="{03D147F4-241F-45AA-867E-96801EB882C4}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="3731836"/>
+						<MediaRef Id="53808189"/>
+						<MediaRef Id="85468853"/>
+						<MediaRef Id="343670367"/>
+						<MediaRef Id="350808807"/>
+						<MediaRef Id="366185646"/>
+						<MediaRef Id="419399914"/>
+						<MediaRef Id="441206784"/>
+						<MediaRef Id="728625596"/>
+						<MediaRef Id="937089009"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F9313DC0-9E86-3DD9-A20B-42797F105BD3}</FileHash>
+</SoundBanksInfo>

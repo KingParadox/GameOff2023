@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	239554289	Play_FIREBALL_INHALE			\Default Work Unit\Play_FIREBALL_INHALE	
+

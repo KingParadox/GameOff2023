@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="2961648011" Type="Event" GUID="{0D6F2A96-6CD6-4266-BD86-0CD134328443}" Language="SFX" Hash="{82082C82-FF47-8687-1B5E-8578FA761380}">
+			<ObjectPath>Play_Bellow</ObjectPath>
+			<ShortName>Play_Bellow</ShortName>
+			<Path>Event/Play_Bellow.bnk</Path>
+			<Media>
+				<File Id="26672347" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Dracolich\Bellow\DRAGON_BELLOW_03.wav</ShortName>
+					<Path>Media/26672347.wem</Path>
+					<CachePath>SFX/Dracolich/Bellow/DRAGON_BELLOW_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="504996585" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Dracolich\Bellow\DRAGON_BELLOW_04.wav</ShortName>
+					<Path>Media/504996585.wem</Path>
+					<CachePath>SFX/Dracolich/Bellow/DRAGON_BELLOW_04_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="511325285" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Dracolich\Bellow\DRAGON_BELLOW_02.wav</ShortName>
+					<Path>Media/511325285.wem</Path>
+					<CachePath>SFX/Dracolich/Bellow/DRAGON_BELLOW_02_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="1017512601" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Dracolich\Bellow\DRAGON_BELLOW_01.wav</ShortName>
+					<Path>Media/1017512601.wem</Path>
+					<CachePath>SFX/Dracolich/Bellow/DRAGON_BELLOW_01_D8C07C79.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2961648011" Name="Play_Bellow" ObjectPath="\Events\Default Work Unit\Play_Bellow" GUID="{0D6F2A96-6CD6-4266-BD86-0CD134328443}" DurationType="OneShot" DurationMin="4.25" DurationMax="5.814">
+					<MediaRefs>
+						<MediaRef Id="26672347"/>
+						<MediaRef Id="504996585"/>
+						<MediaRef Id="511325285"/>
+						<MediaRef Id="1017512601"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F56E2832-31F8-59B1-9F79-6AD15C141808}</FileHash>
+</SoundBanksInfo>

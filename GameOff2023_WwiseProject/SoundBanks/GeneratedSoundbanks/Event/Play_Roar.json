@@ -1,0 +1,84 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2770252186",
+    "Type": "Event",
+    "GUID": "{A583A819-0769-40E1-9A97-6AEBFC9E9DFE}",
+    "Language": "SFX",
+    "Hash": "{93DFB340-3169-61D6-CB40-52523FB019A3}",
+    "ObjectPath": "Play_Roar",
+    "ShortName": "Play_Roar",
+    "Path": "Event/Play_Roar.bnk",
+    "Media": [
+     {
+      "Id": "69486095",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Dracolich\\Roar\\DRAGON_ROAR_03.wav",
+      "Path": "Media/69486095.wem",
+      "CachePath": "SFX/Dracolich/Roar/DRAGON_ROAR_03_D8C07C79.wem"
+     },
+     {
+      "Id": "100039941",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Dracolich\\Roar\\DRAGON_ROAR_01.wav",
+      "Path": "Media/100039941.wem",
+      "CachePath": "SFX/Dracolich/Roar/DRAGON_ROAR_01_D8C07C79.wem"
+     },
+     {
+      "Id": "104418782",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Dracolich\\Roar\\DRAGON_ROAR_02.wav",
+      "Path": "Media/104418782.wem",
+      "CachePath": "SFX/Dracolich/Roar/DRAGON_ROAR_02_D8C07C79.wem"
+     },
+     {
+      "Id": "876548619",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Dracolich\\Roar\\DRAGON_ROAR_04.wav",
+      "Path": "Media/876548619.wem",
+      "CachePath": "SFX/Dracolich/Roar/DRAGON_ROAR_04_D8C07C79.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2770252186",
+      "Name": "Play_Roar",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Roar",
+      "GUID": "{A583A819-0769-40E1-9A97-6AEBFC9E9DFE}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.75",
+      "DurationMax": "5.5",
+      "MediaRefs": [
+       {
+        "Id": "69486095"
+       },
+       {
+        "Id": "100039941"
+       },
+       {
+        "Id": "104418782"
+       },
+       {
+        "Id": "876548619"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8C2658E2-C77B-A554-E3E9-D9D60F9F63FB}"
+ }
+}

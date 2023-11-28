@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "239554289",
+    "Type": "Event",
+    "GUID": "{F2E75818-3751-47CB-9006-3D8CA63DA523}",
+    "Language": "SFX",
+    "Hash": "{005F73AB-D5E1-C0F0-1584-0E801E7D991A}",
+    "ObjectPath": "Play_FIREBALL_INHALE",
+    "ShortName": "Play_FIREBALL_INHALE",
+    "Path": "Event/Play_FIREBALL_INHALE.bnk",
+    "Media": [
+     {
+      "Id": "109788312",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Dracolich\\Fireball\\FIREBALL_INHALE.wav",
+      "Path": "Media/109788312.wem",
+      "CachePath": "SFX/Dracolich/Fireball/FIREBALL_INHALE_D8C07C79.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "239554289",
+      "Name": "Play_FIREBALL_INHALE",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_FIREBALL_INHALE",
+      "GUID": "{F2E75818-3751-47CB-9006-3D8CA63DA523}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.4",
+      "DurationMax": "2.4",
+      "MediaRefs": [
+       {
+        "Id": "109788312"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D20EC15D-2CED-41E2-C1DF-A727B257BE1F}"
+ }
+}

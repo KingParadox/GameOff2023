@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2753042117",
+    "Type": "Event",
+    "GUID": "{6302B084-499C-4B6F-8BE5-8F01879D3BC1}",
+    "Language": "SFX",
+    "Hash": "{6ACC4E8A-95FD-C80D-8DE2-082D7BB1A5DE}",
+    "ObjectPath": "Play_Stomp",
+    "ShortName": "Play_Stomp",
+    "Path": "Event/Play_Stomp.bnk",
+    "Media": [
+     {
+      "Id": "195108500",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Dracolich\\Stomp\\DRAGON_STOMP_03.wav",
+      "Path": "Media/195108500.wem",
+      "CachePath": "SFX/Dracolich/Stomp/DRAGON_STOMP_03_D8C07C79.wem"
+     },
+     {
+      "Id": "256293707",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Dracolich\\Stomp\\DRAGON_STOMP_01.wav",
+      "Path": "Media/256293707.wem",
+      "CachePath": "SFX/Dracolich/Stomp/DRAGON_STOMP_01_D8C07C79.wem"
+     },
+     {
+      "Id": "258975257",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Dracolich\\Stomp\\DRAGON_STOMP_02.wav",
+      "Path": "Media/258975257.wem",
+      "CachePath": "SFX/Dracolich/Stomp/DRAGON_STOMP_02_D8C07C79.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2753042117",
+      "Name": "Play_Stomp",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Stomp",
+      "GUID": "{6302B084-499C-4B6F-8BE5-8F01879D3BC1}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.6666667",
+      "DurationMax": "3.1666667",
+      "MediaRefs": [
+       {
+        "Id": "195108500"
+       },
+       {
+        "Id": "256293707"
+       },
+       {
+        "Id": "258975257"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{01817912-E132-10D2-B0FB-BD3FD0E98EC2}"
+ }
+}

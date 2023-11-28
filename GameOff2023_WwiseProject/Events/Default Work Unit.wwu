@@ -436,6 +436,72 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Bellow" ID="{0D6F2A96-6CD6-4266-BD86-0CD134328443}">
+					<ChildrenList>
+						<Action Name="" ID="{D26189DA-CDE9-4A66-8A8F-787E87470F29}" ShortID="981010147">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bellow" ID="{546AE186-3EEC-458C-A6D3-1A8F3D4B40EC}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Roar" ID="{A583A819-0769-40E1-9A97-6AEBFC9E9DFE}">
+					<ChildrenList>
+						<Action Name="" ID="{D07C1952-7136-4212-AEC1-4FA03C6970E9}" ShortID="699710520">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roar" ID="{297A45C5-AA5C-47C8-B249-A9B1DFA84BF6}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Stomp" ID="{6302B084-499C-4B6F-8BE5-8F01879D3BC1}">
+					<ChildrenList>
+						<Action Name="" ID="{B91BA240-2667-4D2C-B8FB-70368AD02552}" ShortID="776345949">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stomp" ID="{418EC00F-7E52-4FD1-B74E-755C21C25B96}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wings" ID="{F53F1E07-1CAD-474F-B86D-BDE0E0E89B7F}">
+					<ChildrenList>
+						<Action Name="" ID="{6C0F6617-DE4D-4389-A96E-8F2E5600C8A4}" ShortID="18836636">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wings" ID="{8D1097C9-747C-4FC2-83BC-A66DFE84A3A6}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FIREBALL_BURST" ID="{4D539548-D595-4FF6-A301-4E9B046054DA}">
+					<ChildrenList>
+						<Action Name="" ID="{1787F306-118D-40FD-9FA1-9A81D4B49829}" ShortID="859318500">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FIREBALL_BURST" ID="{3A78F31C-0ED9-40BC-A76B-2929E1A46568}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FIREBALL_INHALE" ID="{F2E75818-3751-47CB-9006-3D8CA63DA523}">
+					<ChildrenList>
+						<Action Name="" ID="{FAB993BB-F971-422E-BE06-49D943F92E21}" ShortID="261142481">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FIREBALL_INHALE" ID="{12DE2F0B-21F4-4413-BAAE-DBD4F01F249A}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
