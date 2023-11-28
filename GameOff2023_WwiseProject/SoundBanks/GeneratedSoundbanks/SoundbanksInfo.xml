@@ -500,7 +500,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{0611FEDE-7980-E14D-938F-D410CFF5577E}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{E889C1A8-B67A-861F-C2C7-4BFEB721623B}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
@@ -1218,6 +1218,20 @@
 					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="762757699" Id="0" GUID="{4FD28419-13F8-48BF-8F7B-94FC7E84D867}"/>
+							<MediaRefs>
+								<MediaRef Id="73024082"/>
+								<MediaRef Id="247177741"/>
+								<MediaRef Id="436038413"/>
+								<MediaRef Id="565711601"/>
+								<MediaRef Id="737581056"/>
+								<MediaRef Id="878982338"/>
+								<MediaRef Id="916932768"/>
+								<MediaRef Id="922137907"/>
+								<MediaRef Id="959056934"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="762757699" Id="2764240573" GUID="{D7DBAB25-D3B6-4BC9-BC8B-583DD72A4237}"/>
 							<MediaRefs>
 								<MediaRef Id="80111373"/>
@@ -1401,5 +1415,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E0F3C47F-CB04-D33E-405B-DA955B50907B}</FileHash>
+	<FileHash>{EC5C67D3-4950-2766-FEED-C71AFD6AF3C2}</FileHash>
 </SoundBanksInfo>

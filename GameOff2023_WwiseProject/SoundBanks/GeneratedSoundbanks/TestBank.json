@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{0611FEDE-7980-E14D-938F-D410CFF5577E}",
+    "Hash": "{E889C1A8-B67A-861F-C2C7-4BFEB721623B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -1537,6 +1537,43 @@
         "SwitchValue": {
          "GroupType": "State",
          "GroupId": "762757699",
+         "Id": "0",
+         "GUID": "{4FD28419-13F8-48BF-8F7B-94FC7E84D867}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "73024082"
+         },
+         {
+          "Id": "247177741"
+         },
+         {
+          "Id": "436038413"
+         },
+         {
+          "Id": "565711601"
+         },
+         {
+          "Id": "737581056"
+         },
+         {
+          "Id": "878982338"
+         },
+         {
+          "Id": "916932768"
+         },
+         {
+          "Id": "922137907"
+         },
+         {
+          "Id": "959056934"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "762757699",
          "Id": "2764240573",
          "GUID": "{D7DBAB25-D3B6-4BC9-BC8B-583DD72A4237}"
         },
@@ -2051,6 +2088,6 @@
     ]
    }
   ],
-  "FileHash": "{3024DE1B-025B-76D5-CD9A-F080CCAE9CB1}"
+  "FileHash": "{833A902F-471F-2C96-1B78-50AB6B369A36}"
  }
 }
