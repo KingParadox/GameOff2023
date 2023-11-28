@@ -10,12 +10,24 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="bridgeAmbient" ID="{4BF34D11-04D8-4772-B792-57D91B93C085}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_SwordCollision" ID="{60E47DA0-6A74-437D-8AE3-6CA25247B280}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="hallsAmbient" ID="{4272CEEE-74F9-4D9B-8037-DBAFB9F7A6B8}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_GameplayMusicSwitch" ID="{00ED8287-CD9E-458A-94FA-27FDF5D1C3A6}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="towerAmbient" ID="{03D147F4-241F-45AA-867E-96801EB882C4}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="2" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>

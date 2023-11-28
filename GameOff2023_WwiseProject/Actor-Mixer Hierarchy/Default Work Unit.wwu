@@ -3254,7 +3254,40 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="winds" ID="{BACEF142-3299-42B5-95C0-20249F174202}" ShortID="203548737">
+								<RandomSequenceContainer Name="windGusts" ID="{BACEF142-3299-42B5-95C0-20249F174202}" ShortID="203548737">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D7D86FAE-A467-4580-8306-0BB6F9E17F82}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="20">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1973F341-579C-4B50-BB7C-FECF2920D32B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
@@ -3263,8 +3296,209 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="windGusts-001" ID="{83E98D6A-5383-4F33-96EF-2645C476E79F}" ShortID="530162532">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="windGusts-001" ID="{B84757AA-F659-4E10-B5CF-A9673D32B74F}">
+													<Language>SFX</Language>
+													<AudioFile>windGusts-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="419399914"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="windGusts-001" ID="{B84757AA-F659-4E10-B5CF-A9673D32B74F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="windGusts-002" ID="{407D73A0-9B83-4416-87DC-F41D922BB022}" ShortID="540247103">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="windGusts-002" ID="{9087F7C5-E52C-48F3-827C-F6F28F0BD83A}">
+													<Language>SFX</Language>
+													<AudioFile>windGusts-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="366185646"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="windGusts-002" ID="{9087F7C5-E52C-48F3-827C-F6F28F0BD83A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="windGusts-003" ID="{34FD9F5A-FD81-4AFF-80A1-234D7CE69C27}" ShortID="296879912">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="windGusts-003" ID="{5AF3ADD0-227F-4A3B-AEAA-9E524EF9814C}">
+													<Language>SFX</Language>
+													<AudioFile>windGusts-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="937089009"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="windGusts-003" ID="{5AF3ADD0-227F-4A3B-AEAA-9E524EF9814C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="windGusts-004" ID="{1BCD105A-6D52-4265-BE55-81024506445C}" ShortID="825892789">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="windGusts-004" ID="{7A8596F8-710F-4E44-A2D8-BD6571CB1B08}">
+													<Language>SFX</Language>
+													<AudioFile>windGusts-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="350808807"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="windGusts-004" ID="{7A8596F8-710F-4E44-A2D8-BD6571CB1B08}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="windGusts-005" ID="{D6D6DBAC-D4AF-4CA6-BD5B-7BE403EAA7D0}" ShortID="785131934">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="windGusts-005" ID="{6D503C39-AF2D-43E5-BEFD-9F829F2BADEE}">
+													<Language>SFX</Language>
+													<AudioFile>windGusts-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="53808189"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="windGusts-005" ID="{6D503C39-AF2D-43E5-BEFD-9F829F2BADEE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="windGusts-006" ID="{C849E9F5-9B82-404C-A164-9EE1A9EBB6A2}" ShortID="95086205">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="windGusts-006" ID="{19B286E0-6294-4B4D-BF15-22E9CA4B17A5}">
+													<Language>SFX</Language>
+													<AudioFile>windGusts-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="343670367"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="windGusts-006" ID="{19B286E0-6294-4B4D-BF15-22E9CA4B17A5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="windGusts-007" ID="{F93DBA7D-B90E-452D-AF35-07C074869D8E}" ShortID="743958515">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="windGusts-007" ID="{AB994882-D128-43D3-89DE-893BF9D0BAFF}">
+													<Language>SFX</Language>
+													<AudioFile>windGusts-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="85468853"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="windGusts-007" ID="{AB994882-D128-43D3-89DE-893BF9D0BAFF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="thunders" ID="{F6EF5CC2-83D0-416A-92CC-10965BA1DB68}" ShortID="430679193">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2DEE99EF-52D3-4B79-BFBE-08CFE30A50AB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E82F42BC-86DF-4FFD-BD46-5A77B9A0EF5E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="50">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A21E6E19-E8B9-41A6-9020-61FE41858104}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+															<Property Name="Min" Type="Real64" Value="-20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
@@ -3273,16 +3507,144 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
 										</Reference>
 									</ReferenceList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="rumbles" ID="{8203C071-D793-4CE4-A657-4DE1D0AD850F}" ShortID="556146857">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="thunders-001" ID="{34F17972-234F-4D37-BB03-70E03E4832A3}" ShortID="600105949">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="thunders-001" ID="{EB4DFE9E-9487-408E-B151-7A445EA827E3}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.110013315579228"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.285219707057257"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>thunders-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="448664350"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="thunders-001" ID="{EB4DFE9E-9487-408E-B151-7A445EA827E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="thunders-002" ID="{4EEABDF9-FAF3-4811-8ED1-7DA1C0ABF5ED}" ShortID="1030468698">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="thunders-002" ID="{E9D5DFD6-34CE-4ED2-AE02-47ED5DB9C419}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.316910785619174"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="7.00599201065246"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>thunders-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="665288197"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="thunders-002" ID="{E9D5DFD6-34CE-4ED2-AE02-47ED5DB9C419}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="thunders-003" ID="{746E83A5-AEAE-4667-BC7C-EBF319CC1273}" ShortID="101052027">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="thunders-003" ID="{39E14961-ABCA-4A32-A295-0B6A5BA86816}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.47267663948069"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.50287802374613"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>thunders-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="492113711"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="thunders-003" ID="{39E14961-ABCA-4A32-A295-0B6A5BA86816}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="thunders-004" ID="{40539801-DC06-4229-BC42-4CF4A052A09A}" ShortID="480059198">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="thunders-004" ID="{97331008-AC4A-4659-82A0-56F264BF4A54}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.96138482023968"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="7.01431424766976"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>thunders-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="956128316"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="thunders-004" ID="{97331008-AC4A-4659-82A0-56F264BF4A54}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="drips" ID="{3724004E-9A21-4018-9308-B8C8C7DADD87}" ShortID="11854054">
 									<ReferenceList>
@@ -3305,6 +3667,39 @@
 									</ReferenceList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="creaks" ID="{AC16B82B-A8B6-49F5-A8E6-17C79815CA5E}" ShortID="771669112">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{12CAF9F0-F3D3-4E53-8D2F-FBA9BC770EF8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="30">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8381F88A-8212-4F96-93F7-9A784065D310}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
@@ -3313,8 +3708,263 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="creaks-001" ID="{8D344EAE-748F-44B3-A3D9-B474ED56DE9E}" ShortID="107725400">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="creaks-001" ID="{D756D97A-0B3C-4005-9378-2B5DD0F826A0}">
+													<Language>SFX</Language>
+													<AudioFile>creaks-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="790589316"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="creaks-001" ID="{D756D97A-0B3C-4005-9378-2B5DD0F826A0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="creaks-002" ID="{811323E3-ED76-4747-BF34-C9C49364377D}" ShortID="3590084">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="creaks-002" ID="{8913D635-BFE2-460E-AB47-FC8BD4258E37}">
+													<Language>SFX</Language>
+													<AudioFile>creaks-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="776941347"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="creaks-002" ID="{8913D635-BFE2-460E-AB47-FC8BD4258E37}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="creaks-003" ID="{0C31CA7C-AC64-47FD-A59A-2B74BBE5A58C}" ShortID="1063909209">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="creaks-003" ID="{230C90BB-78C4-48C1-B30F-A92C289315EF}">
+													<Language>SFX</Language>
+													<AudioFile>creaks-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="561174997"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="creaks-003" ID="{230C90BB-78C4-48C1-B30F-A92C289315EF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="creaks-004" ID="{9B4EA704-1EE9-42E0-97D6-D86C541FB74E}" ShortID="666532028">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="creaks-004" ID="{28ED148E-9702-40A3-9926-4F49DB6EEFAA}">
+													<Language>SFX</Language>
+													<AudioFile>creaks-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="966510030"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="creaks-004" ID="{28ED148E-9702-40A3-9926-4F49DB6EEFAA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="creaks-005" ID="{3BF86E42-05AA-4A59-8E56-FFF54408F633}" ShortID="882416437">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="creaks-005" ID="{1150030B-08A5-4593-A24D-FC7C11D22FD3}">
+													<Language>SFX</Language>
+													<AudioFile>creaks-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="261952539"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="creaks-005" ID="{1150030B-08A5-4593-A24D-FC7C11D22FD3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="creaks-006" ID="{A90B21F4-1B6A-45FE-A484-63A840675CE1}" ShortID="224423418">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="creaks-006" ID="{47605A65-6131-4340-90D9-42720EFA90E6}">
+													<Language>SFX</Language>
+													<AudioFile>creaks-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="568924458"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="creaks-006" ID="{47605A65-6131-4340-90D9-42720EFA90E6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="creaks-007" ID="{7880D7FB-3108-481C-9CDF-38D08068E730}" ShortID="27663618">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="creaks-007" ID="{CE80E630-CBDB-4FE9-9F34-379263B93EEC}">
+													<Language>SFX</Language>
+													<AudioFile>creaks-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="672350718"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="creaks-007" ID="{CE80E630-CBDB-4FE9-9F34-379263B93EEC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="creaks-008" ID="{4703ACF9-B3A6-4453-B36A-232CFE7656CD}" ShortID="712586026">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="creaks-008" ID="{823F1F03-EC6B-42CE-83C6-9925FD2A5549}">
+													<Language>SFX</Language>
+													<AudioFile>creaks-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="658922866"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="creaks-008" ID="{823F1F03-EC6B-42CE-83C6-9925FD2A5549}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="creaks-009" ID="{666C2E24-3603-44BF-B570-E13666088BA5}" ShortID="764774873">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="creaks-009" ID="{58250BDB-0807-493F-9708-1DE0704349BE}">
+													<Language>SFX</Language>
+													<AudioFile>creaks-009.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="270391479"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="creaks-009" ID="{58250BDB-0807-493F-9708-1DE0704349BE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="creaks-010" ID="{B580C549-878C-4D3A-8B65-E5BE5F995A15}" ShortID="443174374">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="creaks-010" ID="{DA569552-C856-4B83-8E15-576B5DA4EECD}">
+													<Language>SFX</Language>
+													<AudioFile>creaks-010.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="476739655"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="creaks-010" ID="{DA569552-C856-4B83-8E15-576B5DA4EECD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="crunches" ID="{6D4ACA4C-0A39-4F06-B7B0-B2CD95E6DA01}" ShortID="530840352">
+								<RandomSequenceContainer Name="crumbles" ID="{6D4ACA4C-0A39-4F06-B7B0-B2CD95E6DA01}" ShortID="530840352">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3E7E7494-0C7C-4DE4-958E-1F8D699ABA2C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="40">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3A937D7A-D3B2-4984-96A7-8E7471BF7E1E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+															<Property Name="Min" Type="Real64" Value="-15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
@@ -3323,7 +3973,149 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="crumbles-001" ID="{1811A9C5-38B2-46A7-9E5C-3023D2FA7360}" ShortID="581918155">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="crumbles-001" ID="{6DEB55FE-82C8-437E-B072-048DAE00AE6C}">
+													<Language>SFX</Language>
+													<AudioFile>crumbles-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="441206784"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="crumbles-001" ID="{6DEB55FE-82C8-437E-B072-048DAE00AE6C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="crumbles-002" ID="{5888BB92-6023-41B6-BE02-26753106E22C}" ShortID="1026732796">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="crumbles-002" ID="{16F86E8F-B3F9-4489-84AC-8EE657FB9E0E}">
+													<Language>SFX</Language>
+													<AudioFile>crumbles-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="3731836"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="crumbles-002" ID="{16F86E8F-B3F9-4489-84AC-8EE657FB9E0E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="crumbles-003" ID="{F5D8BA10-67A7-49E1-918B-DDAABE66D2AC}" ShortID="1025195231">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="crumbles-003" ID="{ED519D3A-67EC-40A4-B189-BD5A29F8CDE7}">
+													<Language>SFX</Language>
+													<AudioFile>crumbles-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="728625596"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="crumbles-003" ID="{ED519D3A-67EC-40A4-B189-BD5A29F8CDE7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="lowRumble" ID="{0B684A03-C4D5-40DE-A9D1-BE23F7A4B33C}" ShortID="43944573">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lowRumble" ID="{BD87A749-2F98-4498-BFCD-554D124C4DC4}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1500"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.906214214380826"/>
+												<Property Name="LoopEnd" Type="Real64" Value="89.0506501331558"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>lowRumble.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="222420576"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="lowRumble" ID="{BD87A749-2F98-4498-BFCD-554D124C4DC4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="lowWind" ID="{C8BB7390-4A19-4F4B-9CBC-ED6C9E3D8803}" ShortID="552339322">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lowWind" ID="{ABE3E8F0-7541-4457-BED3-E445ABCD4BFB}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1500"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.48989996671105"/>
+												<Property Name="LoopEnd" Type="Real64" Value="88.2246143475366"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>lowWind.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1073153476"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="lowWind" ID="{ABE3E8F0-7541-4457-BED3-E445ABCD4BFB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

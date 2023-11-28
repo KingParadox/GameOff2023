@@ -255,6 +255,21 @@
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{F75DB760-38D9-43A7-B891-1D1C605A8555}" ShortID="318090296">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="50">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{09DF0FE0-71A0-4BC6-BCE6-8E086ABC3907}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+															<Property Name="Min" Type="Real64" Value="-20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="thunders" ID="{F6EF5CC2-83D0-416A-92CC-10965BA1DB68}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
@@ -262,23 +277,88 @@
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{20729EFC-AFE4-412C-A850-AF88207FE299}" ShortID="1006481230">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="40">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{60D080BB-CCD1-41F6-87C1-D1D396E723C0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+															<Property Name="Min" Type="Real64" Value="-15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="rumbles" ID="{8203C071-D793-4CE4-A657-4DE1D0AD850F}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+											<ObjectRef Name="crumbles" ID="{6D4ACA4C-0A39-4F06-B7B0-B2CD95E6DA01}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{A5D9B917-AF07-42DE-89F6-DE1594D49D3E}" ShortID="344994159">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="20">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5DBFA9BF-6BCF-4F09-B6C2-959624968E0A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="winds" ID="{BACEF142-3299-42B5-95C0-20249F174202}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+											<ObjectRef Name="windGusts" ID="{BACEF142-3299-42B5-95C0-20249F174202}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{3A091241-6685-4774-BC78-7257A411B6ED}" ShortID="1068231201">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="30">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{03430A30-9D95-4505-92BC-A00F6B7DC40F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="creaks" ID="{AC16B82B-A8B6-49F5-A8E6-17C79815CA5E}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5E1B49E3-F461-4EF8-BF54-D1E8C6EF5952}" ShortID="604664094">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="lowRumble" ID="{0B684A03-C4D5-40DE-A9D1-BE23F7A4B33C}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{04C8BEF5-9A65-4639-BA7F-FFAD2AE8CB9A}" ShortID="713138325">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="lowWind" ID="{C8BB7390-4A19-4F4B-9CBC-ED6C9E3D8803}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -299,7 +379,7 @@
 								<Action Name="" ID="{4DCB0C4B-D7FB-407C-9EF4-3994CE7407CC}" ShortID="787371468">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="winds" ID="{BACEF142-3299-42B5-95C0-20249F174202}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+											<ObjectRef Name="windGusts" ID="{BACEF142-3299-42B5-95C0-20249F174202}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -313,7 +393,7 @@
 								<Action Name="" ID="{FB555374-0618-4D61-824F-99F04A20CE7B}" ShortID="530536551">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="crunches" ID="{6D4ACA4C-0A39-4F06-B7B0-B2CD95E6DA01}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+											<ObjectRef Name="crumbles" ID="{6D4ACA4C-0A39-4F06-B7B0-B2CD95E6DA01}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
