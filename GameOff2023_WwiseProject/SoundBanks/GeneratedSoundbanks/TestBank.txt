@@ -40,12 +40,20 @@ Switch	ID	Name	Switch Group			Notes
 	4248645337	Grass	SurfaceMaterial_Switch			
 
 State Group	ID	Name			Wwise Object Path	Notes
+	79836495	ENVIRONEMENT_STATE			\Default Work Unit\ENVIRONEMENT_STATE	
 	762757699	GAMEPLAY_STATE			\Default Work Unit\GAMEPLAY_STATE	
 
 State	ID	Name	State Group			Notes
+	438105790	Outside	ENVIRONEMENT_STATE			
+	748895195	None	ENVIRONEMENT_STATE			
+	3553349781	Inside	ENVIRONEMENT_STATE			
 	748895195	None	GAMEPLAY_STATE			
 	2582085496	Exploration	GAMEPLAY_STATE			
 	2764240573	Combat	GAMEPLAY_STATE			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	125659826	Inside	ENVIRONEMENT_STATE	\Actor-Mixer Hierarchy\Default Work Unit\PlayerMixer		
+	559686592	Outside	ENVIRONEMENT_STATE	\Actor-Mixer Hierarchy\Default Work Unit\PlayerMixer		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	3731836	crumbles-002	F:\Projects\Unreal\GameOff2023\GameOff2023_WwiseProject\.cache\Windows\SFX\crumbles-002_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Ambience\crumbles\crumbles-002		51662

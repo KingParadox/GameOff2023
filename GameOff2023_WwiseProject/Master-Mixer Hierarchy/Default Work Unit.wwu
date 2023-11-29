@@ -12,14 +12,14 @@
 					<ChildrenList>
 						<AuxBus Name="SmallReverb_Bus" ID="{192052F3-9763-48B6-B1CD-E702DA978884}">
 							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<ValueList>
-										<Value>-18</Value>
-									</ValueList>
-								</Property>
 								<Property Name="OutputBusLowpass" Type="int16">
 									<ValueList>
 										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -28,27 +28,6 @@
 									<ObjectRef Name="Hall_Medium" ID="{50286348-176A-4235-9E4C-CA5F73D87818}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 							</ReferenceList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="ENVIRONEMENT_STATE" ID="{8D9FF48D-E328-4755-8209-B0F7DBE88579}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Outside" ID="{78D35B2D-071D-46C5-AB82-EB4F745E6720}"/>
-										<CustomState Name="" ID="{02B6B71F-482F-4FE6-A7CE-6AF7A1EB8275}" ShortID="1002290179">
-											<PropertyList>
-												<Property Name="BusVolume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Inside" ID="{B72E5398-1E0D-4DF4-A6A0-02EE948A8DF9}"/>
-										<CustomState Name="" ID="{384D47F7-0531-416B-BF85-27A7096B6F0A}" ShortID="508964118"/>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
 						</AuxBus>
 					</ChildrenList>
 				</Bus>

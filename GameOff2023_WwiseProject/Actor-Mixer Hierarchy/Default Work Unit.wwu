@@ -1157,6 +1157,11 @@
 				</Folder>
 				<ActorMixer Name="PlayerMixer" ID="{E743BA67-451C-4B1F-9F98-FD894472BCF3}" ShortID="1014288839">
 					<PropertyList>
+						<Property Name="GameAuxSendVolume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
@@ -4226,6 +4231,29 @@
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="Volume"/>
 						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="ENVIRONEMENT_STATE" ID="{8D9FF48D-E328-4755-8209-B0F7DBE88579}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Outside" ID="{78D35B2D-071D-46C5-AB82-EB4F745E6720}"/>
+								<CustomState Name="" ID="{8C7B690F-785D-4726-8ECC-3F3A637298DD}" ShortID="559686592">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Inside" ID="{B72E5398-1E0D-4DF4-A6A0-02EE948A8DF9}"/>
+								<CustomState Name="" ID="{5AFF551A-92C2-47B6-9E7E-43121397A2FC}" ShortID="125659826">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-24"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
 					</StateInfo>
 				</ActorMixer>
 				<ActorMixer Name="Enemy Mixer" ID="{FD29D892-D965-443C-B86D-A3918C5E5CAB}" ShortID="698320998">

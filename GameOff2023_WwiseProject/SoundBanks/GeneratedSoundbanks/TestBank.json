@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{7CB649EE-5E79-5C03-238D-B7413047E0EE}",
+    "Hash": "{DFAFBADD-6B6A-FFDE-FA15-B582905F325F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -2800,6 +2800,6 @@
     ]
    }
   ],
-  "FileHash": "{FB4FE7DA-D3EA-DAA7-38ED-7BB4888E2A40}"
+  "FileHash": "{E021D229-5DA7-2935-F92C-911EDCE11B58}"
  }
 }
