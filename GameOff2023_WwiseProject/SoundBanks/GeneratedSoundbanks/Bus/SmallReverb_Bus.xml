@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="855099005" Type="Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}" Language="SFX" Hash="{9B94EE58-0605-7818-AE06-71B06AA80ED3}">
+			<ObjectPath>SmallReverb_Bus</ObjectPath>
+			<ShortName>SmallReverb_Bus</ShortName>
+			<Path>Bus/SmallReverb_Bus.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3451596814" Name="Hall_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Medium" GUID="{50286348-176A-4235-9E4C-CA5F73D87818}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3451596814"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<StateGroups>
+				<StateGroup Id="79836495" Name="ENVIRONEMENT_STATE" ObjectPath="\States\Default Work Unit\ENVIRONEMENT_STATE" GUID="{8D9FF48D-E328-4755-8209-B0F7DBE88579}">
+					<States>
+						<State Id="438105790" Name="Outside" ObjectPath="\States\Default Work Unit\ENVIRONEMENT_STATE\Outside" GUID="{78D35B2D-071D-46C5-AB82-EB4F745E6720}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\ENVIRONEMENT_STATE\None" GUID="{5F572EDE-E3CB-4704-9666-2B44EFEBC5EC}"/>
+						<State Id="3553349781" Name="Inside" ObjectPath="\States\Default Work Unit\ENVIRONEMENT_STATE\Inside" GUID="{B72E5398-1E0D-4DF4-A6A0-02EE948A8DF9}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{06933AA8-1B70-F296-9192-D517753E5E7C}</FileHash>
+</SoundBanksInfo>

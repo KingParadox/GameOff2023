@@ -9,11 +9,42 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{BE54FAF1-AA90-A0F9-BC69-A523AA79FE93}">
+		<SoundBank Id="855099005" Type="Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}" Language="SFX" Hash="{9B94EE58-0605-7818-AE06-71B06AA80ED3}">
+			<ObjectPath>SmallReverb_Bus</ObjectPath>
+			<ShortName>SmallReverb_Bus</ShortName>
+			<Path>Bus/SmallReverb_Bus.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3451596814" Name="Hall_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Medium" GUID="{50286348-176A-4235-9E4C-CA5F73D87818}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3451596814"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<StateGroups>
+				<StateGroup Id="79836495" Name="ENVIRONEMENT_STATE" ObjectPath="\States\Default Work Unit\ENVIRONEMENT_STATE" GUID="{8D9FF48D-E328-4755-8209-B0F7DBE88579}">
+					<States>
+						<State Id="438105790" Name="Outside" ObjectPath="\States\Default Work Unit\ENVIRONEMENT_STATE\Outside" GUID="{78D35B2D-071D-46C5-AB82-EB4F745E6720}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\ENVIRONEMENT_STATE\None" GUID="{5F572EDE-E3CB-4704-9666-2B44EFEBC5EC}"/>
+						<State Id="3553349781" Name="Inside" ObjectPath="\States\Default Work Unit\ENVIRONEMENT_STATE\Inside" GUID="{B72E5398-1E0D-4DF4-A6A0-02EE948A8DF9}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{28683615-C897-C252-74F6-8732EA1606F2}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="3451596814" Name="Hall_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Medium" GUID="{50286348-176A-4235-9E4C-CA5F73D87818}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{B8A66325-E35C-466B-B241-03B313C285E7}" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{FA09F309-14AE-4C38-8CDC-00CA06252993}" LibName="System" LibId="11403271"/>
@@ -22,7 +53,23 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3451596814"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 			<StateGroups>
+				<StateGroup Id="79836495" Name="ENVIRONEMENT_STATE" ObjectPath="\States\Default Work Unit\ENVIRONEMENT_STATE" GUID="{8D9FF48D-E328-4755-8209-B0F7DBE88579}">
+					<States>
+						<State Id="438105790" Name="Outside" ObjectPath="\States\Default Work Unit\ENVIRONEMENT_STATE\Outside" GUID="{78D35B2D-071D-46C5-AB82-EB4F745E6720}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\ENVIRONEMENT_STATE\None" GUID="{5F572EDE-E3CB-4704-9666-2B44EFEBC5EC}"/>
+						<State Id="3553349781" Name="Inside" ObjectPath="\States\Default Work Unit\ENVIRONEMENT_STATE\Inside" GUID="{B72E5398-1E0D-4DF4-A6A0-02EE948A8DF9}"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="762757699" Name="GAMEPLAY_STATE" ObjectPath="\States\Default Work Unit\GAMEPLAY_STATE" GUID="{4FD28419-13F8-48BF-8F7B-94FC7E84D867}">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GAMEPLAY_STATE\None" GUID="{CE7CE926-4897-4DEE-ACFE-D2BA3D849E60}"/>
@@ -46,7 +93,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{C2268F93-9E13-7D72-887C-F55108CEA744}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{07B19C70-C50E-C84D-ACFC-598E6548769B}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
@@ -855,6 +902,9 @@
 						<MediaRef Id="905074597"/>
 						<MediaRef Id="1017635794"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="4136017490" Name="Play_Confirm" ObjectPath="\Events\Default Work Unit\UI\Play_Confirm" GUID="{53923D77-FDD4-40A8-927C-8A0B6E553595}" DurationType="OneShot" DurationMin="90.74225" DurationMax="90.74225">
 					<MediaRefs>
@@ -866,7 +916,7 @@
 						<MediaRef Id="317003863"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="239554289" Name="Play_FIREBALL_INHALE" ObjectPath="\Events\Default Work Unit\Play_FIREBALL_INHALE" GUID="{F2E75818-3751-47CB-9006-3D8CA63DA523}" DurationType="OneShot" DurationMin="2.4" DurationMax="2.4">
+				<Event Id="239554289" Name="Play_FIREBALL_INHALE" ObjectPath="\Events\Default Work Unit\Play_FIREBALL_INHALE" GUID="{F2E75818-3751-47CB-9006-3D8CA63DA523}" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.4" DurationMax="2.4">
 					<MediaRefs>
 						<MediaRef Id="109788312"/>
 					</MediaRefs>
@@ -882,6 +932,9 @@
 						<MediaRef Id="847011496"/>
 						<MediaRef Id="1045296774"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2033627364" Id="2058049674" GUID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
@@ -1083,6 +1136,9 @@
 						<MediaRef Id="1034915998"/>
 						<MediaRef Id="1045296774"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="4115969904" Name="Play_Parry" ObjectPath="\Events\Default Work Unit\Player\Weapons\Play_Parry" GUID="{BBF31B62-35C8-4FA1-97A9-CE8BD2215273}" DurationType="OneShot" DurationMin="3.5946667" DurationMax="4.4533334">
 					<MediaRefs>
@@ -1090,6 +1146,9 @@
 						<MediaRef Id="760257846"/>
 						<MediaRef Id="1016855423"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3860455926" Name="Play_PickUp" ObjectPath="\Events\Default Work Unit\UI\Play_PickUp" GUID="{C9A6BD8C-8C59-4FDF-83A6-64EA9872E282}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
 					<MediaRefs>
@@ -1110,6 +1169,9 @@
 						<MediaRef Id="523545991"/>
 						<MediaRef Id="572753260"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3341034318" Name="Play_Roll_Start" ObjectPath="\Events\Default Work Unit\Player\Play_Roll_Start" GUID="{B27B2C86-6714-42A2-80B9-C8FE6DF4FE6A}" DurationType="OneShot" DurationMin="0.41666666" DurationMax="0.6166667">
 					<MediaRefs>
@@ -1117,6 +1179,9 @@
 						<MediaRef Id="372935282"/>
 						<MediaRef Id="874739032"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2306120635" Name="Play_Slider_End" ObjectPath="\Events\Default Work Unit\UI\Play_Slider_End" GUID="{E00E2000-431F-4196-A986-5EF2A261803D}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
@@ -1147,6 +1212,9 @@
 						<MediaRef Id="342719623"/>
 						<MediaRef Id="685573023"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2033627364" Id="2058049674" GUID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
@@ -1176,6 +1244,9 @@
 						<MediaRef Id="779682905"/>
 						<MediaRef Id="885022101"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="4172974113" Name="Play_SwordQuick_Attack" ObjectPath="\Events\Default Work Unit\Player\Weapons\Play_SwordQuick_Attack" GUID="{D21572B4-C612-4FC6-8F91-2C4E476E664C}" DurationType="OneShot" DurationMin="0.45" DurationMax="0.51666665">
 					<MediaRefs>
@@ -1186,6 +1257,9 @@
 						<MediaRef Id="728018726"/>
 						<MediaRef Id="1071825627"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2171745078" Name="Play_Wings" ObjectPath="\Events\Default Work Unit\Play_Wings" GUID="{F53F1E07-1CAD-474F-B86D-BDE0E0E89B7F}" DurationType="OneShot" DurationMin="2.6666667" DurationMax="3.1554167">
 					<MediaRefs>
@@ -1239,5 +1313,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5D92753F-4CE3-6ECB-0D5B-846AF67A0208}</FileHash>
+	<FileHash>{27D470BA-0C3B-2921-1E7C-22BCEEE3B436}</FileHash>
 </SoundBanksInfo>

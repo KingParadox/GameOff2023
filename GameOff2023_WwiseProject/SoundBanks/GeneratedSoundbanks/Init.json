@@ -10,11 +10,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{BE54FAF1-AA90-A0F9-BC69-A523AA79FE93}",
+    "Hash": "{28683615-C897-C252-74F6-8732EA1606F2}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3451596814",
+       "Name": "Hall_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Medium",
+       "GUID": "{50286348-176A-4235-9E4C-CA5F73D87818}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -42,7 +52,48 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ],
+    "AuxBusses": [
+     {
+      "Id": "855099005",
+      "Name": "SmallReverb_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+      "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3451596814"
+        }
+       ]
+      }
+     }
+    ],
     "StateGroups": [
+     {
+      "Id": "79836495",
+      "Name": "ENVIRONEMENT_STATE",
+      "ObjectPath": "\\States\\Default Work Unit\\ENVIRONEMENT_STATE",
+      "GUID": "{8D9FF48D-E328-4755-8209-B0F7DBE88579}",
+      "States": [
+       {
+        "Id": "438105790",
+        "Name": "Outside",
+        "ObjectPath": "\\States\\Default Work Unit\\ENVIRONEMENT_STATE\\Outside",
+        "GUID": "{78D35B2D-071D-46C5-AB82-EB4F745E6720}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\ENVIRONEMENT_STATE\\None",
+        "GUID": "{5F572EDE-E3CB-4704-9666-2B44EFEBC5EC}"
+       },
+       {
+        "Id": "3553349781",
+        "Name": "Inside",
+        "ObjectPath": "\\States\\Default Work Unit\\ENVIRONEMENT_STATE\\Inside",
+        "GUID": "{B72E5398-1E0D-4DF4-A6A0-02EE948A8DF9}"
+       }
+      ]
+     },
      {
       "Id": "762757699",
       "Name": "GAMEPLAY_STATE",
@@ -130,6 +181,6 @@
     ]
    }
   ],
-  "FileHash": "{9E680B20-14A1-92DB-791F-45B7149DD033}"
+  "FileHash": "{DA84A45A-C575-EC67-CA7D-74373A5DCD8D}"
  }
 }

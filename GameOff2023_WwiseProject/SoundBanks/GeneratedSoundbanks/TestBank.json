@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{C2268F93-9E13-7D72-887C-F55108CEA744}",
+    "Hash": "{07B19C70-C50E-C84D-ACFC-598E6548769B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -1672,6 +1672,14 @@
        {
         "Id": "1017635794"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
+       }
       ]
      },
      {
@@ -1707,6 +1715,7 @@
       "Name": "Play_FIREBALL_INHALE",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_FIREBALL_INHALE",
       "GUID": "{F2E75818-3751-47CB-9006-3D8CA63DA523}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "2.4",
       "DurationMax": "2.4",
@@ -1748,6 +1757,14 @@
        },
        {
         "Id": "1045296774"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
        }
       ],
       "SwitchContainers": [
@@ -2280,6 +2297,14 @@
        {
         "Id": "1045296774"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
+       }
       ]
      },
      {
@@ -2299,6 +2324,14 @@
        },
        {
         "Id": "1016855423"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
        }
       ]
      },
@@ -2357,6 +2390,14 @@
        {
         "Id": "572753260"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
+       }
       ]
      },
      {
@@ -2376,6 +2417,14 @@
        },
        {
         "Id": "874739032"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
        }
       ]
      },
@@ -2463,6 +2512,14 @@
         "Id": "685573023"
        }
       ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
+       }
+      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -2534,6 +2591,14 @@
        {
         "Id": "885022101"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
+       }
       ]
      },
      {
@@ -2562,6 +2627,14 @@
        },
        {
         "Id": "1071825627"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
        }
       ]
      },
@@ -2728,6 +2801,6 @@
     ]
    }
   ],
-  "FileHash": "{E2C4A4B9-98BB-1516-D141-B10B57D5885F}"
+  "FileHash": "{C5465359-4355-4CA0-7C4E-5BEC8AA785ED}"
  }
 }
