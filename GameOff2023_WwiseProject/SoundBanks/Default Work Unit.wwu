@@ -6,22 +6,29 @@
 				<SoundBank Name="TestBank" ID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Confirm" ID="{53923D77-FDD4-40A8-927C-8A0B6E553595}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Roar" ID="{A583A819-0769-40E1-9A97-6AEBFC9E9DFE}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Slider_End" ID="{E00E2000-431F-4196-A986-5EF2A261803D}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Start" ID="{6629B4E0-2EDA-41DD-AAF7-AC9CF081A5DE}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Bellow" ID="{0D6F2A96-6CD6-4266-BD86-0CD134328443}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Roll_Start" ID="{B27B2C86-6714-42A2-80B9-C8FE6DF4FE6A}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Block" ID="{AB6DF19B-224F-42EA-9DB4-554A1ABEDCAB}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwordCollision" ID="{60E47DA0-6A74-437D-8AE3-6CA25247B280}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient" ID="{03BC5259-6C50-43FB-A124-D95FAD6BA4AB}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GameplayMusicSwitch" ID="{00ED8287-CD9E-458A-94FA-27FDF5D1C3A6}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Wings" ID="{F53F1E07-1CAD-474F-B86D-BDE0E0E89B7F}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Jump" ID="{DBB395B7-AC49-47AC-AAA9-A0686BF8CB44}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FIREBALL_INHALE" ID="{F2E75818-3751-47CB-9006-3D8CA63DA523}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Slider_Start" ID="{14E6AF10-B41F-486A-B6A9-66C086B2877E}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwordHeavy_Attack" ID="{C1306E9D-C354-498E-AF8F-8F0B3E3D11B4}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Roll_Contact" ID="{20B31C1B-99F6-4AD5-852B-85A1E0E566DC}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stomp" ID="{6302B084-499C-4B6F-8BE5-8F01879D3BC1}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Hover" ID="{55527275-422D-4B95-9BA7-40C1016F6260}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Back" ID="{AB5B9927-1311-4C9B-84C2-336B208F836E}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Parry" ID="{BBF31B62-35C8-4FA1-97A9-CE8BD2215273}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps" ID="{40F045F2-6A4F-4FA4-9E0F-C089CC444D88}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwordQuick_Attack" ID="{D21572B4-C612-4FC6-8F91-2C4E476E664C}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PickUp" ID="{C9A6BD8C-8C59-4FDF-83A6-64EA9872E282}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FIREBALL_BURST" ID="{4D539548-D595-4FF6-A301-4E9B046054DA}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

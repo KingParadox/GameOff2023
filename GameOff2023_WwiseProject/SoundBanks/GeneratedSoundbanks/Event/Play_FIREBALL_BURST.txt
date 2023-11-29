@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	168006606	Play_FIREBALL_BURST			\Default Work Unit\Play_FIREBALL_BURST	
-
