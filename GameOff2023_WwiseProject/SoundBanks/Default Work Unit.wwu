@@ -7,12 +7,14 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Confirm" ID="{53923D77-FDD4-40A8-927C-8A0B6E553595}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Roar" ID="{A583A819-0769-40E1-9A97-6AEBFC9E9DFE}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy" ID="{760C2FA8-B496-418C-B19D-7F5411368600}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Slider_End" ID="{E00E2000-431F-4196-A986-5EF2A261803D}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Start" ID="{6629B4E0-2EDA-41DD-AAF7-AC9CF081A5DE}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Bellow" ID="{0D6F2A96-6CD6-4266-BD86-0CD134328443}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Roll_Start" ID="{B27B2C86-6714-42A2-80B9-C8FE6DF4FE6A}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Block" ID="{AB6DF19B-224F-42EA-9DB4-554A1ABEDCAB}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwordCollision" ID="{60E47DA0-6A74-437D-8AE3-6CA25247B280}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interactables" ID="{11FB3A12-5984-438F-A5D1-EB353A4AF5CF}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient" ID="{03BC5259-6C50-43FB-A124-D95FAD6BA4AB}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GameplayMusicSwitch" ID="{00ED8287-CD9E-458A-94FA-27FDF5D1C3A6}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wings" ID="{F53F1E07-1CAD-474F-B86D-BDE0E0E89B7F}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>

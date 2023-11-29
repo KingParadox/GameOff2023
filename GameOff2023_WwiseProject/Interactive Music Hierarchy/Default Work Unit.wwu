@@ -19,6 +19,11 @@
 						<MusicPlaylistContainer Name="COMBAT" ID="{F29C14DF-054A-43DD-B8F4-6D268A26C229}" ShortID="110553663">
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="90"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -31,7 +36,7 @@
 							<ChildrenList>
 								<MusicSegment Name="INTRO" ID="{519FC90E-2BC4-4A6C-BA79-9FEA299169B6}" ShortID="507301228">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="7333.33333333333"/>
+										<Property Name="EndPosition" Type="Real64" Value="10880.6632814244"/>
 										<Property Name="Tempo" Type="Real64" Value="90"/>
 									</PropertyList>
 									<ReferenceList>
@@ -80,6 +85,7 @@
 																						<Property Name="EndTrimOffset" Type="Real64" Value="7333.33333333333"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="293.467661969584"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="GameOff_Combat_INTRO_Perc_Nov25" ID="{3C1DAD24-B841-4117-9FED-CD93FD515E21}"/>
 																				</MusicClip>
@@ -130,6 +136,7 @@
 																						<Property Name="EndTrimOffset" Type="Real64" Value="7333.33333333333"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="293.467661969584"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="GameOff_Combat_INTRO_Strings_Nov25" ID="{370666DC-DEDB-4516-A34A-39CC9ECE9D6A}"/>
 																				</MusicClip>
@@ -180,6 +187,7 @@
 																						<Property Name="EndTrimOffset" Type="Real64" Value="7333.33333333333"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="293.467661969584"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="GameOff_Combat_INTRO_SulTasto_Nov25" ID="{9AC874ED-5844-4053-BBBC-8F322769930F}"/>
 																				</MusicClip>
@@ -198,7 +206,11 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{7AE34F01-B934-470F-AA9B-E3D02E3B7573}"/>
+													<MusicCue Name="Entry Cue" ID="{7AE34F01-B934-470F-AA9B-E3D02E3B7573}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="5626.80099530292"/>
+														</PropertyList>
+													</MusicCue>
 												</Local>
 											</Reference>
 											<Reference>
@@ -206,7 +218,7 @@
 													<MusicCue Name="Exit Cue" ID="{5672CB1E-3960-4E8A-895E-E5E7D2929F68}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="5333.33333333333"/>
+															<Property Name="TimeMs" Type="Real64" Value="5626.80099530292"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -1177,6 +1189,8 @@
 								<MusicPlaylistItem Name="" ID="{910C4ACF-8F36-4E4D-80A8-F2ED56F50F0E}" ShortID="356690300">
 									<PropertyList>
 										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
 									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{A27AB16B-0467-464C-9953-854BE5E562D0}" ShortID="497940106">
@@ -1198,6 +1212,11 @@
 						<MusicPlaylistContainer Name="EXPLORATION" ID="{585930EE-1A48-4AB6-BE04-F48963616F8D}" ShortID="24119762">
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="90"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1778,6 +1797,7 @@
 								<MusicPlaylistItem Name="" ID="{A7611D76-5D14-4018-AB20-F68E11F7C729}" ShortID="876795294">
 									<PropertyList>
 										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
 									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{90092DBB-8A74-4FF4-8BC7-77F45CE57526}" ShortID="301246062">
@@ -1809,9 +1829,10 @@
 								<MusicTransition Name="Transition" ID="{84E0BB47-4906-49A2-9C96-037F54D9CAE6}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
-										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="EnableTransitionFadeIn" Type="bool" Value="True"/>
 										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
 										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 									</PropertyList>
@@ -1828,7 +1849,6 @@
 										<SourceFadeOut>
 											<MusicFade Name="Source Fade-out" ID="{7068A85E-5CFB-48D9-9121-6E0F95326802}">
 												<PropertyList>
-													<Property Name="FadeOffset" Type="Real64" Value="1"/>
 													<Property Name="FadeTime" Type="Real64" Value="1"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
@@ -1837,10 +1857,19 @@
 										<DestinationFadeIn>
 											<MusicFade Name="Destination Fade-in" ID="{6B57D1CE-8F95-49EF-A38C-88CA75E92B3D}">
 												<PropertyList>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 												</PropertyList>
 											</MusicFade>
 										</DestinationFadeIn>
+										<TransitionFadeIn>
+											<MusicFade Name="Transition Fade-in" ID="{9C547E75-7A2B-4BF9-9CD0-EF79A8C3449A}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</TransitionFadeIn>
 									</TransitionInfo>
 								</MusicTransition>
 								<MusicTransition Name="Transition" ID="{F2C016DB-27F4-4BD7-9535-529910E0AFC7}">

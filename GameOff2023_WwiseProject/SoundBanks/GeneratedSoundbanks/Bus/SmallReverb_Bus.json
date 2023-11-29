@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}",
     "Language": "SFX",
-    "Hash": "{6089783C-194A-F717-CE1B-A6E76C3F39FA}",
+    "Hash": "{7D2EB759-4C23-04A6-8A83-EBFA8DF517B8}",
     "ObjectPath": "SmallReverb_Bus",
     "ShortName": "SmallReverb_Bus",
     "Path": "Bus/SmallReverb_Bus.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{457DE064-561C-93CA-B88A-78F3B4294645}"
+  "FileHash": "{4B4AAD2C-F15B-4F14-EAAB-D1ECA75F274E}"
  }
 }

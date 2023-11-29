@@ -4221,6 +4221,28 @@
 								</SwitchContainer>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="OBJECT_PICK UP" ID="{2033C54D-FA0A-4C65-97D7-CBBC9624F8BB}" ShortID="813683018">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OBJECT_PICK UP" ID="{074FFD66-C68A-4A91-9B72-231627786A48}">
+									<Language>SFX</Language>
+									<AudioFile>OBJECT_PICK UP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="740567834"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="OBJECT_PICK UP" ID="{074FFD66-C68A-4A91-9B72-231627786A48}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
@@ -4973,10 +4995,616 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Footsteps" ID="{2785DDBC-4015-4B83-99C9-EFBF5A69BEBE}" ShortID="1051327418">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_DRAGON_FOOTSTEP_01" ID="{5FBC4EF7-DE4F-49A5-9CC8-B973ACCF95B6}" ShortID="118299353">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_DRAGON_FOOTSTEP_01" ID="{2191282E-887F-4DF5-9805-2B0B37DE1B88}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps\SFX_DRAGON_FOOTSTEP_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="877449274"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_DRAGON_FOOTSTEP_01" ID="{2191282E-887F-4DF5-9805-2B0B37DE1B88}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_DRAGON_FOOTSTEP_02" ID="{00ADA321-F5FA-4C01-B6D8-6646BCD9096A}" ShortID="479603470">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_DRAGON_FOOTSTEP_02" ID="{EB99671C-BC71-4413-9E08-D8B1D28BD980}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps\SFX_DRAGON_FOOTSTEP_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="655704208"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_DRAGON_FOOTSTEP_02" ID="{EB99671C-BC71-4413-9E08-D8B1D28BD980}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_DRAGON_FOOTSTEP_03" ID="{9D76AC1A-B68D-4E0D-A874-7BBF6A0D7606}" ShortID="77522780">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_DRAGON_FOOTSTEP_03" ID="{58EF782E-0418-4A92-8AD8-0B70D82A30EA}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps\SFX_DRAGON_FOOTSTEP_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="806420487"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_DRAGON_FOOTSTEP_03" ID="{58EF782E-0418-4A92-8AD8-0B70D82A30EA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_DRAGON_FOOTSTEP_04" ID="{890B353F-AA67-441B-A89F-E740922754AC}" ShortID="615516204">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_DRAGON_FOOTSTEP_04" ID="{525E8004-7923-46C6-A2F0-3C7274CB961E}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps\SFX_DRAGON_FOOTSTEP_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="910021888"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_DRAGON_FOOTSTEP_04" ID="{525E8004-7923-46C6-A2F0-3C7274CB961E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_DRAGON_FOOTSTEP_05" ID="{4D21839B-DD14-49E7-B13E-E94B266AF5D0}" ShortID="222928256">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_DRAGON_FOOTSTEP_05" ID="{A0AB680B-BA5D-4D59-9905-606F1238E7D4}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps\SFX_DRAGON_FOOTSTEP_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="663174174"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_DRAGON_FOOTSTEP_05" ID="{A0AB680B-BA5D-4D59-9905-606F1238E7D4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Haunted Armor" ID="{C38F3913-BD99-47B4-A411-2085A8C41B90}" ShortID="596892726">
+							<ChildrenList>
+								<RandomSequenceContainer Name="SFX_Enemy_HauntedArmor_Attack_Long" ID="{125C9745-3B01-48B7-9E81-3C17B04B1DD9}" ShortID="1029502180">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Enemy_HauntedArmor_Attack_Long_01" ID="{2D5270CC-D9DB-4CE0-AED2-F3A1D9347148}" ShortID="104926812">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Enemy_HauntedArmor_Attack_Long_01" ID="{969AB45C-8684-430B-BAEF-C50543A44237}">
+													<Language>SFX</Language>
+													<AudioFile>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Long\SFX_Enemy_HauntedArmor_Attack_Long_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="448548022"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Enemy_HauntedArmor_Attack_Long_01" ID="{969AB45C-8684-430B-BAEF-C50543A44237}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Enemy_HauntedArmor_Attack_Long_02" ID="{DB2C34D7-D2F7-4D7C-BD85-2967B718888E}" ShortID="46756332">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Enemy_HauntedArmor_Attack_Long_02" ID="{C9584F05-2D29-4990-9FB8-73CE9AE036C2}">
+													<Language>SFX</Language>
+													<AudioFile>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Long\SFX_Enemy_HauntedArmor_Attack_Long_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="155739368"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Enemy_HauntedArmor_Attack_Long_02" ID="{C9584F05-2D29-4990-9FB8-73CE9AE036C2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Enemy_HauntedArmor_Attack_Long_03" ID="{BE8C3BEA-C697-44C3-A4A3-82D5764B963C}" ShortID="613847533">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Enemy_HauntedArmor_Attack_Long_03" ID="{05260396-7623-4EBF-9E01-C01930E89C31}">
+													<Language>SFX</Language>
+													<AudioFile>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Long\SFX_Enemy_HauntedArmor_Attack_Long_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1000039023"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Enemy_HauntedArmor_Attack_Long_03" ID="{05260396-7623-4EBF-9E01-C01930E89C31}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Enemy_HauntedArmor_Attack_Long_04" ID="{9F4031EA-CBB3-4FB9-8C30-F5BC1139A87B}" ShortID="780312426">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Enemy_HauntedArmor_Attack_Long_04" ID="{921D0E7E-539F-4CA2-8BD4-99C58A95E01F}">
+													<Language>SFX</Language>
+													<AudioFile>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Long\SFX_Enemy_HauntedArmor_Attack_Long_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="192366918"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Enemy_HauntedArmor_Attack_Long_04" ID="{921D0E7E-539F-4CA2-8BD4-99C58A95E01F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Enemy_HauntedArmor_Attack_Long_05" ID="{9B12AD28-BADB-44E5-A0FE-0E8E5196A070}" ShortID="453273088">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Enemy_HauntedArmor_Attack_Long_05" ID="{C9386D7E-FF4D-4356-8541-25906275165C}">
+													<Language>SFX</Language>
+													<AudioFile>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Long\SFX_Enemy_HauntedArmor_Attack_Long_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="693745533"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Enemy_HauntedArmor_Attack_Long_05" ID="{C9386D7E-FF4D-4356-8541-25906275165C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Enemy_HauntedArmor_Attack_Long_06" ID="{AA641A51-479D-4FBB-8B93-0D7BAC8953C6}" ShortID="1023411597">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Enemy_HauntedArmor_Attack_Long_06" ID="{F4979A8A-622D-44E5-B421-F08195A9F9DC}">
+													<Language>SFX</Language>
+													<AudioFile>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Long\SFX_Enemy_HauntedArmor_Attack_Long_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="169270103"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Enemy_HauntedArmor_Attack_Long_06" ID="{F4979A8A-622D-44E5-B421-F08195A9F9DC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_Enemy_HauntedArmor_Attack_Short" ID="{35D8E8AA-7D74-41A8-B15F-8029AA10C852}" ShortID="898508403">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Enemy_HauntedArmor_Attack_Short_01" ID="{6B4C8C03-9828-4CC3-9D20-EB1A8BA7ED59}" ShortID="186342457">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Enemy_HauntedArmor_Attack_Short_01" ID="{27775A1A-746A-4A58-A47E-E8E8D29C985A}">
+													<Language>SFX</Language>
+													<AudioFile>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Short\SFX_Enemy_HauntedArmor_Attack_Short_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="450306476"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Enemy_HauntedArmor_Attack_Short_01" ID="{27775A1A-746A-4A58-A47E-E8E8D29C985A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Enemy_HauntedArmor_Attack_Short_02" ID="{A245A417-4239-407B-8D87-D187E0CF1A5D}" ShortID="187686093">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Enemy_HauntedArmor_Attack_Short_02" ID="{EAA5B8B3-05A5-47C8-89DE-0AE09BD1E938}">
+													<Language>SFX</Language>
+													<AudioFile>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Short\SFX_Enemy_HauntedArmor_Attack_Short_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="8771043"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Enemy_HauntedArmor_Attack_Short_02" ID="{EAA5B8B3-05A5-47C8-89DE-0AE09BD1E938}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Enemy_HauntedArmor_Attack_Short_03" ID="{E553CD93-BDFF-42A6-A142-77252277B8D4}" ShortID="211437649">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Enemy_HauntedArmor_Attack_Short_03" ID="{98803F89-ACFB-4194-8161-A56F1D949E2B}">
+													<Language>SFX</Language>
+													<AudioFile>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Short\SFX_Enemy_HauntedArmor_Attack_Short_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="369947226"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Enemy_HauntedArmor_Attack_Short_03" ID="{98803F89-ACFB-4194-8161-A56F1D949E2B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Enemy_HauntedArmor_Attack_Short_04" ID="{775EF76C-0CEE-40BB-80B2-E4E449A9EBDD}" ShortID="334371969">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Enemy_HauntedArmor_Attack_Short_04" ID="{B6B193BF-0AD4-4287-BFC3-471B401F9A02}">
+													<Language>SFX</Language>
+													<AudioFile>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Short\SFX_Enemy_HauntedArmor_Attack_Short_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="511934443"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Enemy_HauntedArmor_Attack_Short_04" ID="{B6B193BF-0AD4-4287-BFC3-471B401F9A02}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Enemy_HauntedArmor_Attack_Short_05" ID="{985B9AE7-A91B-4FF2-B3CC-B4534D6CFF4B}" ShortID="19810362">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Enemy_HauntedArmor_Attack_Short_05" ID="{9A43394A-5E88-4139-BC30-4BAE94E1C29A}">
+													<Language>SFX</Language>
+													<AudioFile>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Short\SFX_Enemy_HauntedArmor_Attack_Short_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="547650354"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Enemy_HauntedArmor_Attack_Short_05" ID="{9A43394A-5E88-4139-BC30-4BAE94E1C29A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Foley_Enemy_HauntedArmor_Footstep" ID="{9B02AF91-B6F0-49EE-98E3-9228B8A9D47A}" ShortID="504772304">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Foley_Enemy_HauntedArmor_Footstep_01" ID="{7D6F2E6E-9CC9-47B3-AA8A-BE0C75CD7BCF}" ShortID="333370804">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Foley_Enemy_HauntedArmor_Footstep_01" ID="{DFF42EAA-26FB-44AC-8DBE-CCA835235311}">
+													<Language>SFX</Language>
+													<AudioFile>Foley_Enemy_HauntedArmor_Footstep\Foley_Enemy_HauntedArmor_Footstep_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="470848620"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Foley_Enemy_HauntedArmor_Footstep_01" ID="{DFF42EAA-26FB-44AC-8DBE-CCA835235311}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Foley_Enemy_HauntedArmor_Footstep_02" ID="{C68729A2-98A2-4525-90D2-68ACB7C160FD}" ShortID="828681002">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Foley_Enemy_HauntedArmor_Footstep_02" ID="{52B43CDB-C647-427C-A308-0A3EDCC5C8AA}">
+													<Language>SFX</Language>
+													<AudioFile>Foley_Enemy_HauntedArmor_Footstep\Foley_Enemy_HauntedArmor_Footstep_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="450318267"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Foley_Enemy_HauntedArmor_Footstep_02" ID="{52B43CDB-C647-427C-A308-0A3EDCC5C8AA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Foley_Enemy_HauntedArmor_Footstep_03" ID="{2609513E-8434-4978-AD6D-F2311DAAC6CD}" ShortID="791928913">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Foley_Enemy_HauntedArmor_Footstep_03" ID="{9694457A-7D1F-4AA0-9073-1A7EB9E18B63}">
+													<Language>SFX</Language>
+													<AudioFile>Foley_Enemy_HauntedArmor_Footstep\Foley_Enemy_HauntedArmor_Footstep_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="254628039"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Foley_Enemy_HauntedArmor_Footstep_03" ID="{9694457A-7D1F-4AA0-9073-1A7EB9E18B63}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Foley_Enemy_HauntedArmor_Footstep_04" ID="{1A1E9E4B-FFDA-45D3-9C2D-2418E0CC9C50}" ShortID="265804124">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Foley_Enemy_HauntedArmor_Footstep_04" ID="{EBF9DE00-F42E-45E5-80B7-192293951FC7}">
+													<Language>SFX</Language>
+													<AudioFile>Foley_Enemy_HauntedArmor_Footstep\Foley_Enemy_HauntedArmor_Footstep_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="987225580"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Foley_Enemy_HauntedArmor_Footstep_04" ID="{EBF9DE00-F42E-45E5-80B7-192293951FC7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Foley_Enemy_HauntedArmor_Footstep_05" ID="{A23D0614-E1E1-4BEF-8BED-FE69CE9F82A4}" ShortID="2085434">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Foley_Enemy_HauntedArmor_Footstep_05" ID="{53924451-080C-4285-A230-69C9835B4504}">
+													<Language>SFX</Language>
+													<AudioFile>Foley_Enemy_HauntedArmor_Footstep\Foley_Enemy_HauntedArmor_Footstep_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="646029682"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Foley_Enemy_HauntedArmor_Footstep_05" ID="{53924451-080C-4285-A230-69C9835B4504}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Foley_Enemy_HauntedArmor_Footstep_06" ID="{DAB935FC-C782-4C7F-A8A4-F2AA0AA0DDDD}" ShortID="993394606">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Foley_Enemy_HauntedArmor_Footstep_06" ID="{62B650BA-62B5-46F8-B1DF-367783BEDE3F}">
+													<Language>SFX</Language>
+													<AudioFile>Foley_Enemy_HauntedArmor_Footstep\Foley_Enemy_HauntedArmor_Footstep_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="708464601"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Foley_Enemy_HauntedArmor_Footstep_06" ID="{62B650BA-62B5-46F8-B1DF-367783BEDE3F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Foley_Enemy_HauntedArmor_Footstep_07" ID="{46AFC16A-2573-4BE8-B8F4-24315D128ADF}" ShortID="266832073">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Foley_Enemy_HauntedArmor_Footstep_07" ID="{02200299-D27D-4B01-87E9-A761528A1576}">
+													<Language>SFX</Language>
+													<AudioFile>Foley_Enemy_HauntedArmor_Footstep\Foley_Enemy_HauntedArmor_Footstep_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="623170721"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Foley_Enemy_HauntedArmor_Footstep_07" ID="{02200299-D27D-4B01-87E9-A761528A1576}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
 				</ActorMixer>
+				<Folder Name="Interactibles" ID="{1843E86A-FDD5-4FB5-93BF-E36A0246FFAA}" ShortID="1001806389">
+					<ChildrenList>
+						<Sound Name="SFX_GATE_LEVER" ID="{751F7DFC-3D2C-43DE-834C-E4D2968C0263}" ShortID="189763568">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_GATE_LEVER" ID="{BCF182D9-45BE-4437-8B68-7EDB2B1A93C2}">
+									<Language>SFX</Language>
+									<AudioFile>Interactibles\SFX_GATE_LEVER.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="149434753"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_GATE_LEVER" ID="{BCF182D9-45BE-4437-8B68-7EDB2B1A93C2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_GATE_RISE" ID="{DCC882CE-BD91-4D5C-8D99-5272648B5792}" ShortID="159004228">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_GATE_RISE" ID="{966484C1-FD8D-4FFE-8AA6-09A25D5012F9}">
+									<Language>SFX</Language>
+									<AudioFile>Interactibles\SFX_GATE_RISE.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="354977972"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_GATE_RISE" ID="{966484C1-FD8D-4FFE-8AA6-09A25D5012F9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

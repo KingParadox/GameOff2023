@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{DFAFBADD-6B6A-FFDE-FA15-B582905F325F}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{A5C4C146-F877-36CB-50FB-38DEAD1D710E}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
@@ -13,6 +13,10 @@
 				<File Id="8322717" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_05.wav</ShortName>
 					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_05_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="8771043" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Short\SFX_Enemy_HauntedArmor_Attack_Short_02.wav</ShortName>
+					<CachePath>SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Short/SFX_Enemy_HauntedArmor_Attack_Short_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="11945840" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Mud\Foley_Player_FSMud_05.wav</ShortName>
@@ -102,6 +106,14 @@
 					<ShortName>LOOP2\GameOff_Combat_LOOP2_SulTasto_Nov25.wav</ShortName>
 					<CachePath>SFX/LOOP2/GameOff_Combat_LOOP2_SulTasto_Nov25_0762CC47.wem</CachePath>
 				</File>
+				<File Id="149434753" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Interactibles\SFX_GATE_LEVER.wav</ShortName>
+					<CachePath>SFX/Interactibles/SFX_GATE_LEVER_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="155739368" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Long\SFX_Enemy_HauntedArmor_Attack_Long_02.wav</ShortName>
+					<CachePath>SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_02_D8C07C79.wem</CachePath>
+				</File>
 				<File Id="158713601" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dracolich\Wings\DRAGON_WINGS_06.wav</ShortName>
 					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_06_D8C07C79.wem</CachePath>
@@ -109,6 +121,14 @@
 				<File Id="161690530" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Attack\Heavy\Player_Attack_Heavy_01.wav</ShortName>
 					<CachePath>SFX/Attack/Heavy/Player_Attack_Heavy_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="169270103" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Long\SFX_Enemy_HauntedArmor_Attack_Long_06.wav</ShortName>
+					<CachePath>SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_06_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="192366918" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Long\SFX_Enemy_HauntedArmor_Attack_Long_04.wav</ShortName>
+					<CachePath>SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="195108500" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dracolich\Stomp\DRAGON_STOMP_03.wav</ShortName>
@@ -153,6 +173,10 @@
 				<File Id="247177741" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LOOP2\GameOff_Expl_LOOP2_Strings_Nov25.wav</ShortName>
 					<CachePath>SFX/LOOP2/GameOff_Expl_LOOP2_Strings_Nov25_0762CC47.wem</CachePath>
+				</File>
+				<File Id="254628039" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Foley_Enemy_HauntedArmor_Footstep\Foley_Enemy_HauntedArmor_Footstep_03.wav</ShortName>
+					<CachePath>SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="256293707" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dracolich\Stomp\DRAGON_STOMP_01.wav</ShortName>
@@ -262,6 +286,10 @@
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_02.wav</ShortName>
 					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_02_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="354977972" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Interactibles\SFX_GATE_RISE.wav</ShortName>
+					<CachePath>SFX/Interactibles/SFX_GATE_RISE_D8C07C79.wem</CachePath>
+				</File>
 				<File Id="357344822" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LOOP1\GameOff_Combat_LOOP1_Perc_Nov25.wav</ShortName>
 					<CachePath>SFX/LOOP1/GameOff_Combat_LOOP1_Perc_Nov25_0762CC47.wem</CachePath>
@@ -281,6 +309,10 @@
 				<File Id="369468741" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\SFX_UI_Slider_Start.wav</ShortName>
 					<CachePath>SFX/UI/SFX_UI_Slider_Start_01694A9B.wem</CachePath>
+				</File>
+				<File Id="369947226" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Short\SFX_Enemy_HauntedArmor_Attack_Short_03.wav</ShortName>
+					<CachePath>SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Short/SFX_Enemy_HauntedArmor_Attack_Short_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="372935282" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Roll\Player_Roll_Start_01_V2.wav</ShortName>
@@ -342,9 +374,21 @@
 					<ShortName>crumbles-001.wav</ShortName>
 					<CachePath>SFX/crumbles-001_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="448548022" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Long\SFX_Enemy_HauntedArmor_Attack_Long_01.wav</ShortName>
+					<CachePath>SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_01_D8C07C79.wem</CachePath>
+				</File>
 				<File Id="448664350" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>thunders-001.wav</ShortName>
 					<CachePath>SFX/thunders-001_45A7FECA.wem</CachePath>
+				</File>
+				<File Id="450306476" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Short\SFX_Enemy_HauntedArmor_Attack_Short_01.wav</ShortName>
+					<CachePath>SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Short/SFX_Enemy_HauntedArmor_Attack_Short_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="450318267" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Foley_Enemy_HauntedArmor_Footstep\Foley_Enemy_HauntedArmor_Footstep_02.wav</ShortName>
+					<CachePath>SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="453986490" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Puddle\Foley_Player_FSPuddle_07.wav</ShortName>
@@ -353,6 +397,10 @@
 				<File Id="465951665" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Grass\Foley_Player_FSGrass_03.wav</ShortName>
 					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="470848620" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Foley_Enemy_HauntedArmor_Footstep\Foley_Enemy_HauntedArmor_Footstep_01.wav</ShortName>
+					<CachePath>SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="476739655" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>creaks-010.wav</ShortName>
@@ -377,6 +425,10 @@
 				<File Id="511325285" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dracolich\Bellow\DRAGON_BELLOW_02.wav</ShortName>
 					<CachePath>SFX/Dracolich/Bellow/DRAGON_BELLOW_02_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="511934443" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Short\SFX_Enemy_HauntedArmor_Attack_Short_04.wav</ShortName>
+					<CachePath>SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Short/SFX_Enemy_HauntedArmor_Attack_Short_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="514662885" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_05.wav</ShortName>
@@ -409,6 +461,10 @@
 				<File Id="545824517" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Block\SFX_Player_Block_03.wav</ShortName>
 					<CachePath>SFX/Block/SFX_Player_Block_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="547650354" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Short\SFX_Enemy_HauntedArmor_Attack_Short_05.wav</ShortName>
+					<CachePath>SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Short/SFX_Enemy_HauntedArmor_Attack_Short_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="549521244" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Attack\Heavy\Player_Attack_Heavy_02.wav</ShortName>
@@ -454,6 +510,10 @@
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_04.wav</ShortName>
 					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_04_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="623170721" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Foley_Enemy_HauntedArmor_Footstep\Foley_Enemy_HauntedArmor_Footstep_07.wav</ShortName>
+					<CachePath>SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_07_D8C07C79.wem</CachePath>
+				</File>
 				<File Id="636597075" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>OUTRO\GameOff_Combat_OUTRO_SulTasto_Nov25.wav</ShortName>
 					<CachePath>SFX/OUTRO/GameOff_Combat_OUTRO_SulTasto_Nov25_0762CC47.wem</CachePath>
@@ -466,9 +526,21 @@
 					<ShortName>Footstep\Grass\Foley_Player_FSGrass_02.wav</ShortName>
 					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_02_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="646029682" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Foley_Enemy_HauntedArmor_Footstep\Foley_Enemy_HauntedArmor_Footstep_05.wav</ShortName>
+					<CachePath>SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_05_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="655704208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\SFX_DRAGON_FOOTSTEP_02.wav</ShortName>
+					<CachePath>SFX/Footsteps/SFX_DRAGON_FOOTSTEP_02_D8C07C79.wem</CachePath>
+				</File>
 				<File Id="658922866" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>creaks-008.wav</ShortName>
 					<CachePath>SFX/creaks-008_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="663174174" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\SFX_DRAGON_FOOTSTEP_05.wav</ShortName>
+					<CachePath>SFX/Footsteps/SFX_DRAGON_FOOTSTEP_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="665288197" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>thunders-002.wav</ShortName>
@@ -494,6 +566,10 @@
 					<ShortName>Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_01.wav</ShortName>
 					<CachePath>SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_01_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="693745533" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Long\SFX_Enemy_HauntedArmor_Attack_Long_05.wav</ShortName>
+					<CachePath>SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_05_D8C07C79.wem</CachePath>
+				</File>
 				<File Id="694859273" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GameOff_Combat_INTRO_Perc_Nov25.wav</ShortName>
 					<CachePath>SFX/GameOff_Combat_INTRO_Perc_Nov25_0762CC47.wem</CachePath>
@@ -501,6 +577,10 @@
 				<File Id="703999474" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LOOP1\GameOff_Combat_LOOP1_Strings_Nov25.wav</ShortName>
 					<CachePath>SFX/LOOP1/GameOff_Combat_LOOP1_Strings_Nov25_0762CC47.wem</CachePath>
+				</File>
+				<File Id="708464601" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Foley_Enemy_HauntedArmor_Footstep\Foley_Enemy_HauntedArmor_Footstep_06.wav</ShortName>
+					<CachePath>SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_06_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="713425900" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_02.wav</ShortName>
@@ -525,6 +605,10 @@
 				<File Id="737581056" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LOOP1\GameOff_Expl_LOOP1_Strings_Nov25.wav</ShortName>
 					<CachePath>SFX/LOOP1/GameOff_Expl_LOOP1_Strings_Nov25_0762CC47.wem</CachePath>
+				</File>
+				<File Id="740567834" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>OBJECT_PICK UP.wav</ShortName>
+					<CachePath>SFX/OBJECT_PICK UP_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="755805061" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_08.wav</ShortName>
@@ -578,6 +662,10 @@
 					<ShortName>Movement\Clinks\Player_Clink_01.wav</ShortName>
 					<CachePath>SFX/Movement/Clinks/Player_Clink_01_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="806420487" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\SFX_DRAGON_FOOTSTEP_03.wav</ShortName>
+					<CachePath>SFX/Footsteps/SFX_DRAGON_FOOTSTEP_03_D8C07C79.wem</CachePath>
+				</File>
 				<File Id="826066373" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LOOP2\GameOff_Combat_LOOP2_Choir_Nov25.wav</ShortName>
 					<CachePath>SFX/LOOP2/GameOff_Combat_LOOP2_Choir_Nov25_0762CC47.wem</CachePath>
@@ -626,6 +714,10 @@
 					<ShortName>Dracolich\Roar\DRAGON_ROAR_04.wav</ShortName>
 					<CachePath>SFX/Dracolich/Roar/DRAGON_ROAR_04_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="877449274" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\SFX_DRAGON_FOOTSTEP_01.wav</ShortName>
+					<CachePath>SFX/Footsteps/SFX_DRAGON_FOOTSTEP_01_D8C07C79.wem</CachePath>
+				</File>
 				<File Id="878982338" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LOOP1\GameOff_Expl_LOOP1_SulTasto_Nov25.wav</ShortName>
 					<CachePath>SFX/LOOP1/GameOff_Expl_LOOP1_SulTasto_Nov25_0762CC47.wem</CachePath>
@@ -645,6 +737,10 @@
 				<File Id="905074597" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Block\SFX_Player_Block_02.wav</ShortName>
 					<CachePath>SFX/Block/SFX_Player_Block_02_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="910021888" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\SFX_DRAGON_FOOTSTEP_04.wav</ShortName>
+					<CachePath>SFX/Footsteps/SFX_DRAGON_FOOTSTEP_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="911930623" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_02.wav</ShortName>
@@ -702,9 +798,17 @@
 					<ShortName>creaks-004.wav</ShortName>
 					<CachePath>SFX/creaks-004_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="987225580" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Foley_Enemy_HauntedArmor_Footstep\Foley_Enemy_HauntedArmor_Footstep_04.wav</ShortName>
+					<CachePath>SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_04_D8C07C79.wem</CachePath>
+				</File>
 				<File Id="988408211" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\SFX_UI_Start.wav</ShortName>
 					<CachePath>SFX/UI/SFX_UI_Start_E163A296.wem</CachePath>
+				</File>
+				<File Id="1000039023" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Long\SFX_Enemy_HauntedArmor_Attack_Long_03.wav</ShortName>
+					<CachePath>SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1016855423" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Parry\SFX_Player_Parry_01.wav</ShortName>
@@ -796,7 +900,7 @@
 						<MediaRef Id="290726333"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2961648011" Name="Play_Bellow" ObjectPath="\Events\Default Work Unit\Play_Bellow" GUID="{0D6F2A96-6CD6-4266-BD86-0CD134328443}" DurationType="OneShot" DurationMin="4.25" DurationMax="5.814">
+				<Event Id="2961648011" Name="Play_Bellow" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_Bellow" GUID="{0D6F2A96-6CD6-4266-BD86-0CD134328443}" DurationType="OneShot" DurationMin="4.25" DurationMax="5.814">
 					<MediaRefs>
 						<MediaRef Id="26672347"/>
 						<MediaRef Id="504996585"/>
@@ -819,14 +923,34 @@
 						<MediaRef Id="414983698"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="168006606" Name="Play_FIREBALL_BURST" ObjectPath="\Events\Default Work Unit\Play_FIREBALL_BURST" GUID="{4D539548-D595-4FF6-A301-4E9B046054DA}" DurationType="OneShot" DurationMin="8.166667" DurationMax="8.166667">
+				<Event Id="3290400036" Name="Play_DragonFootsteps" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_DragonFootsteps" GUID="{87017CD6-B10E-44B1-A6E2-74418492CC16}" DurationType="OneShot" DurationMin="1.375" DurationMax="1.375">
+					<MediaRefs>
+						<MediaRef Id="655704208"/>
+						<MediaRef Id="663174174"/>
+						<MediaRef Id="806420487"/>
+						<MediaRef Id="877449274"/>
+						<MediaRef Id="910021888"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="168006606" Name="Play_FIREBALL_BURST" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_FIREBALL_BURST" GUID="{4D539548-D595-4FF6-A301-4E9B046054DA}" DurationType="OneShot" DurationMin="8.166667" DurationMax="8.166667">
 					<MediaRefs>
 						<MediaRef Id="317003863"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="239554289" Name="Play_FIREBALL_INHALE" ObjectPath="\Events\Default Work Unit\Play_FIREBALL_INHALE" GUID="{F2E75818-3751-47CB-9006-3D8CA63DA523}" DurationType="OneShot" DurationMin="2.4" DurationMax="2.4">
+				<Event Id="239554289" Name="Play_FIREBALL_INHALE" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_FIREBALL_INHALE" GUID="{F2E75818-3751-47CB-9006-3D8CA63DA523}" DurationType="OneShot" DurationMin="2.4" DurationMax="2.4">
 					<MediaRefs>
 						<MediaRef Id="109788312"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1906468590" Name="Play_Foley_Enemy_HauntedArmor_Footstep" ObjectPath="\Events\Default Work Unit\Enemy\HauntedArmor\Play_Foley_Enemy_HauntedArmor_Footstep" GUID="{2FF5BA52-3775-44AE-AA87-34A634EB1420}" DurationType="OneShot" DurationMin="1.4546666" DurationMax="2.816">
+					<MediaRefs>
+						<MediaRef Id="254628039"/>
+						<MediaRef Id="450318267"/>
+						<MediaRef Id="470848620"/>
+						<MediaRef Id="623170721"/>
+						<MediaRef Id="646029682"/>
+						<MediaRef Id="708464601"/>
+						<MediaRef Id="987225580"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Player\Play_Footsteps" GUID="{40F045F2-6A4F-4FA4-9E0F-C089CC444D88}" DurationType="OneShot" DurationMin="0.45833334" DurationMax="0.944">
@@ -1048,6 +1172,14 @@
 						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="158879903" Name="Play_OBJECT_PICK_UP" ObjectPath="\Events\Default Work Unit\Interactables\Play_OBJECT_PICK_UP" GUID="{0A366641-C028-498C-AF20-6D0E0056964E}" DurationType="OneShot" DurationMin="0.45833334" DurationMax="0.45833334">
+					<MediaRefs>
+						<MediaRef Id="740567834"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
+				</Event>
 				<Event Id="4115969904" Name="Play_Parry" ObjectPath="\Events\Default Work Unit\Player\Weapons\Play_Parry" GUID="{BBF31B62-35C8-4FA1-97A9-CE8BD2215273}" DurationType="OneShot" DurationMin="3.5946667" DurationMax="4.4533334">
 					<MediaRefs>
 						<MediaRef Id="544303138"/>
@@ -1063,7 +1195,7 @@
 						<MediaRef Id="128767792"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2770252186" Name="Play_Roar" ObjectPath="\Events\Default Work Unit\Play_Roar" GUID="{A583A819-0769-40E1-9A97-6AEBFC9E9DFE}" DurationType="OneShot" DurationMin="3.75" DurationMax="5.5">
+				<Event Id="2770252186" Name="Play_Roar" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_Roar" GUID="{A583A819-0769-40E1-9A97-6AEBFC9E9DFE}" DurationType="OneShot" DurationMin="3.75" DurationMax="5.5">
 					<MediaRefs>
 						<MediaRef Id="69486095"/>
 						<MediaRef Id="100039941"/>
@@ -1091,6 +1223,35 @@
 						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="3070694017" Name="Play_SFX_Enemy_HauntedArmor_Attack_Long" ObjectPath="\Events\Default Work Unit\Enemy\HauntedArmor\Play_SFX_Enemy_HauntedArmor_Attack_Long" GUID="{76A1FFD5-940F-4338-8DD8-8231E03E017D}" DurationType="OneShot" DurationMin="2.8906667" DurationMax="4.9066668">
+					<MediaRefs>
+						<MediaRef Id="155739368"/>
+						<MediaRef Id="169270103"/>
+						<MediaRef Id="192366918"/>
+						<MediaRef Id="448548022"/>
+						<MediaRef Id="693745533"/>
+						<MediaRef Id="1000039023"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2222792503" Name="Play_SFX_Enemy_HauntedArmor_Attack_Short" ObjectPath="\Events\Default Work Unit\Enemy\HauntedArmor\Play_SFX_Enemy_HauntedArmor_Attack_Short" GUID="{6F33DEDB-24F6-4E23-A6FA-A239B4D6F698}" DurationType="OneShot" DurationMin="1.932" DurationMax="3.1093333">
+					<MediaRefs>
+						<MediaRef Id="8771043"/>
+						<MediaRef Id="369947226"/>
+						<MediaRef Id="450306476"/>
+						<MediaRef Id="511934443"/>
+						<MediaRef Id="547650354"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2272141938" Name="Play_SFX_GATE_LEVER" ObjectPath="\Events\Default Work Unit\Interactables\Play_SFX_GATE_LEVER" GUID="{552D2618-B895-4904-8A9A-80CD56672B91}" DurationType="OneShot" DurationMin="2.0833333" DurationMax="2.0833333">
+					<MediaRefs>
+						<MediaRef Id="149434753"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2960667969" Name="Play_SFX_GATE_RISE" ObjectPath="\Events\Default Work Unit\Interactables\Play_SFX_GATE_RISE" GUID="{65F18D89-BAEA-46A1-9331-30F6F608B0E7}" DurationType="OneShot" DurationMin="3.746646" DurationMax="3.746646">
+					<MediaRefs>
+						<MediaRef Id="354977972"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2306120635" Name="Play_Slider_End" ObjectPath="\Events\Default Work Unit\UI\Play_Slider_End" GUID="{E00E2000-431F-4196-A986-5EF2A261803D}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
 						<MediaRef Id="424878104"/>
@@ -1106,7 +1267,7 @@
 						<MediaRef Id="988408211"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2753042117" Name="Play_Stomp" ObjectPath="\Events\Default Work Unit\Play_Stomp" GUID="{6302B084-499C-4B6F-8BE5-8F01879D3BC1}" DurationType="OneShot" DurationMin="2.6666667" DurationMax="3.1666667">
+				<Event Id="2753042117" Name="Play_Stomp" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_Stomp" GUID="{6302B084-499C-4B6F-8BE5-8F01879D3BC1}" DurationType="OneShot" DurationMin="2.6666667" DurationMax="3.1666667">
 					<MediaRefs>
 						<MediaRef Id="195108500"/>
 						<MediaRef Id="256293707"/>
@@ -1169,7 +1330,7 @@
 						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2171745078" Name="Play_Wings" ObjectPath="\Events\Default Work Unit\Play_Wings" GUID="{F53F1E07-1CAD-474F-B86D-BDE0E0E89B7F}" DurationType="OneShot" DurationMin="2.6666667" DurationMax="3.1554167">
+				<Event Id="2171745078" Name="Play_Wings" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_Wings" GUID="{F53F1E07-1CAD-474F-B86D-BDE0E0E89B7F}" DurationType="OneShot" DurationMin="2.6666667" DurationMax="3.1554167">
 					<MediaRefs>
 						<MediaRef Id="158713601"/>
 						<MediaRef Id="303067073"/>
@@ -1221,5 +1382,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EE46DDC7-5791-5BAD-EFB2-6BCC63F73B63}</FileHash>
+	<FileHash>{25AA5A50-C019-F045-FDD2-1DEC43476DE9}</FileHash>
 </SoundBanksInfo>

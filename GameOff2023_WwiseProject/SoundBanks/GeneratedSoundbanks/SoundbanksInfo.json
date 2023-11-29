@@ -18,7 +18,7 @@
     "Type": "Bus",
     "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}",
     "Language": "SFX",
-    "Hash": "{6089783C-194A-F717-CE1B-A6E76C3F39FA}",
+    "Hash": "{7D2EB759-4C23-04A6-8A83-EBFA8DF517B8}",
     "ObjectPath": "SmallReverb_Bus",
     "ShortName": "SmallReverb_Bus",
     "Path": "Bus/SmallReverb_Bus.bnk",
@@ -55,7 +55,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{6E519E5C-F179-5D0C-3164-61CABEE05C37}",
+    "Hash": "{4DD417D1-B31B-22DC-52C7-CAF93F648E8E}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -230,7 +230,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{DFAFBADD-6B6A-FFDE-FA15-B582905F325F}",
+    "Hash": "{A5C4C146-F877-36CB-50FB-38DEAD1D710E}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -250,6 +250,14 @@
       "Location": "Memory",
       "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_05.wav",
       "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_05_D8C07C79.wem"
+     },
+     {
+      "Id": "8771043",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Short\\SFX_Enemy_HauntedArmor_Attack_Short_02.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Short/SFX_Enemy_HauntedArmor_Attack_Short_02_D8C07C79.wem"
      },
      {
       "Id": "11945840",
@@ -428,6 +436,22 @@
       "CachePath": "SFX/LOOP2/GameOff_Combat_LOOP2_SulTasto_Nov25_0762CC47.wem"
      },
      {
+      "Id": "149434753",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Interactibles\\SFX_GATE_LEVER.wav",
+      "CachePath": "SFX/Interactibles/SFX_GATE_LEVER_D8C07C79.wem"
+     },
+     {
+      "Id": "155739368",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Long\\SFX_Enemy_HauntedArmor_Attack_Long_02.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_02_D8C07C79.wem"
+     },
+     {
       "Id": "158713601",
       "Language": "SFX",
       "Streaming": "false",
@@ -442,6 +466,22 @@
       "Location": "Memory",
       "ShortName": "Attack\\Heavy\\Player_Attack_Heavy_01.wav",
       "CachePath": "SFX/Attack/Heavy/Player_Attack_Heavy_01_D8C07C79.wem"
+     },
+     {
+      "Id": "169270103",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Long\\SFX_Enemy_HauntedArmor_Attack_Long_06.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_06_D8C07C79.wem"
+     },
+     {
+      "Id": "192366918",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Long\\SFX_Enemy_HauntedArmor_Attack_Long_04.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_04_D8C07C79.wem"
      },
      {
       "Id": "195108500",
@@ -530,6 +570,14 @@
       "Location": "Memory",
       "ShortName": "LOOP2\\GameOff_Expl_LOOP2_Strings_Nov25.wav",
       "CachePath": "SFX/LOOP2/GameOff_Expl_LOOP2_Strings_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "254628039",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Foley_Enemy_HauntedArmor_Footstep\\Foley_Enemy_HauntedArmor_Footstep_03.wav",
+      "CachePath": "SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_03_D8C07C79.wem"
      },
      {
       "Id": "256293707",
@@ -748,6 +796,14 @@
       "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_02_D8C07C79.wem"
      },
      {
+      "Id": "354977972",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Interactibles\\SFX_GATE_RISE.wav",
+      "CachePath": "SFX/Interactibles/SFX_GATE_RISE_D8C07C79.wem"
+     },
+     {
       "Id": "357344822",
       "Language": "SFX",
       "Streaming": "false",
@@ -786,6 +842,14 @@
       "Location": "Memory",
       "ShortName": "UI\\SFX_UI_Slider_Start.wav",
       "CachePath": "SFX/UI/SFX_UI_Slider_Start_01694A9B.wem"
+     },
+     {
+      "Id": "369947226",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Short\\SFX_Enemy_HauntedArmor_Attack_Short_03.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Short/SFX_Enemy_HauntedArmor_Attack_Short_03_D8C07C79.wem"
      },
      {
       "Id": "372935282",
@@ -908,12 +972,36 @@
       "CachePath": "SFX/crumbles-001_D8C07C79.wem"
      },
      {
+      "Id": "448548022",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Long\\SFX_Enemy_HauntedArmor_Attack_Long_01.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_01_D8C07C79.wem"
+     },
+     {
       "Id": "448664350",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "thunders-001.wav",
       "CachePath": "SFX/thunders-001_45A7FECA.wem"
+     },
+     {
+      "Id": "450306476",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Short\\SFX_Enemy_HauntedArmor_Attack_Short_01.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Short/SFX_Enemy_HauntedArmor_Attack_Short_01_D8C07C79.wem"
+     },
+     {
+      "Id": "450318267",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Foley_Enemy_HauntedArmor_Footstep\\Foley_Enemy_HauntedArmor_Footstep_02.wav",
+      "CachePath": "SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_02_D8C07C79.wem"
      },
      {
       "Id": "453986490",
@@ -930,6 +1018,14 @@
       "Location": "Memory",
       "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_03.wav",
       "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_03_D8C07C79.wem"
+     },
+     {
+      "Id": "470848620",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Foley_Enemy_HauntedArmor_Footstep\\Foley_Enemy_HauntedArmor_Footstep_01.wav",
+      "CachePath": "SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_01_D8C07C79.wem"
      },
      {
       "Id": "476739655",
@@ -978,6 +1074,14 @@
       "Location": "Memory",
       "ShortName": "Dracolich\\Bellow\\DRAGON_BELLOW_02.wav",
       "CachePath": "SFX/Dracolich/Bellow/DRAGON_BELLOW_02_D8C07C79.wem"
+     },
+     {
+      "Id": "511934443",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Short\\SFX_Enemy_HauntedArmor_Attack_Short_04.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Short/SFX_Enemy_HauntedArmor_Attack_Short_04_D8C07C79.wem"
      },
      {
       "Id": "514662885",
@@ -1042,6 +1146,14 @@
       "Location": "Memory",
       "ShortName": "Block\\SFX_Player_Block_03.wav",
       "CachePath": "SFX/Block/SFX_Player_Block_03_D8C07C79.wem"
+     },
+     {
+      "Id": "547650354",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Short\\SFX_Enemy_HauntedArmor_Attack_Short_05.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Short/SFX_Enemy_HauntedArmor_Attack_Short_05_D8C07C79.wem"
      },
      {
       "Id": "549521244",
@@ -1132,6 +1244,14 @@
       "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_04_D8C07C79.wem"
      },
      {
+      "Id": "623170721",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Foley_Enemy_HauntedArmor_Footstep\\Foley_Enemy_HauntedArmor_Footstep_07.wav",
+      "CachePath": "SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_07_D8C07C79.wem"
+     },
+     {
       "Id": "636597075",
       "Language": "SFX",
       "Streaming": "false",
@@ -1156,12 +1276,36 @@
       "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_02_D8C07C79.wem"
      },
      {
+      "Id": "646029682",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Foley_Enemy_HauntedArmor_Footstep\\Foley_Enemy_HauntedArmor_Footstep_05.wav",
+      "CachePath": "SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_05_D8C07C79.wem"
+     },
+     {
+      "Id": "655704208",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\SFX_DRAGON_FOOTSTEP_02.wav",
+      "CachePath": "SFX/Footsteps/SFX_DRAGON_FOOTSTEP_02_D8C07C79.wem"
+     },
+     {
       "Id": "658922866",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "creaks-008.wav",
       "CachePath": "SFX/creaks-008_D8C07C79.wem"
+     },
+     {
+      "Id": "663174174",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\SFX_DRAGON_FOOTSTEP_05.wav",
+      "CachePath": "SFX/Footsteps/SFX_DRAGON_FOOTSTEP_05_D8C07C79.wem"
      },
      {
       "Id": "665288197",
@@ -1212,6 +1356,14 @@
       "CachePath": "SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_01_D8C07C79.wem"
      },
      {
+      "Id": "693745533",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Long\\SFX_Enemy_HauntedArmor_Attack_Long_05.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_05_D8C07C79.wem"
+     },
+     {
       "Id": "694859273",
       "Language": "SFX",
       "Streaming": "false",
@@ -1226,6 +1378,14 @@
       "Location": "Memory",
       "ShortName": "LOOP1\\GameOff_Combat_LOOP1_Strings_Nov25.wav",
       "CachePath": "SFX/LOOP1/GameOff_Combat_LOOP1_Strings_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "708464601",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Foley_Enemy_HauntedArmor_Footstep\\Foley_Enemy_HauntedArmor_Footstep_06.wav",
+      "CachePath": "SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_06_D8C07C79.wem"
      },
      {
       "Id": "713425900",
@@ -1274,6 +1434,14 @@
       "Location": "Memory",
       "ShortName": "LOOP1\\GameOff_Expl_LOOP1_Strings_Nov25.wav",
       "CachePath": "SFX/LOOP1/GameOff_Expl_LOOP1_Strings_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "740567834",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "OBJECT_PICK UP.wav",
+      "CachePath": "SFX/OBJECT_PICK UP_D8C07C79.wem"
      },
      {
       "Id": "755805061",
@@ -1380,6 +1548,14 @@
       "CachePath": "SFX/Movement/Clinks/Player_Clink_01_D8C07C79.wem"
      },
      {
+      "Id": "806420487",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\SFX_DRAGON_FOOTSTEP_03.wav",
+      "CachePath": "SFX/Footsteps/SFX_DRAGON_FOOTSTEP_03_D8C07C79.wem"
+     },
+     {
       "Id": "826066373",
       "Language": "SFX",
       "Streaming": "false",
@@ -1476,6 +1652,14 @@
       "CachePath": "SFX/Dracolich/Roar/DRAGON_ROAR_04_D8C07C79.wem"
      },
      {
+      "Id": "877449274",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\SFX_DRAGON_FOOTSTEP_01.wav",
+      "CachePath": "SFX/Footsteps/SFX_DRAGON_FOOTSTEP_01_D8C07C79.wem"
+     },
+     {
       "Id": "878982338",
       "Language": "SFX",
       "Streaming": "false",
@@ -1514,6 +1698,14 @@
       "Location": "Memory",
       "ShortName": "Block\\SFX_Player_Block_02.wav",
       "CachePath": "SFX/Block/SFX_Player_Block_02_D8C07C79.wem"
+     },
+     {
+      "Id": "910021888",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\SFX_DRAGON_FOOTSTEP_04.wav",
+      "CachePath": "SFX/Footsteps/SFX_DRAGON_FOOTSTEP_04_D8C07C79.wem"
      },
      {
       "Id": "911930623",
@@ -1628,12 +1820,28 @@
       "CachePath": "SFX/creaks-004_D8C07C79.wem"
      },
      {
+      "Id": "987225580",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Foley_Enemy_HauntedArmor_Footstep\\Foley_Enemy_HauntedArmor_Footstep_04.wav",
+      "CachePath": "SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_04_D8C07C79.wem"
+     },
+     {
       "Id": "988408211",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "UI\\SFX_UI_Start.wav",
       "CachePath": "SFX/UI/SFX_UI_Start_E163A296.wem"
+     },
+     {
+      "Id": "1000039023",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Long\\SFX_Enemy_HauntedArmor_Attack_Long_03.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_03_D8C07C79.wem"
      },
      {
       "Id": "1016855423",
@@ -1854,7 +2062,7 @@
      {
       "Id": "2961648011",
       "Name": "Play_Bellow",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Bellow",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_Bellow",
       "GUID": "{0D6F2A96-6CD6-4266-BD86-0CD134328443}",
       "DurationType": "OneShot",
       "DurationMin": "4.25",
@@ -1917,9 +2125,35 @@
       ]
      },
      {
+      "Id": "3290400036",
+      "Name": "Play_DragonFootsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_DragonFootsteps",
+      "GUID": "{87017CD6-B10E-44B1-A6E2-74418492CC16}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.375",
+      "DurationMax": "1.375",
+      "MediaRefs": [
+       {
+        "Id": "655704208"
+       },
+       {
+        "Id": "663174174"
+       },
+       {
+        "Id": "806420487"
+       },
+       {
+        "Id": "877449274"
+       },
+       {
+        "Id": "910021888"
+       }
+      ]
+     },
+     {
       "Id": "168006606",
       "Name": "Play_FIREBALL_BURST",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_FIREBALL_BURST",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_FIREBALL_BURST",
       "GUID": "{4D539548-D595-4FF6-A301-4E9B046054DA}",
       "DurationType": "OneShot",
       "DurationMin": "8.166667",
@@ -1933,7 +2167,7 @@
      {
       "Id": "239554289",
       "Name": "Play_FIREBALL_INHALE",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_FIREBALL_INHALE",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_FIREBALL_INHALE",
       "GUID": "{F2E75818-3751-47CB-9006-3D8CA63DA523}",
       "DurationType": "OneShot",
       "DurationMin": "2.4",
@@ -1941,6 +2175,38 @@
       "MediaRefs": [
        {
         "Id": "109788312"
+       }
+      ]
+     },
+     {
+      "Id": "1906468590",
+      "Name": "Play_Foley_Enemy_HauntedArmor_Footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\HauntedArmor\\Play_Foley_Enemy_HauntedArmor_Footstep",
+      "GUID": "{2FF5BA52-3775-44AE-AA87-34A634EB1420}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4546666",
+      "DurationMax": "2.816",
+      "MediaRefs": [
+       {
+        "Id": "254628039"
+       },
+       {
+        "Id": "450318267"
+       },
+       {
+        "Id": "470848620"
+       },
+       {
+        "Id": "623170721"
+       },
+       {
+        "Id": "646029682"
+       },
+       {
+        "Id": "708464601"
+       },
+       {
+        "Id": "987225580"
        }
       ]
      },
@@ -2527,6 +2793,28 @@
       ]
      },
      {
+      "Id": "158879903",
+      "Name": "Play_OBJECT_PICK_UP",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_OBJECT_PICK_UP",
+      "GUID": "{0A366641-C028-498C-AF20-6D0E0056964E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.45833334",
+      "DurationMax": "0.45833334",
+      "MediaRefs": [
+       {
+        "Id": "740567834"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
+       }
+      ]
+     },
+     {
       "Id": "4115969904",
       "Name": "Play_Parry",
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Weapons\\Play_Parry",
@@ -2571,7 +2859,7 @@
      {
       "Id": "2770252186",
       "Name": "Play_Roar",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Roar",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_Roar",
       "GUID": "{A583A819-0769-40E1-9A97-6AEBFC9E9DFE}",
       "DurationType": "OneShot",
       "DurationMin": "3.75",
@@ -2648,6 +2936,89 @@
       ]
      },
      {
+      "Id": "3070694017",
+      "Name": "Play_SFX_Enemy_HauntedArmor_Attack_Long",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\HauntedArmor\\Play_SFX_Enemy_HauntedArmor_Attack_Long",
+      "GUID": "{76A1FFD5-940F-4338-8DD8-8231E03E017D}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.8906667",
+      "DurationMax": "4.9066668",
+      "MediaRefs": [
+       {
+        "Id": "155739368"
+       },
+       {
+        "Id": "169270103"
+       },
+       {
+        "Id": "192366918"
+       },
+       {
+        "Id": "448548022"
+       },
+       {
+        "Id": "693745533"
+       },
+       {
+        "Id": "1000039023"
+       }
+      ]
+     },
+     {
+      "Id": "2222792503",
+      "Name": "Play_SFX_Enemy_HauntedArmor_Attack_Short",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\HauntedArmor\\Play_SFX_Enemy_HauntedArmor_Attack_Short",
+      "GUID": "{6F33DEDB-24F6-4E23-A6FA-A239B4D6F698}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.932",
+      "DurationMax": "3.1093333",
+      "MediaRefs": [
+       {
+        "Id": "8771043"
+       },
+       {
+        "Id": "369947226"
+       },
+       {
+        "Id": "450306476"
+       },
+       {
+        "Id": "511934443"
+       },
+       {
+        "Id": "547650354"
+       }
+      ]
+     },
+     {
+      "Id": "2272141938",
+      "Name": "Play_SFX_GATE_LEVER",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_SFX_GATE_LEVER",
+      "GUID": "{552D2618-B895-4904-8A9A-80CD56672B91}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0833333",
+      "DurationMax": "2.0833333",
+      "MediaRefs": [
+       {
+        "Id": "149434753"
+       }
+      ]
+     },
+     {
+      "Id": "2960667969",
+      "Name": "Play_SFX_GATE_RISE",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_SFX_GATE_RISE",
+      "GUID": "{65F18D89-BAEA-46A1-9331-30F6F608B0E7}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.746646",
+      "DurationMax": "3.746646",
+      "MediaRefs": [
+       {
+        "Id": "354977972"
+       }
+      ]
+     },
+     {
       "Id": "2306120635",
       "Name": "Play_Slider_End",
       "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Slider_End",
@@ -2692,7 +3063,7 @@
      {
       "Id": "2753042117",
       "Name": "Play_Stomp",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Stomp",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_Stomp",
       "GUID": "{6302B084-499C-4B6F-8BE5-8F01879D3BC1}",
       "DurationType": "OneShot",
       "DurationMin": "2.6666667",
@@ -2860,7 +3231,7 @@
      {
       "Id": "2171745078",
       "Name": "Play_Wings",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Wings",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_Wings",
       "GUID": "{F53F1E07-1CAD-474F-B86D-BDE0E0E89B7F}",
       "DurationType": "OneShot",
       "DurationMin": "2.6666667",
@@ -3020,6 +3391,6 @@
     ]
    }
   ],
-  "FileHash": "{F5A05E53-1B1D-3590-2250-E59C660E22ED}"
+  "FileHash": "{6D804672-549F-A1C6-D7F3-6A10211A28B8}"
  }
 }
