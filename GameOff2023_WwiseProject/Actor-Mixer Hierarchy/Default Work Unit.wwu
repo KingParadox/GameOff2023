@@ -4281,27 +4281,36 @@
 				<ActorMixer Name="Enemy Mixer" ID="{FD29D892-D965-443C-B86D-A3918C5E5CAB}" ShortID="698320998">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<Custom>
-								<Attenuation Name="Attenuation (Custom)" ID="{0552101F-4D9C-41D5-976A-3DC20D5B78E7}" ShortID="591827214">
+								<Attenuation Name="Attenuation (Custom)" ID="{4133A64E-BEF2-42F2-B03E-04A1387E6084}" ShortID="679195067">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="5000"/>
+									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-												<Curve Name="VolumeDry" ID="{CACC1481-8ECE-4B95-9858-11A85D0B06ED}">
+												<Curve Name="VolumeDry" ID="{96CACA40-97D8-4D7B-9425-1C3D7405D206}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="3"/>
 													</PropertyList>
 													<PointList>
 														<Point>
 															<XPos>0</XPos>
-															<YPos>0</YPos>
+															<YPos>-0.19091</YPos>
 															<Flags>5</Flags>
+															<SegmentShape>SCurve</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>100</XPos>
+															<XPos>2998.4544</XPos>
+															<YPos>-5.80169</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>SCurve</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>5000</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
