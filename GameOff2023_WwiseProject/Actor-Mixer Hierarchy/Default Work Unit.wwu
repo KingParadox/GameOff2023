@@ -1155,628 +1155,6 @@
 						</ActorMixer>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Dracolich" ID="{FD96B2DB-BACE-4C69-9B28-306255624C92}" ShortID="915360775">
-					<ChildrenList>
-						<RandomSequenceContainer Name="Bellow" ID="{546AE186-3EEC-458C-A6D3-1A8F3D4B40EC}" ShortID="745170436">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="DRAGON_BELLOW_01" ID="{3BC1FD65-FBDA-47B8-A667-9911CAC3D677}" ShortID="1024750697">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_BELLOW_01" ID="{92F5ED55-10C4-4B19-A1D3-06B5E4D69A1D}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Bellow\DRAGON_BELLOW_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1017512601"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_BELLOW_01" ID="{92F5ED55-10C4-4B19-A1D3-06B5E4D69A1D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DRAGON_BELLOW_02" ID="{45A51383-A055-4D41-A6C7-9992475C5856}" ShortID="12258067">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_BELLOW_02" ID="{A921C1C6-8C60-4BBE-B1FE-883FB6A69A32}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Bellow\DRAGON_BELLOW_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="511325285"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_BELLOW_02" ID="{A921C1C6-8C60-4BBE-B1FE-883FB6A69A32}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DRAGON_BELLOW_03" ID="{D5C0F6EE-7E9A-4FEF-8C21-A96E8F303DE7}" ShortID="187458857">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_BELLOW_03" ID="{00F90B88-3B65-46D1-A2D8-2B65E28AACFF}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Bellow\DRAGON_BELLOW_03.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="26672347"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_BELLOW_03" ID="{00F90B88-3B65-46D1-A2D8-2B65E28AACFF}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DRAGON_BELLOW_04" ID="{BFD8F73B-C03C-47FA-A898-E76B5EF4FF96}" ShortID="136360804">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_BELLOW_04" ID="{4235A125-C60B-47B7-844C-81E798D9E096}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Bellow\DRAGON_BELLOW_04.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="504996585"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_BELLOW_04" ID="{4235A125-C60B-47B7-844C-81E798D9E096}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<Folder Name="Fireball" ID="{5FB234E0-8496-467C-BB19-958E5832683C}" ShortID="142378341">
-							<ChildrenList>
-								<Sound Name="FIREBALL_BURST" ID="{3A78F31C-0ED9-40BC-A76B-2929E1A46568}" ShortID="1054663982">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="FIREBALL_BURST" ID="{8F3FAA91-02F4-43EB-A02B-A6A54D7A5232}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Fireball\FIREBALL_BURST.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="317003863"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="FIREBALL_BURST" ID="{8F3FAA91-02F4-43EB-A02B-A6A54D7A5232}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="FIREBALL_INHALE" ID="{12DE2F0B-21F4-4413-BAAE-DBD4F01F249A}" ShortID="40018630">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<Custom>
-												<Attenuation Name="Attenuation (Custom)" ID="{4C3C6540-9E91-4C5E-9895-1B5D8FC97007}" ShortID="375254526">
-													<CurveUsageInfoList>
-														<VolumeDryUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="VolumeDry" ID="{9AC9A95D-DE6F-4636-B1E4-74422F0130EC}">
-																	<PropertyList>
-																		<Property Name="Flags" Type="int32" Value="3"/>
-																	</PropertyList>
-																	<PointList>
-																		<Point>
-																			<XPos>0</XPos>
-																			<YPos>0</YPos>
-																			<Flags>5</Flags>
-																		</Point>
-																		<Point>
-																			<XPos>100</XPos>
-																			<YPos>-200</YPos>
-																			<Flags>37</Flags>
-																		</Point>
-																	</PointList>
-																</Curve>
-															</CurveUsageInfo>
-														</VolumeDryUsage>
-														<VolumeWetGameUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-														</VolumeWetGameUsage>
-														<VolumeWetUserUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-														</VolumeWetUserUsage>
-														<LowPassFilterUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-														</LowPassFilterUsage>
-														<HighPassFilterUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-														</HighPassFilterUsage>
-														<SpreadUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-														</SpreadUsage>
-														<FocusUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-														</FocusUsage>
-														<ObstructionVolumeUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</ObstructionVolumeUsage>
-														<ObstructionLPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</ObstructionLPFUsage>
-														<ObstructionHPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</ObstructionHPFUsage>
-														<OcclusionVolumeUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</OcclusionVolumeUsage>
-														<OcclusionLPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</OcclusionLPFUsage>
-														<OcclusionHPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</OcclusionHPFUsage>
-														<DiffractionVolumeUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</DiffractionVolumeUsage>
-														<DiffractionLPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</DiffractionLPFUsage>
-														<DiffractionHPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</DiffractionHPFUsage>
-														<TransmissionVolumeUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</TransmissionVolumeUsage>
-														<TransmissionLPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</TransmissionLPFUsage>
-														<TransmissionHPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</TransmissionHPFUsage>
-													</CurveUsageInfoList>
-												</Attenuation>
-											</Custom>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="FIREBALL_INHALE" ID="{405AB7E3-44FE-4E76-B0B1-97A853A15EC9}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Fireball\FIREBALL_INHALE.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="109788312"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<PositioningInfo>
-										<Position Name="" ID="{131EAF98-B0CA-4E42-9C82-84BF879D3353}"/>
-									</PositioningInfo>
-									<ActiveSourceList>
-										<ActiveSource Name="FIREBALL_INHALE" ID="{405AB7E3-44FE-4E76-B0B1-97A853A15EC9}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</Folder>
-						<RandomSequenceContainer Name="Roar" ID="{297A45C5-AA5C-47C8-B249-A9B1DFA84BF6}" ShortID="773694935">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="DRAGON_ROAR_01" ID="{BA038E91-FED5-4E06-A080-A129F956BAE7}" ShortID="673584997">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_ROAR_01" ID="{2FE443A3-F6A3-42C7-A9EC-4510EE8215B8}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Roar\DRAGON_ROAR_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="100039941"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_ROAR_01" ID="{2FE443A3-F6A3-42C7-A9EC-4510EE8215B8}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DRAGON_ROAR_02" ID="{CC33A29A-9E95-410C-B1BF-D9D71A3CC9C9}" ShortID="105541400">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_ROAR_02" ID="{30D66BCE-72FE-434A-B3C4-AFB73400F774}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Roar\DRAGON_ROAR_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="104418782"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_ROAR_02" ID="{30D66BCE-72FE-434A-B3C4-AFB73400F774}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DRAGON_ROAR_03" ID="{5F6AFE35-7777-4168-AD6A-DAFF86FDB400}" ShortID="25663429">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_ROAR_03" ID="{C629CCCB-DAAB-431F-ADA9-7E0274CA93A3}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Roar\DRAGON_ROAR_03.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="69486095"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_ROAR_03" ID="{C629CCCB-DAAB-431F-ADA9-7E0274CA93A3}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DRAGON_ROAR_04" ID="{31E8D2BD-0E6E-4A14-8248-79B01AFB0D58}" ShortID="571253134">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_ROAR_04" ID="{D81B4363-992A-4D1A-9F85-F004577C2294}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Roar\DRAGON_ROAR_04.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="876548619"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_ROAR_04" ID="{D81B4363-992A-4D1A-9F85-F004577C2294}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Stomp" ID="{418EC00F-7E52-4FD1-B74E-755C21C25B96}" ShortID="268419092">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="DRAGON_STOMP_01" ID="{94041A3B-9067-4666-A63D-78AC05B73B06}" ShortID="1052920862">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_STOMP_01" ID="{E343246B-8DF8-4682-98D1-D0E0A9C3760F}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Stomp\DRAGON_STOMP_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="256293707"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_STOMP_01" ID="{E343246B-8DF8-4682-98D1-D0E0A9C3760F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DRAGON_STOMP_02" ID="{651D65F1-05E1-4038-B25B-829A0ED7D5C0}" ShortID="962047699">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_STOMP_02" ID="{17113D67-3CC4-4477-92F0-F04A1E4DDE03}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Stomp\DRAGON_STOMP_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="258975257"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_STOMP_02" ID="{17113D67-3CC4-4477-92F0-F04A1E4DDE03}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DRAGON_STOMP_03" ID="{5B0BE443-BE4F-416A-91D2-8CAA593A739B}" ShortID="641550592">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_STOMP_03" ID="{48E8D67E-E84C-4FB0-A916-8A2DEBF655BD}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Stomp\DRAGON_STOMP_03.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="195108500"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_STOMP_03" ID="{48E8D67E-E84C-4FB0-A916-8A2DEBF655BD}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Wings" ID="{8D1097C9-747C-4FC2-83BC-A66DFE84A3A6}" ShortID="495289543">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="DRAGON_WINGS_01" ID="{DEFF54C1-FD2F-47B8-9A95-9119E3C8F85D}" ShortID="248513122">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_WINGS_01" ID="{5E8C6886-620B-4600-81E4-35511178E54E}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Wings\DRAGON_WINGS_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="499825948"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_WINGS_01" ID="{5E8C6886-620B-4600-81E4-35511178E54E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DRAGON_WINGS_02" ID="{27376F3A-D84C-4CC0-97F1-9BF0B0E578C1}" ShortID="279572491">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_WINGS_02" ID="{26E5FB2E-8486-469E-BC9B-426644D6EF49}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Wings\DRAGON_WINGS_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1058024805"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_WINGS_02" ID="{26E5FB2E-8486-469E-BC9B-426644D6EF49}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DRAGON_WINGS_03" ID="{7F4B3969-8C36-4B31-BDD1-43E6D1F90D90}" ShortID="607737155">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_WINGS_03" ID="{58FEEAA5-7311-4418-9F2B-60D82B615B7A}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Wings\DRAGON_WINGS_03.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="404792084"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_WINGS_03" ID="{58FEEAA5-7311-4418-9F2B-60D82B615B7A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DRAGON_WINGS_04" ID="{B0FD33BC-994E-48F8-AD5D-1FA4E6DC574B}" ShortID="907923803">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_WINGS_04" ID="{981267E7-0D03-47AC-926F-EA9E9E3C1153}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Wings\DRAGON_WINGS_04.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="303067073"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_WINGS_04" ID="{981267E7-0D03-47AC-926F-EA9E9E3C1153}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DRAGON_WINGS_05" ID="{87C1E771-3E95-4E09-9CC2-0BD6567C7E9C}" ShortID="518728713">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_WINGS_05" ID="{75C4985D-6299-415A-A5FF-8A481E631A7A}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Wings\DRAGON_WINGS_05.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="536238855"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_WINGS_05" ID="{75C4985D-6299-415A-A5FF-8A481E631A7A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DRAGON_WINGS_06" ID="{CEB65A2C-D9B9-4497-97D5-1D5FA54588FF}" ShortID="939674214">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_WINGS_06" ID="{9C41B73A-291F-4ABC-AFDA-7CCDA2310D89}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Wings\DRAGON_WINGS_06.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="158713601"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_WINGS_06" ID="{9C41B73A-291F-4ABC-AFDA-7CCDA2310D89}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DRAGON_WINGS_07" ID="{3667D7F1-578D-457E-BD09-2F22F0ED9B64}" ShortID="900905175">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_WINGS_07" ID="{6C98134F-C727-4000-B541-B961932547A7}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Wings\DRAGON_WINGS_07.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="855358173"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_WINGS_07" ID="{6C98134F-C727-4000-B541-B961932547A7}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DRAGON_WINGS_08" ID="{4C4886CE-ED0B-42B9-B27B-9C7378653418}" ShortID="162906649">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="DRAGON_WINGS_08" ID="{60310504-6A67-4A36-BE7C-98CD57A4FAC0}">
-											<Language>SFX</Language>
-											<AudioFile>Dracolich\Wings\DRAGON_WINGS_08.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="881806549"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="DRAGON_WINGS_08" ID="{60310504-6A67-4A36-BE7C-98CD57A4FAC0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-					</ChildrenList>
-				</Folder>
 				<ActorMixer Name="PlayerMixer" ID="{E743BA67-451C-4B1F-9F98-FD894472BCF3}" ShortID="1014288839">
 					<PropertyList>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -4849,6 +4227,727 @@
 							<Property Name="Volume"/>
 						</StatePropertyList>
 					</StateInfo>
+				</ActorMixer>
+				<ActorMixer Name="Enemy Mixer" ID="{FD29D892-D965-443C-B86D-A3918C5E5CAB}" ShortID="698320998">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{0552101F-4D9C-41D5-976A-3DC20D5B78E7}" ShortID="591827214">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{CACC1481-8ECE-4B95-9858-11A85D0B06ED}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Folder Name="Dracolich" ID="{FD96B2DB-BACE-4C69-9B28-306255624C92}" ShortID="915360775">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Bellow" ID="{546AE186-3EEC-458C-A6D3-1A8F3D4B40EC}" ShortID="745170436">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="DRAGON_BELLOW_01" ID="{3BC1FD65-FBDA-47B8-A667-9911CAC3D677}" ShortID="1024750697">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_BELLOW_01" ID="{92F5ED55-10C4-4B19-A1D3-06B5E4D69A1D}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Bellow\DRAGON_BELLOW_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1017512601"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_BELLOW_01" ID="{92F5ED55-10C4-4B19-A1D3-06B5E4D69A1D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DRAGON_BELLOW_02" ID="{45A51383-A055-4D41-A6C7-9992475C5856}" ShortID="12258067">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_BELLOW_02" ID="{A921C1C6-8C60-4BBE-B1FE-883FB6A69A32}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Bellow\DRAGON_BELLOW_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="511325285"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_BELLOW_02" ID="{A921C1C6-8C60-4BBE-B1FE-883FB6A69A32}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DRAGON_BELLOW_03" ID="{D5C0F6EE-7E9A-4FEF-8C21-A96E8F303DE7}" ShortID="187458857">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_BELLOW_03" ID="{00F90B88-3B65-46D1-A2D8-2B65E28AACFF}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Bellow\DRAGON_BELLOW_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="26672347"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_BELLOW_03" ID="{00F90B88-3B65-46D1-A2D8-2B65E28AACFF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DRAGON_BELLOW_04" ID="{BFD8F73B-C03C-47FA-A898-E76B5EF4FF96}" ShortID="136360804">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_BELLOW_04" ID="{4235A125-C60B-47B7-844C-81E798D9E096}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Bellow\DRAGON_BELLOW_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="504996585"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_BELLOW_04" ID="{4235A125-C60B-47B7-844C-81E798D9E096}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Folder Name="Fireball" ID="{5FB234E0-8496-467C-BB19-958E5832683C}" ShortID="142378341">
+									<ChildrenList>
+										<Sound Name="FIREBALL_BURST" ID="{3A78F31C-0ED9-40BC-A76B-2929E1A46568}" ShortID="1054663982">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FIREBALL_BURST" ID="{8F3FAA91-02F4-43EB-A02B-A6A54D7A5232}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Fireball\FIREBALL_BURST.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="317003863"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FIREBALL_BURST" ID="{8F3FAA91-02F4-43EB-A02B-A6A54D7A5232}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FIREBALL_INHALE" ID="{12DE2F0B-21F4-4413-BAAE-DBD4F01F249A}" ShortID="40018630">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<Custom>
+														<Attenuation Name="Attenuation (Custom)" ID="{4C3C6540-9E91-4C5E-9895-1B5D8FC97007}" ShortID="375254526">
+															<CurveUsageInfoList>
+																<VolumeDryUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="VolumeDry" ID="{9AC9A95D-DE6F-4636-B1E4-74422F0130EC}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="3"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>-200</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</VolumeDryUsage>
+																<VolumeWetGameUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetGameUsage>
+																<VolumeWetUserUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetUserUsage>
+																<LowPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</LowPassFilterUsage>
+																<HighPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</HighPassFilterUsage>
+																<SpreadUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</SpreadUsage>
+																<FocusUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</FocusUsage>
+																<ObstructionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionVolumeUsage>
+																<ObstructionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionLPFUsage>
+																<ObstructionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionHPFUsage>
+																<OcclusionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionVolumeUsage>
+																<OcclusionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionLPFUsage>
+																<OcclusionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionHPFUsage>
+																<DiffractionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionVolumeUsage>
+																<DiffractionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionLPFUsage>
+																<DiffractionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionHPFUsage>
+																<TransmissionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionVolumeUsage>
+																<TransmissionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionLPFUsage>
+																<TransmissionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionHPFUsage>
+															</CurveUsageInfoList>
+														</Attenuation>
+													</Custom>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FIREBALL_INHALE" ID="{405AB7E3-44FE-4E76-B0B1-97A853A15EC9}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Fireball\FIREBALL_INHALE.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="109788312"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{131EAF98-B0CA-4E42-9C82-84BF879D3353}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="FIREBALL_INHALE" ID="{405AB7E3-44FE-4E76-B0B1-97A853A15EC9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<RandomSequenceContainer Name="Roar" ID="{297A45C5-AA5C-47C8-B249-A9B1DFA84BF6}" ShortID="773694935">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="DRAGON_ROAR_01" ID="{BA038E91-FED5-4E06-A080-A129F956BAE7}" ShortID="673584997">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_ROAR_01" ID="{2FE443A3-F6A3-42C7-A9EC-4510EE8215B8}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Roar\DRAGON_ROAR_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="100039941"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_ROAR_01" ID="{2FE443A3-F6A3-42C7-A9EC-4510EE8215B8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DRAGON_ROAR_02" ID="{CC33A29A-9E95-410C-B1BF-D9D71A3CC9C9}" ShortID="105541400">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_ROAR_02" ID="{30D66BCE-72FE-434A-B3C4-AFB73400F774}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Roar\DRAGON_ROAR_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="104418782"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_ROAR_02" ID="{30D66BCE-72FE-434A-B3C4-AFB73400F774}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DRAGON_ROAR_03" ID="{5F6AFE35-7777-4168-AD6A-DAFF86FDB400}" ShortID="25663429">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_ROAR_03" ID="{C629CCCB-DAAB-431F-ADA9-7E0274CA93A3}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Roar\DRAGON_ROAR_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="69486095"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_ROAR_03" ID="{C629CCCB-DAAB-431F-ADA9-7E0274CA93A3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DRAGON_ROAR_04" ID="{31E8D2BD-0E6E-4A14-8248-79B01AFB0D58}" ShortID="571253134">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_ROAR_04" ID="{D81B4363-992A-4D1A-9F85-F004577C2294}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Roar\DRAGON_ROAR_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="876548619"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_ROAR_04" ID="{D81B4363-992A-4D1A-9F85-F004577C2294}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Stomp" ID="{418EC00F-7E52-4FD1-B74E-755C21C25B96}" ShortID="268419092">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="DRAGON_STOMP_01" ID="{94041A3B-9067-4666-A63D-78AC05B73B06}" ShortID="1052920862">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_STOMP_01" ID="{E343246B-8DF8-4682-98D1-D0E0A9C3760F}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Stomp\DRAGON_STOMP_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="256293707"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_STOMP_01" ID="{E343246B-8DF8-4682-98D1-D0E0A9C3760F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DRAGON_STOMP_02" ID="{651D65F1-05E1-4038-B25B-829A0ED7D5C0}" ShortID="962047699">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_STOMP_02" ID="{17113D67-3CC4-4477-92F0-F04A1E4DDE03}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Stomp\DRAGON_STOMP_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="258975257"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_STOMP_02" ID="{17113D67-3CC4-4477-92F0-F04A1E4DDE03}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DRAGON_STOMP_03" ID="{5B0BE443-BE4F-416A-91D2-8CAA593A739B}" ShortID="641550592">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_STOMP_03" ID="{48E8D67E-E84C-4FB0-A916-8A2DEBF655BD}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Stomp\DRAGON_STOMP_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="195108500"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_STOMP_03" ID="{48E8D67E-E84C-4FB0-A916-8A2DEBF655BD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Wings" ID="{8D1097C9-747C-4FC2-83BC-A66DFE84A3A6}" ShortID="495289543">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="DRAGON_WINGS_01" ID="{DEFF54C1-FD2F-47B8-9A95-9119E3C8F85D}" ShortID="248513122">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_WINGS_01" ID="{5E8C6886-620B-4600-81E4-35511178E54E}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Wings\DRAGON_WINGS_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="499825948"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_WINGS_01" ID="{5E8C6886-620B-4600-81E4-35511178E54E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DRAGON_WINGS_02" ID="{27376F3A-D84C-4CC0-97F1-9BF0B0E578C1}" ShortID="279572491">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_WINGS_02" ID="{26E5FB2E-8486-469E-BC9B-426644D6EF49}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Wings\DRAGON_WINGS_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1058024805"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_WINGS_02" ID="{26E5FB2E-8486-469E-BC9B-426644D6EF49}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DRAGON_WINGS_03" ID="{7F4B3969-8C36-4B31-BDD1-43E6D1F90D90}" ShortID="607737155">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_WINGS_03" ID="{58FEEAA5-7311-4418-9F2B-60D82B615B7A}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Wings\DRAGON_WINGS_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="404792084"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_WINGS_03" ID="{58FEEAA5-7311-4418-9F2B-60D82B615B7A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DRAGON_WINGS_04" ID="{B0FD33BC-994E-48F8-AD5D-1FA4E6DC574B}" ShortID="907923803">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_WINGS_04" ID="{981267E7-0D03-47AC-926F-EA9E9E3C1153}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Wings\DRAGON_WINGS_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="303067073"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_WINGS_04" ID="{981267E7-0D03-47AC-926F-EA9E9E3C1153}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DRAGON_WINGS_05" ID="{87C1E771-3E95-4E09-9CC2-0BD6567C7E9C}" ShortID="518728713">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_WINGS_05" ID="{75C4985D-6299-415A-A5FF-8A481E631A7A}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Wings\DRAGON_WINGS_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="536238855"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_WINGS_05" ID="{75C4985D-6299-415A-A5FF-8A481E631A7A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DRAGON_WINGS_06" ID="{CEB65A2C-D9B9-4497-97D5-1D5FA54588FF}" ShortID="939674214">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_WINGS_06" ID="{9C41B73A-291F-4ABC-AFDA-7CCDA2310D89}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Wings\DRAGON_WINGS_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="158713601"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_WINGS_06" ID="{9C41B73A-291F-4ABC-AFDA-7CCDA2310D89}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DRAGON_WINGS_07" ID="{3667D7F1-578D-457E-BD09-2F22F0ED9B64}" ShortID="900905175">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_WINGS_07" ID="{6C98134F-C727-4000-B541-B961932547A7}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Wings\DRAGON_WINGS_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="855358173"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_WINGS_07" ID="{6C98134F-C727-4000-B541-B961932547A7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DRAGON_WINGS_08" ID="{4C4886CE-ED0B-42B9-B27B-9C7378653418}" ShortID="162906649">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DRAGON_WINGS_08" ID="{60310504-6A67-4A36-BE7C-98CD57A4FAC0}">
+													<Language>SFX</Language>
+													<AudioFile>Dracolich\Wings\DRAGON_WINGS_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="881806549"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DRAGON_WINGS_08" ID="{60310504-6A67-4A36-BE7C-98CD57A4FAC0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{07B19C70-C50E-C84D-ACFC-598E6548769B}",
+    "Hash": "{7CB649EE-5E79-5C03-238D-B7413047E0EE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -1715,7 +1715,6 @@
       "Name": "Play_FIREBALL_INHALE",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_FIREBALL_INHALE",
       "GUID": "{F2E75818-3751-47CB-9006-3D8CA63DA523}",
-      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "2.4",
       "DurationMax": "2.4",
@@ -2801,6 +2800,6 @@
     ]
    }
   ],
-  "FileHash": "{C5465359-4355-4CA0-7C4E-5BEC8AA785ED}"
+  "FileHash": "{FB4FE7DA-D3EA-DAA7-38ED-7BB4888E2A40}"
  }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{07B19C70-C50E-C84D-ACFC-598E6548769B}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{7CB649EE-5E79-5C03-238D-B7413047E0EE}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
@@ -824,7 +824,7 @@
 						<MediaRef Id="317003863"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="239554289" Name="Play_FIREBALL_INHALE" ObjectPath="\Events\Default Work Unit\Play_FIREBALL_INHALE" GUID="{F2E75818-3751-47CB-9006-3D8CA63DA523}" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.4" DurationMax="2.4">
+				<Event Id="239554289" Name="Play_FIREBALL_INHALE" ObjectPath="\Events\Default Work Unit\Play_FIREBALL_INHALE" GUID="{F2E75818-3751-47CB-9006-3D8CA63DA523}" DurationType="OneShot" DurationMin="2.4" DurationMax="2.4">
 					<MediaRefs>
 						<MediaRef Id="109788312"/>
 					</MediaRefs>
@@ -1221,5 +1221,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3779881A-1E65-8CAB-993C-78C0DB26AFB7}</FileHash>
+	<FileHash>{95AC6864-6EF8-3994-B06E-3973DAE60585}</FileHash>
 </SoundBanksInfo>
