@@ -3,12 +3,12 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_GameplayMusicSwitch" ID="{00ED8287-CD9E-458A-94FA-27FDF5D1C3A6}">
+				<Event Name="Play_GameplayMusicSwitchDing" ID="{00ED8287-CD9E-458A-94FA-27FDF5D1C3A6}">
 					<ChildrenList>
 						<Action Name="" ID="{EF3AE913-ABA5-4F92-9434-74344F75D6DF}" ShortID="451846796">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="GameplayMusicSwitch" ID="{671D4ACF-1AA7-497A-97CE-748853829813}" WorkUnitID="{F813B62F-2704-4621-8A23-723C54500856}"/>
+									<ObjectRef Name="GameplayMusicSwitchDing" ID="{671D4ACF-1AA7-497A-97CE-748853829813}" WorkUnitID="{F813B62F-2704-4621-8A23-723C54500856}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -595,6 +595,45 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_GameplayMusicSwitchDaniel" ID="{A72C5B05-9F07-4F93-8F09-B0DB675C6E2C}">
+					<ChildrenList>
+						<Action Name="" ID="{4CC22630-6C7F-4216-9D52-DC1CAE7BD896}" ShortID="961199008">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameplayMusicSwitchDaniel" ID="{9EBC79FD-E259-4331-90EA-3F65E165F494}" WorkUnitID="{F813B62F-2704-4621-8A23-723C54500856}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GameplayMusicSwitchDaniel" ID="{14ED0A70-19D6-46DB-954B-47368044A70A}">
+					<ChildrenList>
+						<Action Name="" ID="{ACF3D063-9257-449A-ADB6-C35B7D5527A5}" ShortID="631660156">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameplayMusicSwitchDaniel" ID="{9EBC79FD-E259-4331-90EA-3F65E165F494}" WorkUnitID="{F813B62F-2704-4621-8A23-723C54500856}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GameplayMusicSwitchDing" ID="{EB622F09-6F2A-475D-A3B4-7F1E4F638F56}">
+					<ChildrenList>
+						<Action Name="" ID="{814E7968-6184-4896-96E2-F547618E6817}" ShortID="233813666">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameplayMusicSwitchDing" ID="{671D4ACF-1AA7-497A-97CE-748853829813}" WorkUnitID="{F813B62F-2704-4621-8A23-723C54500856}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

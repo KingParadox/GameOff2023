@@ -84,7 +84,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{A5C4C146-F877-36CB-50FB-38DEAD1D710E}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{C7019BFC-7A30-F390-0C19-97670266E87A}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
@@ -105,6 +105,10 @@
 					<ShortName>Footstep\Mud\Foley_Player_FSMud_05.wav</ShortName>
 					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_05_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="17466961" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Comabt_Tag_01_v1_Violin1.wav</ShortName>
+					<CachePath>SFX/Mus_Comabt_Tag_01_v1_Violin1_0762CC47.wem</CachePath>
+				</File>
 				<File Id="24570841" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Attack\Quick\Player_Attack_Quick_Clinks_03.wav</ShortName>
 					<CachePath>SFX/Movement/Attack/Quick/Player_Attack_Quick_Clinks_03_D8C07C79.wem</CachePath>
@@ -112,6 +116,10 @@
 				<File Id="26672347" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dracolich\Bellow\DRAGON_BELLOW_03.wav</ShortName>
 					<CachePath>SFX/Dracolich/Bellow/DRAGON_BELLOW_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="42789566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Combat_Loop_01_v1_Cymbals.wav</ShortName>
+					<CachePath>SFX/Mus_Combat_Loop_01_v1_Cymbals_0762CC47.wem</CachePath>
 				</File>
 				<File Id="53808189" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>windGusts-005.wav</ShortName>
@@ -173,9 +181,17 @@
 					<ShortName>Dracolich\Fireball\FIREBALL_INHALE.wav</ShortName>
 					<CachePath>SFX/Dracolich/Fireball/FIREBALL_INHALE_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="115226020" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>tag_01\Mus_Expl_Tag_01_v1_Cello.wav</ShortName>
+					<CachePath>SFX/tag_01/Mus_Expl_Tag_01_v1_Cello_0762CC47.wem</CachePath>
+				</File>
 				<File Id="117085588" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GameOff_Combat_INTRO_SulTasto_Nov25.wav</ShortName>
 					<CachePath>SFX/GameOff_Combat_INTRO_SulTasto_Nov25_0762CC47.wem</CachePath>
+				</File>
+				<File Id="117295907" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Combat_Loop_01_v1_MaleChoir.wav</ShortName>
+					<CachePath>SFX/Mus_Combat_Loop_01_v1_MaleChoir_0762CC47.wem</CachePath>
 				</File>
 				<File Id="121170771" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_08.wav</ShortName>
@@ -197,6 +213,10 @@
 					<ShortName>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Long\SFX_Enemy_HauntedArmor_Attack_Long_02.wav</ShortName>
 					<CachePath>SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_02_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="157194131" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>loop_01\Mus_Expl_Loop_01_v1_Cello.wav</ShortName>
+					<CachePath>SFX/loop_01/Mus_Expl_Loop_01_v1_Cello_0762CC47.wem</CachePath>
+				</File>
 				<File Id="158713601" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dracolich\Wings\DRAGON_WINGS_06.wav</ShortName>
 					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_06_D8C07C79.wem</CachePath>
@@ -217,6 +237,18 @@
 					<ShortName>Dracolich\Stomp\DRAGON_STOMP_03.wav</ShortName>
 					<CachePath>SFX/Dracolich/Stomp/DRAGON_STOMP_03_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="201281582" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Combat_Transition_01_v1_SineWave.wav</ShortName>
+					<CachePath>SFX/Mus_Combat_Transition_01_v1_SineWave_0762CC47.wem</CachePath>
+				</File>
+				<File Id="206827220" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>loop_01\Mus_Expl_Loop_01_v1_Violin2.wav</ShortName>
+					<CachePath>SFX/loop_01/Mus_Expl_Loop_01_v1_Violin2_0762CC47.wem</CachePath>
+				</File>
+				<File Id="207081866" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Combat_Intro_01_v1_Violin1.wav</ShortName>
+					<CachePath>SFX/Mus_Combat_Intro_01_v1_Violin1_0762CC47.wem</CachePath>
+				</File>
 				<File Id="209418646" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Grass\Foley_Player_FSGrass_06.wav</ShortName>
 					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_06_D8C07C79.wem</CachePath>
@@ -233,6 +265,10 @@
 					<ShortName>Attack\Heavy\Player_Attack_Heavy_03.wav</ShortName>
 					<CachePath>SFX/Attack/Heavy/Player_Attack_Heavy_03_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="219689141" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>loop_01\Mus_Expl_Loop_01_v1_Viola.wav</ShortName>
+					<CachePath>SFX/loop_01/Mus_Expl_Loop_01_v1_Viola_0762CC47.wem</CachePath>
+				</File>
 				<File Id="221869063" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Grass\Foley_Player_FSGrass_07.wav</ShortName>
 					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_07_D8C07C79.wem</CachePath>
@@ -244,6 +280,10 @@
 				<File Id="228510349" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_07.wav</ShortName>
 					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_07_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="229706042" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>intro_01\Mus_Expl_Intro_01_v1_Cello.wav</ShortName>
+					<CachePath>SFX/intro_01/Mus_Expl_Intro_01_v1_Cello_0762CC47.wem</CachePath>
 				</File>
 				<File Id="235412066" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_03.wav</ShortName>
@@ -328,6 +368,10 @@
 				<File Id="292169088" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_01.wav</ShortName>
 					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="298109568" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Combat_Transition_01_v1_Violin1.wav</ShortName>
+					<CachePath>SFX/Mus_Combat_Transition_01_v1_Violin1_0762CC47.wem</CachePath>
 				</File>
 				<File Id="303067073" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dracolich\Wings\DRAGON_WINGS_04.wav</ShortName>
@@ -441,9 +485,17 @@
 					<ShortName>UI\SFX_UI_Slider_End.wav</ShortName>
 					<CachePath>SFX/UI/SFX_UI_Slider_End_5C42078E.wem</CachePath>
 				</File>
+				<File Id="426656757" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Combat_Intro_01_v1_SineWave.wav</ShortName>
+					<CachePath>SFX/Mus_Combat_Intro_01_v1_SineWave_0762CC47.wem</CachePath>
+				</File>
 				<File Id="430803259" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_03.wav</ShortName>
 					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="431120769" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>tag_01\Mus_Expl_Tag_01_v1_Viola.wav</ShortName>
+					<CachePath>SFX/tag_01/Mus_Expl_Tag_01_v1_Viola_0762CC47.wem</CachePath>
 				</File>
 				<File Id="431921519" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_07.wav</ShortName>
@@ -481,6 +533,10 @@
 					<ShortName>Footstep\Grass\Foley_Player_FSGrass_03.wav</ShortName>
 					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_03_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="468379635" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Comabt_Tag_01_v1_FemaleChoir.wav</ShortName>
+					<CachePath>SFX/Mus_Comabt_Tag_01_v1_FemaleChoir_0762CC47.wem</CachePath>
+				</File>
 				<File Id="470848620" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Foley_Enemy_HauntedArmor_Footstep\Foley_Enemy_HauntedArmor_Footstep_01.wav</ShortName>
 					<CachePath>SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_01_D8C07C79.wem</CachePath>
@@ -492,6 +548,10 @@
 				<File Id="492113711" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>thunders-003.wav</ShortName>
 					<CachePath>SFX/thunders-003_00468127.wem</CachePath>
+				</File>
+				<File Id="494368849" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>transition_01\Mus_Expl_Transition_01_v1_Cello.wav</ShortName>
+					<CachePath>SFX/transition_01/Mus_Expl_Transition_01_v1_Cello_0762CC47.wem</CachePath>
 				</File>
 				<File Id="496610374" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Puddle\Foley_Player_FSPuddle_03.wav</ShortName>
@@ -537,6 +597,10 @@
 					<ShortName>Dracolich\Wings\DRAGON_WINGS_05.wav</ShortName>
 					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_05_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="542968810" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Combat_Intro_01_v1_Flute.wav</ShortName>
+					<CachePath>SFX/Mus_Combat_Intro_01_v1_Flute_0762CC47.wem</CachePath>
+				</File>
 				<File Id="544303138" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Parry\SFX_Player_Parry_02.wav</ShortName>
 					<CachePath>SFX/Parry/SFX_Player_Parry_02_D8C07C79.wem</CachePath>
@@ -552,6 +616,10 @@
 				<File Id="549521244" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Attack\Heavy\Player_Attack_Heavy_02.wav</ShortName>
 					<CachePath>SFX/Attack/Heavy/Player_Attack_Heavy_02_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="552634829" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>intro_01\Mus_Expl_Intro_01_v1_Violin2.wav</ShortName>
+					<CachePath>SFX/intro_01/Mus_Expl_Intro_01_v1_Violin2_0762CC47.wem</CachePath>
 				</File>
 				<File Id="561174997" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>creaks-003.wav</ShortName>
@@ -588,6 +656,10 @@
 				<File Id="595959087" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Mud\Foley_Player_FSMud_04.wav</ShortName>
 					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_04_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="605074972" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>intro_01\Mus_Expl_Intro_01_v1_Viola.wav</ShortName>
+					<CachePath>SFX/intro_01/Mus_Expl_Intro_01_v1_Viola_0762CC47.wem</CachePath>
 				</File>
 				<File Id="615243289" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_04.wav</ShortName>
@@ -632,6 +704,10 @@
 				<File Id="672350718" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>creaks-007.wav</ShortName>
 					<CachePath>SFX/creaks-007_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="677317130" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Combat_Intro_01_v1_MaleChoir.wav</ShortName>
+					<CachePath>SFX/Mus_Combat_Intro_01_v1_MaleChoir_0762CC47.wem</CachePath>
 				</File>
 				<File Id="678691469" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_02.wav</ShortName>
@@ -725,6 +801,14 @@
 					<ShortName>creaks-002.wav</ShortName>
 					<CachePath>SFX/creaks-002_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="779001691" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>tag_01\Mus_Expl_Tag_01_v1_Cymbals.wav</ShortName>
+					<CachePath>SFX/tag_01/Mus_Expl_Tag_01_v1_Cymbals_0762CC47.wem</CachePath>
+				</File>
+				<File Id="779320801" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Combat_Intro_01_v1_FemaleChoir.wav</ShortName>
+					<CachePath>SFX/Mus_Combat_Intro_01_v1_FemaleChoir_0762CC47.wem</CachePath>
+				</File>
 				<File Id="779682905" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Attack\Heavy\Player_Attack_Heavy_Clinks_03.wav</ShortName>
 					<CachePath>SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_03_D8C07C79.wem</CachePath>
@@ -748,6 +832,10 @@
 				<File Id="806420487" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\SFX_DRAGON_FOOTSTEP_03.wav</ShortName>
 					<CachePath>SFX/Footsteps/SFX_DRAGON_FOOTSTEP_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="823419228" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Combat_Loop_01_v1_FemaleChoir.wav</ShortName>
+					<CachePath>SFX/Mus_Combat_Loop_01_v1_FemaleChoir_0762CC47.wem</CachePath>
 				</File>
 				<File Id="826066373" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LOOP2\GameOff_Combat_LOOP2_Choir_Nov25.wav</ShortName>
@@ -817,6 +905,10 @@
 					<ShortName>Movement\Attack\Heavy\Player_Attack_Heavy_Clinks_02.wav</ShortName>
 					<CachePath>SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_02_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="894803030" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Combat_Tag_01_v1_SineWave.wav</ShortName>
+					<CachePath>SFX/Mus_Combat_Tag_01_v1_SineWave_0762CC47.wem</CachePath>
+				</File>
 				<File Id="905074597" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Block\SFX_Player_Block_02.wav</ShortName>
 					<CachePath>SFX/Block/SFX_Player_Block_02_D8C07C79.wem</CachePath>
@@ -828,6 +920,10 @@
 				<File Id="911930623" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_02.wav</ShortName>
 					<CachePath>SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_02_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="913922792" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>transition_01\Mus_Expl_Transition_01_v1_Cymbals.wav</ShortName>
+					<CachePath>SFX/transition_01/Mus_Expl_Transition_01_v1_Cymbals_0762CC47.wem</CachePath>
 				</File>
 				<File Id="916932768" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>INTRO\GameOff_Expl_INTRO_SulTasto_Nov22.wav</ShortName>
@@ -845,6 +941,10 @@
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_03.wav</ShortName>
 					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_03_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="931595274" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>tag_01\Mus_Expl_Tag_01_v1_Violin2.wav</ShortName>
+					<CachePath>SFX/tag_01/Mus_Expl_Tag_01_v1_Violin2_0762CC47.wem</CachePath>
+				</File>
 				<File Id="934624959" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_03.wav</ShortName>
 					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_03_D8C07C79.wem</CachePath>
@@ -856,6 +956,18 @@
 				<File Id="948149131" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Mud\Foley_Player_FSMud_01.wav</ShortName>
 					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="950057010" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Combat_Tag_01_v1_Flute.wav</ShortName>
+					<CachePath>SFX/Mus_Combat_Tag_01_v1_Flute_0762CC47.wem</CachePath>
+				</File>
+				<File Id="952596750" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Comabt_Tag_01_v1_MaleChoir.wav</ShortName>
+					<CachePath>SFX/Mus_Comabt_Tag_01_v1_MaleChoir_0762CC47.wem</CachePath>
+				</File>
+				<File Id="953918764" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Combat_Transtion_01_v1_Flute.wav</ShortName>
+					<CachePath>SFX/Mus_Combat_Transtion_01_v1_Flute_0762CC47.wem</CachePath>
 				</File>
 				<File Id="956128316" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>thunders-004.wav</ShortName>
@@ -877,9 +989,17 @@
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_06.wav</ShortName>
 					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_06_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="961812807" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>transition_01\Mus_Expl_Transition_01_v1_Violin2.wav</ShortName>
+					<CachePath>SFX/transition_01/Mus_Expl_Transition_01_v1_Violin2_0762CC47.wem</CachePath>
+				</File>
 				<File Id="966510030" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>creaks-004.wav</ShortName>
 					<CachePath>SFX/creaks-004_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="969748283" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Combat_Loop_01_v1_Flute.wav</ShortName>
+					<CachePath>SFX/Mus_Combat_Loop_01_v1_Flute_0762CC47.wem</CachePath>
 				</File>
 				<File Id="987225580" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Foley_Enemy_HauntedArmor_Footstep\Foley_Enemy_HauntedArmor_Footstep_04.wav</ShortName>
@@ -893,6 +1013,10 @@
 					<ShortName>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Long\SFX_Enemy_HauntedArmor_Attack_Long_03.wav</ShortName>
 					<CachePath>SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_03_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="1009288934" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Combat_Loop_01_v1_Violin1.wav</ShortName>
+					<CachePath>SFX/Mus_Combat_Loop_01_v1_Violin1_0762CC47.wem</CachePath>
+				</File>
 				<File Id="1016855423" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Parry\SFX_Player_Parry_01.wav</ShortName>
 					<CachePath>SFX/Parry/SFX_Player_Parry_01_D8C07C79.wem</CachePath>
@@ -904,6 +1028,10 @@
 				<File Id="1017635794" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Block\SFX_Player_Block_01.wav</ShortName>
 					<CachePath>SFX/Block/SFX_Player_Block_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="1024276209" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_Combat_Loop_01_v1_SineWave.wav</ShortName>
+					<CachePath>SFX/Mus_Combat_Loop_01_v1_SineWave_0762CC47.wem</CachePath>
 				</File>
 				<File Id="1027756161" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Sand\Foley_Player_FSSand_02.wav</ShortName>
@@ -932,6 +1060,10 @@
 				<File Id="1058024805" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dracolich\Wings\DRAGON_WINGS_02.wav</ShortName>
 					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_02_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="1058942504" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>transition_01\Mus_Expl_Transition_01_v1_Viola.wav</ShortName>
+					<CachePath>SFX/transition_01/Mus_Expl_Transition_01_v1_Viola_0762CC47.wem</CachePath>
 				</File>
 				<File Id="1063378268" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_05.wav</ShortName>
@@ -1157,7 +1289,54 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1943328147" Name="Play_GameplayMusicSwitch" ObjectPath="\Events\Default Work Unit\Play_GameplayMusicSwitch" GUID="{00ED8287-CD9E-458A-94FA-27FDF5D1C3A6}" DurationType="Infinite">
+				<Event Id="1614877050" Name="Play_GameplayMusicSwitchDaniel" ObjectPath="\Events\Default Work Unit\Play_GameplayMusicSwitchDaniel" GUID="{A72C5B05-9F07-4F93-8F09-B0DB675C6E2C}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="762757699" Id="2582085496" GUID="{5DD37529-C7B7-4601-9AF3-B85A1071893C}"/>
+							<MediaRefs>
+								<MediaRef Id="115226020"/>
+								<MediaRef Id="157194131"/>
+								<MediaRef Id="206827220"/>
+								<MediaRef Id="219689141"/>
+								<MediaRef Id="229706042"/>
+								<MediaRef Id="431120769"/>
+								<MediaRef Id="494368849"/>
+								<MediaRef Id="552634829"/>
+								<MediaRef Id="605074972"/>
+								<MediaRef Id="779001691"/>
+								<MediaRef Id="913922792"/>
+								<MediaRef Id="931595274"/>
+								<MediaRef Id="961812807"/>
+								<MediaRef Id="1058942504"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="762757699" Id="2764240573" GUID="{D7DBAB25-D3B6-4BC9-BC8B-583DD72A4237}"/>
+							<MediaRefs>
+								<MediaRef Id="17466961"/>
+								<MediaRef Id="42789566"/>
+								<MediaRef Id="117295907"/>
+								<MediaRef Id="201281582"/>
+								<MediaRef Id="207081866"/>
+								<MediaRef Id="298109568"/>
+								<MediaRef Id="426656757"/>
+								<MediaRef Id="468379635"/>
+								<MediaRef Id="542968810"/>
+								<MediaRef Id="677317130"/>
+								<MediaRef Id="779320801"/>
+								<MediaRef Id="823419228"/>
+								<MediaRef Id="894803030"/>
+								<MediaRef Id="950057010"/>
+								<MediaRef Id="952596750"/>
+								<MediaRef Id="953918764"/>
+								<MediaRef Id="969748283"/>
+								<MediaRef Id="1009288934"/>
+								<MediaRef Id="1024276209"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4281370459" Name="Play_GameplayMusicSwitchDing" ObjectPath="\Events\Default Work Unit\Play_GameplayMusicSwitchDing" GUID="{00ED8287-CD9E-458A-94FA-27FDF5D1C3A6}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="117085588"/>
 						<MediaRef Id="533911511"/>
@@ -1425,6 +1604,8 @@
 						<MediaRef Id="1058024805"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="247560216" Name="Stop_GameplayMusicSwitchDaniel" ObjectPath="\Events\Default Work Unit\Stop_GameplayMusicSwitchDaniel" GUID="{14ED0A70-19D6-46DB-954B-47368044A70A}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1954061765" Name="Stop_GameplayMusicSwitchDing" ObjectPath="\Events\Default Work Unit\Stop_GameplayMusicSwitchDing" GUID="{EB622F09-6F2A-475D-A3B4-7F1E4F638F56}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1903256924" Name="towerAmbient" ObjectPath="\Events\Default Work Unit\Ambient\towerAmbient" GUID="{03D147F4-241F-45AA-867E-96801EB882C4}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="3731836"/>
@@ -1465,5 +1646,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2AB2E998-0A86-447E-B44E-6DB99AC93565}</FileHash>
+	<FileHash>{49EDC793-5D5C-DE8F-3F29-C94538FE4B6C}</FileHash>
 </SoundBanksInfo>

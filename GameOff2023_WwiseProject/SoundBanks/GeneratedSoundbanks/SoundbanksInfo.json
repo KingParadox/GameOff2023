@@ -230,7 +230,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{A5C4C146-F877-36CB-50FB-38DEAD1D710E}",
+    "Hash": "{C7019BFC-7A30-F390-0C19-97670266E87A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -268,6 +268,14 @@
       "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_05_D8C07C79.wem"
      },
      {
+      "Id": "17466961",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Comabt_Tag_01_v1_Violin1.wav",
+      "CachePath": "SFX/Mus_Comabt_Tag_01_v1_Violin1_0762CC47.wem"
+     },
+     {
       "Id": "24570841",
       "Language": "SFX",
       "Streaming": "false",
@@ -282,6 +290,14 @@
       "Location": "Memory",
       "ShortName": "Dracolich\\Bellow\\DRAGON_BELLOW_03.wav",
       "CachePath": "SFX/Dracolich/Bellow/DRAGON_BELLOW_03_D8C07C79.wem"
+     },
+     {
+      "Id": "42789566",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Loop_01_v1_Cymbals.wav",
+      "CachePath": "SFX/Mus_Combat_Loop_01_v1_Cymbals_0762CC47.wem"
      },
      {
       "Id": "53808189",
@@ -404,12 +420,28 @@
       "CachePath": "SFX/Dracolich/Fireball/FIREBALL_INHALE_D8C07C79.wem"
      },
      {
+      "Id": "115226020",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "tag_01\\Mus_Expl_Tag_01_v1_Cello.wav",
+      "CachePath": "SFX/tag_01/Mus_Expl_Tag_01_v1_Cello_0762CC47.wem"
+     },
+     {
       "Id": "117085588",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "GameOff_Combat_INTRO_SulTasto_Nov25.wav",
       "CachePath": "SFX/GameOff_Combat_INTRO_SulTasto_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "117295907",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Loop_01_v1_MaleChoir.wav",
+      "CachePath": "SFX/Mus_Combat_Loop_01_v1_MaleChoir_0762CC47.wem"
      },
      {
       "Id": "121170771",
@@ -452,6 +484,14 @@
       "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_02_D8C07C79.wem"
      },
      {
+      "Id": "157194131",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "loop_01\\Mus_Expl_Loop_01_v1_Cello.wav",
+      "CachePath": "SFX/loop_01/Mus_Expl_Loop_01_v1_Cello_0762CC47.wem"
+     },
+     {
       "Id": "158713601",
       "Language": "SFX",
       "Streaming": "false",
@@ -492,6 +532,30 @@
       "CachePath": "SFX/Dracolich/Stomp/DRAGON_STOMP_03_D8C07C79.wem"
      },
      {
+      "Id": "201281582",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Transition_01_v1_SineWave.wav",
+      "CachePath": "SFX/Mus_Combat_Transition_01_v1_SineWave_0762CC47.wem"
+     },
+     {
+      "Id": "206827220",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "loop_01\\Mus_Expl_Loop_01_v1_Violin2.wav",
+      "CachePath": "SFX/loop_01/Mus_Expl_Loop_01_v1_Violin2_0762CC47.wem"
+     },
+     {
+      "Id": "207081866",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Intro_01_v1_Violin1.wav",
+      "CachePath": "SFX/Mus_Combat_Intro_01_v1_Violin1_0762CC47.wem"
+     },
+     {
       "Id": "209418646",
       "Language": "SFX",
       "Streaming": "false",
@@ -524,6 +588,14 @@
       "CachePath": "SFX/Attack/Heavy/Player_Attack_Heavy_03_D8C07C79.wem"
      },
      {
+      "Id": "219689141",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "loop_01\\Mus_Expl_Loop_01_v1_Viola.wav",
+      "CachePath": "SFX/loop_01/Mus_Expl_Loop_01_v1_Viola_0762CC47.wem"
+     },
+     {
       "Id": "221869063",
       "Language": "SFX",
       "Streaming": "false",
@@ -546,6 +618,14 @@
       "Location": "Memory",
       "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_07.wav",
       "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_07_D8C07C79.wem"
+     },
+     {
+      "Id": "229706042",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "intro_01\\Mus_Expl_Intro_01_v1_Cello.wav",
+      "CachePath": "SFX/intro_01/Mus_Expl_Intro_01_v1_Cello_0762CC47.wem"
      },
      {
       "Id": "235412066",
@@ -714,6 +794,14 @@
       "Location": "Memory",
       "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_01.wav",
       "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_01_D8C07C79.wem"
+     },
+     {
+      "Id": "298109568",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Transition_01_v1_Violin1.wav",
+      "CachePath": "SFX/Mus_Combat_Transition_01_v1_Violin1_0762CC47.wem"
      },
      {
       "Id": "303067073",
@@ -940,12 +1028,28 @@
       "CachePath": "SFX/UI/SFX_UI_Slider_End_5C42078E.wem"
      },
      {
+      "Id": "426656757",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Intro_01_v1_SineWave.wav",
+      "CachePath": "SFX/Mus_Combat_Intro_01_v1_SineWave_0762CC47.wem"
+     },
+     {
       "Id": "430803259",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_03.wav",
       "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_03_D8C07C79.wem"
+     },
+     {
+      "Id": "431120769",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "tag_01\\Mus_Expl_Tag_01_v1_Viola.wav",
+      "CachePath": "SFX/tag_01/Mus_Expl_Tag_01_v1_Viola_0762CC47.wem"
      },
      {
       "Id": "431921519",
@@ -1020,6 +1124,14 @@
       "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_03_D8C07C79.wem"
      },
      {
+      "Id": "468379635",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Comabt_Tag_01_v1_FemaleChoir.wav",
+      "CachePath": "SFX/Mus_Comabt_Tag_01_v1_FemaleChoir_0762CC47.wem"
+     },
+     {
       "Id": "470848620",
       "Language": "SFX",
       "Streaming": "false",
@@ -1042,6 +1154,14 @@
       "Location": "Memory",
       "ShortName": "thunders-003.wav",
       "CachePath": "SFX/thunders-003_00468127.wem"
+     },
+     {
+      "Id": "494368849",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "transition_01\\Mus_Expl_Transition_01_v1_Cello.wav",
+      "CachePath": "SFX/transition_01/Mus_Expl_Transition_01_v1_Cello_0762CC47.wem"
      },
      {
       "Id": "496610374",
@@ -1132,6 +1252,14 @@
       "CachePath": "SFX/Dracolich/Wings/DRAGON_WINGS_05_D8C07C79.wem"
      },
      {
+      "Id": "542968810",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Intro_01_v1_Flute.wav",
+      "CachePath": "SFX/Mus_Combat_Intro_01_v1_Flute_0762CC47.wem"
+     },
+     {
       "Id": "544303138",
       "Language": "SFX",
       "Streaming": "false",
@@ -1162,6 +1290,14 @@
       "Location": "Memory",
       "ShortName": "Attack\\Heavy\\Player_Attack_Heavy_02.wav",
       "CachePath": "SFX/Attack/Heavy/Player_Attack_Heavy_02_D8C07C79.wem"
+     },
+     {
+      "Id": "552634829",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "intro_01\\Mus_Expl_Intro_01_v1_Violin2.wav",
+      "CachePath": "SFX/intro_01/Mus_Expl_Intro_01_v1_Violin2_0762CC47.wem"
      },
      {
       "Id": "561174997",
@@ -1234,6 +1370,14 @@
       "Location": "Memory",
       "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_04.wav",
       "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_04_D8C07C79.wem"
+     },
+     {
+      "Id": "605074972",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "intro_01\\Mus_Expl_Intro_01_v1_Viola.wav",
+      "CachePath": "SFX/intro_01/Mus_Expl_Intro_01_v1_Viola_0762CC47.wem"
      },
      {
       "Id": "615243289",
@@ -1322,6 +1466,14 @@
       "Location": "Memory",
       "ShortName": "creaks-007.wav",
       "CachePath": "SFX/creaks-007_D8C07C79.wem"
+     },
+     {
+      "Id": "677317130",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Intro_01_v1_MaleChoir.wav",
+      "CachePath": "SFX/Mus_Combat_Intro_01_v1_MaleChoir_0762CC47.wem"
      },
      {
       "Id": "678691469",
@@ -1508,6 +1660,22 @@
       "CachePath": "SFX/creaks-002_D8C07C79.wem"
      },
      {
+      "Id": "779001691",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "tag_01\\Mus_Expl_Tag_01_v1_Cymbals.wav",
+      "CachePath": "SFX/tag_01/Mus_Expl_Tag_01_v1_Cymbals_0762CC47.wem"
+     },
+     {
+      "Id": "779320801",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Intro_01_v1_FemaleChoir.wav",
+      "CachePath": "SFX/Mus_Combat_Intro_01_v1_FemaleChoir_0762CC47.wem"
+     },
+     {
       "Id": "779682905",
       "Language": "SFX",
       "Streaming": "false",
@@ -1554,6 +1722,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\SFX_DRAGON_FOOTSTEP_03.wav",
       "CachePath": "SFX/Footsteps/SFX_DRAGON_FOOTSTEP_03_D8C07C79.wem"
+     },
+     {
+      "Id": "823419228",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Loop_01_v1_FemaleChoir.wav",
+      "CachePath": "SFX/Mus_Combat_Loop_01_v1_FemaleChoir_0762CC47.wem"
      },
      {
       "Id": "826066373",
@@ -1692,6 +1868,14 @@
       "CachePath": "SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_02_D8C07C79.wem"
      },
      {
+      "Id": "894803030",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Tag_01_v1_SineWave.wav",
+      "CachePath": "SFX/Mus_Combat_Tag_01_v1_SineWave_0762CC47.wem"
+     },
+     {
       "Id": "905074597",
       "Language": "SFX",
       "Streaming": "false",
@@ -1714,6 +1898,14 @@
       "Location": "Memory",
       "ShortName": "Weapon Collide\\Collide Tail\\Wood\\SFX_Player_Weapon_Collide_Tail_Wood_V2_02.wav",
       "CachePath": "SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_02_D8C07C79.wem"
+     },
+     {
+      "Id": "913922792",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "transition_01\\Mus_Expl_Transition_01_v1_Cymbals.wav",
+      "CachePath": "SFX/transition_01/Mus_Expl_Transition_01_v1_Cymbals_0762CC47.wem"
      },
      {
       "Id": "916932768",
@@ -1748,6 +1940,14 @@
       "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_03_D8C07C79.wem"
      },
      {
+      "Id": "931595274",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "tag_01\\Mus_Expl_Tag_01_v1_Violin2.wav",
+      "CachePath": "SFX/tag_01/Mus_Expl_Tag_01_v1_Violin2_0762CC47.wem"
+     },
+     {
       "Id": "934624959",
       "Language": "SFX",
       "Streaming": "false",
@@ -1770,6 +1970,30 @@
       "Location": "Memory",
       "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_01.wav",
       "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_01_D8C07C79.wem"
+     },
+     {
+      "Id": "950057010",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Tag_01_v1_Flute.wav",
+      "CachePath": "SFX/Mus_Combat_Tag_01_v1_Flute_0762CC47.wem"
+     },
+     {
+      "Id": "952596750",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Comabt_Tag_01_v1_MaleChoir.wav",
+      "CachePath": "SFX/Mus_Comabt_Tag_01_v1_MaleChoir_0762CC47.wem"
+     },
+     {
+      "Id": "953918764",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Transtion_01_v1_Flute.wav",
+      "CachePath": "SFX/Mus_Combat_Transtion_01_v1_Flute_0762CC47.wem"
      },
      {
       "Id": "956128316",
@@ -1812,12 +2036,28 @@
       "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_06_D8C07C79.wem"
      },
      {
+      "Id": "961812807",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "transition_01\\Mus_Expl_Transition_01_v1_Violin2.wav",
+      "CachePath": "SFX/transition_01/Mus_Expl_Transition_01_v1_Violin2_0762CC47.wem"
+     },
+     {
       "Id": "966510030",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "creaks-004.wav",
       "CachePath": "SFX/creaks-004_D8C07C79.wem"
+     },
+     {
+      "Id": "969748283",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Loop_01_v1_Flute.wav",
+      "CachePath": "SFX/Mus_Combat_Loop_01_v1_Flute_0762CC47.wem"
      },
      {
       "Id": "987225580",
@@ -1844,6 +2084,14 @@
       "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_03_D8C07C79.wem"
      },
      {
+      "Id": "1009288934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Loop_01_v1_Violin1.wav",
+      "CachePath": "SFX/Mus_Combat_Loop_01_v1_Violin1_0762CC47.wem"
+     },
+     {
       "Id": "1016855423",
       "Language": "SFX",
       "Streaming": "false",
@@ -1866,6 +2114,14 @@
       "Location": "Memory",
       "ShortName": "Block\\SFX_Player_Block_01.wav",
       "CachePath": "SFX/Block/SFX_Player_Block_01_D8C07C79.wem"
+     },
+     {
+      "Id": "1024276209",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Loop_01_v1_SineWave.wav",
+      "CachePath": "SFX/Mus_Combat_Loop_01_v1_SineWave_0762CC47.wem"
      },
      {
       "Id": "1027756161",
@@ -1922,6 +2178,14 @@
       "Location": "Memory",
       "ShortName": "Dracolich\\Wings\\DRAGON_WINGS_02.wav",
       "CachePath": "SFX/Dracolich/Wings/DRAGON_WINGS_02_D8C07C79.wem"
+     },
+     {
+      "Id": "1058942504",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "transition_01\\Mus_Expl_Transition_01_v1_Viola.wav",
+      "CachePath": "SFX/transition_01/Mus_Expl_Transition_01_v1_Viola_0762CC47.wem"
      },
      {
       "Id": "1063378268",
@@ -2529,9 +2793,137 @@
       ]
      },
      {
-      "Id": "1943328147",
-      "Name": "Play_GameplayMusicSwitch",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_GameplayMusicSwitch",
+      "Id": "1614877050",
+      "Name": "Play_GameplayMusicSwitchDaniel",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GameplayMusicSwitchDaniel",
+      "GUID": "{A72C5B05-9F07-4F93-8F09-B0DB675C6E2C}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "762757699",
+         "Id": "2582085496",
+         "GUID": "{5DD37529-C7B7-4601-9AF3-B85A1071893C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "115226020"
+         },
+         {
+          "Id": "157194131"
+         },
+         {
+          "Id": "206827220"
+         },
+         {
+          "Id": "219689141"
+         },
+         {
+          "Id": "229706042"
+         },
+         {
+          "Id": "431120769"
+         },
+         {
+          "Id": "494368849"
+         },
+         {
+          "Id": "552634829"
+         },
+         {
+          "Id": "605074972"
+         },
+         {
+          "Id": "779001691"
+         },
+         {
+          "Id": "913922792"
+         },
+         {
+          "Id": "931595274"
+         },
+         {
+          "Id": "961812807"
+         },
+         {
+          "Id": "1058942504"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "762757699",
+         "Id": "2764240573",
+         "GUID": "{D7DBAB25-D3B6-4BC9-BC8B-583DD72A4237}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "17466961"
+         },
+         {
+          "Id": "42789566"
+         },
+         {
+          "Id": "117295907"
+         },
+         {
+          "Id": "201281582"
+         },
+         {
+          "Id": "207081866"
+         },
+         {
+          "Id": "298109568"
+         },
+         {
+          "Id": "426656757"
+         },
+         {
+          "Id": "468379635"
+         },
+         {
+          "Id": "542968810"
+         },
+         {
+          "Id": "677317130"
+         },
+         {
+          "Id": "779320801"
+         },
+         {
+          "Id": "823419228"
+         },
+         {
+          "Id": "894803030"
+         },
+         {
+          "Id": "950057010"
+         },
+         {
+          "Id": "952596750"
+         },
+         {
+          "Id": "953918764"
+         },
+         {
+          "Id": "969748283"
+         },
+         {
+          "Id": "1009288934"
+         },
+         {
+          "Id": "1024276209"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "4281370459",
+      "Name": "Play_GameplayMusicSwitchDing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GameplayMusicSwitchDing",
       "GUID": "{00ED8287-CD9E-458A-94FA-27FDF5D1C3A6}",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -3264,6 +3656,26 @@
       ]
      },
      {
+      "Id": "247560216",
+      "Name": "Stop_GameplayMusicSwitchDaniel",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_GameplayMusicSwitchDaniel",
+      "GUID": "{14ED0A70-19D6-46DB-954B-47368044A70A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1954061765",
+      "Name": "Stop_GameplayMusicSwitchDing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_GameplayMusicSwitchDing",
+      "GUID": "{EB622F09-6F2A-475D-A3B4-7F1E4F638F56}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "1903256924",
       "Name": "towerAmbient",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\towerAmbient",
@@ -3391,6 +3803,6 @@
     ]
    }
   ],
-  "FileHash": "{6D804672-549F-A1C6-D7F3-6A10211A28B8}"
+  "FileHash": "{067559BA-3595-46FF-F271-C42581F7E236}"
  }
 }
