@@ -1,499 +1,835 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{C93978CD-E7DC-4D41-4601-7B21C50DFE9F}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{DFAFBADD-6B6A-FFDE-FA15-B582905F325F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
 			<Media>
+				<File Id="3731836" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>crumbles-002.wav</ShortName>
+					<CachePath>SFX/crumbles-002_D8C07C79.wem</CachePath>
+				</File>
 				<File Id="8322717" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_05.wav</ShortName>
-					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="11945840" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Mud\Foley_Player_FSMud_05.wav</ShortName>
-					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="24570841" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Attack\Quick\Player_Attack_Quick_Clinks_03.wav</ShortName>
-					<CachePath>SFX/Movement/Attack/Quick/Player_Attack_Quick_Clinks_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Attack/Quick/Player_Attack_Quick_Clinks_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="26672347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Bellow\DRAGON_BELLOW_03.wav</ShortName>
+					<CachePath>SFX/Dracolich/Bellow/DRAGON_BELLOW_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="53808189" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>windGusts-005.wav</ShortName>
+					<CachePath>SFX/windGusts-005_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="59261838" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_07.wav</ShortName>
-					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_07_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_07_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="60137753" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Puddle\Foley_Player_FSPuddle_04.wav</ShortName>
-					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="62411906" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_02.wav</ShortName>
-					<CachePath>SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="65126692" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Sand\Foley_Player_FSSand_07.wav</ShortName>
-					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_07_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_07_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="69486095" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Roar\DRAGON_ROAR_03.wav</ShortName>
+					<CachePath>SFX/Dracolich/Roar/DRAGON_ROAR_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="71179315" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Mud\Foley_Player_FSMud_02.wav</ShortName>
-					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="71370987" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Puddle\Foley_Player_FSPuddle_06.wav</ShortName>
-					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_06_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_06_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="73024082" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LOOP2\GameOff_Expl_LOOP2_Perc_Nov25.wav</ShortName>
+					<CachePath>SFX/LOOP2/GameOff_Expl_LOOP2_Perc_Nov25_0762CC47.wem</CachePath>
+				</File>
+				<File Id="80111373" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LOOP2\GameOff_Combat_LOOP2_Perc_Nov25.wav</ShortName>
+					<CachePath>SFX/LOOP2/GameOff_Combat_LOOP2_Perc_Nov25_0762CC47.wem</CachePath>
+				</File>
+				<File Id="85468853" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>windGusts-007.wav</ShortName>
+					<CachePath>SFX/windGusts-007_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="94506757" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon Collide\Collide Tail\Concrete\SFX_Player_Weapon_Collide_Tail_Concrete_03.wav</ShortName>
-					<CachePath>SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="100039941" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Roar\DRAGON_ROAR_01.wav</ShortName>
+					<CachePath>SFX/Dracolich/Roar/DRAGON_ROAR_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="104418782" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Roar\DRAGON_ROAR_02.wav</ShortName>
+					<CachePath>SFX/Dracolich/Roar/DRAGON_ROAR_02_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="109788312" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Fireball\FIREBALL_INHALE.wav</ShortName>
+					<CachePath>SFX/Dracolich/Fireball/FIREBALL_INHALE_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="117085588" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GameOff_Combat_INTRO_SulTasto_Nov25.wav</ShortName>
+					<CachePath>SFX/GameOff_Combat_INTRO_SulTasto_Nov25_0762CC47.wem</CachePath>
 				</File>
 				<File Id="121170771" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_08.wav</ShortName>
-					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_08_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_08_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="128767792" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\SFX_UI_PickUp.wav</ShortName>
-					<CachePath>SFX/UI/SFX_UI_PickUp_5AF97A8C.wem</CachePath>
+					<CachePath>SFX/UI/SFX_UI_PickUp_6409A0BC.wem</CachePath>
+				</File>
+				<File Id="133317810" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LOOP2\GameOff_Combat_LOOP2_SulTasto_Nov25.wav</ShortName>
+					<CachePath>SFX/LOOP2/GameOff_Combat_LOOP2_SulTasto_Nov25_0762CC47.wem</CachePath>
+				</File>
+				<File Id="158713601" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Wings\DRAGON_WINGS_06.wav</ShortName>
+					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_06_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="161690530" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Attack\Heavy\Player_Attack_Heavy_01.wav</ShortName>
-					<CachePath>SFX/Attack/Heavy/Player_Attack_Heavy_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Attack/Heavy/Player_Attack_Heavy_01_D8C07C79.wem</CachePath>
 				</File>
-				<File Id="179324131" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI\SFX_UI_Confirm.wav</ShortName>
-					<CachePath>SFX/UI/SFX_UI_Confirm_7605B206.wem</CachePath>
+				<File Id="195108500" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Stomp\DRAGON_STOMP_03.wav</ShortName>
+					<CachePath>SFX/Dracolich/Stomp/DRAGON_STOMP_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="209418646" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Grass\Foley_Player_FSGrass_06.wav</ShortName>
-					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_06_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_06_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="211456994" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Clinks\Player_Clink_04.wav</ShortName>
-					<CachePath>SFX/Movement/Clinks/Player_Clink_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Clinks/Player_Clink_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="212462202" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_04.wav</ShortName>
-					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="215853117" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Attack\Heavy\Player_Attack_Heavy_03.wav</ShortName>
-					<CachePath>SFX/Attack/Heavy/Player_Attack_Heavy_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Attack/Heavy/Player_Attack_Heavy_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="221869063" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Grass\Foley_Player_FSGrass_07.wav</ShortName>
-					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_07_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_07_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="222420576" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lowRumble.wav</ShortName>
+					<CachePath>SFX/lowRumble_547CCF2A.wem</CachePath>
 				</File>
 				<File Id="228510349" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_07.wav</ShortName>
-					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_07_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_07_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="235412066" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_03.wav</ShortName>
-					<CachePath>SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="242457361" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_08.wav</ShortName>
-					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_08_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_08_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="247177741" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LOOP2\GameOff_Expl_LOOP2_Strings_Nov25.wav</ShortName>
+					<CachePath>SFX/LOOP2/GameOff_Expl_LOOP2_Strings_Nov25_0762CC47.wem</CachePath>
+				</File>
+				<File Id="256293707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Stomp\DRAGON_STOMP_01.wav</ShortName>
+					<CachePath>SFX/Dracolich/Stomp/DRAGON_STOMP_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="258718558" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon Collide\Collide Tail\Concrete\SFX_Player_Weapon_Collide_Tail_Concrete_01.wav</ShortName>
-					<CachePath>SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="258975257" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Stomp\DRAGON_STOMP_02.wav</ShortName>
+					<CachePath>SFX/Dracolich/Stomp/DRAGON_STOMP_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="260302158" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Attack\Quick\Player_Attack_Quick_Clinks_02.wav</ShortName>
-					<CachePath>SFX/Movement/Attack/Quick/Player_Attack_Quick_Clinks_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Attack/Quick/Player_Attack_Quick_Clinks_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="260417398" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Sand\Foley_Player_FSSand_04.wav</ShortName>
-					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_04_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="261952539" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>creaks-005.wav</ShortName>
+					<CachePath>SFX/creaks-005_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="264922687" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Mud\Foley_Player_FSMud_07.wav</ShortName>
-					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_07_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_07_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="270391479" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>creaks-009.wav</ShortName>
+					<CachePath>SFX/creaks-009_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="273323821" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Clinks\Player_Clink_05.wav</ShortName>
-					<CachePath>SFX/Movement/Clinks/Player_Clink_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Clinks/Player_Clink_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="273986127" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Mud\Foley_Player_FSMud_03.wav</ShortName>
-					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="283202258" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_08.wav</ShortName>
-					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_08_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_08_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="283818894" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LOOP2\GameOff_Combat_LOOP2_Strings_Nov25.wav</ShortName>
+					<CachePath>SFX/LOOP2/GameOff_Combat_LOOP2_Strings_Nov25_0762CC47.wem</CachePath>
 				</File>
 				<File Id="284083750" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Puddle\Foley_Player_FSPuddle_01.wav</ShortName>
-					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="289035679" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Jump\Player_Jump_Start_03.wav</ShortName>
-					<CachePath>SFX/Movement/Jump/Player_Jump_Start_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Jump/Player_Jump_Start_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="289329586" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Clinks\Player_Clink_03.wav</ShortName>
-					<CachePath>SFX/Movement/Clinks/Player_Clink_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Clinks/Player_Clink_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="290726333" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\SFX_UI_Back.wav</ShortName>
-					<CachePath>SFX/UI/SFX_UI_Back_6E5E8602.wem</CachePath>
+					<CachePath>SFX/UI/SFX_UI_Back_C418B9F2.wem</CachePath>
 				</File>
 				<File Id="292169088" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_01.wav</ShortName>
-					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="303067073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Wings\DRAGON_WINGS_04.wav</ShortName>
+					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="306367092" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Attack\Quick\Player_Attack_Quick_Clinks_01.wav</ShortName>
-					<CachePath>SFX/Movement/Attack/Quick/Player_Attack_Quick_Clinks_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Attack/Quick/Player_Attack_Quick_Clinks_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="317003863" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Fireball\FIREBALL_BURST.wav</ShortName>
+					<CachePath>SFX/Dracolich/Fireball/FIREBALL_BURST_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="326193206" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Roll\Player_Roll_Start_03_V2.wav</ShortName>
-					<CachePath>SFX/Movement/Roll/Player_Roll_Start_03_V2_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Roll/Player_Roll_Start_03_V2_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="327700979" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Sand\Foley_Player_FSSand_06.wav</ShortName>
-					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_06_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_06_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="333938787" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_06.wav</ShortName>
-					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_06_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_06_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="342719623" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_04.wav</ShortName>
-					<CachePath>SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_04_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="343670367" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>windGusts-006.wav</ShortName>
+					<CachePath>SFX/windGusts-006_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="350808807" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>windGusts-004.wav</ShortName>
+					<CachePath>SFX/windGusts-004_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="354601549" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_02.wav</ShortName>
-					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_02_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="357344822" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LOOP1\GameOff_Combat_LOOP1_Perc_Nov25.wav</ShortName>
+					<CachePath>SFX/LOOP1/GameOff_Combat_LOOP1_Perc_Nov25_0762CC47.wem</CachePath>
+				</File>
+				<File Id="366185646" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>windGusts-002.wav</ShortName>
+					<CachePath>SFX/windGusts-002_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="366863183" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Puddle\Foley_Player_FSPuddle_05.wav</ShortName>
-					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="367213697" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_04.wav</ShortName>
-					<CachePath>SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="369468741" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\SFX_UI_Slider_Start.wav</ShortName>
-					<CachePath>SFX/UI/SFX_UI_Slider_Start_212F2EAB.wem</CachePath>
+					<CachePath>SFX/UI/SFX_UI_Slider_Start_01694A9B.wem</CachePath>
 				</File>
 				<File Id="372935282" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Roll\Player_Roll_Start_01_V2.wav</ShortName>
-					<CachePath>SFX/Movement/Roll/Player_Roll_Start_01_V2_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Roll/Player_Roll_Start_01_V2_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="388218447" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_06.wav</ShortName>
-					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_06_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_06_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="391974349" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_01.wav</ShortName>
-					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="402547597" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Sand\Foley_Player_FSSand_08.wav</ShortName>
-					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_08_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_08_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="404792084" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Wings\DRAGON_WINGS_03.wav</ShortName>
+					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="414983698" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lowWind.wav</ShortName>
+					<CachePath>SFX/lowWind_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="415661004" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Puddle\Foley_Player_FSPuddle_08.wav</ShortName>
-					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_08_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_08_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="419399914" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>windGusts-001.wav</ShortName>
+					<CachePath>SFX/windGusts-001_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="419447020" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Puddle\Foley_Player_FSPuddle_02.wav</ShortName>
-					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="419765360" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_01.wav</ShortName>
-					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="424878104" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\SFX_UI_Slider_End.wav</ShortName>
-					<CachePath>SFX/UI/SFX_UI_Slider_End_2978543E.wem</CachePath>
+					<CachePath>SFX/UI/SFX_UI_Slider_End_5C42078E.wem</CachePath>
 				</File>
 				<File Id="430803259" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_03.wav</ShortName>
-					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="431921519" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_07.wav</ShortName>
-					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_07_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_07_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="436038413" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LOOP1\GameOff_Expl_LOOP1_Perc_Nov25.wav</ShortName>
+					<CachePath>SFX/LOOP1/GameOff_Expl_LOOP1_Perc_Nov25_0762CC47.wem</CachePath>
+				</File>
+				<File Id="441206784" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>crumbles-001.wav</ShortName>
+					<CachePath>SFX/crumbles-001_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="448664350" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>thunders-001.wav</ShortName>
+					<CachePath>SFX/thunders-001_45A7FECA.wem</CachePath>
 				</File>
 				<File Id="453986490" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Puddle\Foley_Player_FSPuddle_07.wav</ShortName>
-					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_07_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_07_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="465951665" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Grass\Foley_Player_FSGrass_03.wav</ShortName>
-					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="476739655" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>creaks-010.wav</ShortName>
+					<CachePath>SFX/creaks-010_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="492113711" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>thunders-003.wav</ShortName>
+					<CachePath>SFX/thunders-003_00468127.wem</CachePath>
 				</File>
 				<File Id="496610374" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Puddle\Foley_Player_FSPuddle_03.wav</ShortName>
-					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Puddle/Foley_Player_FSPuddle_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="499825948" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Wings\DRAGON_WINGS_01.wav</ShortName>
+					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="504996585" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Bellow\DRAGON_BELLOW_04.wav</ShortName>
+					<CachePath>SFX/Dracolich/Bellow/DRAGON_BELLOW_04_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="511325285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Bellow\DRAGON_BELLOW_02.wav</ShortName>
+					<CachePath>SFX/Dracolich/Bellow/DRAGON_BELLOW_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="514662885" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_05.wav</ShortName>
-					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="519085038" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Roll\Player_Roll_Contact_03_V2.wav</ShortName>
-					<CachePath>SFX/Movement/Roll/Player_Roll_Contact_03_V2_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Roll/Player_Roll_Contact_03_V2_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="523545991" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Roll\Player_Roll_Contact_01_V2.wav</ShortName>
-					<CachePath>SFX/Movement/Roll/Player_Roll_Contact_01_V2_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Roll/Player_Roll_Contact_01_V2_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="526537071" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\SFX_UI_Hover.wav</ShortName>
-					<CachePath>SFX/UI/SFX_UI_Hover_3B2A1FE1.wem</CachePath>
+					<CachePath>SFX/UI/SFX_UI_Hover_DBF586B1.wem</CachePath>
+				</File>
+				<File Id="533911511" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GameOff_Combat_INTRO_Strings_Nov25.wav</ShortName>
+					<CachePath>SFX/GameOff_Combat_INTRO_Strings_Nov25_0762CC47.wem</CachePath>
+				</File>
+				<File Id="536238855" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Wings\DRAGON_WINGS_05.wav</ShortName>
+					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="544303138" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Parry\SFX_Player_Parry_02.wav</ShortName>
-					<CachePath>SFX/Parry/SFX_Player_Parry_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Parry/SFX_Player_Parry_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="545824517" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Block\SFX_Player_Block_03.wav</ShortName>
-					<CachePath>SFX/Block/SFX_Player_Block_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Block/SFX_Player_Block_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="549521244" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Attack\Heavy\Player_Attack_Heavy_02.wav</ShortName>
-					<CachePath>SFX/Attack/Heavy/Player_Attack_Heavy_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Attack/Heavy/Player_Attack_Heavy_02_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="561174997" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>creaks-003.wav</ShortName>
+					<CachePath>SFX/creaks-003_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="565711601" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LOOP2\GameOff_Expl_LOOP2_Choir_Nov25.wav</ShortName>
+					<CachePath>SFX/LOOP2/GameOff_Expl_LOOP2_Choir_Nov25_0762CC47.wem</CachePath>
+				</File>
+				<File Id="568924458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>creaks-006.wav</ShortName>
+					<CachePath>SFX/creaks-006_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="572753260" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Roll\Player_Roll_Contact_02_V2.wav</ShortName>
-					<CachePath>SFX/Movement/Roll/Player_Roll_Contact_02_V2_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Roll/Player_Roll_Contact_02_V2_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="574259035" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Grass\Foley_Player_FSGrass_01.wav</ShortName>
-					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="574274005" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Clinks\Player_Clink_08.wav</ShortName>
-					<CachePath>SFX/Movement/Clinks/Player_Clink_08_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Clinks/Player_Clink_08_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="579440886" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Mud\Foley_Player_FSMud_08.wav</ShortName>
-					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_08_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_08_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="590483239" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LOOP1\GameOff_Combat_LOOP1_Choir_Nov25.wav</ShortName>
+					<CachePath>SFX/LOOP1/GameOff_Combat_LOOP1_Choir_Nov25_0762CC47.wem</CachePath>
 				</File>
 				<File Id="595959087" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Mud\Foley_Player_FSMud_04.wav</ShortName>
-					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="615243289" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_04.wav</ShortName>
-					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_04_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="636597075" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>OUTRO\GameOff_Combat_OUTRO_SulTasto_Nov25.wav</ShortName>
+					<CachePath>SFX/OUTRO/GameOff_Combat_OUTRO_SulTasto_Nov25_0762CC47.wem</CachePath>
 				</File>
 				<File Id="637757490" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Clinks\Player_Clink_02.wav</ShortName>
-					<CachePath>SFX/Movement/Clinks/Player_Clink_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Clinks/Player_Clink_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="637789105" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Grass\Foley_Player_FSGrass_02.wav</ShortName>
-					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_02_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="658922866" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>creaks-008.wav</ShortName>
+					<CachePath>SFX/creaks-008_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="665288197" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>thunders-002.wav</ShortName>
+					<CachePath>SFX/thunders-002_6B800CBC.wem</CachePath>
+				</File>
+				<File Id="672350718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>creaks-007.wav</ShortName>
+					<CachePath>SFX/creaks-007_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="678691469" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_02.wav</ShortName>
-					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="678775115" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Grass\Foley_Player_FSGrass_08.wav</ShortName>
-					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_08_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_08_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="683611462" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Sand\Foley_Player_FSSand_01.wav</ShortName>
-					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="685573023" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon Collide\Collide Hit\SFX_Player_Weapon_Collide_Hit_01.wav</ShortName>
-					<CachePath>SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="694859273" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GameOff_Combat_INTRO_Perc_Nov25.wav</ShortName>
+					<CachePath>SFX/GameOff_Combat_INTRO_Perc_Nov25_0762CC47.wem</CachePath>
+				</File>
+				<File Id="703999474" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LOOP1\GameOff_Combat_LOOP1_Strings_Nov25.wav</ShortName>
+					<CachePath>SFX/LOOP1/GameOff_Combat_LOOP1_Strings_Nov25_0762CC47.wem</CachePath>
 				</File>
 				<File Id="713425900" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_02.wav</ShortName>
-					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="721287801" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_03.wav</ShortName>
-					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="725356836" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Attack\Quick\Player_Attack_Quick_01.wav</ShortName>
-					<CachePath>SFX/Attack/Quick/Player_Attack_Quick_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Attack/Quick/Player_Attack_Quick_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="728018726" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Attack\Quick\Player_Attack_Quick_02.wav</ShortName>
-					<CachePath>SFX/Attack/Quick/Player_Attack_Quick_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Attack/Quick/Player_Attack_Quick_02_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="728625596" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>crumbles-003.wav</ShortName>
+					<CachePath>SFX/crumbles-003_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="737581056" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LOOP1\GameOff_Expl_LOOP1_Strings_Nov25.wav</ShortName>
+					<CachePath>SFX/LOOP1/GameOff_Expl_LOOP1_Strings_Nov25_0762CC47.wem</CachePath>
 				</File>
 				<File Id="755805061" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_08.wav</ShortName>
-					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_08_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_08_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="760257846" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Parry\SFX_Player_Parry_03.wav</ShortName>
-					<CachePath>SFX/Parry/SFX_Player_Parry_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Parry/SFX_Player_Parry_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="763548125" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>OUTRO\GameOff_Combat_OUTRO_Choir_Nov25.wav</ShortName>
+					<CachePath>SFX/OUTRO/GameOff_Combat_OUTRO_Choir_Nov25_0762CC47.wem</CachePath>
 				</File>
 				<File Id="764411101" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_06.wav</ShortName>
-					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_06_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_06_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="767858523" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_01.wav</ShortName>
-					<CachePath>SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="772393635" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Attack\Heavy\Player_Attack_Heavy_Clinks_01.wav</ShortName>
-					<CachePath>SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="773543934" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_01.wav</ShortName>
-					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="776941347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>creaks-002.wav</ShortName>
+					<CachePath>SFX/creaks-002_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="779682905" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Attack\Heavy\Player_Attack_Heavy_Clinks_03.wav</ShortName>
-					<CachePath>SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="790589316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>creaks-001.wav</ShortName>
+					<CachePath>SFX/creaks-001_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="791384098" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_04.wav</ShortName>
-					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_04_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="803823954" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LOOP1\GameOff_Combat_LOOP1_SulTasto_Nov25.wav</ShortName>
+					<CachePath>SFX/LOOP1/GameOff_Combat_LOOP1_SulTasto_Nov25_0762CC47.wem</CachePath>
 				</File>
 				<File Id="805047270" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Clinks\Player_Clink_01.wav</ShortName>
-					<CachePath>SFX/Movement/Clinks/Player_Clink_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Clinks/Player_Clink_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="826066373" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LOOP2\GameOff_Combat_LOOP2_Choir_Nov25.wav</ShortName>
+					<CachePath>SFX/LOOP2/GameOff_Combat_LOOP2_Choir_Nov25_0762CC47.wem</CachePath>
 				</File>
 				<File Id="839409548" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Jump\Player_Jump_Start_02.wav</ShortName>
-					<CachePath>SFX/Movement/Jump/Player_Jump_Start_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Jump/Player_Jump_Start_02_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="840442637" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>OUTRO\GameOff_Combat_OUTRO_Perc_Nov25.wav</ShortName>
+					<CachePath>SFX/OUTRO/GameOff_Combat_OUTRO_Perc_Nov25_0762CC47.wem</CachePath>
 				</File>
 				<File Id="847011496" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Clinks\Player_Clink_07.wav</ShortName>
-					<CachePath>SFX/Movement/Clinks/Player_Clink_07_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Clinks/Player_Clink_07_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="850853619" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_03.wav</ShortName>
-					<CachePath>SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="855358173" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Wings\DRAGON_WINGS_07.wav</ShortName>
+					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_07_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="857191520" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>OUTRO\GameOff_Combat_OUTRO_Strings_Nov25.wav</ShortName>
+					<CachePath>SFX/OUTRO/GameOff_Combat_OUTRO_Strings_Nov25_0762CC47.wem</CachePath>
 				</File>
 				<File Id="868558447" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_02.wav</ShortName>
-					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="869843051" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon Collide\Collide Tail\Concrete\SFX_Player_Weapon_Collide_Tail_Concrete_02.wav</ShortName>
-					<CachePath>SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="874739032" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Roll\Player_Roll_Start_02_V2.wav</ShortName>
-					<CachePath>SFX/Movement/Roll/Player_Roll_Start_02_V2_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Roll/Player_Roll_Start_02_V2_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="876104179" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Grass\Foley_Player_FSGrass_04.wav</ShortName>
-					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_04_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="876548619" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Roar\DRAGON_ROAR_04.wav</ShortName>
+					<CachePath>SFX/Dracolich/Roar/DRAGON_ROAR_04_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="878982338" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LOOP1\GameOff_Expl_LOOP1_SulTasto_Nov25.wav</ShortName>
+					<CachePath>SFX/LOOP1/GameOff_Expl_LOOP1_SulTasto_Nov25_0762CC47.wem</CachePath>
 				</File>
 				<File Id="879545171" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Sand\Foley_Player_FSSand_03.wav</ShortName>
-					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="881806549" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Wings\DRAGON_WINGS_08.wav</ShortName>
+					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_08_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="885022101" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Attack\Heavy\Player_Attack_Heavy_Clinks_02.wav</ShortName>
-					<CachePath>SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="905074597" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Block\SFX_Player_Block_02.wav</ShortName>
-					<CachePath>SFX/Block/SFX_Player_Block_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Block/SFX_Player_Block_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="911930623" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon Collide\Collide Tail\Wood\SFX_Player_Weapon_Collide_Tail_Wood_V2_02.wav</ShortName>
-					<CachePath>SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_02_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="916932768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>INTRO\GameOff_Expl_INTRO_SulTasto_Nov22.wav</ShortName>
+					<CachePath>SFX/INTRO/GameOff_Expl_INTRO_SulTasto_Nov22_0762CC47.wem</CachePath>
 				</File>
 				<File Id="917394165" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Sand\Foley_Player_FSSand_05.wav</ShortName>
-					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_05_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="922137907" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LOOP1\GameOff_Expl_LOOP1_Choir_Nov25.wav</ShortName>
+					<CachePath>SFX/LOOP1/GameOff_Expl_LOOP1_Choir_Nov25_0762CC47.wem</CachePath>
 				</File>
 				<File Id="928410976" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_03.wav</ShortName>
-					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="934624959" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Wood\Foley_Player_FSWood_03.wav</ShortName>
-					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Wood/Foley_Player_FSWood_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="937089009" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>windGusts-003.wav</ShortName>
+					<CachePath>SFX/windGusts-003_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="948149131" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Mud\Foley_Player_FSMud_01.wav</ShortName>
-					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="956128316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>thunders-004.wav</ShortName>
+					<CachePath>SFX/thunders-004_7AA5106E.wem</CachePath>
 				</File>
 				<File Id="956535886" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Mud\Foley_Player_FSMud_06.wav</ShortName>
-					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_06_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Mud/Foley_Player_FSMud_06_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="959056934" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LOOP2\GameOff_Expl_LOOP2_SulTasto_Nov25.wav</ShortName>
+					<CachePath>SFX/LOOP2/GameOff_Expl_LOOP2_SulTasto_Nov25_0762CC47.wem</CachePath>
 				</File>
 				<File Id="960984511" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_05.wav</ShortName>
-					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Gravel/Foley_Player_FSGravel_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="961595985" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_06.wav</ShortName>
-					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_06_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_06_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="966510030" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>creaks-004.wav</ShortName>
+					<CachePath>SFX/creaks-004_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="988408211" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\SFX_UI_Start.wav</ShortName>
-					<CachePath>SFX/UI/SFX_UI_Start_865A12A6.wem</CachePath>
+					<CachePath>SFX/UI/SFX_UI_Start_E163A296.wem</CachePath>
 				</File>
 				<File Id="1016855423" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Parry\SFX_Player_Parry_01.wav</ShortName>
-					<CachePath>SFX/Parry/SFX_Player_Parry_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Parry/SFX_Player_Parry_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="1017512601" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Bellow\DRAGON_BELLOW_01.wav</ShortName>
+					<CachePath>SFX/Dracolich/Bellow/DRAGON_BELLOW_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1017635794" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Block\SFX_Player_Block_01.wav</ShortName>
-					<CachePath>SFX/Block/SFX_Player_Block_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Block/SFX_Player_Block_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1027756161" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Sand\Foley_Player_FSSand_02.wav</ShortName>
-					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1032074407" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_07.wav</ShortName>
-					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_07_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_07_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1032397369" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Concrete\Foley_Player_FSConcrete_04.wav</ShortName>
-					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Concrete/Foley_Player_FSConcrete_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1034915998" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Jump\Player_Jump_Start_01.wav</ShortName>
-					<CachePath>SFX/Movement/Jump/Player_Jump_Start_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Jump/Player_Jump_Start_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1045296774" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement\Clinks\Player_Clink_06.wav</ShortName>
-					<CachePath>SFX/Movement/Clinks/Player_Clink_06_10C4C929.wem</CachePath>
+					<CachePath>SFX/Movement/Clinks/Player_Clink_06_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1052527691" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Grass\Foley_Player_FSGrass_05.wav</ShortName>
-					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Grass/Foley_Player_FSGrass_05_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="1058024805" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dracolich\Wings\DRAGON_WINGS_02.wav</ShortName>
+					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1063378268" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_05.wav</ShortName>
-					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1071825627" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Attack\Quick\Player_Attack_Quick_03.wav</ShortName>
-					<CachePath>SFX/Attack/Quick/Player_Attack_Quick_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Attack/Quick/Player_Attack_Quick_03_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="1073153476" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lowWind.wav</ShortName>
+					<CachePath>SFX/lowWind_E53849C7.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1292086503" Name="Play_Back" ObjectPath="\Events\Default Work Unit\Play_Back" GUID="{AB5B9927-1311-4C9B-84C2-336B208F836E}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+				<Event Id="206299382" Name="bridgeAmbient" ObjectPath="\Events\Default Work Unit\Ambient\bridgeAmbient" GUID="{4BF34D11-04D8-4772-B792-57D91B93C085}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="3731836"/>
+						<MediaRef Id="53808189"/>
+						<MediaRef Id="85468853"/>
+						<MediaRef Id="222420576"/>
+						<MediaRef Id="261952539"/>
+						<MediaRef Id="270391479"/>
+						<MediaRef Id="343670367"/>
+						<MediaRef Id="350808807"/>
+						<MediaRef Id="366185646"/>
+						<MediaRef Id="419399914"/>
+						<MediaRef Id="441206784"/>
+						<MediaRef Id="448664350"/>
+						<MediaRef Id="476739655"/>
+						<MediaRef Id="492113711"/>
+						<MediaRef Id="561174997"/>
+						<MediaRef Id="568924458"/>
+						<MediaRef Id="658922866"/>
+						<MediaRef Id="665288197"/>
+						<MediaRef Id="672350718"/>
+						<MediaRef Id="728625596"/>
+						<MediaRef Id="776941347"/>
+						<MediaRef Id="790589316"/>
+						<MediaRef Id="937089009"/>
+						<MediaRef Id="956128316"/>
+						<MediaRef Id="966510030"/>
+						<MediaRef Id="1073153476"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1131214665" Name="hallsAmbient" ObjectPath="\Events\Default Work Unit\Ambient\hallsAmbient" GUID="{4272CEEE-74F9-4D9B-8037-DBAFB9F7A6B8}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1292086503" Name="Play_Back" ObjectPath="\Events\Default Work Unit\UI\Play_Back" GUID="{AB5B9927-1311-4C9B-84C2-336B208F836E}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
 						<MediaRef Id="290726333"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2755574209" Name="Play_Block" ObjectPath="\Events\Default Work Unit\Play_Block" GUID="{AB6DF19B-224F-42EA-9DB4-554A1ABEDCAB}" DurationType="OneShot" DurationMin="1" DurationMax="1.4986666">
+				<Event Id="2961648011" Name="Play_Bellow" ObjectPath="\Events\Default Work Unit\Play_Bellow" GUID="{0D6F2A96-6CD6-4266-BD86-0CD134328443}" DurationType="OneShot" DurationMin="4.25" DurationMax="5.814">
+					<MediaRefs>
+						<MediaRef Id="26672347"/>
+						<MediaRef Id="504996585"/>
+						<MediaRef Id="511325285"/>
+						<MediaRef Id="1017512601"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2755574209" Name="Play_Block" ObjectPath="\Events\Default Work Unit\Player\Weapons\Play_Block" GUID="{AB6DF19B-224F-42EA-9DB4-554A1ABEDCAB}" DurationType="OneShot" DurationMin="1" DurationMax="1.4986666">
 					<MediaRefs>
 						<MediaRef Id="545824517"/>
 						<MediaRef Id="905074597"/>
 						<MediaRef Id="1017635794"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="4136017490" Name="Play_Confirm" ObjectPath="\Events\Default Work Unit\Play_Confirm" GUID="{53923D77-FDD4-40A8-927C-8A0B6E553595}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+				<Event Id="4136017490" Name="Play_Confirm" ObjectPath="\Events\Default Work Unit\UI\Play_Confirm" GUID="{53923D77-FDD4-40A8-927C-8A0B6E553595}" DurationType="OneShot" DurationMin="90.74225" DurationMax="90.74225">
 					<MediaRefs>
-						<MediaRef Id="179324131"/>
+						<MediaRef Id="414983698"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" GUID="{40F045F2-6A4F-4FA4-9E0F-C089CC444D88}" DurationType="OneShot" DurationMin="0.45833334" DurationMax="0.944">
+				<Event Id="168006606" Name="Play_FIREBALL_BURST" ObjectPath="\Events\Default Work Unit\Play_FIREBALL_BURST" GUID="{4D539548-D595-4FF6-A301-4E9B046054DA}" DurationType="OneShot" DurationMin="8.166667" DurationMax="8.166667">
+					<MediaRefs>
+						<MediaRef Id="317003863"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="239554289" Name="Play_FIREBALL_INHALE" ObjectPath="\Events\Default Work Unit\Play_FIREBALL_INHALE" GUID="{F2E75818-3751-47CB-9006-3D8CA63DA523}" DurationType="OneShot" DurationMin="2.4" DurationMax="2.4">
+					<MediaRefs>
+						<MediaRef Id="109788312"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Player\Play_Footsteps" GUID="{40F045F2-6A4F-4FA4-9E0F-C089CC444D88}" DurationType="OneShot" DurationMin="0.45833334" DurationMax="0.944">
 					<MediaRefs>
 						<MediaRef Id="211456994"/>
 						<MediaRef Id="273323821"/>
@@ -504,6 +840,9 @@
 						<MediaRef Id="847011496"/>
 						<MediaRef Id="1045296774"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2033627364" Id="2058049674" GUID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
@@ -611,12 +950,87 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1962302600" Name="Play_Hover" ObjectPath="\Events\Default Work Unit\Play_Hover" GUID="{55527275-422D-4B95-9BA7-40C1016F6260}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+				<Event Id="1943328147" Name="Play_GameplayMusicSwitch" ObjectPath="\Events\Default Work Unit\Play_GameplayMusicSwitch" GUID="{00ED8287-CD9E-458A-94FA-27FDF5D1C3A6}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="117085588"/>
+						<MediaRef Id="533911511"/>
+						<MediaRef Id="636597075"/>
+						<MediaRef Id="694859273"/>
+						<MediaRef Id="763548125"/>
+						<MediaRef Id="840442637"/>
+						<MediaRef Id="857191520"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="762757699" Id="0" GUID="{4FD28419-13F8-48BF-8F7B-94FC7E84D867}"/>
+							<MediaRefs>
+								<MediaRef Id="73024082"/>
+								<MediaRef Id="247177741"/>
+								<MediaRef Id="436038413"/>
+								<MediaRef Id="565711601"/>
+								<MediaRef Id="737581056"/>
+								<MediaRef Id="878982338"/>
+								<MediaRef Id="916932768"/>
+								<MediaRef Id="922137907"/>
+								<MediaRef Id="959056934"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="762757699" Id="2764240573" GUID="{D7DBAB25-D3B6-4BC9-BC8B-583DD72A4237}"/>
+							<MediaRefs>
+								<MediaRef Id="80111373"/>
+								<MediaRef Id="117085588"/>
+								<MediaRef Id="133317810"/>
+								<MediaRef Id="283818894"/>
+								<MediaRef Id="357344822"/>
+								<MediaRef Id="533911511"/>
+								<MediaRef Id="590483239"/>
+								<MediaRef Id="636597075"/>
+								<MediaRef Id="694859273"/>
+								<MediaRef Id="703999474"/>
+								<MediaRef Id="763548125"/>
+								<MediaRef Id="803823954"/>
+								<MediaRef Id="826066373"/>
+								<MediaRef Id="840442637"/>
+								<MediaRef Id="857191520"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="762757699" Id="2582085496" GUID="{5DD37529-C7B7-4601-9AF3-B85A1071893C}"/>
+							<MediaRefs>
+								<MediaRef Id="73024082"/>
+								<MediaRef Id="247177741"/>
+								<MediaRef Id="436038413"/>
+								<MediaRef Id="565711601"/>
+								<MediaRef Id="737581056"/>
+								<MediaRef Id="878982338"/>
+								<MediaRef Id="916932768"/>
+								<MediaRef Id="922137907"/>
+								<MediaRef Id="959056934"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="762757699" Id="748895195" GUID="{CE7CE926-4897-4DEE-ACFE-D2BA3D849E60}"/>
+							<MediaRefs>
+								<MediaRef Id="73024082"/>
+								<MediaRef Id="247177741"/>
+								<MediaRef Id="436038413"/>
+								<MediaRef Id="565711601"/>
+								<MediaRef Id="737581056"/>
+								<MediaRef Id="878982338"/>
+								<MediaRef Id="916932768"/>
+								<MediaRef Id="922137907"/>
+								<MediaRef Id="959056934"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1962302600" Name="Play_Hover" ObjectPath="\Events\Default Work Unit\UI\Play_Hover" GUID="{55527275-422D-4B95-9BA7-40C1016F6260}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
 						<MediaRef Id="526537071"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3689126666" Name="Play_Jump" ObjectPath="\Events\Default Work Unit\Play_Jump" GUID="{DBB395B7-AC49-47AC-AAA9-A0686BF8CB44}" DurationType="OneShot" DurationMin="0.6666667" DurationMax="0.7083333">
+				<Event Id="3689126666" Name="Play_Jump" ObjectPath="\Events\Default Work Unit\Player\Play_Jump" GUID="{DBB395B7-AC49-47AC-AAA9-A0686BF8CB44}" DurationType="OneShot" DurationMin="0.6666667" DurationMax="0.7083333">
 					<MediaRefs>
 						<MediaRef Id="211456994"/>
 						<MediaRef Id="273323821"/>
@@ -630,55 +1044,85 @@
 						<MediaRef Id="1034915998"/>
 						<MediaRef Id="1045296774"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="4115969904" Name="Play_Parry" ObjectPath="\Events\Default Work Unit\Play_Parry" GUID="{BBF31B62-35C8-4FA1-97A9-CE8BD2215273}" DurationType="OneShot" DurationMin="3.5946667" DurationMax="4.4533334">
+				<Event Id="4115969904" Name="Play_Parry" ObjectPath="\Events\Default Work Unit\Player\Weapons\Play_Parry" GUID="{BBF31B62-35C8-4FA1-97A9-CE8BD2215273}" DurationType="OneShot" DurationMin="3.5946667" DurationMax="4.4533334">
 					<MediaRefs>
 						<MediaRef Id="544303138"/>
 						<MediaRef Id="760257846"/>
 						<MediaRef Id="1016855423"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="3860455926" Name="Play_PickUp" ObjectPath="\Events\Default Work Unit\Play_PickUp" GUID="{C9A6BD8C-8C59-4FDF-83A6-64EA9872E282}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+				<Event Id="3860455926" Name="Play_PickUp" ObjectPath="\Events\Default Work Unit\UI\Play_PickUp" GUID="{C9A6BD8C-8C59-4FDF-83A6-64EA9872E282}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
 					<MediaRefs>
 						<MediaRef Id="128767792"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3305509726" Name="Play_Roll_Contact" ObjectPath="\Events\Default Work Unit\Play_Roll_Contact" GUID="{20B31C1B-99F6-4AD5-852B-85A1E0E566DC}" DurationType="OneShot" DurationMin="0.65" DurationMax="0.8">
+				<Event Id="2770252186" Name="Play_Roar" ObjectPath="\Events\Default Work Unit\Play_Roar" GUID="{A583A819-0769-40E1-9A97-6AEBFC9E9DFE}" DurationType="OneShot" DurationMin="3.75" DurationMax="5.5">
+					<MediaRefs>
+						<MediaRef Id="69486095"/>
+						<MediaRef Id="100039941"/>
+						<MediaRef Id="104418782"/>
+						<MediaRef Id="876548619"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3305509726" Name="Play_Roll_Contact" ObjectPath="\Events\Default Work Unit\Player\Play_Roll_Contact" GUID="{20B31C1B-99F6-4AD5-852B-85A1E0E566DC}" DurationType="OneShot" DurationMin="0.65" DurationMax="0.8">
 					<MediaRefs>
 						<MediaRef Id="519085038"/>
 						<MediaRef Id="523545991"/>
 						<MediaRef Id="572753260"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="3341034318" Name="Play_Roll_Start" ObjectPath="\Events\Default Work Unit\Play_Roll_Start" GUID="{B27B2C86-6714-42A2-80B9-C8FE6DF4FE6A}" DurationType="OneShot" DurationMin="0.41666666" DurationMax="0.6166667">
+				<Event Id="3341034318" Name="Play_Roll_Start" ObjectPath="\Events\Default Work Unit\Player\Play_Roll_Start" GUID="{B27B2C86-6714-42A2-80B9-C8FE6DF4FE6A}" DurationType="OneShot" DurationMin="0.41666666" DurationMax="0.6166667">
 					<MediaRefs>
 						<MediaRef Id="326193206"/>
 						<MediaRef Id="372935282"/>
 						<MediaRef Id="874739032"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="2306120635" Name="Play_Slider_End" ObjectPath="\Events\Default Work Unit\Play_Slider_End" GUID="{E00E2000-431F-4196-A986-5EF2A261803D}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+				<Event Id="2306120635" Name="Play_Slider_End" ObjectPath="\Events\Default Work Unit\UI\Play_Slider_End" GUID="{E00E2000-431F-4196-A986-5EF2A261803D}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
 						<MediaRef Id="424878104"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="150327520" Name="Play_Slider_Start" ObjectPath="\Events\Default Work Unit\Play_Slider_Start" GUID="{14E6AF10-B41F-486A-B6A9-66C086B2877E}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+				<Event Id="150327520" Name="Play_Slider_Start" ObjectPath="\Events\Default Work Unit\UI\Play_Slider_Start" GUID="{14E6AF10-B41F-486A-B6A9-66C086B2877E}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
 						<MediaRef Id="369468741"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2230670290" Name="Play_Start" ObjectPath="\Events\Default Work Unit\Play_Start" GUID="{6629B4E0-2EDA-41DD-AAF7-AC9CF081A5DE}" DurationType="OneShot" DurationMin="3.3601863" DurationMax="3.3601863">
+				<Event Id="2230670290" Name="Play_Start" ObjectPath="\Events\Default Work Unit\UI\Play_Start" GUID="{6629B4E0-2EDA-41DD-AAF7-AC9CF081A5DE}" DurationType="OneShot" DurationMin="3.3601863" DurationMax="3.3601863">
 					<MediaRefs>
 						<MediaRef Id="988408211"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2802509975" Name="Play_SwordCollision" ObjectPath="\Events\Default Work Unit\Play_SwordCollision" GUID="{60E47DA0-6A74-437D-8AE3-6CA25247B280}" DurationType="OneShot" DurationMin="0.8666667" DurationMax="1.7106667">
+				<Event Id="2753042117" Name="Play_Stomp" ObjectPath="\Events\Default Work Unit\Play_Stomp" GUID="{6302B084-499C-4B6F-8BE5-8F01879D3BC1}" DurationType="OneShot" DurationMin="2.6666667" DurationMax="3.1666667">
+					<MediaRefs>
+						<MediaRef Id="195108500"/>
+						<MediaRef Id="256293707"/>
+						<MediaRef Id="258975257"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2802509975" Name="Play_SwordCollision" ObjectPath="\Events\Default Work Unit\Player\Weapons\Play_SwordCollision" GUID="{60E47DA0-6A74-437D-8AE3-6CA25247B280}" DurationType="OneShot" DurationMin="0.8666667" DurationMax="1.7106667">
 					<MediaRefs>
 						<MediaRef Id="62411906"/>
 						<MediaRef Id="235412066"/>
 						<MediaRef Id="342719623"/>
 						<MediaRef Id="685573023"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2033627364" Id="2058049674" GUID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
@@ -699,7 +1143,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="160282985" Name="Play_SwordHeavy_Attack" ObjectPath="\Events\Default Work Unit\Play_SwordHeavy_Attack" GUID="{C1306E9D-C354-498E-AF8F-8F0B3E3D11B4}" DurationType="OneShot" DurationMin="1.1666666" DurationMax="1.1666666">
+				<Event Id="160282985" Name="Play_SwordHeavy_Attack" ObjectPath="\Events\Default Work Unit\Player\Weapons\Play_SwordHeavy_Attack" GUID="{C1306E9D-C354-498E-AF8F-8F0B3E3D11B4}" DurationType="OneShot" DurationMin="1.1666666" DurationMax="1.1666666">
 					<MediaRefs>
 						<MediaRef Id="161690530"/>
 						<MediaRef Id="215853117"/>
@@ -708,8 +1152,11 @@
 						<MediaRef Id="779682905"/>
 						<MediaRef Id="885022101"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="4172974113" Name="Play_SwordQuick_Attack" ObjectPath="\Events\Default Work Unit\Play_SwordQuick_Attack" GUID="{D21572B4-C612-4FC6-8F91-2C4E476E664C}" DurationType="OneShot" DurationMin="0.45" DurationMax="0.51666665">
+				<Event Id="4172974113" Name="Play_SwordQuick_Attack" ObjectPath="\Events\Default Work Unit\Player\Weapons\Play_SwordQuick_Attack" GUID="{D21572B4-C612-4FC6-8F91-2C4E476E664C}" DurationType="OneShot" DurationMin="0.45" DurationMax="0.51666665">
 					<MediaRefs>
 						<MediaRef Id="24570841"/>
 						<MediaRef Id="260302158"/>
@@ -718,8 +1165,46 @@
 						<MediaRef Id="728018726"/>
 						<MediaRef Id="1071825627"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2171745078" Name="Play_Wings" ObjectPath="\Events\Default Work Unit\Play_Wings" GUID="{F53F1E07-1CAD-474F-B86D-BDE0E0E89B7F}" DurationType="OneShot" DurationMin="2.6666667" DurationMax="3.1554167">
+					<MediaRefs>
+						<MediaRef Id="158713601"/>
+						<MediaRef Id="303067073"/>
+						<MediaRef Id="404792084"/>
+						<MediaRef Id="499825948"/>
+						<MediaRef Id="536238855"/>
+						<MediaRef Id="855358173"/>
+						<MediaRef Id="881806549"/>
+						<MediaRef Id="1058024805"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1903256924" Name="towerAmbient" ObjectPath="\Events\Default Work Unit\Ambient\towerAmbient" GUID="{03D147F4-241F-45AA-867E-96801EB882C4}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="3731836"/>
+						<MediaRef Id="53808189"/>
+						<MediaRef Id="85468853"/>
+						<MediaRef Id="343670367"/>
+						<MediaRef Id="350808807"/>
+						<MediaRef Id="366185646"/>
+						<MediaRef Id="419399914"/>
+						<MediaRef Id="441206784"/>
+						<MediaRef Id="728625596"/>
+						<MediaRef Id="937089009"/>
+					</MediaRefs>
 				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="762757699" Name="GAMEPLAY_STATE" ObjectPath="\States\Default Work Unit\GAMEPLAY_STATE" GUID="{4FD28419-13F8-48BF-8F7B-94FC7E84D867}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GAMEPLAY_STATE\None" GUID="{CE7CE926-4897-4DEE-ACFE-D2BA3D849E60}"/>
+						<State Id="2582085496" Name="Exploration" ObjectPath="\States\Default Work Unit\GAMEPLAY_STATE\Exploration" GUID="{5DD37529-C7B7-4601-9AF3-B85A1071893C}"/>
+						<State Id="2764240573" Name="Combat" ObjectPath="\States\Default Work Unit\GAMEPLAY_STATE\Combat" GUID="{D7DBAB25-D3B6-4BC9-BC8B-583DD72A4237}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="2033627364" Name="SurfaceMaterial_Switch" ObjectPath="\Switches\Default Work Unit\SurfaceMaterial_Switch" GUID="{2838582B-AC7D-41AE-85B6-001820A4B0F9}">
 					<Switches>
@@ -736,5 +1221,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E2A06813-46C8-CBAB-4A7D-FEB55130F6BC}</FileHash>
+	<FileHash>{EE46DDC7-5791-5BAD-EFB2-6BCC63F73B63}</FileHash>
 </SoundBanksInfo>

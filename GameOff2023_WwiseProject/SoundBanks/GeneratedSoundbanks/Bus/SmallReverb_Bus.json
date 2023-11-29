@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "855099005",
+    "Type": "Bus",
+    "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}",
+    "Language": "SFX",
+    "Hash": "{6089783C-194A-F717-CE1B-A6E76C3F39FA}",
+    "ObjectPath": "SmallReverb_Bus",
+    "ShortName": "SmallReverb_Bus",
+    "Path": "Bus/SmallReverb_Bus.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3451596814",
+       "Name": "Hall_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Medium",
+       "GUID": "{50286348-176A-4235-9E4C-CA5F73D87818}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "855099005",
+      "Name": "SmallReverb_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+      "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3451596814"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{457DE064-561C-93CA-B88A-78F3B4294645}"
+ }
+}
