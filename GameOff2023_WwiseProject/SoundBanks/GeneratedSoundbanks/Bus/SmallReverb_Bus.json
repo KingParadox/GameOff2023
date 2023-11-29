@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}",
     "Language": "SFX",
-    "Hash": "{9B94EE58-0605-7818-AE06-71B06AA80ED3}",
+    "Hash": "{6089783C-194A-F717-CE1B-A6E76C3F39FA}",
     "ObjectPath": "SmallReverb_Bus",
     "ShortName": "SmallReverb_Bus",
     "Path": "Bus/SmallReverb_Bus.bnk",
@@ -40,37 +40,9 @@
        ]
       }
      }
-    ],
-    "StateGroups": [
-     {
-      "Id": "79836495",
-      "Name": "ENVIRONEMENT_STATE",
-      "ObjectPath": "\\States\\Default Work Unit\\ENVIRONEMENT_STATE",
-      "GUID": "{8D9FF48D-E328-4755-8209-B0F7DBE88579}",
-      "States": [
-       {
-        "Id": "438105790",
-        "Name": "Outside",
-        "ObjectPath": "\\States\\Default Work Unit\\ENVIRONEMENT_STATE\\Outside",
-        "GUID": "{78D35B2D-071D-46C5-AB82-EB4F745E6720}"
-       },
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\ENVIRONEMENT_STATE\\None",
-        "GUID": "{5F572EDE-E3CB-4704-9666-2B44EFEBC5EC}"
-       },
-       {
-        "Id": "3553349781",
-        "Name": "Inside",
-        "ObjectPath": "\\States\\Default Work Unit\\ENVIRONEMENT_STATE\\Inside",
-        "GUID": "{B72E5398-1E0D-4DF4-A6A0-02EE948A8DF9}"
-       }
-      ]
-     }
     ]
    }
   ],
-  "FileHash": "{D0752079-C3D0-42FA-F749-BCDFA8C40372}"
+  "FileHash": "{457DE064-561C-93CA-B88A-78F3B4294645}"
  }
 }

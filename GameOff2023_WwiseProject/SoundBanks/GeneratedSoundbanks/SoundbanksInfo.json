@@ -18,7 +18,7 @@
     "Type": "Bus",
     "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}",
     "Language": "SFX",
-    "Hash": "{9B94EE58-0605-7818-AE06-71B06AA80ED3}",
+    "Hash": "{6089783C-194A-F717-CE1B-A6E76C3F39FA}",
     "ObjectPath": "SmallReverb_Bus",
     "ShortName": "SmallReverb_Bus",
     "Path": "Bus/SmallReverb_Bus.bnk",
@@ -48,34 +48,6 @@
        ]
       }
      }
-    ],
-    "StateGroups": [
-     {
-      "Id": "79836495",
-      "Name": "ENVIRONEMENT_STATE",
-      "ObjectPath": "\\States\\Default Work Unit\\ENVIRONEMENT_STATE",
-      "GUID": "{8D9FF48D-E328-4755-8209-B0F7DBE88579}",
-      "States": [
-       {
-        "Id": "438105790",
-        "Name": "Outside",
-        "ObjectPath": "\\States\\Default Work Unit\\ENVIRONEMENT_STATE\\Outside",
-        "GUID": "{78D35B2D-071D-46C5-AB82-EB4F745E6720}"
-       },
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\ENVIRONEMENT_STATE\\None",
-        "GUID": "{5F572EDE-E3CB-4704-9666-2B44EFEBC5EC}"
-       },
-       {
-        "Id": "3553349781",
-        "Name": "Inside",
-        "ObjectPath": "\\States\\Default Work Unit\\ENVIRONEMENT_STATE\\Inside",
-        "GUID": "{B72E5398-1E0D-4DF4-A6A0-02EE948A8DF9}"
-       }
-      ]
-     }
     ]
    },
    {
@@ -83,7 +55,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{28683615-C897-C252-74F6-8732EA1606F2}",
+    "Hash": "{6E519E5C-F179-5D0C-3164-61CABEE05C37}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -258,7 +230,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{07B19C70-C50E-C84D-ACFC-598E6548769B}",
+    "Hash": "{DFAFBADD-6B6A-FFDE-FA15-B582905F325F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -1963,7 +1935,6 @@
       "Name": "Play_FIREBALL_INHALE",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_FIREBALL_INHALE",
       "GUID": "{F2E75818-3751-47CB-9006-3D8CA63DA523}",
-      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "2.4",
       "DurationMax": "2.4",
@@ -3049,6 +3020,6 @@
     ]
    }
   ],
-  "FileHash": "{81FEBFA6-617D-B715-700E-E2C3F76F1EB9}"
+  "FileHash": "{F5A05E53-1B1D-3590-2250-E59C660E22ED}"
  }
 }

@@ -32,7 +32,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Outside" ID="{78D35B2D-071D-46C5-AB82-EB4F745E6720}"/>
+						<CurrentStateRef Name="Inside" ID="{B72E5398-1E0D-4DF4-A6A0-02EE948A8DF9}"/>
 						<CurrentStateRef Name="Combat" ID="{D7DBAB25-D3B6-4BC9-BC8B-583DD72A4237}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
