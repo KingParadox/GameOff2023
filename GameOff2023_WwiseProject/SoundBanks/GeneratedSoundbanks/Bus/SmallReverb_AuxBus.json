@@ -6,14 +6,14 @@
   "SoundBankVersion": "145",
   "SoundBanks": [
    {
-    "Id": "855099005",
+    "Id": "810401917",
     "Type": "Bus",
     "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}",
     "Language": "SFX",
-    "Hash": "{7D2EB759-4C23-04A6-8A83-EBFA8DF517B8}",
-    "ObjectPath": "SmallReverb_Bus",
-    "ShortName": "SmallReverb_Bus",
-    "Path": "Bus/SmallReverb_Bus.bnk",
+    "Hash": "{BFB102BB-35C1-DB59-9C5F-B7F808D17678}",
+    "ObjectPath": "SmallReverb_AuxBus",
+    "ShortName": "SmallReverb_AuxBus",
+    "Path": "Bus/SmallReverb_AuxBus.bnk",
     "Plugins": {
      "ShareSets": [
       {
@@ -28,9 +28,9 @@
     },
     "AuxBusses": [
      {
-      "Id": "855099005",
-      "Name": "SmallReverb_Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+      "Id": "810401917",
+      "Name": "SmallReverb_AuxBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_AuxBus",
       "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}",
       "PluginRefs": {
        "ShareSets": [
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{4B4AAD2C-F15B-4F14-EAAB-D1ECA75F274E}"
+  "FileHash": "{563DEB02-61C3-F151-9F27-6C75DC342CD1}"
  }
 }
