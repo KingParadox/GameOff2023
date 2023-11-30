@@ -66,6 +66,13 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{48FD1ED8-B6DA-470D-A84F-A7150DC20B3B}" ShortID="696957862">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Vox_Player_Grunt_Attack_Light" ID="{48103659-F787-4129-811C-F678CD660838}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Play_SwordHeavy_Attack" ID="{C1306E9D-C354-498E-AF8F-8F0B3E3D11B4}">
@@ -81,6 +88,13 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="FoleyHeavy_Attack" ID="{AD2C0012-BA89-4D88-BF2A-2B0D6A2E22B1}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5412DF68-4885-4FE8-A719-405DADC3201C}" ShortID="726236406">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Vox_Player_Grunt_Attack_Heavy" ID="{4A16CED7-79A5-4A86-9401-635D8D80FCDE}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -247,6 +261,7 @@
 								<Action Name="" ID="{45780A10-9784-48B2-B4A2-246523A1F555}" ShortID="432717004">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -256,14 +271,14 @@
 								</Action>
 								<Action Name="" ID="{F75DB760-38D9-43A7-B891-1D1C605A8555}" ShortID="318090296">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="50">
+										<Property Name="Delay" Type="Real64" Value="40">
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{09DF0FE0-71A0-4BC6-BCE6-8E086ABC3907}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
 															<Property Name="Max" Type="Real64" Value="20"/>
-															<Property Name="Min" Type="Real64" Value="-20"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -284,7 +299,7 @@
 													<Modifier Name="" ID="{60D080BB-CCD1-41F6-87C1-D1D396E723C0}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="15"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
 															<Property Name="Min" Type="Real64" Value="-15"/>
 														</PropertyList>
 													</Modifier>
@@ -300,14 +315,14 @@
 								</Action>
 								<Action Name="" ID="{A5D9B917-AF07-42DE-89F6-DE1594D49D3E}" ShortID="344994159">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="20">
+										<Property Name="Delay" Type="Real64" Value="15">
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{5DBFA9BF-6BCF-4F09-B6C2-959624968E0A}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
 															<Property Name="Max" Type="Real64" Value="10"/>
-															<Property Name="Min" Type="Real64" Value="-10"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -322,13 +337,13 @@
 								</Action>
 								<Action Name="" ID="{3A091241-6685-4774-BC78-7257A411B6ED}" ShortID="1068231201">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="30">
+										<Property Name="Delay" Type="Real64" Value="25">
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{03430A30-9D95-4505-92BC-A00F6B7DC40F}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
 															<Property Name="Min" Type="Real64" Value="-10"/>
 														</PropertyList>
 													</Modifier>
@@ -344,7 +359,7 @@
 								</Action>
 								<Action Name="" ID="{5E1B49E3-F461-4EF8-BF54-D1E8C6EF5952}" ShortID="604664094">
 									<PropertyList>
-										<Property Name="FadeTime" Type="Real64" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -354,7 +369,7 @@
 								</Action>
 								<Action Name="" ID="{04C8BEF5-9A65-4639-BA7F-FFAD2AE8CB9A}" ShortID="713138325">
 									<PropertyList>
-										<Property Name="FadeTime" Type="Real64" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -369,6 +384,7 @@
 								<Action Name="" ID="{D4AABB3A-A57C-477A-89A6-1D241F93C5BE}" ShortID="380286114">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -377,23 +393,88 @@
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{4DCB0C4B-D7FB-407C-9EF4-3994CE7407CC}" ShortID="787371468">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="10">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{462DF820-9366-447F-BD55-69F457973E00}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="windGusts" ID="{BACEF142-3299-42B5-95C0-20249F174202}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{3D73FB27-5FEF-447A-8756-5372E81ED5E8}" ShortID="598609090">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="rumbles" ID="{8203C071-D793-4CE4-A657-4DE1D0AD850F}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{FB555374-0618-4D61-824F-99F04A20CE7B}" ShortID="530536551">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="20">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FD8C86EC-BC01-4C76-835E-2E2CD14F3E2B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="crumbles" ID="{6D4ACA4C-0A39-4F06-B7B0-B2CD95E6DA01}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{42C2A2D8-DD1A-4329-AE74-9CD00F5CC602}" ShortID="26670464">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="lowRumble" ID="{0B684A03-C4D5-40DE-A9D1-BE23F7A4B33C}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DD242479-8830-4B7D-A610-1C350BEC6401}" ShortID="318799253">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="40">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{909FB7DC-9E52-4973-A765-68EF04E93BB0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="thunders" ID="{F6EF5CC2-83D0-416A-92CC-10965BA1DB68}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CE2A09D6-7926-455A-B903-4D53B53AB5FF}" ShortID="1044857203">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="lowWind" ID="{C8BB7390-4A19-4F4B-9CBC-ED6C9E3D8803}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -404,6 +485,7 @@
 								<Action Name="" ID="{E9F8D471-ADFC-4AB0-BDCD-175D8D824B2B}" ShortID="268761095">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -412,23 +494,66 @@
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{CF7997B5-C7F2-4F89-AA06-67E7DDD23E4C}" ShortID="732192536">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="15">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3A8C44E8-EACC-429E-A2A9-2D992C96B37B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="drips" ID="{3724004E-9A21-4018-9308-B8C8C7DADD87}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{5560A5CD-3FDD-487A-9052-40F21AFDF91B}" ShortID="261948564">
+								<Action Name="" ID="{0FADD969-FC76-44EB-87D2-450C4A9524A9}" ShortID="1018496044">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="30">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DCCEE806-7E2D-4B52-886E-608185E3A091}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="chants" ID="{CDA20C40-67D8-4EA3-8E03-FB8861BA2C98}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+											<ObjectRef Name="crumbles" ID="{6D4ACA4C-0A39-4F06-B7B0-B2CD95E6DA01}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{9F9C523A-DD0A-4966-A60B-5CF667ACFD45}" ShortID="1069793835">
+								<Action Name="" ID="{8A5D7108-4D2A-47EB-82A6-4D56786C9292}" ShortID="170903424">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="rumbles" ID="{8203C071-D793-4CE4-A657-4DE1D0AD850F}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+											<ObjectRef Name="evilChant" ID="{89E4F863-E1A1-49A1-B49B-158AA338BF39}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C9ACAD3A-85A5-411D-B174-7BD433B5B23C}" ShortID="169001525">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="lowRumble" ID="{0B684A03-C4D5-40DE-A9D1-BE23F7A4B33C}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -588,6 +713,39 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="OBJECT_PICK UP" ID="{2033C54D-FA0A-4C65-97D7-CBBC9624F8BB}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="fireBurn" ID="{66D7DA55-79D2-46E6-92E2-010CD8CE2FFC}">
+							<ChildrenList>
+								<Action Name="" ID="{ABCDAA0E-DB67-4E7C-8BFA-8872488EE6E6}" ShortID="825524101">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fireBurn" ID="{15F5C581-8B91-4DFB-8987-186D0CE2057A}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="fireLight" ID="{49CF8183-30CB-42F9-88A8-513E1BAD83F0}">
+							<ChildrenList>
+								<Action Name="" ID="{4EB71A5D-09FE-4CC7-9CF4-5C11D5D88669}" ShortID="774470549">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fireLight" ID="{CA2DC8AA-097D-4ADA-8BC3-64ED96CF4037}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="fireOut" ID="{32E7EFB0-3482-4E49-A06A-5179E5540814}">
+							<ChildrenList>
+								<Action Name="" ID="{E9ADF8B5-6175-4100-B1AC-80D9CEC2F467}" ShortID="514447472">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fireOut" ID="{EAB8DC56-B188-4565-98C5-ED4243180431}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -10,33 +10,65 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="fireBurn" ID="{66D7DA55-79D2-46E6-92E2-010CD8CE2FFC}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="bridgeAmbient" ID="{4BF34D11-04D8-4772-B792-57D91B93C085}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
 							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Roll_Start" ID="{B27B2C86-6714-42A2-80B9-C8FE6DF4FE6A}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_SwordCollision" ID="{60E47DA0-6A74-437D-8AE3-6CA25247B280}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="fireLight" ID="{49CF8183-30CB-42F9-88A8-513E1BAD83F0}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="hallsAmbient" ID="{4272CEEE-74F9-4D9B-8037-DBAFB9F7A6B8}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
 							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Roll_Contact" ID="{20B31C1B-99F6-4AD5-852B-85A1E0E566DC}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_GameplayMusicSwitchDing" ID="{00ED8287-CD9E-458A-94FA-27FDF5D1C3A6}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="fireOut" ID="{32E7EFB0-3482-4E49-A06A-5179E5540814}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="towerAmbient" ID="{03D147F4-241F-45AA-867E-96801EB882C4}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
 							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_GameplayMusicSwitchDaniel" ID="{A72C5B05-9F07-4F93-8F09-B0DB675C6E2C}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SwordHeavy_Attack" ID="{C1306E9D-C354-498E-AF8F-8F0B3E3D11B4}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SwordQuick_Attack" ID="{D21572B4-C612-4FC6-8F91-2C4E476E664C}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="3" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Inside" ID="{B72E5398-1E0D-4DF4-A6A0-02EE948A8DF9}"/>
-						<CurrentStateRef Name="Exploration" ID="{5DD37529-C7B7-4601-9AF3-B85A1071893C}"/>
+						<CurrentStateRef Name="Outside" ID="{78D35B2D-071D-46C5-AB82-EB4F745E6720}"/>
+						<CurrentStateRef Name="None" ID="{CE7CE926-4897-4DEE-ACFE-D2BA3D849E60}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Concrete" ID="{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}"/>
+						<CurrentSwitchRef Name="Wood" ID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
