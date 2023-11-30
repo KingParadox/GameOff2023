@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{73D8ABBD-4512-3752-2B0A-4E952B9D6314}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{1FED4478-066A-5460-26C3-AF0DBEAC3F5D}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
@@ -1646,6 +1646,19 @@
 						<MediaRef Id="354977972"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="111749470" Name="Play_Skeleton_Attack" ObjectPath="\Events\Default Work Unit\Enemy\Skeleton\Play_Skeleton_Attack" GUID="{9544FDCB-CB74-4FE9-96DA-B2D66161A484}" DurationType="OneShot" DurationMin="0.6006779" DurationMax="0.87529725">
+					<MediaRefs>
+						<MediaRef Id="24570841"/>
+						<MediaRef Id="138927867"/>
+						<MediaRef Id="260302158"/>
+						<MediaRef Id="306367092"/>
+						<MediaRef Id="655150400"/>
+						<MediaRef Id="725356836"/>
+						<MediaRef Id="728018726"/>
+						<MediaRef Id="806620610"/>
+						<MediaRef Id="1071825627"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2836977668" Name="Play_Skeleton_Death" ObjectPath="\Events\Default Work Unit\Enemy\Skeleton\Play_Skeleton_Death" GUID="{265BF8AE-AAA4-44A9-9E37-1AD34D6D6C54}" DurationType="OneShot" DurationMin="1.9946492" DurationMax="1.9946492">
 					<MediaRefs>
 						<MediaRef Id="438847512"/>
@@ -1661,19 +1674,6 @@
 						<MediaRef Id="920738060"/>
 						<MediaRef Id="938154700"/>
 						<MediaRef Id="997966331"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="819585709" Name="Play_Skeleton_Vox" ObjectPath="\Events\Default Work Unit\Enemy\Skeleton\Play_Skeleton_Vox" GUID="{9544FDCB-CB74-4FE9-96DA-B2D66161A484}" DurationType="OneShot" DurationMin="0.52483565" DurationMax="0.87529725">
-					<MediaRefs>
-						<MediaRef Id="24570841"/>
-						<MediaRef Id="138927867"/>
-						<MediaRef Id="260302158"/>
-						<MediaRef Id="306367092"/>
-						<MediaRef Id="655150400"/>
-						<MediaRef Id="725356836"/>
-						<MediaRef Id="728018726"/>
-						<MediaRef Id="806620610"/>
-						<MediaRef Id="1071825627"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2306120635" Name="Play_Slider_End" ObjectPath="\Events\Default Work Unit\UI\Play_Slider_End" GUID="{E00E2000-431F-4196-A986-5EF2A261803D}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
@@ -1825,5 +1825,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9D0C3F6F-200F-3248-4453-692131FA5CC0}</FileHash>
+	<FileHash>{C384214D-3076-9520-DE90-CBE5F7937296}</FileHash>
 </SoundBanksInfo>

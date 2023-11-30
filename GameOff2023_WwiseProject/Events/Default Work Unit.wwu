@@ -687,7 +687,7 @@
 						</Folder>
 						<Folder Name="Skeleton" ID="{15E82F15-9C82-46C5-9511-45F1D0324AC6}" ShortID="740304074">
 							<ChildrenList>
-								<Event Name="Play_Skeleton_Vox" ID="{9544FDCB-CB74-4FE9-96DA-B2D66161A484}">
+								<Event Name="Play_Skeleton_Attack" ID="{9544FDCB-CB74-4FE9-96DA-B2D66161A484}">
 									<ChildrenList>
 										<Action Name="" ID="{AA333A84-82AD-41A1-BF49-7A18EAA9EF82}" ShortID="345454765">
 											<ReferenceList>
@@ -699,14 +699,14 @@
 										<Action Name="" ID="{3542A438-2E6F-4756-A18D-207A2BB3AB17}" ShortID="272763677">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="FoleyQuick_Attack" ID="{0ABCF399-2734-4107-B146-CF51836730EA}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+													<ObjectRef Name="Skeleton_FoleyQuick_Attack" ID="{5287BEAF-E659-477C-82DD-DFED707E42F6}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{C8EE6756-7175-4B74-8091-142A54BB1C1F}" ShortID="1054807649">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="SwordQuick_Attack" ID="{013AA68F-CE16-4A5B-97FA-4A226CBC7E29}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+													<ObjectRef Name="Skeleton_SwordQuick_Attack" ID="{A7127416-2056-4D64-913E-53ED68712E4B}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

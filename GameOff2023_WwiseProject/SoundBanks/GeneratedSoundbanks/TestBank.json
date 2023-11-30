@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{73D8ABBD-4512-3752-2B0A-4E952B9D6314}",
+    "Hash": "{1FED4478-066A-5460-26C3-AF0DBEAC3F5D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -3641,6 +3641,44 @@
       ]
      },
      {
+      "Id": "111749470",
+      "Name": "Play_Skeleton_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Skeleton\\Play_Skeleton_Attack",
+      "GUID": "{9544FDCB-CB74-4FE9-96DA-B2D66161A484}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6006779",
+      "DurationMax": "0.87529725",
+      "MediaRefs": [
+       {
+        "Id": "24570841"
+       },
+       {
+        "Id": "138927867"
+       },
+       {
+        "Id": "260302158"
+       },
+       {
+        "Id": "306367092"
+       },
+       {
+        "Id": "655150400"
+       },
+       {
+        "Id": "725356836"
+       },
+       {
+        "Id": "728018726"
+       },
+       {
+        "Id": "806620610"
+       },
+       {
+        "Id": "1071825627"
+       }
+      ]
+     },
+     {
       "Id": "2836977668",
       "Name": "Play_Skeleton_Death",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Skeleton\\Play_Skeleton_Death",
@@ -3687,44 +3725,6 @@
        },
        {
         "Id": "997966331"
-       }
-      ]
-     },
-     {
-      "Id": "819585709",
-      "Name": "Play_Skeleton_Vox",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Skeleton\\Play_Skeleton_Vox",
-      "GUID": "{9544FDCB-CB74-4FE9-96DA-B2D66161A484}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.52483565",
-      "DurationMax": "0.87529725",
-      "MediaRefs": [
-       {
-        "Id": "24570841"
-       },
-       {
-        "Id": "138927867"
-       },
-       {
-        "Id": "260302158"
-       },
-       {
-        "Id": "306367092"
-       },
-       {
-        "Id": "655150400"
-       },
-       {
-        "Id": "725356836"
-       },
-       {
-        "Id": "728018726"
-       },
-       {
-        "Id": "806620610"
-       },
-       {
-        "Id": "1071825627"
        }
       ]
      },
@@ -4175,6 +4175,6 @@
     ]
    }
   ],
-  "FileHash": "{FDAE3253-F1B9-8B43-0AE1-2FD2AC3C11B0}"
+  "FileHash": "{92F2BB24-8039-9E5B-7CE4-32DBEED2DA44}"
  }
 }
