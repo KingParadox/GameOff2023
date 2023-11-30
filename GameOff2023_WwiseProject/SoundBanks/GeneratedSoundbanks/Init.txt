@@ -11,12 +11,10 @@ State	ID	Name	State Group			Notes
 	2764240573	Combat	GAMEPLAY_STATE			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	213475918	SFX_Bux			\Default Work Unit\Master Audio Bus\SFX_Bux	
-	2680856269	Music_Bus			\Default Work Unit\Master Audio Bus\Music_Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	810401917	SmallReverb_AuxBus			\Default Work Unit\Master Audio Bus\SmallReverb_AuxBus	
+	855099005	SmallReverb_Bus			\Default Work Unit\Master Audio Bus\SmallReverb_Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
 	3451596814	Hall_Medium	Wwise RoomVerb			
