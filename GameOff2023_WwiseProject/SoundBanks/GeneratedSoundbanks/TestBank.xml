@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{3E6C1FCE-5156-EC26-7643-0873FC912F16}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{95056FD0-731E-B42B-873E-259FCAC36435}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
@@ -1162,7 +1162,7 @@
 						<MediaRef Id="1073153476"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3609565814" Name="fireBurn" ObjectPath="\Events\Default Work Unit\Interactables\fireBurn" GUID="{66D7DA55-79D2-46E6-92E2-010CD8CE2FFC}" DurationType="Infinite">
+				<Event Id="3609565814" Name="fireBurn" ObjectPath="\Events\Default Work Unit\Interactables\fireBurn" GUID="{66D7DA55-79D2-46E6-92E2-010CD8CE2FFC}" MaxAttenuation="2500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="810678420"/>
 					</MediaRefs>
@@ -1777,5 +1777,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D88C5EF8-9C14-A56E-927A-203B7D010651}</FileHash>
+	<FileHash>{7C754B9E-1886-9DF3-C992-4B42FEA92E4A}</FileHash>
 </SoundBanksInfo>
