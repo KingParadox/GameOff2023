@@ -10,7 +10,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AuxBus Name="SmallReverb_Bus" ID="{192052F3-9763-48B6-B1CD-E702DA978884}">
+						<AuxBus Name="SmallReverb_AuxBus" ID="{192052F3-9763-48B6-B1CD-E702DA978884}">
 							<PropertyList>
 								<Property Name="OutputBusLowpass" Type="int16">
 									<ValueList>
@@ -29,6 +29,8 @@
 								</Reference>
 							</ReferenceList>
 						</AuxBus>
+						<Bus Name="SFX_Bux" ID="{5F7C2CA7-CB6A-4986-87DE-3F4924AB3677}"/>
+						<Bus Name="Music_Bus" ID="{AB99EDA6-D556-41BD-8FAD-E2C6BA2553BF}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

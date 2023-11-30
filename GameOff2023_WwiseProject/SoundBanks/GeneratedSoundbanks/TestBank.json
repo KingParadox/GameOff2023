@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{ABEE2132-9BFB-2B86-552F-929BBECA8569}",
+    "Hash": "{44154971-3779-21A6-FBE9-93B264A1BEE1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -2457,7 +2457,6 @@
       "Name": "Play_Bellow",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_Bellow",
       "GUID": "{0D6F2A96-6CD6-4266-BD86-0CD134328443}",
-      "MaxAttenuation": "5000",
       "DurationType": "OneShot",
       "DurationMin": "4.25",
       "DurationMax": "5.814",
@@ -2494,14 +2493,6 @@
        {
         "Id": "1017635794"
        }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "855099005",
-        "Name": "SmallReverb_Bus",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
-        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
-       }
       ]
      },
      {
@@ -2523,7 +2514,6 @@
       "Name": "Play_DragonFootsteps",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_DragonFootsteps",
       "GUID": "{87017CD6-B10E-44B1-A6E2-74418492CC16}",
-      "MaxAttenuation": "5000",
       "DurationType": "OneShot",
       "DurationMin": "0.875",
       "DurationMax": "1.1666666",
@@ -2559,7 +2549,6 @@
       "Name": "Play_FIREBALL_BURST",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_FIREBALL_BURST",
       "GUID": "{4D539548-D595-4FF6-A301-4E9B046054DA}",
-      "MaxAttenuation": "5000",
       "DurationType": "OneShot",
       "DurationMin": "8.166667",
       "DurationMax": "8.166667",
@@ -2574,7 +2563,6 @@
       "Name": "Play_FIREBALL_INHALE",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_FIREBALL_INHALE",
       "GUID": "{F2E75818-3751-47CB-9006-3D8CA63DA523}",
-      "MaxAttenuation": "5000",
       "DurationType": "OneShot",
       "DurationMin": "2.4",
       "DurationMax": "2.4",
@@ -2589,7 +2577,6 @@
       "Name": "Play_Foley_Enemy_HauntedArmor_Footstep",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\HauntedArmor\\Play_Foley_Enemy_HauntedArmor_Footstep",
       "GUID": "{2FF5BA52-3775-44AE-AA87-34A634EB1420}",
-      "MaxAttenuation": "5000",
       "DurationType": "OneShot",
       "DurationMin": "1.4546666",
       "DurationMax": "2.816",
@@ -2649,14 +2636,6 @@
        },
        {
         "Id": "1045296774"
-       }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "855099005",
-        "Name": "SmallReverb_Bus",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
-        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
        }
       ],
       "SwitchContainers": [
@@ -3369,14 +3348,6 @@
        {
         "Id": "1045296774"
        }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "855099005",
-        "Name": "SmallReverb_Bus",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
-        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
-       }
       ]
      },
      {
@@ -3390,14 +3361,6 @@
       "MediaRefs": [
        {
         "Id": "740567834"
-       }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "855099005",
-        "Name": "SmallReverb_Bus",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
-        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
        }
       ]
      },
@@ -3418,14 +3381,6 @@
        },
        {
         "Id": "1016855423"
-       }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "855099005",
-        "Name": "SmallReverb_Bus",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
-        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
        }
       ]
      },
@@ -3448,7 +3403,6 @@
       "Name": "Play_Roar",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_Roar",
       "GUID": "{A583A819-0769-40E1-9A97-6AEBFC9E9DFE}",
-      "MaxAttenuation": "5000",
       "DurationType": "OneShot",
       "DurationMin": "3.75",
       "DurationMax": "5.5",
@@ -3485,14 +3439,6 @@
        {
         "Id": "572753260"
        }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "855099005",
-        "Name": "SmallReverb_Bus",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
-        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
-       }
       ]
      },
      {
@@ -3513,14 +3459,6 @@
        {
         "Id": "874739032"
        }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "855099005",
-        "Name": "SmallReverb_Bus",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
-        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
-       }
       ]
      },
      {
@@ -3528,7 +3466,6 @@
       "Name": "Play_SFX_Enemy_HauntedArmor_Attack_Long",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\HauntedArmor\\Play_SFX_Enemy_HauntedArmor_Attack_Long",
       "GUID": "{76A1FFD5-940F-4338-8DD8-8231E03E017D}",
-      "MaxAttenuation": "5000",
       "DurationType": "OneShot",
       "DurationMin": "2.8906667",
       "DurationMax": "4.9066668",
@@ -3558,7 +3495,6 @@
       "Name": "Play_SFX_Enemy_HauntedArmor_Attack_Short",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\HauntedArmor\\Play_SFX_Enemy_HauntedArmor_Attack_Short",
       "GUID": "{6F33DEDB-24F6-4E23-A6FA-A239B4D6F698}",
-      "MaxAttenuation": "5000",
       "DurationType": "OneShot",
       "DurationMin": "1.932",
       "DurationMax": "3.1093333",
@@ -3655,7 +3591,6 @@
       "Name": "Play_Stomp",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_Stomp",
       "GUID": "{6302B084-499C-4B6F-8BE5-8F01879D3BC1}",
-      "MaxAttenuation": "5000",
       "DurationType": "OneShot",
       "DurationMin": "2.6666667",
       "DurationMax": "3.1666667",
@@ -3691,14 +3626,6 @@
        },
        {
         "Id": "685573023"
-       }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "855099005",
-        "Name": "SmallReverb_Bus",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
-        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
        }
       ],
       "SwitchContainers": [
@@ -3802,14 +3729,6 @@
        {
         "Id": "1022885876"
        }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "855099005",
-        "Name": "SmallReverb_Bus",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
-        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
-       }
       ]
      },
      {
@@ -3869,14 +3788,6 @@
        {
         "Id": "1072857540"
        }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "855099005",
-        "Name": "SmallReverb_Bus",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
-        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
-       }
       ]
      },
      {
@@ -3884,7 +3795,6 @@
       "Name": "Play_Wings",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_Wings",
       "GUID": "{F53F1E07-1CAD-474F-B86D-BDE0E0E89B7F}",
-      "MaxAttenuation": "5000",
       "DurationType": "OneShot",
       "DurationMin": "2.6666667",
       "DurationMax": "3.1554167",
@@ -4081,6 +3991,6 @@
     ]
    }
   ],
-  "FileHash": "{4BB5EAE2-A4F9-C42C-8EC1-A3AC964763BE}"
+  "FileHash": "{8E5BD037-905D-C969-B00F-DFC11DD999CD}"
  }
 }
