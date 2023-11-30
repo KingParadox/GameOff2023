@@ -86,7 +86,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{369B11DF-01E5-4A23-5E64-04F54AAA8632}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{44154971-3779-21A6-FBE9-93B264A1BEE1}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
@@ -1832,5 +1832,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EB5A6EB0-3255-468F-1A6E-FC1058DA1A46}</FileHash>
+	<FileHash>{F3CF46DA-1EBA-9D6D-D670-AE52F4F7BCBA}</FileHash>
 </SoundBanksInfo>

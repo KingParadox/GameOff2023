@@ -5797,13 +5797,6 @@
 						<Folder Name="Ambient" ID="{3BB68F39-1647-43A9-80A4-54C05F03619F}" ShortID="471380152">
 							<ChildrenList>
 								<ActorMixer Name="Ambience" ID="{46A49E5F-F303-4241-95BE-3E46FC3C14C8}" ShortID="317251026">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
