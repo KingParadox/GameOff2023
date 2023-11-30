@@ -68,7 +68,7 @@
 						<CurrentStateRef Name="None" ID="{CE7CE926-4897-4DEE-ACFE-D2BA3D849E60}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Wood" ID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
+						<CurrentSwitchRef Name="Concrete" ID="{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

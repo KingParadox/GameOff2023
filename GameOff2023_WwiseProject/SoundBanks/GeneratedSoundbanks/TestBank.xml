@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{ABEE2132-9BFB-2B86-552F-929BBECA8569}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{EF5E41C1-505A-62D0-3E81-94C102A5028A}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
@@ -1198,7 +1198,7 @@
 						<MediaRef Id="290726333"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2961648011" Name="Play_Bellow" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_Bellow" GUID="{0D6F2A96-6CD6-4266-BD86-0CD134328443}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="4.25" DurationMax="5.814">
+				<Event Id="2961648011" Name="Play_Bellow" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_Bellow" GUID="{0D6F2A96-6CD6-4266-BD86-0CD134328443}" DurationType="OneShot" DurationMin="4.25" DurationMax="5.814">
 					<MediaRefs>
 						<MediaRef Id="26672347"/>
 						<MediaRef Id="504996585"/>
@@ -1212,16 +1212,13 @@
 						<MediaRef Id="905074597"/>
 						<MediaRef Id="1017635794"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="4136017490" Name="Play_Confirm" ObjectPath="\Events\Default Work Unit\UI\Play_Confirm" GUID="{53923D77-FDD4-40A8-927C-8A0B6E553595}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
 						<MediaRef Id="179324131"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3290400036" Name="Play_DragonFootsteps" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_DragonFootsteps" GUID="{87017CD6-B10E-44B1-A6E2-74418492CC16}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="0.875" DurationMax="1.1666666">
+				<Event Id="3290400036" Name="Play_DragonFootsteps" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_DragonFootsteps" GUID="{87017CD6-B10E-44B1-A6E2-74418492CC16}" DurationType="OneShot" DurationMin="0.875" DurationMax="1.1666666">
 					<MediaRefs>
 						<MediaRef Id="161174856"/>
 						<MediaRef Id="210863121"/>
@@ -1233,17 +1230,17 @@
 						<MediaRef Id="1061444147"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="168006606" Name="Play_FIREBALL_BURST" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_FIREBALL_BURST" GUID="{4D539548-D595-4FF6-A301-4E9B046054DA}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="8.166667" DurationMax="8.166667">
+				<Event Id="168006606" Name="Play_FIREBALL_BURST" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_FIREBALL_BURST" GUID="{4D539548-D595-4FF6-A301-4E9B046054DA}" DurationType="OneShot" DurationMin="8.166667" DurationMax="8.166667">
 					<MediaRefs>
 						<MediaRef Id="317003863"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="239554289" Name="Play_FIREBALL_INHALE" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_FIREBALL_INHALE" GUID="{F2E75818-3751-47CB-9006-3D8CA63DA523}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="2.4" DurationMax="2.4">
+				<Event Id="239554289" Name="Play_FIREBALL_INHALE" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_FIREBALL_INHALE" GUID="{F2E75818-3751-47CB-9006-3D8CA63DA523}" DurationType="OneShot" DurationMin="2.4" DurationMax="2.4">
 					<MediaRefs>
 						<MediaRef Id="109788312"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1906468590" Name="Play_Foley_Enemy_HauntedArmor_Footstep" ObjectPath="\Events\Default Work Unit\Enemy\HauntedArmor\Play_Foley_Enemy_HauntedArmor_Footstep" GUID="{2FF5BA52-3775-44AE-AA87-34A634EB1420}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="1.4546666" DurationMax="2.816">
+				<Event Id="1906468590" Name="Play_Foley_Enemy_HauntedArmor_Footstep" ObjectPath="\Events\Default Work Unit\Enemy\HauntedArmor\Play_Foley_Enemy_HauntedArmor_Footstep" GUID="{2FF5BA52-3775-44AE-AA87-34A634EB1420}" DurationType="OneShot" DurationMin="1.4546666" DurationMax="2.816">
 					<MediaRefs>
 						<MediaRef Id="254628039"/>
 						<MediaRef Id="450318267"/>
@@ -1265,9 +1262,6 @@
 						<MediaRef Id="847011496"/>
 						<MediaRef Id="1045296774"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
-					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2033627364" Id="2058049674" GUID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
@@ -1535,17 +1529,11 @@
 						<MediaRef Id="1034915998"/>
 						<MediaRef Id="1045296774"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="158879903" Name="Play_OBJECT_PICK_UP" ObjectPath="\Events\Default Work Unit\Interactables\Play_OBJECT_PICK_UP" GUID="{0A366641-C028-498C-AF20-6D0E0056964E}" DurationType="OneShot" DurationMin="0.45833334" DurationMax="0.45833334">
 					<MediaRefs>
 						<MediaRef Id="740567834"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="4115969904" Name="Play_Parry" ObjectPath="\Events\Default Work Unit\Player\Weapons\Play_Parry" GUID="{BBF31B62-35C8-4FA1-97A9-CE8BD2215273}" DurationType="OneShot" DurationMin="3.5946667" DurationMax="4.4533334">
 					<MediaRefs>
@@ -1553,16 +1541,13 @@
 						<MediaRef Id="760257846"/>
 						<MediaRef Id="1016855423"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="3860455926" Name="Play_PickUp" ObjectPath="\Events\Default Work Unit\UI\Play_PickUp" GUID="{C9A6BD8C-8C59-4FDF-83A6-64EA9872E282}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
 					<MediaRefs>
 						<MediaRef Id="128767792"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2770252186" Name="Play_Roar" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_Roar" GUID="{A583A819-0769-40E1-9A97-6AEBFC9E9DFE}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="3.75" DurationMax="5.5">
+				<Event Id="2770252186" Name="Play_Roar" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_Roar" GUID="{A583A819-0769-40E1-9A97-6AEBFC9E9DFE}" DurationType="OneShot" DurationMin="3.75" DurationMax="5.5">
 					<MediaRefs>
 						<MediaRef Id="69486095"/>
 						<MediaRef Id="100039941"/>
@@ -1576,9 +1561,6 @@
 						<MediaRef Id="523545991"/>
 						<MediaRef Id="572753260"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="3341034318" Name="Play_Roll_Start" ObjectPath="\Events\Default Work Unit\Player\Play_Roll_Start" GUID="{B27B2C86-6714-42A2-80B9-C8FE6DF4FE6A}" DurationType="OneShot" DurationMin="0.41666666" DurationMax="0.6166667">
 					<MediaRefs>
@@ -1586,11 +1568,8 @@
 						<MediaRef Id="372935282"/>
 						<MediaRef Id="874739032"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
-					</AuxBusRefs>
 				</Event>
-				<Event Id="3070694017" Name="Play_SFX_Enemy_HauntedArmor_Attack_Long" ObjectPath="\Events\Default Work Unit\Enemy\HauntedArmor\Play_SFX_Enemy_HauntedArmor_Attack_Long" GUID="{76A1FFD5-940F-4338-8DD8-8231E03E017D}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="2.8906667" DurationMax="4.9066668">
+				<Event Id="3070694017" Name="Play_SFX_Enemy_HauntedArmor_Attack_Long" ObjectPath="\Events\Default Work Unit\Enemy\HauntedArmor\Play_SFX_Enemy_HauntedArmor_Attack_Long" GUID="{76A1FFD5-940F-4338-8DD8-8231E03E017D}" DurationType="OneShot" DurationMin="2.8906667" DurationMax="4.9066668">
 					<MediaRefs>
 						<MediaRef Id="155739368"/>
 						<MediaRef Id="169270103"/>
@@ -1600,7 +1579,7 @@
 						<MediaRef Id="1000039023"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2222792503" Name="Play_SFX_Enemy_HauntedArmor_Attack_Short" ObjectPath="\Events\Default Work Unit\Enemy\HauntedArmor\Play_SFX_Enemy_HauntedArmor_Attack_Short" GUID="{6F33DEDB-24F6-4E23-A6FA-A239B4D6F698}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="1.932" DurationMax="3.1093333">
+				<Event Id="2222792503" Name="Play_SFX_Enemy_HauntedArmor_Attack_Short" ObjectPath="\Events\Default Work Unit\Enemy\HauntedArmor\Play_SFX_Enemy_HauntedArmor_Attack_Short" GUID="{6F33DEDB-24F6-4E23-A6FA-A239B4D6F698}" DurationType="OneShot" DurationMin="1.932" DurationMax="3.1093333">
 					<MediaRefs>
 						<MediaRef Id="8771043"/>
 						<MediaRef Id="369947226"/>
@@ -1634,7 +1613,7 @@
 						<MediaRef Id="988408211"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2753042117" Name="Play_Stomp" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_Stomp" GUID="{6302B084-499C-4B6F-8BE5-8F01879D3BC1}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="2.6666667" DurationMax="3.1666667">
+				<Event Id="2753042117" Name="Play_Stomp" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_Stomp" GUID="{6302B084-499C-4B6F-8BE5-8F01879D3BC1}" DurationType="OneShot" DurationMin="2.6666667" DurationMax="3.1666667">
 					<MediaRefs>
 						<MediaRef Id="195108500"/>
 						<MediaRef Id="256293707"/>
@@ -1648,9 +1627,6 @@
 						<MediaRef Id="342719623"/>
 						<MediaRef Id="685573023"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
-					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2033627364" Id="2058049674" GUID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
@@ -1690,9 +1666,6 @@
 						<MediaRef Id="1022014072"/>
 						<MediaRef Id="1022885876"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="4172974113" Name="Play_SwordQuick_Attack" ObjectPath="\Events\Default Work Unit\Player\Weapons\Play_SwordQuick_Attack" GUID="{D21572B4-C612-4FC6-8F91-2C4E476E664C}" DurationType="OneShot" DurationMin="0.45" DurationMax="0.51666665">
 					<MediaRefs>
@@ -1713,11 +1686,8 @@
 						<MediaRef Id="1071825627"/>
 						<MediaRef Id="1072857540"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}"/>
-					</AuxBusRefs>
 				</Event>
-				<Event Id="2171745078" Name="Play_Wings" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_Wings" GUID="{F53F1E07-1CAD-474F-B86D-BDE0E0E89B7F}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="2.6666667" DurationMax="3.1554167">
+				<Event Id="2171745078" Name="Play_Wings" ObjectPath="\Events\Default Work Unit\Enemy\Dragon\Play_Wings" GUID="{F53F1E07-1CAD-474F-B86D-BDE0E0E89B7F}" DurationType="OneShot" DurationMin="2.6666667" DurationMax="3.1554167">
 					<MediaRefs>
 						<MediaRef Id="158713601"/>
 						<MediaRef Id="303067073"/>
@@ -1777,5 +1747,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4DE31188-2FD4-8202-8238-81360C336F37}</FileHash>
+	<FileHash>{A0DBEA36-26D0-4862-0018-F7DE2FBFF79E}</FileHash>
 </SoundBanksInfo>
