@@ -66,6 +66,13 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{48FD1ED8-B6DA-470D-A84F-A7150DC20B3B}" ShortID="696957862">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Vox_Player_Grunt_Attack_Light" ID="{48103659-F787-4129-811C-F678CD660838}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Play_SwordHeavy_Attack" ID="{C1306E9D-C354-498E-AF8F-8F0B3E3D11B4}">
@@ -81,6 +88,13 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="FoleyHeavy_Attack" ID="{AD2C0012-BA89-4D88-BF2A-2B0D6A2E22B1}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5412DF68-4885-4FE8-A719-405DADC3201C}" ShortID="726236406">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Vox_Player_Grunt_Attack_Heavy" ID="{4A16CED7-79A5-4A86-9401-635D8D80FCDE}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
