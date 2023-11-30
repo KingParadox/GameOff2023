@@ -230,7 +230,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{95056FD0-731E-B42B-873E-259FCAC36435}",
+    "Hash": "{3E6C1FCE-5156-EC26-7643-0873FC912F16}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -2577,7 +2577,6 @@
       "Name": "fireBurn",
       "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\fireBurn",
       "GUID": "{66D7DA55-79D2-46E6-92E2-010CD8CE2FFC}",
-      "MaxAttenuation": "2500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -4301,6 +4300,6 @@
     ]
    }
   ],
-  "FileHash": "{8D342A38-ACDF-DCF9-2711-5103A7136AF6}"
+  "FileHash": "{D60E33C2-2C06-423E-B269-43148787179F}"
  }
 }
