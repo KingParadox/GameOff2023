@@ -86,7 +86,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{EF5E41C1-505A-62D0-3E81-94C102A5028A}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{A7D7ADA1-3944-9C94-ADDF-09BD97702181}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
@@ -335,6 +335,10 @@
 					<ShortName>Footstep\Tile\Foley_Player_FSTile_08.wav</ShortName>
 					<CachePath>SFX/Footstep/Tile/Foley_Player_FSTile_08_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="242695881" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton\SFX_SKELETON_FOOTSTEPS_06.wav</ShortName>
+					<CachePath>SFX/Skeleton/SFX_SKELETON_FOOTSTEPS_06_D8C07C79.wem</CachePath>
+				</File>
 				<File Id="247177741" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LOOP2\GameOff_Expl_LOOP2_Strings_Nov25.wav</ShortName>
 					<CachePath>SFX/LOOP2/GameOff_Expl_LOOP2_Strings_Nov25_0762CC47.wem</CachePath>
@@ -414,6 +418,10 @@
 				<File Id="290726333" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\SFX_UI_Back.wav</ShortName>
 					<CachePath>SFX/UI/SFX_UI_Back_C418B9F2.wem</CachePath>
+				</File>
+				<File Id="291444528" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton\SFX_SKELETON_FOOTSTEPS_02.wav</ShortName>
+					<CachePath>SFX/Skeleton/SFX_SKELETON_FOOTSTEPS_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="292169088" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep\Gravel\Foley_Player_FSGravel_01.wav</ShortName>
@@ -635,6 +643,10 @@
 					<ShortName>Dracolich\Wings\DRAGON_WINGS_01.wav</ShortName>
 					<CachePath>SFX/Dracolich/Wings/DRAGON_WINGS_01_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="501723879" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton\SFX_SKELETON_FOOTSTEPS_05.wav</ShortName>
+					<CachePath>SFX/Skeleton/SFX_SKELETON_FOOTSTEPS_05_D8C07C79.wem</CachePath>
+				</File>
 				<File Id="504996585" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dracolich\Bellow\DRAGON_BELLOW_04.wav</ShortName>
 					<CachePath>SFX/Dracolich/Bellow/DRAGON_BELLOW_04_D8C07C79.wem</CachePath>
@@ -786,6 +798,10 @@
 				<File Id="672350718" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>creaks-007.wav</ShortName>
 					<CachePath>SFX/creaks-007_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="676317381" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton\SFX_SKELETON_FOOTSTEPS_01.wav</ShortName>
+					<CachePath>SFX/Skeleton/SFX_SKELETON_FOOTSTEPS_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="677317130" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mus_Combat_Intro_01_v1_MaleChoir.wav</ShortName>
@@ -1007,6 +1023,10 @@
 					<ShortName>Mus_Combat_Tag_01_v1_SineWave.wav</ShortName>
 					<CachePath>SFX/Mus_Combat_Tag_01_v1_SineWave_0762CC47.wem</CachePath>
 				</File>
+				<File Id="896381865" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton\SFX_SKELETON_FOOTSTEPS_04.wav</ShortName>
+					<CachePath>SFX/Skeleton/SFX_SKELETON_FOOTSTEPS_04_D8C07C79.wem</CachePath>
+				</File>
 				<File Id="905074597" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Block\SFX_Player_Block_02.wav</ShortName>
 					<CachePath>SFX/Block/SFX_Player_Block_02_D8C07C79.wem</CachePath>
@@ -1031,6 +1051,10 @@
 					<ShortName>Footstep\Sand\Foley_Player_FSSand_05.wav</ShortName>
 					<CachePath>SFX/Footstep/Sand/Foley_Player_FSSand_05_D8C07C79.wem</CachePath>
 				</File>
+				<File Id="920738060" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton\SFX_SKELETON_FOOTSTEPS_03.wav</ShortName>
+					<CachePath>SFX/Skeleton/SFX_SKELETON_FOOTSTEPS_03_D8C07C79.wem</CachePath>
+				</File>
 				<File Id="922137907" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LOOP1\GameOff_Expl_LOOP1_Choir_Nov25.wav</ShortName>
 					<CachePath>SFX/LOOP1/GameOff_Expl_LOOP1_Choir_Nov25_0762CC47.wem</CachePath>
@@ -1050,6 +1074,10 @@
 				<File Id="937089009" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>windGusts-003.wav</ShortName>
 					<CachePath>SFX/windGusts-003_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="938154700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton\SFX_SKELETON_FOOTSTEPS_07.wav</ShortName>
+					<CachePath>SFX/Skeleton/SFX_SKELETON_FOOTSTEPS_07_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="941575747" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Vox_Player_Grunt_Attack_Light\Vox_Player_Grunt_Light_08.wav</ShortName>
@@ -1118,6 +1146,10 @@
 				<File Id="988408211" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\SFX_UI_Start.wav</ShortName>
 					<CachePath>SFX/UI/SFX_UI_Start_E163A296.wem</CachePath>
+				</File>
+				<File Id="997966331" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton\SFX_SKELETON_FOOTSTEPS_08.wav</ShortName>
+					<CachePath>SFX/Skeleton/SFX_SKELETON_FOOTSTEPS_08_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1000039023" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Haunted Armor\SFX_Enemy_HauntedArmor_Attack_Long\SFX_Enemy_HauntedArmor_Attack_Long_03.wav</ShortName>
@@ -1683,6 +1715,18 @@
 						<MediaRef Id="354977972"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="561458399" Name="Play_Skeleton_Footsteps" ObjectPath="\Events\Default Work Unit\Enemy\Play_Skeleton_Footsteps" GUID="{798B2ABC-8FD2-4551-863B-95383E8B3B82}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="0.16666667" DurationMax="0.16666667">
+					<MediaRefs>
+						<MediaRef Id="242695881"/>
+						<MediaRef Id="291444528"/>
+						<MediaRef Id="501723879"/>
+						<MediaRef Id="676317381"/>
+						<MediaRef Id="896381865"/>
+						<MediaRef Id="920738060"/>
+						<MediaRef Id="938154700"/>
+						<MediaRef Id="997966331"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2306120635" Name="Play_Slider_End" ObjectPath="\Events\Default Work Unit\UI\Play_Slider_End" GUID="{E00E2000-431F-4196-A986-5EF2A261803D}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
 						<MediaRef Id="424878104"/>
@@ -1832,5 +1876,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8319011B-A6D6-467A-9109-0573676AA093}</FileHash>
+	<FileHash>{D96CF478-7D93-DB5F-06AF-44F5AB55226B}</FileHash>
 </SoundBanksInfo>

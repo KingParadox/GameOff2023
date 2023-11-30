@@ -685,6 +685,17 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Play_Skeleton_Footsteps" ID="{798B2ABC-8FD2-4551-863B-95383E8B3B82}">
+							<ChildrenList>
+								<Action Name="" ID="{87B57737-22AC-4463-A7D5-D88EA0121C07}" ShortID="921614784">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skeleton_Footsteps" ID="{96041203-1B62-472C-AF69-1DA4DD966BBD}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Interactables" ID="{11FB3A12-5984-438F-A5D1-EB353A4AF5CF}" ShortID="721826486">

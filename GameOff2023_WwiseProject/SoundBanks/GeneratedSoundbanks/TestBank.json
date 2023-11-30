@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{EF5E41C1-505A-62D0-3E81-94C102A5028A}",
+    "Hash": "{A7D7ADA1-3944-9C94-ADDF-09BD97702181}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -504,6 +504,14 @@
       "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_08_D8C07C79.wem"
      },
      {
+      "Id": "242695881",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton\\SFX_SKELETON_FOOTSTEPS_06.wav",
+      "CachePath": "SFX/Skeleton/SFX_SKELETON_FOOTSTEPS_06_D8C07C79.wem"
+     },
+     {
       "Id": "247177741",
       "Language": "SFX",
       "Streaming": "false",
@@ -662,6 +670,14 @@
       "Location": "Memory",
       "ShortName": "UI\\SFX_UI_Back.wav",
       "CachePath": "SFX/UI/SFX_UI_Back_C418B9F2.wem"
+     },
+     {
+      "Id": "291444528",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton\\SFX_SKELETON_FOOTSTEPS_02.wav",
+      "CachePath": "SFX/Skeleton/SFX_SKELETON_FOOTSTEPS_02_D8C07C79.wem"
      },
      {
       "Id": "292169088",
@@ -1104,6 +1120,14 @@
       "CachePath": "SFX/Dracolich/Wings/DRAGON_WINGS_01_D8C07C79.wem"
      },
      {
+      "Id": "501723879",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton\\SFX_SKELETON_FOOTSTEPS_05.wav",
+      "CachePath": "SFX/Skeleton/SFX_SKELETON_FOOTSTEPS_05_D8C07C79.wem"
+     },
+     {
       "Id": "504996585",
       "Language": "SFX",
       "Streaming": "false",
@@ -1406,6 +1430,14 @@
       "Location": "Memory",
       "ShortName": "creaks-007.wav",
       "CachePath": "SFX/creaks-007_D8C07C79.wem"
+     },
+     {
+      "Id": "676317381",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton\\SFX_SKELETON_FOOTSTEPS_01.wav",
+      "CachePath": "SFX/Skeleton/SFX_SKELETON_FOOTSTEPS_01_D8C07C79.wem"
      },
      {
       "Id": "677317130",
@@ -1848,6 +1880,14 @@
       "CachePath": "SFX/Mus_Combat_Tag_01_v1_SineWave_0762CC47.wem"
      },
      {
+      "Id": "896381865",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton\\SFX_SKELETON_FOOTSTEPS_04.wav",
+      "CachePath": "SFX/Skeleton/SFX_SKELETON_FOOTSTEPS_04_D8C07C79.wem"
+     },
+     {
       "Id": "905074597",
       "Language": "SFX",
       "Streaming": "false",
@@ -1896,6 +1936,14 @@
       "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_05_D8C07C79.wem"
      },
      {
+      "Id": "920738060",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton\\SFX_SKELETON_FOOTSTEPS_03.wav",
+      "CachePath": "SFX/Skeleton/SFX_SKELETON_FOOTSTEPS_03_D8C07C79.wem"
+     },
+     {
       "Id": "922137907",
       "Language": "SFX",
       "Streaming": "false",
@@ -1934,6 +1982,14 @@
       "Location": "Memory",
       "ShortName": "windGusts-003.wav",
       "CachePath": "SFX/windGusts-003_D8C07C79.wem"
+     },
+     {
+      "Id": "938154700",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton\\SFX_SKELETON_FOOTSTEPS_07.wav",
+      "CachePath": "SFX/Skeleton/SFX_SKELETON_FOOTSTEPS_07_D8C07C79.wem"
      },
      {
       "Id": "941575747",
@@ -2070,6 +2126,14 @@
       "Location": "Memory",
       "ShortName": "UI\\SFX_UI_Start.wav",
       "CachePath": "SFX/UI/SFX_UI_Start_E163A296.wem"
+     },
+     {
+      "Id": "997966331",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton\\SFX_SKELETON_FOOTSTEPS_08.wav",
+      "CachePath": "SFX/Skeleton/SFX_SKELETON_FOOTSTEPS_08_D8C07C79.wem"
      },
      {
       "Id": "1000039023",
@@ -3545,6 +3609,42 @@
       ]
      },
      {
+      "Id": "561458399",
+      "Name": "Play_Skeleton_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Play_Skeleton_Footsteps",
+      "GUID": "{798B2ABC-8FD2-4551-863B-95383E8B3B82}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.16666667",
+      "DurationMax": "0.16666667",
+      "MediaRefs": [
+       {
+        "Id": "242695881"
+       },
+       {
+        "Id": "291444528"
+       },
+       {
+        "Id": "501723879"
+       },
+       {
+        "Id": "676317381"
+       },
+       {
+        "Id": "896381865"
+       },
+       {
+        "Id": "920738060"
+       },
+       {
+        "Id": "938154700"
+       },
+       {
+        "Id": "997966331"
+       }
+      ]
+     },
+     {
       "Id": "2306120635",
       "Name": "Play_Slider_End",
       "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Slider_End",
@@ -3991,6 +4091,6 @@
     ]
    }
   ],
-  "FileHash": "{8FC2B7EA-DDDA-56F2-588C-EBD556676293}"
+  "FileHash": "{6BFD705E-6615-F56C-32FE-467537B9673E}"
  }
 }
