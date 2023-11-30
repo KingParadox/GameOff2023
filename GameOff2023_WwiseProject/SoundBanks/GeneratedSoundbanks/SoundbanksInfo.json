@@ -242,7 +242,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{A7D7ADA1-3944-9C94-ADDF-09BD97702181}",
+    "Hash": "{73D8ABBD-4512-3752-2B0A-4E952B9D6314}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -518,6 +518,14 @@
       "Location": "Memory",
       "ShortName": "LOOP2\\GameOff_Combat_LOOP2_SulTasto_Nov25.wav",
       "CachePath": "SFX/LOOP2/GameOff_Combat_LOOP2_SulTasto_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "138927867",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Scream_04.wav",
+      "CachePath": "SFX/Enemy_Scream_04_F246901E.wem"
      },
      {
       "Id": "155739368",
@@ -1224,6 +1232,14 @@
       "CachePath": "SFX/LOOP1/GameOff_Expl_LOOP1_Perc_Nov25_0762CC47.wem"
      },
      {
+      "Id": "438847512",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Scream_03.wav",
+      "CachePath": "SFX/Enemy_Scream_03_CD58342A.wem"
+     },
+     {
       "Id": "441206784",
       "Language": "SFX",
       "Streaming": "false",
@@ -1632,6 +1648,14 @@
       "CachePath": "SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_05_D8C07C79.wem"
      },
      {
+      "Id": "655150400",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Scream_01.wav",
+      "CachePath": "SFX/Enemy_Scream_01_A6138FE5.wem"
+     },
+     {
       "Id": "658922866",
       "Language": "SFX",
       "Streaming": "false",
@@ -1926,6 +1950,14 @@
       "Location": "Memory",
       "ShortName": "Movement\\Clinks\\Player_Clink_01.wav",
       "CachePath": "SFX/Movement/Clinks/Player_Clink_01_D8C07C79.wem"
+     },
+     {
+      "Id": "806620610",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Scream_02.wav",
+      "CachePath": "SFX/Enemy_Scream_02_3F6BA848.wem"
      },
      {
       "Id": "810678420",
@@ -3841,9 +3873,23 @@
       ]
      },
      {
+      "Id": "2836977668",
+      "Name": "Play_Skeleton_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Skeleton\\Play_Skeleton_Death",
+      "GUID": "{265BF8AE-AAA4-44A9-9E37-1AD34D6D6C54}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9946492",
+      "DurationMax": "1.9946492",
+      "MediaRefs": [
+       {
+        "Id": "438847512"
+       }
+      ]
+     },
+     {
       "Id": "561458399",
       "Name": "Play_Skeleton_Footsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Play_Skeleton_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Skeleton\\Play_Skeleton_Footsteps",
       "GUID": "{798B2ABC-8FD2-4551-863B-95383E8B3B82}",
       "MaxAttenuation": "2000",
       "DurationType": "OneShot",
@@ -3873,6 +3919,44 @@
        },
        {
         "Id": "997966331"
+       }
+      ]
+     },
+     {
+      "Id": "819585709",
+      "Name": "Play_Skeleton_Vox",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Skeleton\\Play_Skeleton_Vox",
+      "GUID": "{9544FDCB-CB74-4FE9-96DA-B2D66161A484}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.52483565",
+      "DurationMax": "0.87529725",
+      "MediaRefs": [
+       {
+        "Id": "24570841"
+       },
+       {
+        "Id": "138927867"
+       },
+       {
+        "Id": "260302158"
+       },
+       {
+        "Id": "306367092"
+       },
+       {
+        "Id": "655150400"
+       },
+       {
+        "Id": "725356836"
+       },
+       {
+        "Id": "728018726"
+       },
+       {
+        "Id": "806620610"
+       },
+       {
+        "Id": "1071825627"
        }
       ]
      },
@@ -4323,6 +4407,6 @@
     ]
    }
   ],
-  "FileHash": "{80558170-204C-FCC0-A34A-F5C5F6D0B094}"
+  "FileHash": "{94DC37B4-910C-EB71-E2DC-F242F1F9BBDF}"
  }
 }

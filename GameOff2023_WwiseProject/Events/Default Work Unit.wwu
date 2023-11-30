@@ -685,17 +685,57 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Event Name="Play_Skeleton_Footsteps" ID="{798B2ABC-8FD2-4551-863B-95383E8B3B82}">
+						<Folder Name="Skeleton" ID="{15E82F15-9C82-46C5-9511-45F1D0324AC6}" ShortID="740304074">
 							<ChildrenList>
-								<Action Name="" ID="{87B57737-22AC-4463-A7D5-D88EA0121C07}" ShortID="921614784">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Skeleton_Footsteps" ID="{96041203-1B62-472C-AF69-1DA4DD966BBD}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Play_Skeleton_Vox" ID="{9544FDCB-CB74-4FE9-96DA-B2D66161A484}">
+									<ChildrenList>
+										<Action Name="" ID="{AA333A84-82AD-41A1-BF49-7A18EAA9EF82}" ShortID="345454765">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Skeleton_Vox" ID="{7D94662A-E9DF-41DB-AAB8-8F078A47B5BD}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{3542A438-2E6F-4756-A18D-207A2BB3AB17}" ShortID="272763677">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FoleyQuick_Attack" ID="{0ABCF399-2734-4107-B146-CF51836730EA}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{C8EE6756-7175-4B74-8091-142A54BB1C1F}" ShortID="1054807649">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SwordQuick_Attack" ID="{013AA68F-CE16-4A5B-97FA-4A226CBC7E29}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Skeleton_Death" ID="{265BF8AE-AAA4-44A9-9E37-1AD34D6D6C54}">
+									<ChildrenList>
+										<Action Name="" ID="{4FD0F5EA-2844-4546-9FBC-ABBAD0BC9BC4}" ShortID="1010432920">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Skeleton_Death" ID="{15D93117-F26D-48AB-B9CF-DF2D4FD7F1B4}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Skeleton_Footsteps" ID="{798B2ABC-8FD2-4551-863B-95383E8B3B82}">
+									<ChildrenList>
+										<Action Name="" ID="{87B57737-22AC-4463-A7D5-D88EA0121C07}" ShortID="921614784">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Skeleton_Footsteps" ID="{96041203-1B62-472C-AF69-1DA4DD966BBD}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Interactables" ID="{11FB3A12-5984-438F-A5D1-EB353A4AF5CF}" ShortID="721826486">
