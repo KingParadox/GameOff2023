@@ -9,6 +9,27 @@
 							<ObjectRef Name="System" ID="{FA09F309-14AE-4C38-8CDC-00CA06252993}" WorkUnitID="{411BA27E-CE1E-46F5-8117-CACE27EF04EB}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="SmallReverb_Bus" ID="{192052F3-9763-48B6-B1CD-E702DA978884}">
+							<PropertyList>
+								<Property Name="OutputBusLowpass" Type="int16">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-18</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Hall_Medium" ID="{50286348-176A-4235-9E4C-CA5F73D87818}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

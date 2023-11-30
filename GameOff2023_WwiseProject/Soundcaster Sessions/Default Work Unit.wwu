@@ -10,14 +10,33 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="bridgeAmbient" ID="{4BF34D11-04D8-4772-B792-57D91B93C085}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_SwordCollision" ID="{60E47DA0-6A74-437D-8AE3-6CA25247B280}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="hallsAmbient" ID="{4272CEEE-74F9-4D9B-8037-DBAFB9F7A6B8}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_GameplayMusicSwitchDing" ID="{00ED8287-CD9E-458A-94FA-27FDF5D1C3A6}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="towerAmbient" ID="{03D147F4-241F-45AA-867E-96801EB882C4}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+							<Position X="2" Y="2"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Inside" ID="{B72E5398-1E0D-4DF4-A6A0-02EE948A8DF9}"/>
+						<CurrentStateRef Name="Exploration" ID="{5DD37529-C7B7-4601-9AF3-B85A1071893C}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Wood" ID="{892B6E2B-3769-416E-BF2F-1D540C97D3A2}"/>
+						<CurrentSwitchRef Name="Concrete" ID="{104B9B2B-0DD0-4CEA-8942-E48C7BE4712C}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

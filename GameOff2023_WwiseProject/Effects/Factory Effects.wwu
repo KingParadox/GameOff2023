@@ -909,6 +909,7 @@
 										<Property Name="Density" Type="Real32" Value="58"/>
 										<Property Name="ERLevel" Type="Real32" Value="-23"/>
 										<Property Name="ERPattern" Type="int32" Value="14"/>
+										<Property Name="EnableToneControls" Type="bool" Value="True"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="590"/>
 										<Property Name="Filter1Gain" Type="Real32" Value="2"/>
 										<Property Name="Filter1InsertPos" Type="int32" Value="2"/>

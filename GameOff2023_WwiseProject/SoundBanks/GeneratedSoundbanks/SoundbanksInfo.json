@@ -14,15 +14,62 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
+    "Id": "855099005",
+    "Type": "Bus",
+    "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}",
+    "Language": "SFX",
+    "Hash": "{7D2EB759-4C23-04A6-8A83-EBFA8DF517B8}",
+    "ObjectPath": "SmallReverb_Bus",
+    "ShortName": "SmallReverb_Bus",
+    "Path": "Bus/SmallReverb_Bus.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3451596814",
+       "Name": "Hall_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Medium",
+       "GUID": "{50286348-176A-4235-9E4C-CA5F73D87818}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "855099005",
+      "Name": "SmallReverb_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+      "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3451596814"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
     "Id": "1355168291",
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{986487A9-2683-E47A-8688-3D0FE6FDB954}",
+    "Hash": "{4DD417D1-B31B-22DC-52C7-CAF93F648E8E}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3451596814",
+       "Name": "Hall_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Medium",
+       "GUID": "{50286348-176A-4235-9E4C-CA5F73D87818}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -48,6 +95,75 @@
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "855099005",
+      "Name": "SmallReverb_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+      "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3451596814"
+        }
+       ]
+      }
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "79836495",
+      "Name": "ENVIRONEMENT_STATE",
+      "ObjectPath": "\\States\\Default Work Unit\\ENVIRONEMENT_STATE",
+      "GUID": "{8D9FF48D-E328-4755-8209-B0F7DBE88579}",
+      "States": [
+       {
+        "Id": "438105790",
+        "Name": "Outside",
+        "ObjectPath": "\\States\\Default Work Unit\\ENVIRONEMENT_STATE\\Outside",
+        "GUID": "{78D35B2D-071D-46C5-AB82-EB4F745E6720}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\ENVIRONEMENT_STATE\\None",
+        "GUID": "{5F572EDE-E3CB-4704-9666-2B44EFEBC5EC}"
+       },
+       {
+        "Id": "3553349781",
+        "Name": "Inside",
+        "ObjectPath": "\\States\\Default Work Unit\\ENVIRONEMENT_STATE\\Inside",
+        "GUID": "{B72E5398-1E0D-4DF4-A6A0-02EE948A8DF9}"
+       }
+      ]
+     },
+     {
+      "Id": "762757699",
+      "Name": "GAMEPLAY_STATE",
+      "ObjectPath": "\\States\\Default Work Unit\\GAMEPLAY_STATE",
+      "GUID": "{4FD28419-13F8-48BF-8F7B-94FC7E84D867}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\GAMEPLAY_STATE\\None",
+        "GUID": "{CE7CE926-4897-4DEE-ACFE-D2BA3D849E60}"
+       },
+       {
+        "Id": "2582085496",
+        "Name": "Exploration",
+        "ObjectPath": "\\States\\Default Work Unit\\GAMEPLAY_STATE\\Exploration",
+        "GUID": "{5DD37529-C7B7-4601-9AF3-B85A1071893C}"
+       },
+       {
+        "Id": "2764240573",
+        "Name": "Combat",
+        "ObjectPath": "\\States\\Default Work Unit\\GAMEPLAY_STATE\\Combat",
+        "GUID": "{D7DBAB25-D3B6-4BC9-BC8B-583DD72A4237}"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -114,18 +230,34 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{C93978CD-E7DC-4D41-4601-7B21C50DFE9F}",
+    "Hash": "{F71EE76F-34DD-00D4-DF71-DD9AA13B29BB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
     "Media": [
+     {
+      "Id": "3731836",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "crumbles-002.wav",
+      "CachePath": "SFX/crumbles-002_D8C07C79.wem"
+     },
      {
       "Id": "8322717",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_05.wav",
-      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_05_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_05_D8C07C79.wem"
+     },
+     {
+      "Id": "8771043",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Short\\SFX_Enemy_HauntedArmor_Attack_Short_02.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Short/SFX_Enemy_HauntedArmor_Attack_Short_02_D8C07C79.wem"
      },
      {
       "Id": "11945840",
@@ -133,7 +265,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_05.wav",
-      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_05_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_05_D8C07C79.wem"
+     },
+     {
+      "Id": "17466961",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Comabt_Tag_01_v1_Violin1.wav",
+      "CachePath": "SFX/Mus_Comabt_Tag_01_v1_Violin1_0762CC47.wem"
      },
      {
       "Id": "24570841",
@@ -141,7 +281,31 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Attack\\Quick\\Player_Attack_Quick_Clinks_03.wav",
-      "CachePath": "SFX/Movement/Attack/Quick/Player_Attack_Quick_Clinks_03_10C4C929.wem"
+      "CachePath": "SFX/Movement/Attack/Quick/Player_Attack_Quick_Clinks_03_D8C07C79.wem"
+     },
+     {
+      "Id": "26672347",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Bellow\\DRAGON_BELLOW_03.wav",
+      "CachePath": "SFX/Dracolich/Bellow/DRAGON_BELLOW_03_D8C07C79.wem"
+     },
+     {
+      "Id": "42789566",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Loop_01_v1_Cymbals.wav",
+      "CachePath": "SFX/Mus_Combat_Loop_01_v1_Cymbals_0762CC47.wem"
+     },
+     {
+      "Id": "53808189",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "windGusts-005.wav",
+      "CachePath": "SFX/windGusts-005_D8C07C79.wem"
      },
      {
       "Id": "59261838",
@@ -149,7 +313,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_07.wav",
-      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_07_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_07_D8C07C79.wem"
      },
      {
       "Id": "60137753",
@@ -157,7 +321,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_04.wav",
-      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_04_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_04_D8C07C79.wem"
      },
      {
       "Id": "62411906",
@@ -165,7 +329,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon Collide\\Collide Hit\\SFX_Player_Weapon_Collide_Hit_02.wav",
-      "CachePath": "SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_02_10C4C929.wem"
+      "CachePath": "SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_02_D8C07C79.wem"
      },
      {
       "Id": "65126692",
@@ -173,7 +337,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Sand\\Foley_Player_FSSand_07.wav",
-      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_07_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_07_D8C07C79.wem"
+     },
+     {
+      "Id": "69486095",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Roar\\DRAGON_ROAR_03.wav",
+      "CachePath": "SFX/Dracolich/Roar/DRAGON_ROAR_03_D8C07C79.wem"
      },
      {
       "Id": "71179315",
@@ -181,7 +353,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_02.wav",
-      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_02_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_02_D8C07C79.wem"
      },
      {
       "Id": "71370987",
@@ -189,7 +361,31 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_06.wav",
-      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_06_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_06_D8C07C79.wem"
+     },
+     {
+      "Id": "73024082",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP2\\GameOff_Expl_LOOP2_Perc_Nov25.wav",
+      "CachePath": "SFX/LOOP2/GameOff_Expl_LOOP2_Perc_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "80111373",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP2\\GameOff_Combat_LOOP2_Perc_Nov25.wav",
+      "CachePath": "SFX/LOOP2/GameOff_Combat_LOOP2_Perc_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "85468853",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "windGusts-007.wav",
+      "CachePath": "SFX/windGusts-007_D8C07C79.wem"
      },
      {
       "Id": "94506757",
@@ -197,7 +393,55 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon Collide\\Collide Tail\\Concrete\\SFX_Player_Weapon_Collide_Tail_Concrete_03.wav",
-      "CachePath": "SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_03_10C4C929.wem"
+      "CachePath": "SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_03_D8C07C79.wem"
+     },
+     {
+      "Id": "100039941",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Roar\\DRAGON_ROAR_01.wav",
+      "CachePath": "SFX/Dracolich/Roar/DRAGON_ROAR_01_D8C07C79.wem"
+     },
+     {
+      "Id": "104418782",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Roar\\DRAGON_ROAR_02.wav",
+      "CachePath": "SFX/Dracolich/Roar/DRAGON_ROAR_02_D8C07C79.wem"
+     },
+     {
+      "Id": "109788312",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Fireball\\FIREBALL_INHALE.wav",
+      "CachePath": "SFX/Dracolich/Fireball/FIREBALL_INHALE_D8C07C79.wem"
+     },
+     {
+      "Id": "115226020",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "tag_01\\Mus_Expl_Tag_01_v1_Cello.wav",
+      "CachePath": "SFX/tag_01/Mus_Expl_Tag_01_v1_Cello_0762CC47.wem"
+     },
+     {
+      "Id": "117085588",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GameOff_Combat_INTRO_SulTasto_Nov25.wav",
+      "CachePath": "SFX/GameOff_Combat_INTRO_SulTasto_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "117295907",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Loop_01_v1_MaleChoir.wav",
+      "CachePath": "SFX/Mus_Combat_Loop_01_v1_MaleChoir_0762CC47.wem"
      },
      {
       "Id": "121170771",
@@ -205,7 +449,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_08.wav",
-      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_08_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_08_D8C07C79.wem"
      },
      {
       "Id": "128767792",
@@ -213,7 +457,47 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "UI\\SFX_UI_PickUp.wav",
-      "CachePath": "SFX/UI/SFX_UI_PickUp_5AF97A8C.wem"
+      "CachePath": "SFX/UI/SFX_UI_PickUp_6409A0BC.wem"
+     },
+     {
+      "Id": "133317810",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP2\\GameOff_Combat_LOOP2_SulTasto_Nov25.wav",
+      "CachePath": "SFX/LOOP2/GameOff_Combat_LOOP2_SulTasto_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "149434753",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Interactibles\\SFX_GATE_LEVER.wav",
+      "CachePath": "SFX/Interactibles/SFX_GATE_LEVER_D8C07C79.wem"
+     },
+     {
+      "Id": "155739368",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Long\\SFX_Enemy_HauntedArmor_Attack_Long_02.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_02_D8C07C79.wem"
+     },
+     {
+      "Id": "157194131",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "loop_01\\Mus_Expl_Loop_01_v1_Cello.wav",
+      "CachePath": "SFX/loop_01/Mus_Expl_Loop_01_v1_Cello_0762CC47.wem"
+     },
+     {
+      "Id": "158713601",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Wings\\DRAGON_WINGS_06.wav",
+      "CachePath": "SFX/Dracolich/Wings/DRAGON_WINGS_06_D8C07C79.wem"
      },
      {
       "Id": "161690530",
@@ -221,15 +505,55 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Attack\\Heavy\\Player_Attack_Heavy_01.wav",
-      "CachePath": "SFX/Attack/Heavy/Player_Attack_Heavy_01_10C4C929.wem"
+      "CachePath": "SFX/Attack/Heavy/Player_Attack_Heavy_01_D8C07C79.wem"
      },
      {
-      "Id": "179324131",
+      "Id": "169270103",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "UI\\SFX_UI_Confirm.wav",
-      "CachePath": "SFX/UI/SFX_UI_Confirm_7605B206.wem"
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Long\\SFX_Enemy_HauntedArmor_Attack_Long_06.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_06_D8C07C79.wem"
+     },
+     {
+      "Id": "192366918",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Long\\SFX_Enemy_HauntedArmor_Attack_Long_04.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_04_D8C07C79.wem"
+     },
+     {
+      "Id": "195108500",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Stomp\\DRAGON_STOMP_03.wav",
+      "CachePath": "SFX/Dracolich/Stomp/DRAGON_STOMP_03_D8C07C79.wem"
+     },
+     {
+      "Id": "201281582",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Transition_01_v1_SineWave.wav",
+      "CachePath": "SFX/Mus_Combat_Transition_01_v1_SineWave_0762CC47.wem"
+     },
+     {
+      "Id": "206827220",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "loop_01\\Mus_Expl_Loop_01_v1_Violin2.wav",
+      "CachePath": "SFX/loop_01/Mus_Expl_Loop_01_v1_Violin2_0762CC47.wem"
+     },
+     {
+      "Id": "207081866",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Intro_01_v1_Violin1.wav",
+      "CachePath": "SFX/Mus_Combat_Intro_01_v1_Violin1_0762CC47.wem"
      },
      {
       "Id": "209418646",
@@ -237,7 +561,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_06.wav",
-      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_06_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_06_D8C07C79.wem"
      },
      {
       "Id": "211456994",
@@ -245,7 +569,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Clinks\\Player_Clink_04.wav",
-      "CachePath": "SFX/Movement/Clinks/Player_Clink_04_10C4C929.wem"
+      "CachePath": "SFX/Movement/Clinks/Player_Clink_04_D8C07C79.wem"
      },
      {
       "Id": "212462202",
@@ -253,7 +577,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_04.wav",
-      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_04_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_04_D8C07C79.wem"
      },
      {
       "Id": "215853117",
@@ -261,7 +585,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Attack\\Heavy\\Player_Attack_Heavy_03.wav",
-      "CachePath": "SFX/Attack/Heavy/Player_Attack_Heavy_03_10C4C929.wem"
+      "CachePath": "SFX/Attack/Heavy/Player_Attack_Heavy_03_D8C07C79.wem"
+     },
+     {
+      "Id": "219689141",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "loop_01\\Mus_Expl_Loop_01_v1_Viola.wav",
+      "CachePath": "SFX/loop_01/Mus_Expl_Loop_01_v1_Viola_0762CC47.wem"
      },
      {
       "Id": "221869063",
@@ -269,7 +601,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_07.wav",
-      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_07_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_07_D8C07C79.wem"
+     },
+     {
+      "Id": "222420576",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "lowRumble.wav",
+      "CachePath": "SFX/lowRumble_547CCF2A.wem"
      },
      {
       "Id": "228510349",
@@ -277,7 +617,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_07.wav",
-      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_07_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_07_D8C07C79.wem"
+     },
+     {
+      "Id": "229706042",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "intro_01\\Mus_Expl_Intro_01_v1_Cello.wav",
+      "CachePath": "SFX/intro_01/Mus_Expl_Intro_01_v1_Cello_0762CC47.wem"
      },
      {
       "Id": "235412066",
@@ -285,7 +633,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon Collide\\Collide Hit\\SFX_Player_Weapon_Collide_Hit_03.wav",
-      "CachePath": "SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_03_10C4C929.wem"
+      "CachePath": "SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_03_D8C07C79.wem"
      },
      {
       "Id": "242457361",
@@ -293,7 +641,31 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_08.wav",
-      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_08_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_08_D8C07C79.wem"
+     },
+     {
+      "Id": "247177741",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP2\\GameOff_Expl_LOOP2_Strings_Nov25.wav",
+      "CachePath": "SFX/LOOP2/GameOff_Expl_LOOP2_Strings_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "254628039",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Foley_Enemy_HauntedArmor_Footstep\\Foley_Enemy_HauntedArmor_Footstep_03.wav",
+      "CachePath": "SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_03_D8C07C79.wem"
+     },
+     {
+      "Id": "256293707",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Stomp\\DRAGON_STOMP_01.wav",
+      "CachePath": "SFX/Dracolich/Stomp/DRAGON_STOMP_01_D8C07C79.wem"
      },
      {
       "Id": "258718558",
@@ -301,7 +673,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon Collide\\Collide Tail\\Concrete\\SFX_Player_Weapon_Collide_Tail_Concrete_01.wav",
-      "CachePath": "SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_01_10C4C929.wem"
+      "CachePath": "SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_01_D8C07C79.wem"
+     },
+     {
+      "Id": "258975257",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Stomp\\DRAGON_STOMP_02.wav",
+      "CachePath": "SFX/Dracolich/Stomp/DRAGON_STOMP_02_D8C07C79.wem"
      },
      {
       "Id": "260302158",
@@ -309,7 +689,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Attack\\Quick\\Player_Attack_Quick_Clinks_02.wav",
-      "CachePath": "SFX/Movement/Attack/Quick/Player_Attack_Quick_Clinks_02_10C4C929.wem"
+      "CachePath": "SFX/Movement/Attack/Quick/Player_Attack_Quick_Clinks_02_D8C07C79.wem"
      },
      {
       "Id": "260417398",
@@ -317,7 +697,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Sand\\Foley_Player_FSSand_04.wav",
-      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_04_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_04_D8C07C79.wem"
+     },
+     {
+      "Id": "261952539",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "creaks-005.wav",
+      "CachePath": "SFX/creaks-005_D8C07C79.wem"
      },
      {
       "Id": "264922687",
@@ -325,7 +713,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_07.wav",
-      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_07_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_07_D8C07C79.wem"
+     },
+     {
+      "Id": "270391479",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "creaks-009.wav",
+      "CachePath": "SFX/creaks-009_D8C07C79.wem"
      },
      {
       "Id": "273323821",
@@ -333,7 +729,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Clinks\\Player_Clink_05.wav",
-      "CachePath": "SFX/Movement/Clinks/Player_Clink_05_10C4C929.wem"
+      "CachePath": "SFX/Movement/Clinks/Player_Clink_05_D8C07C79.wem"
      },
      {
       "Id": "273986127",
@@ -341,7 +737,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_03.wav",
-      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_03_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_03_D8C07C79.wem"
      },
      {
       "Id": "283202258",
@@ -349,7 +745,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_08.wav",
-      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_08_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_08_D8C07C79.wem"
+     },
+     {
+      "Id": "283818894",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP2\\GameOff_Combat_LOOP2_Strings_Nov25.wav",
+      "CachePath": "SFX/LOOP2/GameOff_Combat_LOOP2_Strings_Nov25_0762CC47.wem"
      },
      {
       "Id": "284083750",
@@ -357,7 +761,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_01.wav",
-      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_01_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_01_D8C07C79.wem"
      },
      {
       "Id": "289035679",
@@ -365,7 +769,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Jump\\Player_Jump_Start_03.wav",
-      "CachePath": "SFX/Movement/Jump/Player_Jump_Start_03_10C4C929.wem"
+      "CachePath": "SFX/Movement/Jump/Player_Jump_Start_03_D8C07C79.wem"
      },
      {
       "Id": "289329586",
@@ -373,7 +777,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Clinks\\Player_Clink_03.wav",
-      "CachePath": "SFX/Movement/Clinks/Player_Clink_03_10C4C929.wem"
+      "CachePath": "SFX/Movement/Clinks/Player_Clink_03_D8C07C79.wem"
      },
      {
       "Id": "290726333",
@@ -381,7 +785,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "UI\\SFX_UI_Back.wav",
-      "CachePath": "SFX/UI/SFX_UI_Back_6E5E8602.wem"
+      "CachePath": "SFX/UI/SFX_UI_Back_C418B9F2.wem"
      },
      {
       "Id": "292169088",
@@ -389,7 +793,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_01.wav",
-      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_01_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_01_D8C07C79.wem"
+     },
+     {
+      "Id": "298109568",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Transition_01_v1_Violin1.wav",
+      "CachePath": "SFX/Mus_Combat_Transition_01_v1_Violin1_0762CC47.wem"
+     },
+     {
+      "Id": "303067073",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Wings\\DRAGON_WINGS_04.wav",
+      "CachePath": "SFX/Dracolich/Wings/DRAGON_WINGS_04_D8C07C79.wem"
      },
      {
       "Id": "306367092",
@@ -397,7 +817,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Attack\\Quick\\Player_Attack_Quick_Clinks_01.wav",
-      "CachePath": "SFX/Movement/Attack/Quick/Player_Attack_Quick_Clinks_01_10C4C929.wem"
+      "CachePath": "SFX/Movement/Attack/Quick/Player_Attack_Quick_Clinks_01_D8C07C79.wem"
+     },
+     {
+      "Id": "317003863",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Fireball\\FIREBALL_BURST.wav",
+      "CachePath": "SFX/Dracolich/Fireball/FIREBALL_BURST_D8C07C79.wem"
      },
      {
       "Id": "326193206",
@@ -405,7 +833,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Roll\\Player_Roll_Start_03_V2.wav",
-      "CachePath": "SFX/Movement/Roll/Player_Roll_Start_03_V2_10C4C929.wem"
+      "CachePath": "SFX/Movement/Roll/Player_Roll_Start_03_V2_D8C07C79.wem"
      },
      {
       "Id": "327700979",
@@ -413,7 +841,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Sand\\Foley_Player_FSSand_06.wav",
-      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_06_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_06_D8C07C79.wem"
      },
      {
       "Id": "333938787",
@@ -421,7 +849,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_06.wav",
-      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_06_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_06_D8C07C79.wem"
      },
      {
       "Id": "342719623",
@@ -429,7 +857,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon Collide\\Collide Hit\\SFX_Player_Weapon_Collide_Hit_04.wav",
-      "CachePath": "SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_04_10C4C929.wem"
+      "CachePath": "SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_04_D8C07C79.wem"
+     },
+     {
+      "Id": "343670367",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "windGusts-006.wav",
+      "CachePath": "SFX/windGusts-006_D8C07C79.wem"
+     },
+     {
+      "Id": "350808807",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "windGusts-004.wav",
+      "CachePath": "SFX/windGusts-004_D8C07C79.wem"
      },
      {
       "Id": "354601549",
@@ -437,7 +881,31 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_02.wav",
-      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_02_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_02_D8C07C79.wem"
+     },
+     {
+      "Id": "354977972",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Interactibles\\SFX_GATE_RISE.wav",
+      "CachePath": "SFX/Interactibles/SFX_GATE_RISE_D8C07C79.wem"
+     },
+     {
+      "Id": "357344822",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP1\\GameOff_Combat_LOOP1_Perc_Nov25.wav",
+      "CachePath": "SFX/LOOP1/GameOff_Combat_LOOP1_Perc_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "366185646",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "windGusts-002.wav",
+      "CachePath": "SFX/windGusts-002_D8C07C79.wem"
      },
      {
       "Id": "366863183",
@@ -445,7 +913,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_05.wav",
-      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_05_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_05_D8C07C79.wem"
      },
      {
       "Id": "367213697",
@@ -453,7 +921,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon Collide\\Collide Tail\\Wood\\SFX_Player_Weapon_Collide_Tail_Wood_V2_04.wav",
-      "CachePath": "SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_04_10C4C929.wem"
+      "CachePath": "SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_04_D8C07C79.wem"
      },
      {
       "Id": "369468741",
@@ -461,7 +929,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "UI\\SFX_UI_Slider_Start.wav",
-      "CachePath": "SFX/UI/SFX_UI_Slider_Start_212F2EAB.wem"
+      "CachePath": "SFX/UI/SFX_UI_Slider_Start_01694A9B.wem"
+     },
+     {
+      "Id": "369947226",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Short\\SFX_Enemy_HauntedArmor_Attack_Short_03.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Short/SFX_Enemy_HauntedArmor_Attack_Short_03_D8C07C79.wem"
      },
      {
       "Id": "372935282",
@@ -469,7 +945,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Roll\\Player_Roll_Start_01_V2.wav",
-      "CachePath": "SFX/Movement/Roll/Player_Roll_Start_01_V2_10C4C929.wem"
+      "CachePath": "SFX/Movement/Roll/Player_Roll_Start_01_V2_D8C07C79.wem"
      },
      {
       "Id": "388218447",
@@ -477,7 +953,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_06.wav",
-      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_06_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_06_D8C07C79.wem"
      },
      {
       "Id": "391974349",
@@ -485,7 +961,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_01.wav",
-      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_01_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_01_D8C07C79.wem"
      },
      {
       "Id": "402547597",
@@ -493,7 +969,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Sand\\Foley_Player_FSSand_08.wav",
-      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_08_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_08_D8C07C79.wem"
+     },
+     {
+      "Id": "404792084",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Wings\\DRAGON_WINGS_03.wav",
+      "CachePath": "SFX/Dracolich/Wings/DRAGON_WINGS_03_D8C07C79.wem"
+     },
+     {
+      "Id": "414983698",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "lowWind.wav",
+      "CachePath": "SFX/lowWind_D8C07C79.wem"
      },
      {
       "Id": "415661004",
@@ -501,7 +993,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_08.wav",
-      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_08_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_08_D8C07C79.wem"
+     },
+     {
+      "Id": "419399914",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "windGusts-001.wav",
+      "CachePath": "SFX/windGusts-001_D8C07C79.wem"
      },
      {
       "Id": "419447020",
@@ -509,7 +1009,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_02.wav",
-      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_02_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_02_D8C07C79.wem"
      },
      {
       "Id": "419765360",
@@ -517,7 +1017,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_01.wav",
-      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_01_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_01_D8C07C79.wem"
      },
      {
       "Id": "424878104",
@@ -525,7 +1025,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "UI\\SFX_UI_Slider_End.wav",
-      "CachePath": "SFX/UI/SFX_UI_Slider_End_2978543E.wem"
+      "CachePath": "SFX/UI/SFX_UI_Slider_End_5C42078E.wem"
+     },
+     {
+      "Id": "426656757",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Intro_01_v1_SineWave.wav",
+      "CachePath": "SFX/Mus_Combat_Intro_01_v1_SineWave_0762CC47.wem"
      },
      {
       "Id": "430803259",
@@ -533,7 +1041,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_03.wav",
-      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_03_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_03_D8C07C79.wem"
+     },
+     {
+      "Id": "431120769",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "tag_01\\Mus_Expl_Tag_01_v1_Viola.wav",
+      "CachePath": "SFX/tag_01/Mus_Expl_Tag_01_v1_Viola_0762CC47.wem"
      },
      {
       "Id": "431921519",
@@ -541,7 +1057,55 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_07.wav",
-      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_07_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_07_D8C07C79.wem"
+     },
+     {
+      "Id": "436038413",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP1\\GameOff_Expl_LOOP1_Perc_Nov25.wav",
+      "CachePath": "SFX/LOOP1/GameOff_Expl_LOOP1_Perc_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "441206784",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "crumbles-001.wav",
+      "CachePath": "SFX/crumbles-001_D8C07C79.wem"
+     },
+     {
+      "Id": "448548022",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Long\\SFX_Enemy_HauntedArmor_Attack_Long_01.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_01_D8C07C79.wem"
+     },
+     {
+      "Id": "448664350",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "thunders-001.wav",
+      "CachePath": "SFX/thunders-001_45A7FECA.wem"
+     },
+     {
+      "Id": "450306476",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Short\\SFX_Enemy_HauntedArmor_Attack_Short_01.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Short/SFX_Enemy_HauntedArmor_Attack_Short_01_D8C07C79.wem"
+     },
+     {
+      "Id": "450318267",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Foley_Enemy_HauntedArmor_Footstep\\Foley_Enemy_HauntedArmor_Footstep_02.wav",
+      "CachePath": "SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_02_D8C07C79.wem"
      },
      {
       "Id": "453986490",
@@ -549,7 +1113,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_07.wav",
-      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_07_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_07_D8C07C79.wem"
      },
      {
       "Id": "465951665",
@@ -557,7 +1121,47 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_03.wav",
-      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_03_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_03_D8C07C79.wem"
+     },
+     {
+      "Id": "468379635",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Comabt_Tag_01_v1_FemaleChoir.wav",
+      "CachePath": "SFX/Mus_Comabt_Tag_01_v1_FemaleChoir_0762CC47.wem"
+     },
+     {
+      "Id": "470848620",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Foley_Enemy_HauntedArmor_Footstep\\Foley_Enemy_HauntedArmor_Footstep_01.wav",
+      "CachePath": "SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_01_D8C07C79.wem"
+     },
+     {
+      "Id": "476739655",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "creaks-010.wav",
+      "CachePath": "SFX/creaks-010_D8C07C79.wem"
+     },
+     {
+      "Id": "492113711",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "thunders-003.wav",
+      "CachePath": "SFX/thunders-003_00468127.wem"
+     },
+     {
+      "Id": "494368849",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "transition_01\\Mus_Expl_Transition_01_v1_Cello.wav",
+      "CachePath": "SFX/transition_01/Mus_Expl_Transition_01_v1_Cello_0762CC47.wem"
      },
      {
       "Id": "496610374",
@@ -565,7 +1169,39 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Puddle\\Foley_Player_FSPuddle_03.wav",
-      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_03_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Puddle/Foley_Player_FSPuddle_03_D8C07C79.wem"
+     },
+     {
+      "Id": "499825948",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Wings\\DRAGON_WINGS_01.wav",
+      "CachePath": "SFX/Dracolich/Wings/DRAGON_WINGS_01_D8C07C79.wem"
+     },
+     {
+      "Id": "504996585",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Bellow\\DRAGON_BELLOW_04.wav",
+      "CachePath": "SFX/Dracolich/Bellow/DRAGON_BELLOW_04_D8C07C79.wem"
+     },
+     {
+      "Id": "511325285",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Bellow\\DRAGON_BELLOW_02.wav",
+      "CachePath": "SFX/Dracolich/Bellow/DRAGON_BELLOW_02_D8C07C79.wem"
+     },
+     {
+      "Id": "511934443",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Short\\SFX_Enemy_HauntedArmor_Attack_Short_04.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Short/SFX_Enemy_HauntedArmor_Attack_Short_04_D8C07C79.wem"
      },
      {
       "Id": "514662885",
@@ -573,7 +1209,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_05.wav",
-      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_05_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_05_D8C07C79.wem"
      },
      {
       "Id": "519085038",
@@ -581,7 +1217,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Roll\\Player_Roll_Contact_03_V2.wav",
-      "CachePath": "SFX/Movement/Roll/Player_Roll_Contact_03_V2_10C4C929.wem"
+      "CachePath": "SFX/Movement/Roll/Player_Roll_Contact_03_V2_D8C07C79.wem"
      },
      {
       "Id": "523545991",
@@ -589,7 +1225,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Roll\\Player_Roll_Contact_01_V2.wav",
-      "CachePath": "SFX/Movement/Roll/Player_Roll_Contact_01_V2_10C4C929.wem"
+      "CachePath": "SFX/Movement/Roll/Player_Roll_Contact_01_V2_D8C07C79.wem"
      },
      {
       "Id": "526537071",
@@ -597,7 +1233,31 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "UI\\SFX_UI_Hover.wav",
-      "CachePath": "SFX/UI/SFX_UI_Hover_3B2A1FE1.wem"
+      "CachePath": "SFX/UI/SFX_UI_Hover_DBF586B1.wem"
+     },
+     {
+      "Id": "533911511",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GameOff_Combat_INTRO_Strings_Nov25.wav",
+      "CachePath": "SFX/GameOff_Combat_INTRO_Strings_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "536238855",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Wings\\DRAGON_WINGS_05.wav",
+      "CachePath": "SFX/Dracolich/Wings/DRAGON_WINGS_05_D8C07C79.wem"
+     },
+     {
+      "Id": "542968810",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Intro_01_v1_Flute.wav",
+      "CachePath": "SFX/Mus_Combat_Intro_01_v1_Flute_0762CC47.wem"
      },
      {
       "Id": "544303138",
@@ -605,7 +1265,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Parry\\SFX_Player_Parry_02.wav",
-      "CachePath": "SFX/Parry/SFX_Player_Parry_02_10C4C929.wem"
+      "CachePath": "SFX/Parry/SFX_Player_Parry_02_D8C07C79.wem"
      },
      {
       "Id": "545824517",
@@ -613,7 +1273,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Block\\SFX_Player_Block_03.wav",
-      "CachePath": "SFX/Block/SFX_Player_Block_03_10C4C929.wem"
+      "CachePath": "SFX/Block/SFX_Player_Block_03_D8C07C79.wem"
+     },
+     {
+      "Id": "547650354",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Short\\SFX_Enemy_HauntedArmor_Attack_Short_05.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Short/SFX_Enemy_HauntedArmor_Attack_Short_05_D8C07C79.wem"
      },
      {
       "Id": "549521244",
@@ -621,7 +1289,39 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Attack\\Heavy\\Player_Attack_Heavy_02.wav",
-      "CachePath": "SFX/Attack/Heavy/Player_Attack_Heavy_02_10C4C929.wem"
+      "CachePath": "SFX/Attack/Heavy/Player_Attack_Heavy_02_D8C07C79.wem"
+     },
+     {
+      "Id": "552634829",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "intro_01\\Mus_Expl_Intro_01_v1_Violin2.wav",
+      "CachePath": "SFX/intro_01/Mus_Expl_Intro_01_v1_Violin2_0762CC47.wem"
+     },
+     {
+      "Id": "561174997",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "creaks-003.wav",
+      "CachePath": "SFX/creaks-003_D8C07C79.wem"
+     },
+     {
+      "Id": "565711601",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP2\\GameOff_Expl_LOOP2_Choir_Nov25.wav",
+      "CachePath": "SFX/LOOP2/GameOff_Expl_LOOP2_Choir_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "568924458",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "creaks-006.wav",
+      "CachePath": "SFX/creaks-006_D8C07C79.wem"
      },
      {
       "Id": "572753260",
@@ -629,7 +1329,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Roll\\Player_Roll_Contact_02_V2.wav",
-      "CachePath": "SFX/Movement/Roll/Player_Roll_Contact_02_V2_10C4C929.wem"
+      "CachePath": "SFX/Movement/Roll/Player_Roll_Contact_02_V2_D8C07C79.wem"
      },
      {
       "Id": "574259035",
@@ -637,7 +1337,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_01.wav",
-      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_01_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_01_D8C07C79.wem"
      },
      {
       "Id": "574274005",
@@ -645,7 +1345,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Clinks\\Player_Clink_08.wav",
-      "CachePath": "SFX/Movement/Clinks/Player_Clink_08_10C4C929.wem"
+      "CachePath": "SFX/Movement/Clinks/Player_Clink_08_D8C07C79.wem"
      },
      {
       "Id": "579440886",
@@ -653,7 +1353,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_08.wav",
-      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_08_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_08_D8C07C79.wem"
+     },
+     {
+      "Id": "590483239",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP1\\GameOff_Combat_LOOP1_Choir_Nov25.wav",
+      "CachePath": "SFX/LOOP1/GameOff_Combat_LOOP1_Choir_Nov25_0762CC47.wem"
      },
      {
       "Id": "595959087",
@@ -661,7 +1369,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_04.wav",
-      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_04_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_04_D8C07C79.wem"
+     },
+     {
+      "Id": "605074972",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "intro_01\\Mus_Expl_Intro_01_v1_Viola.wav",
+      "CachePath": "SFX/intro_01/Mus_Expl_Intro_01_v1_Viola_0762CC47.wem"
      },
      {
       "Id": "615243289",
@@ -669,7 +1385,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_04.wav",
-      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_04_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_04_D8C07C79.wem"
+     },
+     {
+      "Id": "623170721",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Foley_Enemy_HauntedArmor_Footstep\\Foley_Enemy_HauntedArmor_Footstep_07.wav",
+      "CachePath": "SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_07_D8C07C79.wem"
+     },
+     {
+      "Id": "636597075",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "OUTRO\\GameOff_Combat_OUTRO_SulTasto_Nov25.wav",
+      "CachePath": "SFX/OUTRO/GameOff_Combat_OUTRO_SulTasto_Nov25_0762CC47.wem"
      },
      {
       "Id": "637757490",
@@ -677,7 +1409,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Clinks\\Player_Clink_02.wav",
-      "CachePath": "SFX/Movement/Clinks/Player_Clink_02_10C4C929.wem"
+      "CachePath": "SFX/Movement/Clinks/Player_Clink_02_D8C07C79.wem"
      },
      {
       "Id": "637789105",
@@ -685,7 +1417,63 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_02.wav",
-      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_02_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_02_D8C07C79.wem"
+     },
+     {
+      "Id": "646029682",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Foley_Enemy_HauntedArmor_Footstep\\Foley_Enemy_HauntedArmor_Footstep_05.wav",
+      "CachePath": "SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_05_D8C07C79.wem"
+     },
+     {
+      "Id": "655704208",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\SFX_DRAGON_FOOTSTEP_02.wav",
+      "CachePath": "SFX/Footsteps/SFX_DRAGON_FOOTSTEP_02_D8C07C79.wem"
+     },
+     {
+      "Id": "658922866",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "creaks-008.wav",
+      "CachePath": "SFX/creaks-008_D8C07C79.wem"
+     },
+     {
+      "Id": "663174174",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\SFX_DRAGON_FOOTSTEP_05.wav",
+      "CachePath": "SFX/Footsteps/SFX_DRAGON_FOOTSTEP_05_D8C07C79.wem"
+     },
+     {
+      "Id": "665288197",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "thunders-002.wav",
+      "CachePath": "SFX/thunders-002_6B800CBC.wem"
+     },
+     {
+      "Id": "672350718",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "creaks-007.wav",
+      "CachePath": "SFX/creaks-007_D8C07C79.wem"
+     },
+     {
+      "Id": "677317130",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Intro_01_v1_MaleChoir.wav",
+      "CachePath": "SFX/Mus_Combat_Intro_01_v1_MaleChoir_0762CC47.wem"
      },
      {
       "Id": "678691469",
@@ -693,7 +1481,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_02.wav",
-      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_02_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_02_D8C07C79.wem"
      },
      {
       "Id": "678775115",
@@ -701,7 +1489,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_08.wav",
-      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_08_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_08_D8C07C79.wem"
      },
      {
       "Id": "683611462",
@@ -709,7 +1497,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Sand\\Foley_Player_FSSand_01.wav",
-      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_01_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_01_D8C07C79.wem"
      },
      {
       "Id": "685573023",
@@ -717,7 +1505,39 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon Collide\\Collide Hit\\SFX_Player_Weapon_Collide_Hit_01.wav",
-      "CachePath": "SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_01_10C4C929.wem"
+      "CachePath": "SFX/Weapon Collide/Collide Hit/SFX_Player_Weapon_Collide_Hit_01_D8C07C79.wem"
+     },
+     {
+      "Id": "693745533",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Long\\SFX_Enemy_HauntedArmor_Attack_Long_05.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_05_D8C07C79.wem"
+     },
+     {
+      "Id": "694859273",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GameOff_Combat_INTRO_Perc_Nov25.wav",
+      "CachePath": "SFX/GameOff_Combat_INTRO_Perc_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "703999474",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP1\\GameOff_Combat_LOOP1_Strings_Nov25.wav",
+      "CachePath": "SFX/LOOP1/GameOff_Combat_LOOP1_Strings_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "708464601",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Foley_Enemy_HauntedArmor_Footstep\\Foley_Enemy_HauntedArmor_Footstep_06.wav",
+      "CachePath": "SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_06_D8C07C79.wem"
      },
      {
       "Id": "713425900",
@@ -725,7 +1545,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_02.wav",
-      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_02_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_02_D8C07C79.wem"
      },
      {
       "Id": "721287801",
@@ -733,7 +1553,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_03.wav",
-      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_03_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_03_D8C07C79.wem"
      },
      {
       "Id": "725356836",
@@ -741,7 +1561,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Attack\\Quick\\Player_Attack_Quick_01.wav",
-      "CachePath": "SFX/Attack/Quick/Player_Attack_Quick_01_10C4C929.wem"
+      "CachePath": "SFX/Attack/Quick/Player_Attack_Quick_01_D8C07C79.wem"
      },
      {
       "Id": "728018726",
@@ -749,7 +1569,31 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Attack\\Quick\\Player_Attack_Quick_02.wav",
-      "CachePath": "SFX/Attack/Quick/Player_Attack_Quick_02_10C4C929.wem"
+      "CachePath": "SFX/Attack/Quick/Player_Attack_Quick_02_D8C07C79.wem"
+     },
+     {
+      "Id": "728625596",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "crumbles-003.wav",
+      "CachePath": "SFX/crumbles-003_D8C07C79.wem"
+     },
+     {
+      "Id": "737581056",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP1\\GameOff_Expl_LOOP1_Strings_Nov25.wav",
+      "CachePath": "SFX/LOOP1/GameOff_Expl_LOOP1_Strings_Nov25_0762CC47.wem"
+     },
+     {
+      "Id": "740567834",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "OBJECT_PICK UP.wav",
+      "CachePath": "SFX/OBJECT_PICK UP_D8C07C79.wem"
      },
      {
       "Id": "755805061",
@@ -757,7 +1601,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_08.wav",
-      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_08_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_08_D8C07C79.wem"
      },
      {
       "Id": "760257846",
@@ -765,7 +1609,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Parry\\SFX_Player_Parry_03.wav",
-      "CachePath": "SFX/Parry/SFX_Player_Parry_03_10C4C929.wem"
+      "CachePath": "SFX/Parry/SFX_Player_Parry_03_D8C07C79.wem"
+     },
+     {
+      "Id": "763548125",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "OUTRO\\GameOff_Combat_OUTRO_Choir_Nov25.wav",
+      "CachePath": "SFX/OUTRO/GameOff_Combat_OUTRO_Choir_Nov25_0762CC47.wem"
      },
      {
       "Id": "764411101",
@@ -773,7 +1625,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_06.wav",
-      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_06_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_06_D8C07C79.wem"
      },
      {
       "Id": "767858523",
@@ -781,7 +1633,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon Collide\\Collide Tail\\Wood\\SFX_Player_Weapon_Collide_Tail_Wood_V2_01.wav",
-      "CachePath": "SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_01_10C4C929.wem"
+      "CachePath": "SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_01_D8C07C79.wem"
      },
      {
       "Id": "772393635",
@@ -789,7 +1641,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Attack\\Heavy\\Player_Attack_Heavy_Clinks_01.wav",
-      "CachePath": "SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_01_10C4C929.wem"
+      "CachePath": "SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_01_D8C07C79.wem"
      },
      {
       "Id": "773543934",
@@ -797,7 +1649,31 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_01.wav",
-      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_01_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_01_D8C07C79.wem"
+     },
+     {
+      "Id": "776941347",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "creaks-002.wav",
+      "CachePath": "SFX/creaks-002_D8C07C79.wem"
+     },
+     {
+      "Id": "779001691",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "tag_01\\Mus_Expl_Tag_01_v1_Cymbals.wav",
+      "CachePath": "SFX/tag_01/Mus_Expl_Tag_01_v1_Cymbals_0762CC47.wem"
+     },
+     {
+      "Id": "779320801",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Intro_01_v1_FemaleChoir.wav",
+      "CachePath": "SFX/Mus_Combat_Intro_01_v1_FemaleChoir_0762CC47.wem"
      },
      {
       "Id": "779682905",
@@ -805,7 +1681,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Attack\\Heavy\\Player_Attack_Heavy_Clinks_03.wav",
-      "CachePath": "SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_03_10C4C929.wem"
+      "CachePath": "SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_03_D8C07C79.wem"
+     },
+     {
+      "Id": "790589316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "creaks-001.wav",
+      "CachePath": "SFX/creaks-001_D8C07C79.wem"
      },
      {
       "Id": "791384098",
@@ -813,7 +1697,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_04.wav",
-      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_04_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_04_D8C07C79.wem"
+     },
+     {
+      "Id": "803823954",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP1\\GameOff_Combat_LOOP1_SulTasto_Nov25.wav",
+      "CachePath": "SFX/LOOP1/GameOff_Combat_LOOP1_SulTasto_Nov25_0762CC47.wem"
      },
      {
       "Id": "805047270",
@@ -821,7 +1713,31 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Clinks\\Player_Clink_01.wav",
-      "CachePath": "SFX/Movement/Clinks/Player_Clink_01_10C4C929.wem"
+      "CachePath": "SFX/Movement/Clinks/Player_Clink_01_D8C07C79.wem"
+     },
+     {
+      "Id": "806420487",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\SFX_DRAGON_FOOTSTEP_03.wav",
+      "CachePath": "SFX/Footsteps/SFX_DRAGON_FOOTSTEP_03_D8C07C79.wem"
+     },
+     {
+      "Id": "823419228",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Loop_01_v1_FemaleChoir.wav",
+      "CachePath": "SFX/Mus_Combat_Loop_01_v1_FemaleChoir_0762CC47.wem"
+     },
+     {
+      "Id": "826066373",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP2\\GameOff_Combat_LOOP2_Choir_Nov25.wav",
+      "CachePath": "SFX/LOOP2/GameOff_Combat_LOOP2_Choir_Nov25_0762CC47.wem"
      },
      {
       "Id": "839409548",
@@ -829,7 +1745,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Jump\\Player_Jump_Start_02.wav",
-      "CachePath": "SFX/Movement/Jump/Player_Jump_Start_02_10C4C929.wem"
+      "CachePath": "SFX/Movement/Jump/Player_Jump_Start_02_D8C07C79.wem"
+     },
+     {
+      "Id": "840442637",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "OUTRO\\GameOff_Combat_OUTRO_Perc_Nov25.wav",
+      "CachePath": "SFX/OUTRO/GameOff_Combat_OUTRO_Perc_Nov25_0762CC47.wem"
      },
      {
       "Id": "847011496",
@@ -837,7 +1761,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Clinks\\Player_Clink_07.wav",
-      "CachePath": "SFX/Movement/Clinks/Player_Clink_07_10C4C929.wem"
+      "CachePath": "SFX/Movement/Clinks/Player_Clink_07_D8C07C79.wem"
      },
      {
       "Id": "850853619",
@@ -845,7 +1769,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon Collide\\Collide Tail\\Wood\\SFX_Player_Weapon_Collide_Tail_Wood_V2_03.wav",
-      "CachePath": "SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_03_10C4C929.wem"
+      "CachePath": "SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_03_D8C07C79.wem"
+     },
+     {
+      "Id": "855358173",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Wings\\DRAGON_WINGS_07.wav",
+      "CachePath": "SFX/Dracolich/Wings/DRAGON_WINGS_07_D8C07C79.wem"
+     },
+     {
+      "Id": "857191520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "OUTRO\\GameOff_Combat_OUTRO_Strings_Nov25.wav",
+      "CachePath": "SFX/OUTRO/GameOff_Combat_OUTRO_Strings_Nov25_0762CC47.wem"
      },
      {
       "Id": "868558447",
@@ -853,7 +1793,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_02.wav",
-      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_02_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_02_D8C07C79.wem"
      },
      {
       "Id": "869843051",
@@ -861,7 +1801,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon Collide\\Collide Tail\\Concrete\\SFX_Player_Weapon_Collide_Tail_Concrete_02.wav",
-      "CachePath": "SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_02_10C4C929.wem"
+      "CachePath": "SFX/Weapon Collide/Collide Tail/Concrete/SFX_Player_Weapon_Collide_Tail_Concrete_02_D8C07C79.wem"
      },
      {
       "Id": "874739032",
@@ -869,7 +1809,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Roll\\Player_Roll_Start_02_V2.wav",
-      "CachePath": "SFX/Movement/Roll/Player_Roll_Start_02_V2_10C4C929.wem"
+      "CachePath": "SFX/Movement/Roll/Player_Roll_Start_02_V2_D8C07C79.wem"
      },
      {
       "Id": "876104179",
@@ -877,7 +1817,31 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_04.wav",
-      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_04_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_04_D8C07C79.wem"
+     },
+     {
+      "Id": "876548619",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Roar\\DRAGON_ROAR_04.wav",
+      "CachePath": "SFX/Dracolich/Roar/DRAGON_ROAR_04_D8C07C79.wem"
+     },
+     {
+      "Id": "877449274",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\SFX_DRAGON_FOOTSTEP_01.wav",
+      "CachePath": "SFX/Footsteps/SFX_DRAGON_FOOTSTEP_01_D8C07C79.wem"
+     },
+     {
+      "Id": "878982338",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP1\\GameOff_Expl_LOOP1_SulTasto_Nov25.wav",
+      "CachePath": "SFX/LOOP1/GameOff_Expl_LOOP1_SulTasto_Nov25_0762CC47.wem"
      },
      {
       "Id": "879545171",
@@ -885,7 +1849,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Sand\\Foley_Player_FSSand_03.wav",
-      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_03_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_03_D8C07C79.wem"
+     },
+     {
+      "Id": "881806549",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Wings\\DRAGON_WINGS_08.wav",
+      "CachePath": "SFX/Dracolich/Wings/DRAGON_WINGS_08_D8C07C79.wem"
      },
      {
       "Id": "885022101",
@@ -893,7 +1865,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Attack\\Heavy\\Player_Attack_Heavy_Clinks_02.wav",
-      "CachePath": "SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_02_10C4C929.wem"
+      "CachePath": "SFX/Movement/Attack/Heavy/Player_Attack_Heavy_Clinks_02_D8C07C79.wem"
+     },
+     {
+      "Id": "894803030",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Tag_01_v1_SineWave.wav",
+      "CachePath": "SFX/Mus_Combat_Tag_01_v1_SineWave_0762CC47.wem"
      },
      {
       "Id": "905074597",
@@ -901,7 +1881,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Block\\SFX_Player_Block_02.wav",
-      "CachePath": "SFX/Block/SFX_Player_Block_02_10C4C929.wem"
+      "CachePath": "SFX/Block/SFX_Player_Block_02_D8C07C79.wem"
+     },
+     {
+      "Id": "910021888",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\SFX_DRAGON_FOOTSTEP_04.wav",
+      "CachePath": "SFX/Footsteps/SFX_DRAGON_FOOTSTEP_04_D8C07C79.wem"
      },
      {
       "Id": "911930623",
@@ -909,7 +1897,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon Collide\\Collide Tail\\Wood\\SFX_Player_Weapon_Collide_Tail_Wood_V2_02.wav",
-      "CachePath": "SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_02_10C4C929.wem"
+      "CachePath": "SFX/Weapon Collide/Collide Tail/Wood/SFX_Player_Weapon_Collide_Tail_Wood_V2_02_D8C07C79.wem"
+     },
+     {
+      "Id": "913922792",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "transition_01\\Mus_Expl_Transition_01_v1_Cymbals.wav",
+      "CachePath": "SFX/transition_01/Mus_Expl_Transition_01_v1_Cymbals_0762CC47.wem"
+     },
+     {
+      "Id": "916932768",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "INTRO\\GameOff_Expl_INTRO_SulTasto_Nov22.wav",
+      "CachePath": "SFX/INTRO/GameOff_Expl_INTRO_SulTasto_Nov22_0762CC47.wem"
      },
      {
       "Id": "917394165",
@@ -917,7 +1921,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Sand\\Foley_Player_FSSand_05.wav",
-      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_05_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_05_D8C07C79.wem"
+     },
+     {
+      "Id": "922137907",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP1\\GameOff_Expl_LOOP1_Choir_Nov25.wav",
+      "CachePath": "SFX/LOOP1/GameOff_Expl_LOOP1_Choir_Nov25_0762CC47.wem"
      },
      {
       "Id": "928410976",
@@ -925,7 +1937,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_03.wav",
-      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_03_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_03_D8C07C79.wem"
+     },
+     {
+      "Id": "931595274",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "tag_01\\Mus_Expl_Tag_01_v1_Violin2.wav",
+      "CachePath": "SFX/tag_01/Mus_Expl_Tag_01_v1_Violin2_0762CC47.wem"
      },
      {
       "Id": "934624959",
@@ -933,7 +1953,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Wood\\Foley_Player_FSWood_03.wav",
-      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_03_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Wood/Foley_Player_FSWood_03_D8C07C79.wem"
+     },
+     {
+      "Id": "937089009",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "windGusts-003.wav",
+      "CachePath": "SFX/windGusts-003_D8C07C79.wem"
      },
      {
       "Id": "948149131",
@@ -941,7 +1969,39 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_01.wav",
-      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_01_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_01_D8C07C79.wem"
+     },
+     {
+      "Id": "950057010",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Tag_01_v1_Flute.wav",
+      "CachePath": "SFX/Mus_Combat_Tag_01_v1_Flute_0762CC47.wem"
+     },
+     {
+      "Id": "952596750",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Comabt_Tag_01_v1_MaleChoir.wav",
+      "CachePath": "SFX/Mus_Comabt_Tag_01_v1_MaleChoir_0762CC47.wem"
+     },
+     {
+      "Id": "953918764",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Transtion_01_v1_Flute.wav",
+      "CachePath": "SFX/Mus_Combat_Transtion_01_v1_Flute_0762CC47.wem"
+     },
+     {
+      "Id": "956128316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "thunders-004.wav",
+      "CachePath": "SFX/thunders-004_7AA5106E.wem"
      },
      {
       "Id": "956535886",
@@ -949,7 +2009,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Mud\\Foley_Player_FSMud_06.wav",
-      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_06_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Mud/Foley_Player_FSMud_06_D8C07C79.wem"
+     },
+     {
+      "Id": "959056934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP2\\GameOff_Expl_LOOP2_SulTasto_Nov25.wav",
+      "CachePath": "SFX/LOOP2/GameOff_Expl_LOOP2_SulTasto_Nov25_0762CC47.wem"
      },
      {
       "Id": "960984511",
@@ -957,7 +2025,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Gravel\\Foley_Player_FSGravel_05.wav",
-      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_05_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Gravel/Foley_Player_FSGravel_05_D8C07C79.wem"
      },
      {
       "Id": "961595985",
@@ -965,7 +2033,39 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_06.wav",
-      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_06_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_06_D8C07C79.wem"
+     },
+     {
+      "Id": "961812807",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "transition_01\\Mus_Expl_Transition_01_v1_Violin2.wav",
+      "CachePath": "SFX/transition_01/Mus_Expl_Transition_01_v1_Violin2_0762CC47.wem"
+     },
+     {
+      "Id": "966510030",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "creaks-004.wav",
+      "CachePath": "SFX/creaks-004_D8C07C79.wem"
+     },
+     {
+      "Id": "969748283",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Loop_01_v1_Flute.wav",
+      "CachePath": "SFX/Mus_Combat_Loop_01_v1_Flute_0762CC47.wem"
+     },
+     {
+      "Id": "987225580",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Foley_Enemy_HauntedArmor_Footstep\\Foley_Enemy_HauntedArmor_Footstep_04.wav",
+      "CachePath": "SFX/Foley_Enemy_HauntedArmor_Footstep/Foley_Enemy_HauntedArmor_Footstep_04_D8C07C79.wem"
      },
      {
       "Id": "988408211",
@@ -973,7 +2073,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "UI\\SFX_UI_Start.wav",
-      "CachePath": "SFX/UI/SFX_UI_Start_865A12A6.wem"
+      "CachePath": "SFX/UI/SFX_UI_Start_E163A296.wem"
+     },
+     {
+      "Id": "1000039023",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Haunted Armor\\SFX_Enemy_HauntedArmor_Attack_Long\\SFX_Enemy_HauntedArmor_Attack_Long_03.wav",
+      "CachePath": "SFX/Haunted Armor/SFX_Enemy_HauntedArmor_Attack_Long/SFX_Enemy_HauntedArmor_Attack_Long_03_D8C07C79.wem"
+     },
+     {
+      "Id": "1009288934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Loop_01_v1_Violin1.wav",
+      "CachePath": "SFX/Mus_Combat_Loop_01_v1_Violin1_0762CC47.wem"
      },
      {
       "Id": "1016855423",
@@ -981,7 +2097,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Parry\\SFX_Player_Parry_01.wav",
-      "CachePath": "SFX/Parry/SFX_Player_Parry_01_10C4C929.wem"
+      "CachePath": "SFX/Parry/SFX_Player_Parry_01_D8C07C79.wem"
+     },
+     {
+      "Id": "1017512601",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Bellow\\DRAGON_BELLOW_01.wav",
+      "CachePath": "SFX/Dracolich/Bellow/DRAGON_BELLOW_01_D8C07C79.wem"
      },
      {
       "Id": "1017635794",
@@ -989,7 +2113,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Block\\SFX_Player_Block_01.wav",
-      "CachePath": "SFX/Block/SFX_Player_Block_01_10C4C929.wem"
+      "CachePath": "SFX/Block/SFX_Player_Block_01_D8C07C79.wem"
+     },
+     {
+      "Id": "1024276209",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mus_Combat_Loop_01_v1_SineWave.wav",
+      "CachePath": "SFX/Mus_Combat_Loop_01_v1_SineWave_0762CC47.wem"
      },
      {
       "Id": "1027756161",
@@ -997,7 +2129,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Sand\\Foley_Player_FSSand_02.wav",
-      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_02_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Sand/Foley_Player_FSSand_02_D8C07C79.wem"
      },
      {
       "Id": "1032074407",
@@ -1005,7 +2137,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_07.wav",
-      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_07_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_07_D8C07C79.wem"
      },
      {
       "Id": "1032397369",
@@ -1013,7 +2145,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Concrete\\Foley_Player_FSConcrete_04.wav",
-      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_04_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Concrete/Foley_Player_FSConcrete_04_D8C07C79.wem"
      },
      {
       "Id": "1034915998",
@@ -1021,7 +2153,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Jump\\Player_Jump_Start_01.wav",
-      "CachePath": "SFX/Movement/Jump/Player_Jump_Start_01_10C4C929.wem"
+      "CachePath": "SFX/Movement/Jump/Player_Jump_Start_01_D8C07C79.wem"
      },
      {
       "Id": "1045296774",
@@ -1029,7 +2161,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Movement\\Clinks\\Player_Clink_06.wav",
-      "CachePath": "SFX/Movement/Clinks/Player_Clink_06_10C4C929.wem"
+      "CachePath": "SFX/Movement/Clinks/Player_Clink_06_D8C07C79.wem"
      },
      {
       "Id": "1052527691",
@@ -1037,7 +2169,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Grass\\Foley_Player_FSGrass_05.wav",
-      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_05_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Grass/Foley_Player_FSGrass_05_D8C07C79.wem"
+     },
+     {
+      "Id": "1058024805",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dracolich\\Wings\\DRAGON_WINGS_02.wav",
+      "CachePath": "SFX/Dracolich/Wings/DRAGON_WINGS_02_D8C07C79.wem"
+     },
+     {
+      "Id": "1058942504",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "transition_01\\Mus_Expl_Transition_01_v1_Viola.wav",
+      "CachePath": "SFX/transition_01/Mus_Expl_Transition_01_v1_Viola_0762CC47.wem"
      },
      {
       "Id": "1063378268",
@@ -1045,7 +2193,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep\\Tile\\Foley_Player_FSTile_05.wav",
-      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_05_10C4C929.wem"
+      "CachePath": "SFX/Footstep/Tile/Foley_Player_FSTile_05_D8C07C79.wem"
      },
      {
       "Id": "1071825627",
@@ -1053,14 +2201,118 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Attack\\Quick\\Player_Attack_Quick_03.wav",
-      "CachePath": "SFX/Attack/Quick/Player_Attack_Quick_03_10C4C929.wem"
+      "CachePath": "SFX/Attack/Quick/Player_Attack_Quick_03_D8C07C79.wem"
+     },
+     {
+      "Id": "1073153476",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "lowWind.wav",
+      "CachePath": "SFX/lowWind_E53849C7.wem"
      }
     ],
     "Events": [
      {
+      "Id": "206299382",
+      "Name": "bridgeAmbient",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\bridgeAmbient",
+      "GUID": "{4BF34D11-04D8-4772-B792-57D91B93C085}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "3731836"
+       },
+       {
+        "Id": "53808189"
+       },
+       {
+        "Id": "85468853"
+       },
+       {
+        "Id": "222420576"
+       },
+       {
+        "Id": "261952539"
+       },
+       {
+        "Id": "270391479"
+       },
+       {
+        "Id": "343670367"
+       },
+       {
+        "Id": "350808807"
+       },
+       {
+        "Id": "366185646"
+       },
+       {
+        "Id": "419399914"
+       },
+       {
+        "Id": "441206784"
+       },
+       {
+        "Id": "448664350"
+       },
+       {
+        "Id": "476739655"
+       },
+       {
+        "Id": "492113711"
+       },
+       {
+        "Id": "561174997"
+       },
+       {
+        "Id": "568924458"
+       },
+       {
+        "Id": "658922866"
+       },
+       {
+        "Id": "665288197"
+       },
+       {
+        "Id": "672350718"
+       },
+       {
+        "Id": "728625596"
+       },
+       {
+        "Id": "776941347"
+       },
+       {
+        "Id": "790589316"
+       },
+       {
+        "Id": "937089009"
+       },
+       {
+        "Id": "956128316"
+       },
+       {
+        "Id": "966510030"
+       },
+       {
+        "Id": "1073153476"
+       }
+      ]
+     },
+     {
+      "Id": "1131214665",
+      "Name": "hallsAmbient",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\hallsAmbient",
+      "GUID": "{4272CEEE-74F9-4D9B-8037-DBAFB9F7A6B8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "1292086503",
       "Name": "Play_Back",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Back",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Back",
       "GUID": "{AB5B9927-1311-4C9B-84C2-336B208F836E}",
       "DurationType": "OneShot",
       "DurationMin": "0.5",
@@ -1072,9 +2324,33 @@
       ]
      },
      {
+      "Id": "2961648011",
+      "Name": "Play_Bellow",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_Bellow",
+      "GUID": "{0D6F2A96-6CD6-4266-BD86-0CD134328443}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "4.25",
+      "DurationMax": "5.814",
+      "MediaRefs": [
+       {
+        "Id": "26672347"
+       },
+       {
+        "Id": "504996585"
+       },
+       {
+        "Id": "511325285"
+       },
+       {
+        "Id": "1017512601"
+       }
+      ]
+     },
+     {
       "Id": "2755574209",
       "Name": "Play_Block",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Block",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Weapons\\Play_Block",
       "GUID": "{AB6DF19B-224F-42EA-9DB4-554A1ABEDCAB}",
       "DurationType": "OneShot",
       "DurationMin": "1",
@@ -1089,26 +2365,124 @@
        {
         "Id": "1017635794"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
+       }
       ]
      },
      {
       "Id": "4136017490",
       "Name": "Play_Confirm",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Confirm",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Confirm",
       "GUID": "{53923D77-FDD4-40A8-927C-8A0B6E553595}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5",
-      "DurationMax": "0.5",
+      "DurationMin": "90.74225",
+      "DurationMax": "90.74225",
       "MediaRefs": [
        {
-        "Id": "179324131"
+        "Id": "414983698"
+       }
+      ]
+     },
+     {
+      "Id": "3290400036",
+      "Name": "Play_DragonFootsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_DragonFootsteps",
+      "GUID": "{87017CD6-B10E-44B1-A6E2-74418492CC16}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.375",
+      "DurationMax": "1.375",
+      "MediaRefs": [
+       {
+        "Id": "655704208"
+       },
+       {
+        "Id": "663174174"
+       },
+       {
+        "Id": "806420487"
+       },
+       {
+        "Id": "877449274"
+       },
+       {
+        "Id": "910021888"
+       }
+      ]
+     },
+     {
+      "Id": "168006606",
+      "Name": "Play_FIREBALL_BURST",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_FIREBALL_BURST",
+      "GUID": "{4D539548-D595-4FF6-A301-4E9B046054DA}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "8.166667",
+      "DurationMax": "8.166667",
+      "MediaRefs": [
+       {
+        "Id": "317003863"
+       }
+      ]
+     },
+     {
+      "Id": "239554289",
+      "Name": "Play_FIREBALL_INHALE",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_FIREBALL_INHALE",
+      "GUID": "{F2E75818-3751-47CB-9006-3D8CA63DA523}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.4",
+      "DurationMax": "2.4",
+      "MediaRefs": [
+       {
+        "Id": "109788312"
+       }
+      ]
+     },
+     {
+      "Id": "1906468590",
+      "Name": "Play_Foley_Enemy_HauntedArmor_Footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\HauntedArmor\\Play_Foley_Enemy_HauntedArmor_Footstep",
+      "GUID": "{2FF5BA52-3775-44AE-AA87-34A634EB1420}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4546666",
+      "DurationMax": "2.816",
+      "MediaRefs": [
+       {
+        "Id": "254628039"
+       },
+       {
+        "Id": "450318267"
+       },
+       {
+        "Id": "470848620"
+       },
+       {
+        "Id": "623170721"
+       },
+       {
+        "Id": "646029682"
+       },
+       {
+        "Id": "708464601"
+       },
+       {
+        "Id": "987225580"
        }
       ]
      },
      {
       "Id": "3854155799",
       "Name": "Play_Footsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_Footsteps",
       "GUID": "{40F045F2-6A4F-4FA4-9E0F-C089CC444D88}",
       "DurationType": "OneShot",
       "DurationMin": "0.45833334",
@@ -1137,6 +2511,14 @@
        },
        {
         "Id": "1045296774"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
        }
       ],
       "SwitchContainers": [
@@ -1416,9 +2798,335 @@
       ]
      },
      {
+      "Id": "1614877050",
+      "Name": "Play_GameplayMusicSwitchDaniel",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GameplayMusicSwitchDaniel",
+      "GUID": "{A72C5B05-9F07-4F93-8F09-B0DB675C6E2C}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "762757699",
+         "Id": "2582085496",
+         "GUID": "{5DD37529-C7B7-4601-9AF3-B85A1071893C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "115226020"
+         },
+         {
+          "Id": "157194131"
+         },
+         {
+          "Id": "206827220"
+         },
+         {
+          "Id": "219689141"
+         },
+         {
+          "Id": "229706042"
+         },
+         {
+          "Id": "431120769"
+         },
+         {
+          "Id": "494368849"
+         },
+         {
+          "Id": "552634829"
+         },
+         {
+          "Id": "605074972"
+         },
+         {
+          "Id": "779001691"
+         },
+         {
+          "Id": "913922792"
+         },
+         {
+          "Id": "931595274"
+         },
+         {
+          "Id": "961812807"
+         },
+         {
+          "Id": "1058942504"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "762757699",
+         "Id": "2764240573",
+         "GUID": "{D7DBAB25-D3B6-4BC9-BC8B-583DD72A4237}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "17466961"
+         },
+         {
+          "Id": "42789566"
+         },
+         {
+          "Id": "117295907"
+         },
+         {
+          "Id": "201281582"
+         },
+         {
+          "Id": "207081866"
+         },
+         {
+          "Id": "298109568"
+         },
+         {
+          "Id": "426656757"
+         },
+         {
+          "Id": "468379635"
+         },
+         {
+          "Id": "542968810"
+         },
+         {
+          "Id": "677317130"
+         },
+         {
+          "Id": "779320801"
+         },
+         {
+          "Id": "823419228"
+         },
+         {
+          "Id": "894803030"
+         },
+         {
+          "Id": "950057010"
+         },
+         {
+          "Id": "952596750"
+         },
+         {
+          "Id": "953918764"
+         },
+         {
+          "Id": "969748283"
+         },
+         {
+          "Id": "1009288934"
+         },
+         {
+          "Id": "1024276209"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "4281370459",
+      "Name": "Play_GameplayMusicSwitchDing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GameplayMusicSwitchDing",
+      "GUID": "{00ED8287-CD9E-458A-94FA-27FDF5D1C3A6}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "117085588"
+       },
+       {
+        "Id": "533911511"
+       },
+       {
+        "Id": "636597075"
+       },
+       {
+        "Id": "694859273"
+       },
+       {
+        "Id": "763548125"
+       },
+       {
+        "Id": "840442637"
+       },
+       {
+        "Id": "857191520"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "762757699",
+         "Id": "0",
+         "GUID": "{4FD28419-13F8-48BF-8F7B-94FC7E84D867}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "73024082"
+         },
+         {
+          "Id": "247177741"
+         },
+         {
+          "Id": "436038413"
+         },
+         {
+          "Id": "565711601"
+         },
+         {
+          "Id": "737581056"
+         },
+         {
+          "Id": "878982338"
+         },
+         {
+          "Id": "916932768"
+         },
+         {
+          "Id": "922137907"
+         },
+         {
+          "Id": "959056934"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "762757699",
+         "Id": "2764240573",
+         "GUID": "{D7DBAB25-D3B6-4BC9-BC8B-583DD72A4237}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "80111373"
+         },
+         {
+          "Id": "117085588"
+         },
+         {
+          "Id": "133317810"
+         },
+         {
+          "Id": "283818894"
+         },
+         {
+          "Id": "357344822"
+         },
+         {
+          "Id": "533911511"
+         },
+         {
+          "Id": "590483239"
+         },
+         {
+          "Id": "636597075"
+         },
+         {
+          "Id": "694859273"
+         },
+         {
+          "Id": "703999474"
+         },
+         {
+          "Id": "763548125"
+         },
+         {
+          "Id": "803823954"
+         },
+         {
+          "Id": "826066373"
+         },
+         {
+          "Id": "840442637"
+         },
+         {
+          "Id": "857191520"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "762757699",
+         "Id": "2582085496",
+         "GUID": "{5DD37529-C7B7-4601-9AF3-B85A1071893C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "73024082"
+         },
+         {
+          "Id": "247177741"
+         },
+         {
+          "Id": "436038413"
+         },
+         {
+          "Id": "565711601"
+         },
+         {
+          "Id": "737581056"
+         },
+         {
+          "Id": "878982338"
+         },
+         {
+          "Id": "916932768"
+         },
+         {
+          "Id": "922137907"
+         },
+         {
+          "Id": "959056934"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "762757699",
+         "Id": "748895195",
+         "GUID": "{CE7CE926-4897-4DEE-ACFE-D2BA3D849E60}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "73024082"
+         },
+         {
+          "Id": "247177741"
+         },
+         {
+          "Id": "436038413"
+         },
+         {
+          "Id": "565711601"
+         },
+         {
+          "Id": "737581056"
+         },
+         {
+          "Id": "878982338"
+         },
+         {
+          "Id": "916932768"
+         },
+         {
+          "Id": "922137907"
+         },
+         {
+          "Id": "959056934"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "1962302600",
       "Name": "Play_Hover",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Hover",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Hover",
       "GUID": "{55527275-422D-4B95-9BA7-40C1016F6260}",
       "DurationType": "OneShot",
       "DurationMin": "0.5",
@@ -1432,7 +3140,7 @@
      {
       "Id": "3689126666",
       "Name": "Play_Jump",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_Jump",
       "GUID": "{DBB395B7-AC49-47AC-AAA9-A0686BF8CB44}",
       "DurationType": "OneShot",
       "DurationMin": "0.6666667",
@@ -1471,12 +3179,42 @@
        {
         "Id": "1045296774"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
+       }
+      ]
+     },
+     {
+      "Id": "158879903",
+      "Name": "Play_OBJECT_PICK_UP",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_OBJECT_PICK_UP",
+      "GUID": "{0A366641-C028-498C-AF20-6D0E0056964E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.45833334",
+      "DurationMax": "0.45833334",
+      "MediaRefs": [
+       {
+        "Id": "740567834"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
+       }
       ]
      },
      {
       "Id": "4115969904",
       "Name": "Play_Parry",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Parry",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Weapons\\Play_Parry",
       "GUID": "{BBF31B62-35C8-4FA1-97A9-CE8BD2215273}",
       "DurationType": "OneShot",
       "DurationMin": "3.5946667",
@@ -1491,12 +3229,20 @@
        {
         "Id": "1016855423"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
+       }
       ]
      },
      {
       "Id": "3860455926",
       "Name": "Play_PickUp",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_PickUp",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_PickUp",
       "GUID": "{C9A6BD8C-8C59-4FDF-83A6-64EA9872E282}",
       "DurationType": "OneShot",
       "DurationMin": "1.5",
@@ -1508,9 +3254,33 @@
       ]
      },
      {
+      "Id": "2770252186",
+      "Name": "Play_Roar",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_Roar",
+      "GUID": "{A583A819-0769-40E1-9A97-6AEBFC9E9DFE}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.75",
+      "DurationMax": "5.5",
+      "MediaRefs": [
+       {
+        "Id": "69486095"
+       },
+       {
+        "Id": "100039941"
+       },
+       {
+        "Id": "104418782"
+       },
+       {
+        "Id": "876548619"
+       }
+      ]
+     },
+     {
       "Id": "3305509726",
       "Name": "Play_Roll_Contact",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Roll_Contact",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_Roll_Contact",
       "GUID": "{20B31C1B-99F6-4AD5-852B-85A1E0E566DC}",
       "DurationType": "OneShot",
       "DurationMin": "0.65",
@@ -1525,12 +3295,20 @@
        {
         "Id": "572753260"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
+       }
       ]
      },
      {
       "Id": "3341034318",
       "Name": "Play_Roll_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Roll_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_Roll_Start",
       "GUID": "{B27B2C86-6714-42A2-80B9-C8FE6DF4FE6A}",
       "DurationType": "OneShot",
       "DurationMin": "0.41666666",
@@ -1545,12 +3323,105 @@
        {
         "Id": "874739032"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
+       }
+      ]
+     },
+     {
+      "Id": "3070694017",
+      "Name": "Play_SFX_Enemy_HauntedArmor_Attack_Long",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\HauntedArmor\\Play_SFX_Enemy_HauntedArmor_Attack_Long",
+      "GUID": "{76A1FFD5-940F-4338-8DD8-8231E03E017D}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.8906667",
+      "DurationMax": "4.9066668",
+      "MediaRefs": [
+       {
+        "Id": "155739368"
+       },
+       {
+        "Id": "169270103"
+       },
+       {
+        "Id": "192366918"
+       },
+       {
+        "Id": "448548022"
+       },
+       {
+        "Id": "693745533"
+       },
+       {
+        "Id": "1000039023"
+       }
+      ]
+     },
+     {
+      "Id": "2222792503",
+      "Name": "Play_SFX_Enemy_HauntedArmor_Attack_Short",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\HauntedArmor\\Play_SFX_Enemy_HauntedArmor_Attack_Short",
+      "GUID": "{6F33DEDB-24F6-4E23-A6FA-A239B4D6F698}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.932",
+      "DurationMax": "3.1093333",
+      "MediaRefs": [
+       {
+        "Id": "8771043"
+       },
+       {
+        "Id": "369947226"
+       },
+       {
+        "Id": "450306476"
+       },
+       {
+        "Id": "511934443"
+       },
+       {
+        "Id": "547650354"
+       }
+      ]
+     },
+     {
+      "Id": "2272141938",
+      "Name": "Play_SFX_GATE_LEVER",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_SFX_GATE_LEVER",
+      "GUID": "{552D2618-B895-4904-8A9A-80CD56672B91}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0833333",
+      "DurationMax": "2.0833333",
+      "MediaRefs": [
+       {
+        "Id": "149434753"
+       }
+      ]
+     },
+     {
+      "Id": "2960667969",
+      "Name": "Play_SFX_GATE_RISE",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_SFX_GATE_RISE",
+      "GUID": "{65F18D89-BAEA-46A1-9331-30F6F608B0E7}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.746646",
+      "DurationMax": "3.746646",
+      "MediaRefs": [
+       {
+        "Id": "354977972"
+       }
       ]
      },
      {
       "Id": "2306120635",
       "Name": "Play_Slider_End",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Slider_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Slider_End",
       "GUID": "{E00E2000-431F-4196-A986-5EF2A261803D}",
       "DurationType": "OneShot",
       "DurationMin": "0.5",
@@ -1564,7 +3435,7 @@
      {
       "Id": "150327520",
       "Name": "Play_Slider_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Slider_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Slider_Start",
       "GUID": "{14E6AF10-B41F-486A-B6A9-66C086B2877E}",
       "DurationType": "OneShot",
       "DurationMin": "0.5",
@@ -1578,7 +3449,7 @@
      {
       "Id": "2230670290",
       "Name": "Play_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Start",
       "GUID": "{6629B4E0-2EDA-41DD-AAF7-AC9CF081A5DE}",
       "DurationType": "OneShot",
       "DurationMin": "3.3601863",
@@ -1590,9 +3461,30 @@
       ]
      },
      {
+      "Id": "2753042117",
+      "Name": "Play_Stomp",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_Stomp",
+      "GUID": "{6302B084-499C-4B6F-8BE5-8F01879D3BC1}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.6666667",
+      "DurationMax": "3.1666667",
+      "MediaRefs": [
+       {
+        "Id": "195108500"
+       },
+       {
+        "Id": "256293707"
+       },
+       {
+        "Id": "258975257"
+       }
+      ]
+     },
+     {
       "Id": "2802509975",
       "Name": "Play_SwordCollision",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_SwordCollision",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Weapons\\Play_SwordCollision",
       "GUID": "{60E47DA0-6A74-437D-8AE3-6CA25247B280}",
       "DurationType": "OneShot",
       "DurationMin": "0.8666667",
@@ -1609,6 +3501,14 @@
        },
        {
         "Id": "685573023"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
        }
       ],
       "SwitchContainers": [
@@ -1658,7 +3558,7 @@
      {
       "Id": "160282985",
       "Name": "Play_SwordHeavy_Attack",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_SwordHeavy_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Weapons\\Play_SwordHeavy_Attack",
       "GUID": "{C1306E9D-C354-498E-AF8F-8F0B3E3D11B4}",
       "DurationType": "OneShot",
       "DurationMin": "1.1666666",
@@ -1682,12 +3582,20 @@
        {
         "Id": "885022101"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
+       }
       ]
      },
      {
       "Id": "4172974113",
       "Name": "Play_SwordQuick_Attack",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_SwordQuick_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Weapons\\Play_SwordQuick_Attack",
       "GUID": "{D21572B4-C612-4FC6-8F91-2C4E476E664C}",
       "DurationType": "OneShot",
       "DurationMin": "0.45",
@@ -1710,6 +3618,137 @@
        },
        {
         "Id": "1071825627"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "855099005",
+        "Name": "SmallReverb_Bus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+        "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}"
+       }
+      ]
+     },
+     {
+      "Id": "2171745078",
+      "Name": "Play_Wings",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Dragon\\Play_Wings",
+      "GUID": "{F53F1E07-1CAD-474F-B86D-BDE0E0E89B7F}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.6666667",
+      "DurationMax": "3.1554167",
+      "MediaRefs": [
+       {
+        "Id": "158713601"
+       },
+       {
+        "Id": "303067073"
+       },
+       {
+        "Id": "404792084"
+       },
+       {
+        "Id": "499825948"
+       },
+       {
+        "Id": "536238855"
+       },
+       {
+        "Id": "855358173"
+       },
+       {
+        "Id": "881806549"
+       },
+       {
+        "Id": "1058024805"
+       }
+      ]
+     },
+     {
+      "Id": "247560216",
+      "Name": "Stop_GameplayMusicSwitchDaniel",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_GameplayMusicSwitchDaniel",
+      "GUID": "{14ED0A70-19D6-46DB-954B-47368044A70A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1954061765",
+      "Name": "Stop_GameplayMusicSwitchDing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_GameplayMusicSwitchDing",
+      "GUID": "{EB622F09-6F2A-475D-A3B4-7F1E4F638F56}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1903256924",
+      "Name": "towerAmbient",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\towerAmbient",
+      "GUID": "{03D147F4-241F-45AA-867E-96801EB882C4}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "3731836"
+       },
+       {
+        "Id": "53808189"
+       },
+       {
+        "Id": "85468853"
+       },
+       {
+        "Id": "343670367"
+       },
+       {
+        "Id": "350808807"
+       },
+       {
+        "Id": "366185646"
+       },
+       {
+        "Id": "419399914"
+       },
+       {
+        "Id": "441206784"
+       },
+       {
+        "Id": "728625596"
+       },
+       {
+        "Id": "937089009"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "762757699",
+      "Name": "GAMEPLAY_STATE",
+      "ObjectPath": "\\States\\Default Work Unit\\GAMEPLAY_STATE",
+      "GUID": "{4FD28419-13F8-48BF-8F7B-94FC7E84D867}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\GAMEPLAY_STATE\\None",
+        "GUID": "{CE7CE926-4897-4DEE-ACFE-D2BA3D849E60}"
+       },
+       {
+        "Id": "2582085496",
+        "Name": "Exploration",
+        "ObjectPath": "\\States\\Default Work Unit\\GAMEPLAY_STATE\\Exploration",
+        "GUID": "{5DD37529-C7B7-4601-9AF3-B85A1071893C}"
+       },
+       {
+        "Id": "2764240573",
+        "Name": "Combat",
+        "ObjectPath": "\\States\\Default Work Unit\\GAMEPLAY_STATE\\Combat",
+        "GUID": "{D7DBAB25-D3B6-4BC9-BC8B-583DD72A4237}"
        }
       ]
      }
@@ -1774,6 +3813,6 @@
     ]
    }
   ],
-  "FileHash": "{F43B176D-1B7F-FA0F-89C6-F44BA1D18F2C}"
+  "FileHash": "{98928B15-1170-64F8-9F30-55FD5244E8A4}"
  }
 }

@@ -26,6 +26,7 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
 					</ValueList>
 				</Property>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjE2MTc2IiBtYXNrPSJHUlNNNDE3MSIgZW5jPSIwIj48bGljZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTMsMTQsMzQiIGV4cGlyZXM9IjIwMjQtMDMtMDEiICAvPjxsaWNlbnNlIGlkPSIyMiIgbmFtZT0iTGV2ZWwgQSBMaWNlbnNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0LDM0IiBleHBpcmVzPSIyMDI0LTAzLTAxIiAgLz48bGljZW5zZSBpZD0iMjEiIG5hbWU9Ik1haW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0LDM0IiBleHBpcmVzPSIyMDI0LTAzLTAxIiAgLz48bGljZW5zZSBpZD0iMjUiIG5hbWU9IkFsbCBXd2lzZSBQbHVnLUlucyIgdHlwZT0iMyIgIGV4cGlyZXM9IjIwMjQtMDMtMDEiICAvPjwvcHJvamVjdD4=|fiX6Vqg7c+455U1ZKyal115aG6t2AMnQ2OJ7bmzIWFbipHGzd8no1oD8IEF4/VwwdRsWLGHEXFZ6mjJJ2SEoVimBCfOGaiwXH/aPMxY069DkePnc2/zejqyFH7z6rza2vPlfs0yOUaj9dFGxrcI+9ys3WBc6MpEviD8puq/YCOn3/5k2Xdib655OZT2DzdKALLbn48Cfulpfj7H4xxKZJRdh09hrMabMMlH1SKV5U6bQaAg5tKTbfoWBtncPJxaJ8pYFUbsjvC7w5+O9ttBo/FtGxgJ/u/1Vpe1GdItxHSrCnJmeTqz/jXY9ChDpfwoIlg+uRXl+SEXL8Hso+mUbSQ=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="SoundBanks\GeneratedSoundbanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
@@ -144,6 +145,11 @@
 						<Property Name="OverrideWavLoop" Type="bool">
 							<ValueList>
 								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:FileIDForAudioSource" Type="string">
+							<ValueList>
+								<Value></Value>
 							</ValueList>
 						</Property>
 						<Property Name="TrimBegin" Type="Real64">
@@ -559,6 +565,76 @@
 						<Property Name="RenderEffect3" Type="bool">
 							<ValueList>
 								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:ActiveChannels" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:FileID" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:FileName" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:HandleStartTime" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:HandleStopTime" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:LibraryID" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:LibraryLocation" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:PlaybackSpeed" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:ProcessList" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:RenderedFilePath" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:SelectionStartTime" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:SelectionStopTime" Type="string">
+							<ValueList>
+								<Value></Value>
 							</ValueList>
 						</Property>
 						<Property Name="SpeakerPanning" Type="int16">
@@ -9161,7 +9237,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="119">
+				<SharedPropertyList ClassName="SoundSeed Air Wind" PluginType="2" CompanyID="0" PluginID="119">
 					<PropertyList>
 						<Property Name="AttenuationRollOff" Type="Real32">
 							<ValueList>
@@ -9320,7 +9396,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="120">
+				<SharedPropertyList ClassName="SoundSeed Air Woosh" PluginType="2" CompanyID="0" PluginID="120">
 					<PropertyList>
 						<Property Name="AttenuationRollOff" Type="Real32">
 							<ValueList>
@@ -9454,7 +9530,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="0" CompanyID="0" PluginID="121">
+				<SharedPropertyList ClassName="Deflector" PluginType="0" CompanyID="0" PluginID="121">
 					<PropertyList>
 						<Property Name="Frequency" Type="Real32">
 							<ValueList>
@@ -9483,7 +9559,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="0" CompanyID="0" PluginID="122">
+				<SharedPropertyList ClassName="Deflector" PluginType="0" CompanyID="0" PluginID="122">
 					<PropertyList>
 						<Property Name="Anchor" Type="bool">
 							<ValueList>
@@ -10521,7 +10597,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="171">
+				<SharedPropertyList ClassName="Wwise Reflect" PluginType="3" CompanyID="0" PluginID="171">
 					<PropertyList>
 						<Property Name="BaseTextureFrequency" Type="Real32">
 							<ValueList>
@@ -10963,7 +11039,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="186">
+				<SharedPropertyList ClassName="Mastering Suite" PluginType="3" CompanyID="0" PluginID="186">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -11924,19 +12000,19 @@
 					<WorkUnit Name="GeneratedSoundbanks" ID="{0A1EF9D1-F948-4A6A-9BAA-74D7BB69FFEB}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\Bus">
-					<WorkUnit Name="Bus" ID="{802EDC73-686E-4A34-8A30-E5DBA64E7BBA}" PersistMode="Standalone"/>
+					<WorkUnit Name="Bus" ID="{3C9353DB-35A2-431B-9BC4-6F1C51635298}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\Bus\English(US)">
-					<WorkUnit Name="English(US)" ID="{AD0F68C7-755D-444F-8E6D-B0947822D020}" PersistMode="Standalone"/>
+					<WorkUnit Name="English(US)" ID="{C5BD38D1-DB39-45EA-8A89-017B8EACF6DD}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\English(US)">
-					<WorkUnit Name="English(US)" ID="{03CF1E06-D266-49D0-B8C0-54EF7DA1C683}" PersistMode="Standalone"/>
+					<WorkUnit Name="English(US)" ID="{2D3C43AB-CB4B-4B16-AD70-498A7B326DA4}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\Event">
-					<WorkUnit Name="Event" ID="{F30B1192-EDC3-4AB7-82F7-C29040E1E982}" PersistMode="Standalone"/>
+					<WorkUnit Name="Event" ID="{95F28A27-F670-4A30-8CDC-B949C83E3F71}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\Event\English(US)">
-					<WorkUnit Name="English(US)" ID="{978F5590-6007-4BB7-A23C-401B20BE19C8}" PersistMode="Standalone"/>
+					<WorkUnit Name="English(US)" ID="{A475FE86-33BC-4675-83C8-C74D1D2BCBE1}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Soundcaster Sessions">
 					<WorkUnit Name="Soundcaster Sessions" ID="{4C96B38B-3DB4-40C7-91C9-665510E38993}" PersistMode="Standalone"/>
