@@ -12,7 +12,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+							<ObjectRef Name="Music_Bus" ID="{31CB18D1-DE21-44A7-8283-2AF0320D549B}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1976,13 +1976,18 @@
 				<MusicSwitchContainer Name="GameplayMusicSwitchDaniel" ID="{9EBC79FD-E259-4331-90EA-3F65E165F494}" ShortID="542110431">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="90"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B8BA1519-01F6-45EB-ABD9-94B768C97132}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
+							<ObjectRef Name="Music_Bus" ID="{31CB18D1-DE21-44A7-8283-2AF0320D549B}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
