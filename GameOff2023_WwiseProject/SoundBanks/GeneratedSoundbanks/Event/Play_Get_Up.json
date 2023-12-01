@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2882671062",
+    "Type": "Event",
+    "GUID": "{3FBAB2CD-42E5-498D-87DA-040A56C913FB}",
+    "Language": "SFX",
+    "Hash": "{D1697439-BC56-F38D-FAFE-2190A8A0E7F4}",
+    "ObjectPath": "Play_Get_Up",
+    "ShortName": "Play_Get_Up",
+    "Path": "Event/Play_Get_Up.bnk",
+    "Media": [
+     {
+      "Id": "96033576",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Get Up\\PLAYER_GETUP_01.wav",
+      "Path": "Media/96033576.wem",
+      "CachePath": "SFX/Get Up/PLAYER_GETUP_01_D8C07C79.wem"
+     },
+     {
+      "Id": "381382650",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Get Up\\PLAYER_GETUP_02.wav",
+      "Path": "Media/381382650.wem",
+      "CachePath": "SFX/Get Up/PLAYER_GETUP_02_D8C07C79.wem"
+     },
+     {
+      "Id": "420736651",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Get Up\\PLAYER_GETUP_03.wav",
+      "Path": "Media/420736651.wem",
+      "CachePath": "SFX/Get Up/PLAYER_GETUP_03_D8C07C79.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2882671062",
+      "Name": "Play_Get_Up",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_Get_Up",
+      "GUID": "{3FBAB2CD-42E5-498D-87DA-040A56C913FB}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.25",
+      "DurationMax": "1.3333334",
+      "MediaRefs": [
+       {
+        "Id": "96033576"
+       },
+       {
+        "Id": "381382650"
+       },
+       {
+        "Id": "420736651"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BFC0CD6E-E9C1-AC37-CE9C-0C520FBB4A2B}"
+ }
+}
