@@ -175,6 +175,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Get_Up" ID="{3FBAB2CD-42E5-498D-87DA-040A56C913FB}">
+							<ChildrenList>
+								<Action Name="" ID="{D9DB4C4D-BA87-498F-8252-3C235DFC9678}" ShortID="662900790">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Get Up" ID="{C3975DED-425F-4C71-A794-0F448CB04459}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Knock_Down" ID="{D2F6C1EA-EB98-4A86-A293-42002360A019}">
+							<ChildrenList>
+								<Action Name="" ID="{30777621-C4F4-47E6-B890-E8E45252A008}" ShortID="907716835">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Knock Down" ID="{393D3E89-6B82-4ED4-924E-AF9ECDC87943}" WorkUnitID="{3E8C20CA-95B0-4AC3-93D1-A9F855D2D457}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{DF464442-BEF7-4D4B-8187-F11483FBE3E1}" ShortID="269424742">

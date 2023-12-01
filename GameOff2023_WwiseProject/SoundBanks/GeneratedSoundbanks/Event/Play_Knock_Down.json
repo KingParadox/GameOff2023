@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "843730945",
+    "Type": "Event",
+    "GUID": "{D2F6C1EA-EB98-4A86-A293-42002360A019}",
+    "Language": "SFX",
+    "Hash": "{F7BF47B1-5F4C-6CD4-17DA-ADC6DA76A32F}",
+    "ObjectPath": "Play_Knock_Down",
+    "ShortName": "Play_Knock_Down",
+    "Path": "Event/Play_Knock_Down.bnk",
+    "Media": [
+     {
+      "Id": "319245499",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Knock Down\\PLAYER_KNOCKDOWN_02.wav",
+      "Path": "Media/319245499.wem",
+      "CachePath": "SFX/Knock Down/PLAYER_KNOCKDOWN_02_D8C07C79.wem"
+     },
+     {
+      "Id": "490350838",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Knock Down\\PLAYER_KNOCKDOWN_01.wav",
+      "Path": "Media/490350838.wem",
+      "CachePath": "SFX/Knock Down/PLAYER_KNOCKDOWN_01_D8C07C79.wem"
+     },
+     {
+      "Id": "661382924",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Knock Down\\PLAYER_KNOCKDOWN_03.wav",
+      "Path": "Media/661382924.wem",
+      "CachePath": "SFX/Knock Down/PLAYER_KNOCKDOWN_03_D8C07C79.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "843730945",
+      "Name": "Play_Knock_Down",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_Knock_Down",
+      "GUID": "{D2F6C1EA-EB98-4A86-A293-42002360A019}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3609166",
+      "DurationMax": "1.4110625",
+      "MediaRefs": [
+       {
+        "Id": "319245499"
+       },
+       {
+        "Id": "490350838"
+       },
+       {
+        "Id": "661382924"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{821A7313-DB56-588F-8259-8C6802DEDC67}"
+ }
+}
