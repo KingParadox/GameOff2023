@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="843730945" Type="Event" GUID="{D2F6C1EA-EB98-4A86-A293-42002360A019}" Language="SFX" Hash="{F7BF47B1-5F4C-6CD4-17DA-ADC6DA76A32F}">
+			<ObjectPath>Play_Knock_Down</ObjectPath>
+			<ShortName>Play_Knock_Down</ShortName>
+			<Path>Event/Play_Knock_Down.bnk</Path>
+			<Media>
+				<File Id="319245499" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Knock Down\PLAYER_KNOCKDOWN_02.wav</ShortName>
+					<Path>Media/319245499.wem</Path>
+					<CachePath>SFX/Knock Down/PLAYER_KNOCKDOWN_02_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="490350838" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Knock Down\PLAYER_KNOCKDOWN_01.wav</ShortName>
+					<Path>Media/490350838.wem</Path>
+					<CachePath>SFX/Knock Down/PLAYER_KNOCKDOWN_01_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="661382924" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Knock Down\PLAYER_KNOCKDOWN_03.wav</ShortName>
+					<Path>Media/661382924.wem</Path>
+					<CachePath>SFX/Knock Down/PLAYER_KNOCKDOWN_03_D8C07C79.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="843730945" Name="Play_Knock_Down" ObjectPath="\Events\Default Work Unit\Player\Play_Knock_Down" GUID="{D2F6C1EA-EB98-4A86-A293-42002360A019}" DurationType="OneShot" DurationMin="1.3609166" DurationMax="1.4110625">
+					<MediaRefs>
+						<MediaRef Id="319245499"/>
+						<MediaRef Id="490350838"/>
+						<MediaRef Id="661382924"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C99B620B-F140-A8E6-26EB-481F5F512F16}</FileHash>
+</SoundBanksInfo>

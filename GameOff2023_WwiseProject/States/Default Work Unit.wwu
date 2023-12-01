@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{24381BCC-A342-4E8C-873B-3F2655D6B08A}" SchemaVersion="110">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{24381BCC-A342-4E8C-873B-3F2655D6B08A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{24381BCC-A342-4E8C-873B-3F2655D6B08A}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="GAMEPLAY_STATE" ID="{4FD28419-13F8-48BF-8F7B-94FC7E84D867}">
+					<ChildrenList>
+						<State Name="None" ID="{CE7CE926-4897-4DEE-ACFE-D2BA3D849E60}"/>
+						<State Name="Combat" ID="{D7DBAB25-D3B6-4BC9-BC8B-583DD72A4237}"/>
+						<State Name="Exploration" ID="{5DD37529-C7B7-4601-9AF3-B85A1071893C}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="ENVIRONEMENT_STATE" ID="{8D9FF48D-E328-4755-8209-B0F7DBE88579}">
+					<ChildrenList>
+						<State Name="None" ID="{5F572EDE-E3CB-4704-9666-2B44EFEBC5EC}"/>
+						<State Name="Inside" ID="{B72E5398-1E0D-4DF4-A6A0-02EE948A8DF9}"/>
+						<State Name="Outside" ID="{78D35B2D-071D-46C5-AB82-EB4F745E6720}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

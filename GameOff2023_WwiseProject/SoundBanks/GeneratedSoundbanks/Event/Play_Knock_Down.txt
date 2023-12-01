@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	843730945	Play_Knock_Down			\Default Work Unit\Player\Play_Knock_Down	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	79836495	ENVIRONEMENT_STATE			\Default Work Unit\ENVIRONEMENT_STATE	
+
+State	ID	Name	State Group			Notes
+	438105790	Outside	ENVIRONEMENT_STATE			
+	748895195	None	ENVIRONEMENT_STATE			
+	3553349781	Inside	ENVIRONEMENT_STATE			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	125659826	Inside	ENVIRONEMENT_STATE	\Actor-Mixer Hierarchy\Default Work Unit\MasterSFX_Mixer\PlayerMixer		
+	559686592	Outside	ENVIRONEMENT_STATE	\Actor-Mixer Hierarchy\Default Work Unit\MasterSFX_Mixer\PlayerMixer		
+
