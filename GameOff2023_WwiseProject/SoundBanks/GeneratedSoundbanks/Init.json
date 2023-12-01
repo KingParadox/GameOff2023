@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{6E519E5C-F179-5D0C-3164-61CABEE05C37}",
+    "Hash": "{5271BF27-2515-B64A-195D-C1E142382E19}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -46,6 +46,18 @@
     },
     "Busses": [
      {
+      "Id": "213475909",
+      "Name": "SFX_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX_Bus",
+      "GUID": "{AC867E3B-A76F-4C96-9AFB-ADD3EB2E1BFD}"
+     },
+     {
+      "Id": "2680856269",
+      "Name": "Music_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music_Bus",
+      "GUID": "{31CB18D1-DE21-44A7-8283-2AF0320D549B}"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
@@ -54,9 +66,9 @@
     ],
     "AuxBusses": [
      {
-      "Id": "855099005",
-      "Name": "SmallReverb_Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_Bus",
+      "Id": "810401917",
+      "Name": "SmallReverb_AuxBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallReverb_AuxBus",
       "GUID": "{192052F3-9763-48B6-B1CD-E702DA978884}",
       "PluginRefs": {
        "ShareSets": [
@@ -181,6 +193,6 @@
     ]
    }
   ],
-  "FileHash": "{4CE3B8EE-B290-ED9D-D714-FCFB4C8B2504}"
+  "FileHash": "{5FD1D787-A559-C5A1-A256-144F47069908}"
  }
 }

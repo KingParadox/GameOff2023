@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="855099005" Type="Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}" Language="SFX" Hash="{6089783C-194A-F717-CE1B-A6E76C3F39FA}">
-			<ObjectPath>SmallReverb_Bus</ObjectPath>
-			<ShortName>SmallReverb_Bus</ShortName>
-			<Path>Bus/SmallReverb_Bus.bnk</Path>
+		<SoundBank Id="810401917" Type="Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}" Language="SFX" Hash="{BFB102BB-35C1-DB59-9C5F-B7F808D17678}">
+			<ObjectPath>SmallReverb_AuxBus</ObjectPath>
+			<ShortName>SmallReverb_AuxBus</ShortName>
+			<Path>Bus/SmallReverb_AuxBus.bnk</Path>
 			<Plugins>
 				<ShareSets>
 					<Plugin Id="3451596814" Name="Hall_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Medium" GUID="{50286348-176A-4235-9E4C-CA5F73D87818}" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 			</Plugins>
 			<AuxBusses>
-				<AuxBus Id="855099005" Name="SmallReverb_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_Bus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}">
+				<AuxBus Id="810401917" Name="SmallReverb_AuxBus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb_AuxBus" GUID="{192052F3-9763-48B6-B1CD-E702DA978884}">
 					<PluginRefs>
 						<ShareSets>
 							<PluginRef Id="3451596814"/>
@@ -21,5 +21,5 @@
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2DCD1A38-0BE1-9B14-7615-74779DD0866C}</FileHash>
+	<FileHash>{C2FDD594-737C-8D81-202C-6BE4B0317CA2}</FileHash>
 </SoundBanksInfo>
