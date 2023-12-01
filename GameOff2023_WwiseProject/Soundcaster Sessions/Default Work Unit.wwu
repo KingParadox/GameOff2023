@@ -66,7 +66,16 @@
 							<Position X="3" Y="2"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="SFXBusVolume" ID="{5EB6FEB4-7FEE-4411-8F52-182ABF464ED0}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicBusVolume" ID="{AE19D6BF-E2B0-4D8A-9D29-6317C554A803}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Outside" ID="{78D35B2D-071D-46C5-AB82-EB4F745E6720}"/>
 						<CurrentStateRef Name="Exploration" ID="{5DD37529-C7B7-4601-9AF3-B85A1071893C}"/>

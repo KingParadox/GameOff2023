@@ -59,7 +59,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{5271BF27-2515-B64A-195D-C1E142382E19}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{574E232B-DEE6-62D9-EEF4-4AE104B1317F}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -73,8 +73,9 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="213475909" Name="SFX_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX_Bus" GUID="{AC867E3B-A76F-4C96-9AFB-ADD3EB2E1BFD}"/>
-				<Bus Id="2680856269" Name="Music_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music_Bus" GUID="{31CB18D1-DE21-44A7-8283-2AF0320D549B}"/>
+				<Bus Id="213475909" Name="SFX_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MasterBus\SFX_Bus" GUID="{AC867E3B-A76F-4C96-9AFB-ADD3EB2E1BFD}"/>
+				<Bus Id="835198467" Name="MasterBus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MasterBus" GUID="{91F98922-8296-4F44-8FF4-92C341FB6DD1}"/>
+				<Bus Id="2680856269" Name="Music_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MasterBus\Music_Bus" GUID="{31CB18D1-DE21-44A7-8283-2AF0320D549B}"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 			<AuxBusses>
@@ -86,6 +87,10 @@
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="2002453122" Name="MusicBusVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicBusVolume" GUID="{AE19D6BF-E2B0-4D8A-9D29-6317C554A803}"/>
+				<GameParameter Id="3674864202" Name="SFXBusVolume" ObjectPath="\Game Parameters\Default Work Unit\SFXBusVolume" GUID="{5EB6FEB4-7FEE-4411-8F52-182ABF464ED0}"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="79836495" Name="ENVIRONEMENT_STATE" ObjectPath="\States\Default Work Unit\ENVIRONEMENT_STATE" GUID="{8D9FF48D-E328-4755-8209-B0F7DBE88579}">
 					<States>
@@ -148,7 +153,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{CEC7A757-1455-A300-D0C6-70B4DE36E28F}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{DEF7C185-1B9C-E4FF-3179-7C945E4232AB}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
@@ -1947,6 +1952,16 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<Busses>
+				<Bus Id="213475909" Name="SFX_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MasterBus\SFX_Bus" GUID="{AC867E3B-A76F-4C96-9AFB-ADD3EB2E1BFD}"/>
+				<Bus Id="835198467" Name="MasterBus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MasterBus" GUID="{91F98922-8296-4F44-8FF4-92C341FB6DD1}"/>
+				<Bus Id="2680856269" Name="Music_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MasterBus\Music_Bus" GUID="{31CB18D1-DE21-44A7-8283-2AF0320D549B}"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="2002453122" Name="MusicBusVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicBusVolume" GUID="{AE19D6BF-E2B0-4D8A-9D29-6317C554A803}"/>
+				<GameParameter Id="3674864202" Name="SFXBusVolume" ObjectPath="\Game Parameters\Default Work Unit\SFXBusVolume" GUID="{5EB6FEB4-7FEE-4411-8F52-182ABF464ED0}"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="762757699" Name="GAMEPLAY_STATE" ObjectPath="\States\Default Work Unit\GAMEPLAY_STATE" GUID="{4FD28419-13F8-48BF-8F7B-94FC7E84D867}">
 					<States>
@@ -1972,5 +1987,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AA414054-3688-65A7-4F32-A74BBCAE52AB}</FileHash>
+	<FileHash>{8DCD24FE-6240-B2E7-9F8B-CDB7C1BC82F4}</FileHash>
 </SoundBanksInfo>

@@ -12014,6 +12014,9 @@
 				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\Event\English(US)">
 					<WorkUnit Name="English(US)" ID="{A475FE86-33BC-4675-83C8-C74D1D2BCBE1}" PersistMode="Standalone"/>
 				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\GeneratedSoundbanks\Media">
+					<WorkUnit Name="Media" ID="{2F2845CC-3C62-4B91-AC37-0E72CD5DFE0C}" PersistMode="Standalone"/>
+				</PhysicalFolder>
 				<PhysicalFolder Path="Soundcaster Sessions">
 					<WorkUnit Name="Soundcaster Sessions" ID="{4C96B38B-3DB4-40C7-91C9-665510E38993}" PersistMode="Standalone"/>
 				</PhysicalFolder>

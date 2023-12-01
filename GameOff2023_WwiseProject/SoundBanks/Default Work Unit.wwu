@@ -16,6 +16,7 @@
 						<ObjectRef Name="Play_SwordCollision" ID="{60E47DA0-6A74-437D-8AE3-6CA25247B280}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Interactables" ID="{11FB3A12-5984-438F-A5D1-EB353A4AF5CF}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient" ID="{03BC5259-6C50-43FB-A124-D95FAD6BA4AB}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Bus" ID="{31CB18D1-DE21-44A7-8283-2AF0320D549B}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Skeleton_Footsteps" ID="{798B2ABC-8FD2-4551-863B-95383E8B3B82}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GameplayMusicSwitchDing" ID="{00ED8287-CD9E-458A-94FA-27FDF5D1C3A6}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_GameplayMusicSwitchDaniel" ID="{14ED0A70-19D6-46DB-954B-47368044A70A}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
@@ -28,6 +29,7 @@
 						<ObjectRef Name="Play_Roll_Contact" ID="{20B31C1B-99F6-4AD5-852B-85A1E0E566DC}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Stomp" ID="{6302B084-499C-4B6F-8BE5-8F01879D3BC1}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Hover" ID="{55527275-422D-4B95-9BA7-40C1016F6260}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_Bus" ID="{AC867E3B-A76F-4C96-9AFB-ADD3EB2E1BFD}" WorkUnitID="{CE8C9FBF-E4A2-4DF6-B003-218061E83E97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Back" ID="{AB5B9927-1311-4C9B-84C2-336B208F836E}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GameplayMusicSwitchDaniel" ID="{A72C5B05-9F07-4F93-8F09-B0DB675C6E2C}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Parry" ID="{BBF31B62-35C8-4FA1-97A9-CE8BD2215273}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}" Origin="Manual" Filter="7"/>

@@ -10,9 +10,14 @@ State	ID	Name	State Group			Notes
 	2582085496	Exploration	GAMEPLAY_STATE			
 	2764240573	Combat	GAMEPLAY_STATE			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2002453122	MusicBusVolume			\Default Work Unit\MusicBusVolume	
+	3674864202	SFXBusVolume			\Default Work Unit\SFXBusVolume	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	213475909	SFX_Bus			\Default Work Unit\Master Audio Bus\SFX_Bus	
-	2680856269	Music_Bus			\Default Work Unit\Master Audio Bus\Music_Bus	
+	213475909	SFX_Bus			\Default Work Unit\Master Audio Bus\MasterBus\SFX_Bus	
+	835198467	MasterBus			\Default Work Unit\Master Audio Bus\MasterBus	
+	2680856269	Music_Bus			\Default Work Unit\Master Audio Bus\MasterBus\Music_Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
