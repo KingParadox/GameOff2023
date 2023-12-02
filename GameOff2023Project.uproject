@@ -44,5 +44,10 @@
 			"Name": "NiagaraFluids",
 			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"Windows",
+		"HoloLens",
+		"Mac"
 	]
 }
