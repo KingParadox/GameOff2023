@@ -153,7 +153,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{DEF7C185-1B9C-E4FF-3179-7C945E4232AB}">
+		<SoundBank Id="3291379323" Type="User" GUID="{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}" Language="SFX" Hash="{F134895D-9BF2-F6DA-5379-962E577E262D}">
 			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
 			<ShortName>TestBank</ShortName>
 			<Path>TestBank.bnk</Path>
@@ -1634,6 +1634,9 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1954061765" Name="Stop_GameplayMusicSwitchDing" ObjectPath="\Events\Default Work Unit\Stop_GameplayMusicSwitchDing" GUID="{EB622F09-6F2A-475D-A3B4-7F1E4F638F56}"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="4281370459" Name="Play_GameplayMusicSwitchDing" ObjectPath="\Events\Default Work Unit\Play_GameplayMusicSwitchDing" GUID="{00ED8287-CD9E-458A-94FA-27FDF5D1C3A6}" DurationType="Infinite">
 					<MediaRefs>
@@ -1709,6 +1712,9 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="247560216" Name="Stop_GameplayMusicSwitchDaniel" ObjectPath="\Events\Default Work Unit\Stop_GameplayMusicSwitchDaniel" GUID="{14ED0A70-19D6-46DB-954B-47368044A70A}"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="1962302600" Name="Play_Hover" ObjectPath="\Events\Default Work Unit\UI\Play_Hover" GUID="{55527275-422D-4B95-9BA7-40C1016F6260}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
@@ -1987,5 +1993,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8DCD24FE-6240-B2E7-9F8B-CDB7C1BC82F4}</FileHash>
+	<FileHash>{5ACCDA0E-FBD5-61DD-0688-A9F21B530363}</FileHash>
 </SoundBanksInfo>

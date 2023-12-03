@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{075A65CA-1B7B-47EC-ACB9-CC0101F7E89D}",
     "Language": "SFX",
-    "Hash": "{DEF7C185-1B9C-E4FF-3179-7C945E4232AB}",
+    "Hash": "{F134895D-9BF2-F6DA-5379-962E577E262D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestBank",
     "ShortName": "TestBank",
     "Path": "TestBank.bnk",
@@ -3188,6 +3188,14 @@
          }
         ]
        }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1954061765",
+        "Name": "Stop_GameplayMusicSwitchDing",
+        "ObjectPath": "\\Events\\Default Work Unit\\Stop_GameplayMusicSwitchDing",
+        "GUID": "{EB622F09-6F2A-475D-A3B4-7F1E4F638F56}"
+       }
       ]
      },
      {
@@ -3385,6 +3393,14 @@
           "Id": "959056934"
          }
         ]
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "247560216",
+        "Name": "Stop_GameplayMusicSwitchDaniel",
+        "ObjectPath": "\\Events\\Default Work Unit\\Stop_GameplayMusicSwitchDaniel",
+        "GUID": "{14ED0A70-19D6-46DB-954B-47368044A70A}"
        }
       ]
      },
@@ -4215,6 +4231,6 @@
     ]
    }
   ],
-  "FileHash": "{33503AB6-14BB-8E7C-6741-CD9F84BB556E}"
+  "FileHash": "{490C6C29-27FE-098C-2DE5-FB694BAA5D7F}"
  }
 }

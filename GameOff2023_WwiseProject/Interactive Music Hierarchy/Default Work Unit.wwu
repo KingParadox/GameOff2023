@@ -1978,7 +1978,7 @@
 						<Property Name="Tempo" Type="Real64" Value="90"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-9</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

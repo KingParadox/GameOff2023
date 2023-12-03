@@ -16,6 +16,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{4962D5F5-F1EF-4A38-9B15-007549FC48C8}" ShortID="134984397">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stop_GameplayMusicSwitchDaniel" ID="{14ED0A70-19D6-46DB-954B-47368044A70A}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Folder Name="Player" ID="{80C69903-F066-4A7F-8763-C23411664006}" ShortID="254291694">
@@ -840,6 +850,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="GameplayMusicSwitchDaniel" ID="{9EBC79FD-E259-4331-90EA-3F65E165F494}" WorkUnitID="{F813B62F-2704-4621-8A23-723C54500856}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9FE21626-8E79-463B-A6D9-CA89D6BD3EA7}" ShortID="904594990">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stop_GameplayMusicSwitchDing" ID="{EB622F09-6F2A-475D-A3B4-7F1E4F638F56}" WorkUnitID="{339CA011-DB6F-4A05-A532-5D1905A16F97}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
